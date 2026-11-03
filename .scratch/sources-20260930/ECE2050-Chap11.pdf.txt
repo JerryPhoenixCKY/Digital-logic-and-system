@@ -1,0 +1,540 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and SystemsChapter 11: Memory & Logic ArraysInstructor: Tinghuan CHEN, Ph.D.
+
+========== PAGE 2 ==========
+2
+Chapter ReviewqCountersqAsynchronousqSynchronousqUp/Down CountersqDesign of Synchronous Counters qCascaded CountersqCounter Decoding
+
+========== PAGE 3 ==========
+3
+
+========== PAGE 4 ==========
+•Efficiently store large amounts of data•M-bit data value read/written at each unique N-bit address•3 common types:–Dynamic random access memory (DRAM)–Static random access memory (SRAM)–Read only memory (ROM)
+4
+Memory Arrays
+!""#A%%
+&D(D
+!""#A
+)
+*
+
+========== PAGE 5 ==========
+•2-dimensional array of bit cells •Each bit cell stores one bit•N address bits and M data bits:–2N rows and M columns–Depth: number of rows (number of words)–Width: number of columns (size of word)–Array size: depth × width = 2N  ×  M 
+5
+Memory Arrays
+!""#A%%
+&D(D
+!""#A
+)
+*
+!""#A%% &D(D
+))
+)*
+*)
+**
+"A+(,
+* ) *
+) * *
+) ) *
+* ) )
+-."(,
+!""#A%%
+&D(D
+!""#A
+/
+0
+
+========== PAGE 6 ==========
+•22 × 3-bit array•Number of words: 4•Word size: 3-bits•For example, the 3-bit word stored at address 10 is 100
+6
+Memory Array Example
+!""#A%% &D(D
+))
+)*
+*)
+**
+"A+(,
+* ) *
+) * *
+) ) *
+* ) )
+-."(,
+!""#A%%
+&D(D
+!""#A
+/
+0
+
+========== PAGE 7 ==========
+7
+Memory Arrays
+!""#A%%
+&D(D
+!"#A%&'()*+
+,#%-./
+0((12
+)*
++,
+
+========== PAGE 8 ==========
+8
+Memory Array Bit Cells
+!"#$%&'
+()"
+* #$&+),%
+()"+),%
+!"#$%&'
+()"'*'+
+,#$&-).%'*'/
+!"#$%&'
+()"'*'/
+!"#$%&'
+()"'*'+
+!"#$%&'
+()"'*'/
+()"-).%'*
+012 0(2
+,#$&-).%'*'/
+,#$&-).%'*'+
+,#$&-).%'*'+
+()"-).%'*'
+()"-).%'*
+()"-).%'* 0
+1
+Z
+Z
+
+========== PAGE 9 ==========
+•Wordline: –like an enable–single row in memory array read/written–corresponds to unique address–only one wordline HIGH at once
+9
+Memory Array
+!"#A%&D( )**
+*+
+!"#
+$%&D(%)
+,AA#(--
++*
+++
+-."#(A
+/&.010+
+!"#A%&D( 2
+!"#A%&D( *
+!"#A%&D( +
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010*
+/&.%&D( 2 /&.%&D( * /&.%&D( +
+34.4 2 34.4 * 34.4 +
+2
+
+========== PAGE 10 ==========
+•Random access memory (RAM): volatile•Read only memory (ROM): nonvolatile
+10
+Types of Memory
+
+========== PAGE 11 ==========
+•Volatile: loses its data when power off•Read and written quickly•Main memory in your computer is RAM (DRAM)• Historically called random access memory because any data word accessed as easily as any other (in contrast to sequential access memories such as a tape recorder)
+11
+RAM: Random Access Memory
+
+========== PAGE 12 ==========
+•Nonvolatile: retains data when power off•Read quickly, but writing is impossible or slow•Flash memory in cameras, thumb drives, and digital cameras are all ROMs•Historically called read only memory because ROMs were written at time of fabrication or by burning fuses. Once a ROM was configured, it could not be written again. This is no longer the case for Flash memory and other types of ROMs.
+12
+ROM: Read Only Memory
+
+========== PAGE 13 ==========
+13
+
+========== PAGE 14 ==========
+•DRAM (Dynamic random access memory)•SRAM (Static random access memory)•Differ in how they store data:–DRAM uses a capacitor–SRAM uses cross-coupled inverters
+14
+Types of RAM
+
+========== PAGE 15 ==========
+•Invented DRAM in 1966 at IBM•Others were skeptical that the idea would work•By the mid-1970’s DRAM in virtually all computers
+15
+Robert Dennard, 1932 - 
+
+
+========== PAGE 16 ==========
+•Data bits stored on capacitor•Dynamic because the value needs to be refreshed (rewritten) periodically and after read:–Charge leakage from the capacitor degrades the value–Reading destroys the stored value
+16
+DRAM
+!"#$%&'
+()"
+* #$&+),%
+()"+),%
+!"#$%&'(
+)&*%&'(
++*"#($
+)&*
+
+========== PAGE 17 ==========
+17
+DRAM
+!"#$%&'(
+)&*%&'(
+!"#$%&'(
+)&*%&'(
++,+-*"#($
+)&*,.,/
+-*"#($
+)&*,.,0
+
+========== PAGE 18 ==========
+18
+SRAM
+!"#$%&'
+()"
+* #$&+),%
+()"+),%
+!"#$%&'(
+)&*%&'( )&*%&'(
+
+========== PAGE 19 ==========
+19
+Memory Arrays Review
+!"#A%&D( )**
+*+
+!"#
+$%&D(%)
+,AA#(--
++*
+++
+-."#(A
+/&.010+
+!"#A%&D( 2
+!"#A%&D( *
+!"#A%&D( +
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010*
+/&.%&D(2 /&.%&D(* /&.%&D(+
+34.42 34.4* 34.4+
+2
+!"#$%&'(
+)&*%&'(
+DRAM bit cell:
+!"#$%&'(
+)&*%&'( )&*%&'(
+SRAM bit cell:
+
+========== PAGE 20 ==========
+20
+
+========== PAGE 21 ==========
+21
+ROM: Dot Notation
+!!
+!"
+!"#$
+%&D()&*
+#AA%&DD
+()*)"()*)!()*)+
+"!
+""
++
+!"#$%&'(
+)&*%&'(
+!"#$%&'(
+)&*%&'(
+)&*+,(%%
+,"'*-&'&'.+/
+)&*+,(%%
+,"'*-&'&'.+0
+
+========== PAGE 22 ==========
+22
+ROM Storage
+!!
+!"
+!"#$
+%&D()&*
+#AA%&DD
+()*)"()*)!()*)+
+"!
+""
++
+!""#A%% &D(D
+))
+)*
+*)
+**
+"A+(,
+* ) *
+) * *
+) ) *
+* ) )
+-."(,
+
+========== PAGE 23 ==========
+•Developed memories and high speed circuits at Toshiba, 1971-1994 •Invented Flash memory as an unauthorized project pursued during nights and weekends in the late 1970’s•The process of erasing the memory reminded him of the flash of a camera •Toshiba slow to commercialize the idea; Intel was first to market in 1988 •Flash has grown into a $25 billion per year market 23
+Fujio Masuoka, 1944 -
+
+
+========== PAGE 24 ==========
+24
+ROM Logic 
+Data2 = A1 Å A0Data1 = A1 + A0Data0 = A1A0
+!!
+!"
+!"#$
+%&D()&*
+#AA%&DD
+()*) "()*) !()*) +
+"!
+""
++
+
+========== PAGE 25 ==========
+•Implement the following logic functions using a 22 × 3-bit ROM:–X = AB–Y = A + B–Z = A B
+25
+Example: Logic with ROMs
+!!
+!"
+!"#
+$%&D(%)
+!#$"
+#AB
+"!
+""
+%
+
+========== PAGE 26 ==========
+26
+Logic with Any Memory Array!"#A%&D( )**
+*+
+!"#
+$%&D(%)
+,AA#(--
++*
+++
+-."#(A
+/&.010+
+!"#A%&D( 2
+!"#A%&D( *
+!"#A%&D( +
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010*
+-."#(A
+/&.010+
+-."#(A
+/&.010+
+-."#(A
+/&.010*
+-."#(A
+/&.010*
+/&.%&D( 2 /&.%&D( * /&.%&D( +
+34.4 2 34.4 * 34.4 +
+2
+Data2 = A1 Å A0Data1 = A1 + A0Data0 = A1A0
+
+========== PAGE 27 ==========
+•Implement the following logic functions using a 22 × 3-bit memory array:–X = AB–Y = A + B–Z = A B
+27
+Logic with Memory Arrays
+!"#$%&'( )
+**
+*+
+!"#
+$%&D(%)
+!,-"
++*
+++
+./"#($-
+0&/-1-*
+!"#$%&'( 2
+!"#$%&'( *
+!"#$%&'( +
+./"#($-
+0&/-1-*
+./"#($-
+0&/-1-+
+./"#($-
+0&/-1-+
+./"#($-
+0&/-1-*
+./"#($-
+0&/-1-*
+./"#($-
+0&/-1-+
+./"#($-
+0&/-1-*
+./"#($-
+0&/-1-+
+./"#($-
+0&/-1-+
+./"#($-
+0&/-1-+
+./"#($-
+0&/-1-+
+0&/%&'( 2 0&/%&'( * 0&/%&'( +
+# A B
+2
+
+========== PAGE 28 ==========
+•Called lookup tables (LUTs): look up output at each input combination (address)
+28
+Logic with Memory Arrays
+!"#AB&'
+()"'*!1
+!"#AB&'
+()"'* '0
+++
++,
+"#A!
+%&D()&*
+-
+!"#AB&'
+()"'* '0
+()".)/B
+!"#AB&'
+()"'* '0
+0
+1
+,+
+,,
+A+,(*)!-!. +/01!2**34
+- 1 0
+0 0
+0 1
+1 0
+1 1
+0
+0
+0
+1
+5*61T!
+53/8&
+-,
+-+
+
+========== PAGE 29 ==========
+29
+
+========== PAGE 30 ==========
+•PLAs (Programmable logic arrays)–AND array followed by OR array–Combinational logic only–Fixed internal connections•FPGAs (Field programmable gate arrays)–Array of Logic Elements (LEs)–Combinational and sequential logic–Programmable internal connections
+30
+
+========== PAGE 31 ==========
+•𝑋=̅𝐴%𝐵𝐶+𝐴𝐵̅𝐶•𝑌=𝐴%𝐵
+31
+PLAs: Programmable Logic Arrays
+!"#
+!AA!%
+&A
+!AA!%
+!"#$%&
+'$%#$%&
+!(#)*+I"%&
+-
+.
+/
+! "
+# A B
+!"#A!%%!&
+D%A!%%!&
+#AB
+#A
+#AB
+
+========== PAGE 32 ==========
+•𝑋=̅𝐴%𝐵𝐶+𝐴𝐵̅𝐶•𝑌=𝐴%𝐵
+32
+PLAs: Dot Notation
+!"#
+!AA!%
+&A
+!AA!%
+!"#$%&
+'$%#$%&
+!(#)*+I"%&
+-
+.
+/
+! "
+#AB
+#A
+#AB
+# A B
+!"#A!%%!&
+D%A!%%!&
+
+========== PAGE 33 ==========
+•Composed of:–LEs (Logic elements): perform logic–IOEs (Input/output elements): interface with outside world–Programmable interconnection: connect LEs and IOEs–Some FPGAs include other building blocks such as multipliers and RAMs
+33
+FPGAs: Field Programmable Gate Arrays
+General FPGA LayoutCLB DSP RAMIO PS
+
+========== PAGE 34 ==========
+•Composed of:–LUTs (lookup tables): perform combinational logic–Flip-flops: perform sequential logic–Multiplexers: connect LUTs and flip-flops
+34
+LE: Logic Element
+
+========== PAGE 35 ==========
+•The Altera Cyclone IV LE has:–1 four-input LUT –1 registered output –1 combinational output
+•From Cyclone IV datasheet35
+Altera Cyclone IV LE
+
+========== PAGE 36 ==========
+•Using a CAD tool (such as Altera’s Quartus II)•Enter the design using schematic entry or an HDL •Simulate the design•Synthesize design and map it onto FPGA•Download the configuration onto the FPGA•Test the design
+36
+FPGA Design Flow
+
+========== PAGE 37 ==========
+37
+Chapter ReviewqMemory Array and Bit CellsqRAM and VolatileqDRAM: Capacitor, refreshedqSRAM: Cross-coupled invertersqROM and NonvolatileqLogic with ROMsqLogic Array: PLA and FPGAqDesign flow: Enter the design, Simulation, Synthesize, Download, Test
+
+========== PAGE 38 ==========
+38
+True/False QuizqA memory cell can store a byte of data.qThe location of a unit of data in a memory array is called its address.qRAM is a random address memory.qData stored in a static RAM is retained even after power is removed.qDynamic RAMs must be periodically refreshed to retain data.qROM is a read-only memory.qFPGA is a fixed - function circuit.

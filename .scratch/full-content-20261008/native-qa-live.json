@@ -1,0 +1,26 @@
+{
+  "mode": "live",
+  "problems": [],
+  "warnings": [
+    "Binary Arithmetic and Signed Representation.md: body length 868 lines (target 120-260)",
+    "Boolean Algebra and Circuit Models.md: body length 1019 lines (target 120-260)",
+    "Boolean Forms and Algebraic Simplification.md: body length 812 lines (target 120-260)",
+    "Combinational Logic Analysis and Design.md: body length 455 lines (target 120-260)",
+    "Comparison Decoding and Selection.md: body length 305 lines (target 120-260)",
+    "Data Coding and Character Representation.md: body length 606 lines (target 120-260)",
+    "Finite State Machine Design and Applications.md: body length 378 lines (target 120-260)",
+    "Fixed-Point and Floating-Point Numbers.md: body length 458 lines (target 120-260)",
+    "Karnaugh Map Minimization.md: body length 498 lines (target 120-260)",
+    "Logic Gates and Boolean Functions.md: body length 1234 lines (target 120-260)",
+    "Logic Levels and Noise Margins.md: body length 561 lines (target 120-260)",
+    "Number Systems and Base Conversion.md: body length 1233 lines (target 120-260)",
+    "One-Shots and Pulse Applications.md: body length 97 lines (target 120-260)",
+    "Parity and Cyclic Redundancy Checks.md: body length 523 lines (target 120-260)",
+    "Propagation Delay and Logic Hazards.md: body length 95 lines (target 120-260)",
+    "Sequential Logic and Flip-Flops.md: body length 342 lines (target 120-260)",
+    "Tri-State Buffers and Bus Drivers.md: body length 84 lines (target 120-260)",
+    "minterm-maxterm-table.svg: no explicit stroke-width (style module not used?)",
+    "simplification-example4.svg: no explicit stroke-width (style module not used?)"
+  ],
+  "output": "notes: 31, hubs: 2, figures: 56\n\nPROBLEMS (0):\n\nWARNINGS (19):\n  ! Binary Arithmetic and Signed Representation.md: body length 868 lines (target 120-260)\n  ! Boolean Algebra and Circuit Models.md: body length 1019 lines (target 120-260)\n  ! Boolean Forms and Algebraic Simplification.md: body length 812 lines (target 120-260)\n  ! Combinational Logic Analysis and Design.md: body length 455 lines (target 120-260)\n  ! Comparison Decoding and Selection.md: body length 305 lines (target 120-260)\n  ! Data Coding and Character Representation.md: body length 606 lines (target 120-260)\n  ! Finite State Machine Design and Applications.md: body length 378 lines (target 120-260)\n  ! Fixed-Point and Floating-Point Numbers.md: body length 458 lines (target 120-260)\n  ! Karnaugh Map Minimization.md: body length 498 lines (target 120-260)\n  ! Logic Gates and Boolean Functions.md: body length 1234 lines (target 120-260)\n  ! Logic Levels and Noise Margins.md: body length 561 lines (target 120-260)\n  ! Number Systems and Base Conversion.md: body length 1233 lines (target 120-260)\n  ! One-Shots and Pulse Applications.md: body length 97 lines (target 120-260)\n  ! Parity and Cyclic Redundancy Checks.md: body length 523 lines (target 120-260)\n  ! Propagation Delay and Logic Hazards.md: body length 95 lines (target 120-260)\n  ! Sequential Logic and Flip-Flops.md: body length 342 lines (target 120-260)\n  ! Tri-State Buffers and Bus Drivers.md: body length 84 lines (target 120-260)\n  ! minterm-maxterm-table.svg: no explicit stroke-width (style module not used?)\n  ! simplification-example4.svg: no explicit stroke-width (style module not used?)\n"
+}

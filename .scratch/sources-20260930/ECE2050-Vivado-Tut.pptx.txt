@@ -1,0 +1,193 @@
+========== SLIDE 1 ==========
+ECE 2050 Digital Logic and Systems
+Vivado
+ tutorial
+
+========== SLIDE 2 ==========
+Vivado
+Programming using IDE for VHDL / Verilog
+Running simulation to test your design
+Download the compiled code to FPGA board
+
+========== SLIDE 3 ==========
+What is simulation?
+
+========== SLIDE 4 ==========
+Step 1: Start the software
+Double click the Vivado icon in the desktop
+Or start from the Start Menu
+
+========== SLIDE 5 ==========
+Step 2: Create a new project
+Or Click File -> New Project…
+
+========== SLIDE 6 ==========
+Step 3 : Click Next
+
+========== SLIDE 7 ==========
+Step 4: Enter the project name
+             Select the project location for storage
+
+========== SLIDE 8 ==========
+Step 5: Select RTL Project -> Next
+
+========== SLIDE 9 ==========
+Step 6: 
+1. Select Target language and simulator language as “VHDL”
+2. Click “Create File”
+    Make sure the File type is VHDL
+    Give name to the source file 
+    Click OK
+3. Click Next
+1
+2
+↑
+3
+
+========== SLIDE 10 ==========
+Step 7: Click Next
+
+========== SLIDE 11 ==========
+Step 8: Click Add Files, select the downloaded XDC file
+             Press Next or Press Next if no XDC file
+
+========== SLIDE 12 ==========
+Step 9: Click Boards -> Select 
+Zedboard
+ -> Click Next
+
+========== SLIDE 13 ==========
+Step 10: Click Finish
+
+========== SLIDE 14 ==========
+Step 10: If you see this box, just click OK
+
+========== SLIDE 15 ==========
+Now we can start writing our code
+This is the programming interface :
+Select different tools
+Shows the IDE status / warning / error message
+
+========== SLIDE 16 ==========
+In the source directory, you will see the source file created in Step 6.
+Double click to open it.
+(It is normal to see the file name appears twice in syntax error files and non-module file if the source code is empty or has syntax error)
+
+========== SLIDE 17 ==========
+Copy the code downloaded file eLearning
+
+========== SLIDE 18 ==========
+After saving the code, the source directory should look like this
+
+========== SLIDE 19 ==========
+How to write a testbench?
+After finishing your source code
+Under the source window,  right click on the simulation sources
+-> Add sources
+
+========== SLIDE 20 ==========
+Select “Add or Create Simulation Sources” -> Next
+
+========== SLIDE 21 ==========
+Click “Create File” -> Get the 
+testbench
+ a name
+(Usually same name with your source code, adding _test as postfix)
+-> “OK”->”Finish”
+1.
+2
+3
+4
+
+========== SLIDE 22 ==========
+If you see this window, just click OK
+
+========== SLIDE 23 ==========
+Generating testbench file
+In Vivado, the testbench file will not generate automatically
+      (But the older software can do that… )
+Go to 
+http://vhdl.lapinoo.net/
+Paste your main board source code on it, the website will generate the testbench file for you
+Copy the generated content, replace all content in the Vivado testbench file
+
+========== SLIDE 24 ==========
+Unfortunately, the generated content have to modify before we execute…
+Remove those line
+“end 
+tb
+;” change to “end;”
+Change the name, to match the name of 
+testbench
+<-Add your test case here
+For example :
+	A <= '0';
+	EN0 <= '0';
+	wait for 100 ns;
+	A <= '1';
+	EN1 <= '0';
+	wait for 100 ns;
+Which means you force a constant 0 to A / EN0 for 100ns
+After that, you force a constant 1 to A / 0 to EN0 for 100ns
+
+========== SLIDE 25 ==========
+Now you can run simulation
+Flow Navigator->Run Simulation->Run Behavioral Simulation
+Click this
+
+========== SLIDE 26 ==========
+Now you can see the result
+To adjust the width, modify 
+tbPeriod
+ in the testbench
+
+========== SLIDE 27 ==========
+XDC file
+FPGA is different from the embedded system
+The input/output pins are configurable
+We have to tell 
+vivado
+ which ports we would like to use as input/outputs by modify the XDC file
+Program the inter connections
+
+========== SLIDE 28 ==========
+Create XDC file
+Click “File->Add Sources->Add or create constrain->Create File->OK”
+Press OK
+Enter file name
+
+========== SLIDE 29 ==========
+Create XDC file
+Double Click “your_new_created.xdc” file. Enter the constrains. 
+
+========== SLIDE 30 ==========
+
+
+========== SLIDE 31 ==========
+Electrical specification
+The zedboard has eight user leds, LD0 – LD7. A logic high from the zynq-7000 AP soc I/O causes the LED to turn on. LED’s are sourced from 
+3.3V
+ banks through 390Ω resistors. 
+[p20, 
+(Zynq evaluation and development) hardware user’s guide
+]
+set_property IOSTANDARD 
+LVCMOS33
+ [get_ports F]
+
+========== SLIDE 32 ==========
+Synthesis, implementation and generate bitstream
+Click “Generate 
+Bitstream
+”
+
+========== SLIDE 33 ==========
+Synthesis, implementation and generate bitstream
+If there is no error then you will see the successful message on the log as shown on the picture.
+
+========== SLIDE 34 ==========
+Reference
+Zedboard docs
+http://zedboard.org/sites/default/files/documentations/ZedBoard_HW_UG_v2_2.pdf
+Vivado design suite user guide – using constraints
+https://www.xilinx.com/support/documentation/sw_manuals/xilinx2012_2/ug903-vivado-using-constraints.pdf

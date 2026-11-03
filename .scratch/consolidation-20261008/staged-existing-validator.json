@@ -1,0 +1,21 @@
+{
+  "errors": [],
+  "warnings": [
+    "Binary Arithmetic and Signed Representation.md: body length 759 lines (target 120-260)",
+    "Boolean Algebra and Circuit Models.md: body length 901 lines (target 120-260)",
+    "Boolean Forms and Algebraic Simplification.md: body length 732 lines (target 120-260)",
+    "Combinational Logic Analysis and Design.md: body length 412 lines (target 120-260)",
+    "Data Coding and Character Representation.md: body length 510 lines (target 120-260)",
+    "Fixed-Point and Floating-Point Numbers.md: body length 384 lines (target 120-260)",
+    "Karnaugh Map Minimization.md: body length 431 lines (target 120-260)",
+    "Logic Gates and Boolean Functions.md: body length 1135 lines (target 120-260)",
+    "Logic Levels and Noise Margins.md: body length 489 lines (target 120-260)",
+    "Number Systems and Base Conversion.md: body length 1110 lines (target 120-260)",
+    "One-Shots and Pulse Applications.md: body length 77 lines (target 120-260)",
+    "Parity and Cyclic Redundancy Checks.md: body length 454 lines (target 120-260)",
+    "Propagation Delay and Logic Hazards.md: body length 75 lines (target 120-260)",
+    "Tri-State Buffers and Bus Drivers.md: body length 57 lines (target 120-260)",
+    "minterm-maxterm-table.svg: no explicit stroke-width (style module not used?)",
+    "simplification-example4.svg: no explicit stroke-width (style module not used?)"
+  ]
+}

@@ -1,0 +1,6 @@
+PASS serial shift: 32 exhaustive one-edge cases and 4-edge example
+PASS max/min timing: Tmin=215 ps; hold deficit=15 ps
+PASS aperture: both D transitions lie outside stable window
+PASS SVG XML and PNG backup: setup-hold-window
+PASS SVG XML and PNG backup: register-short-long-paths
+PASS SVG XML and PNG backup: serial-shift-trace

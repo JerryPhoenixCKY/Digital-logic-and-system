@@ -1,0 +1,241 @@
+### PAGES: 7
+
+
+========== PAGE 1 ==========
+The Chinese University of Hong Kong, Shenzhen
+Course Outline
+1. Course Identity
+A. Course as listed in CUHK-Shenzhen
+The information in this block should be exactly as approved by CUHK Senate. In case
+there are any differences, please explain in the table below.
+Course code ECE2050
+Course title (English) Digital Logic and Systems
+Course title (Chinese) 数字逻辑与系统
+Units 3
+Description (English) This course gives science and engineering students exposure to the basic
+concepts and techniques in digital logic and system design. Topics
+include digital system concepts, numbering systems and codes, Boolean
+algebra, logic gates and logic circuit elements, logic functions and
+simplification, logic circuits design, latches and flip-flops, counters,
+registers, memory and storage systems, SPLD, CPLD, FPGA, and
+introduction to CAD tools and VHDL.
+Description (Chinese) 本课程旨在向理工科学生介绍数字逻辑与系统设计的基础概念和技
+术。内容包括：数字系统概念，记数系统和编码，布尔代数，逻辑
+门和逻辑电路，逻辑函数及简化方法，逻辑电路设计，锁存器和触
+发器，计数器，寄存器，记忆体和存储系统，简单可编程逻辑器
+件，复杂可编程逻辑器件，现场可编程逻辑门阵列，计算机辅助设
+计工具和超高速集成电路硬件描述语言。
+B. Corresponding course in CUHK
+Please give details of the closest corresponding course in CUHK (as approved by
+CUHK Senate and listed in course list). If the course in SZ maps to more than one
+course in CUHK, please make multiple copies of the block below.
+Course code ELEG2201
+Course title (English) Digital Circuits and Systems
+Course title (Chinese)
+Units 3
+Description (English) Digital system concepts, numbering systems and codes. Boolean algebra,
+logic gates and logic circuit elements. Logic function minimization.
+Combinational logic circuit and sequential logic circuit design.
+Synchronous and asynchronous sequential machine design procedures.
+Implementation technology: NMOS and CMOS circuits; PLD, PLA,
+
+========== PAGE 2 ==========
+PAL, CPLD, and FPGA. Introduction to CAD tools and VHDL. (Not for
+students who have taken ELEG2120 or ENGG2020.)
+Description (Chinese)
+2. Course requisites
+Please state prerequisites and co-requisites, in terms of courses at CUHK-
+Shenzhen or any other requirements.
+A. Prerequisites
+None
+B. Co-requisites
+None
+C. Others
+3. Learning Outcomes
+Upon completing this course, the students will be able to:
+• Understand the fundamentals of Boolean algebra and digital circuits theory (K);
+• Analyze and apply common logic circuits (K/S);
+• Design basic components in digital systems (K/S);
+• Be aware of routine applications of digital systems (K/S);
+• Self-study new digital components with the help from manuals (S);
+• Appreciate the general considerations in digital system design (V).
+4. Course syllabus
+Please highlight fundamental concepts involved in each topic to help students better
+understand what is covered in the course.
+Ch1. Introductory concepts
+Digital and analog quantities, Binary digits, logic levels and digital waveforms,
+Basic logic operations, System concept, Fixed-function integrated circuits
+Ch2. Number Systems
+Base-R Number, Decimal, Binary, Counting, Number Conversion, Octal,
+Hexadecimal, Bytes, Nibbles, Binary Arithmetic, Signed Numbers, Complement
+Number, Floating-Point, Non-positional/Non-weighted Number, BCD, Gray Code,
+Error Codes
+Ch3. Logic Gates
+Inverter, AND Gate, OR Gate, NAND Gate, NOR Gate, Exclusive-OR and
+Exclusive-NOR Gates, Logic Levels, Noise, DC Transfer Characteristics, Power
+
+========== PAGE 3 ==========
+Ch4. Boolean Algebra and Logic Simplification
+Boolean Equations, Axioms & Theorems, Simplifying Equations, SOP, Standard
+SOP, POS, Standard POS, Karnaugh Maps,
+Ch5. Combinational Logic Analysis
+Combinational Circuits, Parity Codes, Implementing Combinational Circuits,
+Universal Property, Bubble Pushing
+Ch6. Functions of Combinational Logic
+Adders, Comparators, Encoder & Decoder, Multiplexers, Timing
+Ch7. Sequential Logic Design
+State Elements, Bistable Circuit, SR Latch, D Latch, D Flip Flop, J-K Flip Flop,
+Variations on a Flop,
+Ch8. Shift Registers
+Basic Functions, Serial in/Serial Out Shift Registers, Serial in/Parallel Out Shift
+Registers, Parallel In/Serial Out Shift Registers, Parallel In/Parallel Out Shift
+Registers, Bidirectional Shift Registers, Johnson Counter, Ring Counter
+Ch9. Finite State Machine
+Synchronous Sequential Design, Moore FSMs, Mealy FSMs, Factored FSMs,
+Timing, Clock Skew, Synchronization, Parallelsim
+Ch10. Counters
+Asynchronous Counters, Synchronous Counters, Up/Down Synchronous Counters,
+Design of Synchronous Counters, Cascaded Counters
+Ch11. Data Storage
+Memory, RAM, ROM
+5. Assessment Scheme
+Component/ method % weight
+In-class Performance 5%
+Assignments 20%
+Project 10%
+Mid-term Test 30%
+Final Exam 35%
+6. Grade descriptor
+The grade descriptor should align with specific course learning outcomes, not a
+generic description applicable to all courses.
+Grade Description
+Demonstrates the ability to apply the principles of digital circuits design to practical applications and/or in
+novel ways.
+A
+Demonstrates the ability to decompose an existing system into modular components.
+Demonstrates the understanding of the strength and limitations of existing digital systems.
+Demonstrates the ability to design by analogy for common digital components.
+A-
+Demonstrates the familiarity with the characteristics of all major components listed in the textbook.
+Demonstrates the ability to deploy new digital components with the help from manuals.
+B Demonstrates the ability to design both combinational and sequential logic circuits.
+Demonstrate the ability to express the basic digital design theory in a satisfactory and unambiguous way.
+
+========== PAGE 4 ==========
+Demonstrate the understanding of the relationship between combinational and sequential logic.
+C
+Demonstrate the ability to design simple combinational circuits.
+Demonstrate the understanding of numbering systems.
+D
+Demonstrate the understanding of basic Boolean algebra and simplification.
+Demonstrate the ability to convert between the basic logic gates.
+Unsatisfactory performance on a number of learning outcomes, or failure to meet specified assessment
+F
+requirements.
+7. Declaration on the use of AI tools.
+Are students permitted to use AI tools (in particular GPT and generative AI tools)
+in the learning process and their assignment/course project? Please select one of the
+following approaches that will be adopted in this course.
+¨ Prohibit the use of AI tools: AI tools (particularly GPT and generative AI tools)
+are not allowed in submitted reports. Any student who violates this rule will be
+considered to be engaging in academic dishonesty. The instructor may specify
+which AI tools are prohibited in this course.
+√ Use only with explicit acknowledgement: Students are allowed or expected to
+use AI tools in their learning process and assignment/project reports. However,
+students must explicitly cite or acknowledge these resources and explain how they
+were used in their submitted reports. The course instructor will provide specific
+examples. Failure to follow this rule will be considered academic dishonesty.
+¨ Free use of AI tools with no acknowledge: This course requires frequent use of
+AI tools, and students can use these tools throughout the learning process without
+the need to explicitly cite or acknowledge them. The instructor may specify which
+AI tools are allowed and set proper regulations if needed. Students who do not
+follow the regulations will be considered academic dishonesty.
+Remark: (The instructor should add additional details here about the use of AI tools in
+this course)
+8. Feedback for evaluation
+Please specify forms of evaluation to generate feedback on classes from students.
+A course questionnaire (CTE) was answered by each student after completing all
+teaching activities.
+Reflections from teachers of more advanced courses.
+Feedback from informal conversations over in the instructor’s office and wechat/e-
+mail correspondence with students after class.
+9. Readings
+A. Required
+
+========== PAGE 5 ==========
+Digital Design and Computer Architecture, RISC-V Edition: RISC-V Edition 1st
+Edition by Sarah Harris, David Harris
+Digital Fundamentals (global edition, 11th edition), by Thomas Floyd, Pearson
+2015.
+B. Recommended
+Digital Logic Design: A Rigorous Approach, by Guy Even and Moti Medina,
+Cambridge University Press 2012.
+10. Course components
+Activity Hours/week
+Lecture 3
+Tutorial 1
+11. Indicative teaching plan
+Week Content/ topic/ activity
+1 Introductory concepts: Digital and analog quantities, Binary digits, logic levels and
+digital waveforms, Basic logic operations, System concept, Fixed-function integrated
+circuits
+2 Number Systems: Base-R Number, Decimal, Binary, Counting, Number Conversion,
+Octal, Hexadecimal, Bytes, Nibbles, Binary Arithmetic, Signed Numbers,
+Complement Number, Floating-Point, Non-positional/Non-weighted Number, BCD,
+Gray Code, Error Codes
+3 Logic Gates: Inverter, AND Gate, OR Gate, NAND Gate, NOR Gate, Exclusive-OR
+and Exclusive-NOR Gates, Logic Levels, Noise, DC Transfer Characteristics, Power
+4 Boolean Algebra and Logic Simplification: Boolean Equations, Axioms & Theorems,
+Simplifying Equations
+5 Boolean Algebra and Logic Simplification (cont.): SOP, Standard SOP, POS,
+Standard POS, Karnaugh Maps
+6 Combinational Logic Analysis: Combinational Circuits, Parity Codes, Implementing
+Combinational Circuits, Universal Property, Bubble Pushing
+7 Functions of Combinational Logic: Adders, Comparators, Encoder & Decoder,
+8 Mid-Term Exam; Functions of Combinational Logic (cont.): Multiplexers, Timing
+9 Sequential Logic Design: State Elements, Bistable Circuit, SR Latch, D Latch, D Flip
+Flop, J-K Flip Flop, Variations on a Flop
+10 Shift Registers: Basic Functions, Serial in/Serial Out Shift Registers, Serial in/Parallel
+Out Shift Registers, Parallel In/Serial Out Shift Registers, Parallel In/Parallel Out Shift
+Registers, Bidirectional Shift Registers, Johnson Counter, Ring Counter
+11 Finite State Machine: Synchronous Sequential Design, Moore FSMs, Mealy FSMs,
+Factored FSMs, Timing, Clock Skew, Synchronization, Parallelsim
+12 Counters: Asynchronous Counters, Synchronous Counters, Up/Down Synchronous
+Counters, Design of Synchronous Counters, Cascaded Counters
+
+========== PAGE 6 ==========
+13 Data Storage
+14 Revision
+15 Final Exam
+12. Implementation plan
+The implementation plan may vary from year to year. Please indicate expected
+enrolment, and number of sections.
+Expected enrolment: 180
+Number of lecturing sections: 2
+Number of tutorial sections: 6
+13. Academic honesty and plagiarism
+A course outline may include subject-specific requirements on plagiarism, in
+addition to the University established policies.
+Students must complete all coursework and assessments independently, unless AI
+tool use is explicitly permitted. Unauthorized or improper use of AI may constitute
+academic dishonesty and harm learning. Misuse includes submitting AI-generated
+work as one’s own, using AI to cheat, or employing AI unethically. Always obtain
+permission before using AI in academic work, and be sure to acknowledge any AI
+use in submissions.
+14. Approval
+Has the course title been included in the program submission approved by
+CUHK Senate? Are there any differences?
+Yes. The course syllabus might be slightly different.
+Have the details (as in this document) been approved at School or other level
+in CUHK- Shenzhen?
+15. Any other information
+16. Version date
+Version number ECE2050 v001 260710
+As of (date) July 20, 2026
+Please save file as XXXXxxxx v-nnn
+yymmdd XXXXxxxx = course code, e.g.,
+
+========== PAGE 7 ==========
+MATH1212
+nnn = version number, e.g., 001 for version 1
+yymmdd = date of this version, e.g., 131210

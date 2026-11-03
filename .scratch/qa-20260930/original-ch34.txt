@@ -1,0 +1,107 @@
+==============================================================================
+ECE2050 Ch3 + Ch4 — numeric verification report
+==============================================================================
+
+--- Ch3 gate truth tables (p.4-13) ---
+  OK  NOT  Y=A'        2-input rows
+  OK  BUF  Y=A         2-input rows
+  OK  AND  Y=AB        2-input rows
+  OK  OR   Y=A+B       2-input rows
+  OK  NAND Y=(AB)'     2-input rows
+  OK  NOR  Y=(A+B)'    2-input rows
+  OK  XOR  Y=A^B       2-input rows
+  OK  XNOR Y=(A^B)'    2-input rows
+  -- '1' counts per 2-input gate (AND 1, OR 3, NAND 3, NOR 1, XOR 2, XNOR 2)
+     NOT  Y=A'        ones = 2
+     BUF  Y=A         ones = 2
+     AND  Y=AB        ones = 1
+     OR   Y=A+B       ones = 3
+     NAND Y=(AB)'     ones = 3
+     NOR  Y=(A+B)'    ones = 1
+     XOR  Y=A^B       ones = 2
+     XNOR Y=(A^B)'    ones = 2
+  -- 3-input: only 111 gives AND3 = 1; only 000 gives NOR3 = 1; XOR3 = 1 for an odd number of 1s
+  OK  AND3 == 1 only at 111
+  OK  OR3  == 0 only at 000
+  OK  XOR3 == 1 on odd parity
+  OK  input combinations = 2^n
+
+--- Ch3 logic families and noise margins (p.23) ---
+  OK  TTL    (5 V): NM_H=0.4, NM_L=0.4
+  OK  TTL    (5 V): NM_H + NM_L identity
+  OK  CMOS   (5 V): NM_H=0.69, NM_L=1.02
+  OK  CMOS   (5 V): NM_H + NM_L identity
+  OK  LVTTL  (3.3 V): NM_H=0.4, NM_L=0.4
+  OK  LVTTL  (3.3 V): NM_H + NM_L identity
+  OK  LVCMOS (3.3 V): NM_H=0.9, NM_L=0.54
+  OK  LVCMOS (3.3 V): NM_H + NM_L identity
+  p.17 noise example: driver 5.0 V, receiver sees 4.5 V (drop 0.5 V = 10%); still > V_IH(CMOS 5V)=3.15 V -> reads 1
+  V_DD scaling 5 V -> 1.0 V: voltage x0.2, power x0.04 (25x less); 5 -> 3.3 V saves 56.4%, 5 -> 1.8 V saves 87.0%
+
+--- Ch4 axioms, laws, rules (p.16-19, p.22-27) ---
+  OK  A1 (a=0)
+  OK  A1 (a=1)
+  OK  A2  0'=1, 1'=0
+  OK  A3  0*0=0, 1+1=1
+  OK  A4  1*1=1, 0+0=0
+  OK  A5  0*1=1*0=0, 1+0=0+1=1
+  OK  rule A+0=A                  over all 8 input combos
+  OK  rule A*1=A                  over all 8 input combos
+  OK  rule A+1=1                  over all 8 input combos
+  OK  rule A*0=0                  over all 8 input combos
+  OK  rule A+A=A                  over all 8 input combos
+  OK  rule A*A=A                  over all 8 input combos
+  OK  rule A+A'=1                 over all 8 input combos
+  OK  rule A*A'=0                 over all 8 input combos
+  OK  rule (A')'=A                over all 8 input combos
+  OK  rule A+AB=A                 over all 8 input combos
+  OK  rule A+A'B=A+B              over all 8 input combos
+  OK  rule (A+B)(A+C)=A+BC        over all 8 input combos
+  OK  rule commutative +          over all 8 input combos
+  OK  rule commutative *          over all 8 input combos
+  OK  rule associative +          over all 8 input combos
+  OK  rule associative *          over all 8 input combos
+  OK  rule distributive           over all 8 input combos
+  OK  rule DeMorgan NAND          over all 8 input combos
+  OK  rule DeMorgan NOR           over all 8 input combos
+  OK  rule duality: AND<->OR, 0<->1 over all 8 input combos
+
+--- Ch4 simplification examples (p.31-33) ---
+  OK  p.31 ex1  AB' + A'B  ==  B ? (NOT generally!) -> check ex1 is XOR, slide's ex1 is A'B+AB' = ... see note
+  OK  p.31 ex1' A'B + AB == B
+  OK  p.31 ex2  A'BC + AB'C + ABC  ==  AC + BC
+  OK  p.32 ex3  AB + A'B + AC + BB' + BC  ==  AC + B
+  OK  p.33 ex4  BC + B'D + CD  ==  BC + B'D   (consensus theorem)
+  OK  p.33 ex4  intermediate: BC + B'D + BCD + B'CD
+  OK  p.9 full adder: S=A^B^Cin and parity of ones
+  OK  p.9 carry == majority of inputs
+  OK  p.39 lunch: E = C*M' (SOP) == (C'+M)(C'+M')(C+M') read as POS
+
+--- Ch4 minterm / maxterm numbering (p.35-37) ---
+  OK  m0 = A'B' (00), m3 = AB (11)
+  OK  m0 is 1 only on row 0
+  OK  M0 = complement of m0
+  OK  m1 is 1 only on row 1
+  OK  M1 = complement of m1
+  OK  m2 is 1 only on row 2
+  OK  M2 = complement of m2
+  OK  m3 is 1 only on row 3
+  OK  M3 = complement of m3
+  M_i = (m_i)' ; SOP takes the 1-rows, POS takes the 0-rows
+
+--- Ch4 K-map worked examples ---
+  OK  p.59  Y = A + C + B'D'  matches 1s and 0s
+  OK  p.59  don't-care cells
+  OK  p.59 corrected counts: ON/OFF/DC
+  OK  p.59 optimized outputs on DC rows
+  OK  p.59 three-term/eight-literal baseline with X forced zero
+  OK  p.61  segment a = A + C + BD + B'D'
+  OK  p.61  BCD invalid codes become don't cares
+  OK  p.56  min POS = (A+B+C')(B+C+D')(B'+C+D)
+  OK  p.56  min SOP = B'C'D' + BD + BC + AC
+  OK  p.56  POS and SOP agree on all 16 rows
+  OK  p.56  zero positions are exactly m(1,2,3,4,9,12)
+
+==============================================================================
+ALL CHECKS PASSED
+==============================================================================

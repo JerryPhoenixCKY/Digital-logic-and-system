@@ -1,0 +1,14 @@
+{
+  "notes": 86,
+  "hubs": 2,
+  "wikilink_edges": 1070,
+  "unresolved": [],
+  "ambiguous_aliases": {},
+  "semantic_orphans": [],
+  "tree_missing": [],
+  "glossary_missing": [],
+  "english_words": 38027,
+  "cjk_characters": 110906,
+  "estimated_english_reading_share": 40.7,
+  "language_estimator": "English words / (English words + Chinese characters / 2), excluding YAML, code and math; a readability estimate rather than a strict token ratio."
+}

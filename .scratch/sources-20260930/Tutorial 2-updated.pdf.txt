@@ -1,0 +1,153 @@
+========== PAGE 1 ==========
+ECE2050 Digital Logic and Systems
+Tutorial 2
+Xuanyu Chen
+224010209@link.cuhk.edu.cn
+2025.09
+
+
+========== PAGE 2 ==========
+Decimal to Binary Conversion
+• Two methods:
+o Method 1: Find the largest power of 2 that fits, subtract and repeat
+o Method 2: Repeatedly divide by 2, remainder goes in next most 
+significant bit
+
+
+========== PAGE 3 ==========
+Decimal to Binary Conversion
+Q1:
+Convert 5310 to binary.
+Method 1: Find the largest power of 2 that fits, subtract and repeat
+Method 2: Repeatedly divide by 2, remainder goes in next most significant bit
+(This method is more commonly used in computer programming.)
+
+
+========== PAGE 4 ==========
+A1:
+Method 1: Find the largest power of 2 that fits, subtract and repeat
+5310
+53-32 = 21
+21-16 = 5
+5-4 = 1
+32×
+1
+16×
+1
+4×1
+1×1
+= 1101012
+Decimal to Binary Conversion
+
+========== PAGE 5 ==========
+A1:
+Method 2: Repeatedly divide by 2, remainder goes in next most significant bit
+5310 = 53/2 = 26 R1
+26/2 = 13 R0
+13/2 = 6 R1
+6/2 = 3 R0
+3/2 = 1 R1
+1/2 = 0 R1 = 1101012
+Decimal to Binary Conversion
+
+========== PAGE 6 ==========
+Two’s Complement Numbers
+Q2:
+Reverse the sign of 610 = 01102, Represent the result in two's 
+complement form.
+
+========== PAGE 7 ==========
+Two’s Complement Numbers
+A2:
+Reverse the sign of 6 = 0110, Represent the result in two's complement form.
+1. Invert all the bits
+1001
+2. Add 1 to the inverted result
+1001+     1  = 10102
+10102 = -610
+
+========== PAGE 8 ==========
+Two’s Complement Examples
+Q3:
+What is the decimal value of the two’s complement number
+10012?
+
+
+========== PAGE 9 ==========
+Two’s Complement Examples
+A3:
+What is the decimal value of the two’s complement number 10012?
+1. Check the sign bit: 
+if the leftmost bit is 0, the number is positive;
+if the leftmost bit is 0, the number is negative.
+2. Invert all the bits
+0110
+3. Add 1 to the inverted result
+01102   +    1 = 01112
+01112 = 710, so 10012 = -710
+
+
+========== PAGE 10 ==========
+Subtraction with Signed 
+Numbers
+Q4:
+3 – 5 =
+
+
+========== PAGE 11 ==========
+Subtraction with Signed 
+Numbers
+A4:
+1. We convert the subtraction into addition: 3 – 5 = 3 + (-
+5)
+2. Convert 3 and -5  to binary using 4-bit binary representation;
+— 310 in binary is 00112
+— -510 needs to be represented in two’s complement: 10112
+3. 0011 3
+ +
+1011
+-5
+1110 -2
+11102 is a two’s complement number represents a negative number
+
+========== PAGE 12 ==========
+Binary Coded Decimal 
+(BCD)
+Q5:
+In a binary coded decimal (BCD) system, 4 bits are used to represent
+a decimal digit from 0 to 9. For example, 37 is written as 00110111BCD.
+• Write 371 in BCD.
+• Convert 000110000111BCD to decimal.
+• Convert 10010101BCD to binary.
+
+
+========== PAGE 13 ==========
+Binary Coded Decimal 
+(BCD)
+A5:
+• Write 371 in BCD.
+• 0011 0111 0001
+• Convert 000110000111BCD to decimal.
+• 187
+• Convert 10010101BCD to binary.
+• Convert to Decimal first: 95
+• 95 = 1011111
+
+
+========== PAGE 14 ==========
+Error Codes: Cyclic Redundancy 
+Check
+Q6
+
+========== PAGE 15 ==========
+Error Codes: Cyclic Redundancy 
+Check
+A6
+
+
+========== PAGE 16 ==========
+Q&A
+
+========== PAGE 17 ==========
+Thank 
+You!

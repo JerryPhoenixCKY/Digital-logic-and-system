@@ -1,0 +1,12 @@
+========== PAGE 1 ==========
+ECE2050	Digital	Logic	and	Systems	Project:	Bidirectional	Shift	Registers	n Objectives	and	Aims:	• Get familiar with the hardware programming language VHDL • Study the use of different architectural design methods • Study the use of combinational and sequential logics n Exercise: In this project, you need to implement a Bidirectional Shift Register, which is composed of 4 D-Flip-Flops (D-FF) and some basic logic gates as follows: 
+ • RIGHT/LEFT controls data bits inside the register to be shifted left or right.  • When RIGHT/LEFT is HIGH, G1 ~ G4 are enabled, and the state of the Q output of each flip-flop is passed through to the D input of the following flip-flop. 
+
+
+========== PAGE 2 ==========
+ •  When RIGHT/LEFT is LOW, G5 ~ G8 are enabled, and the Q output of each flip-flop is passed through to the D input of the preceding flip-flop. 
+   n Requirements:	• Implement a Bidirectional Shift Register, which is composed of 4 D-Flip-Flops (D-FF) using the structural design (port map) and some basic logic gates. o That is, implement the D-Flip-Flop first, and then use D-Flip-Flop and basic logic gates to implement the Bidirectional Shift Register. o Write down a testbench to verify the Bidirectional Shift Register function (timing diagram). o You can use Verilog HDL if you are familiar with it.  • Submission Rule: 
+
+
+========== PAGE 3 ==========
+o Submit your (1) source code(s) (.vhd), (2) testbench (.vhd), and (3) the behavior simulation result (a screen shot) to BB. o If using Verilog HDL, submit your (1) source code(s) (.v), (2) testbench (.v), and (3) the behavior simulation result (a screen shot) to BB. • Deadline: May 5, 2025. 

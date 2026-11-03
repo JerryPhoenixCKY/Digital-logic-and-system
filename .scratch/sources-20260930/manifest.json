@@ -1,0 +1,594 @@
+[
+  {
+    "file": "Copy of Final2020withSolutions.pdf",
+    "sha256": "281463be08f50cecb12b504d378a113d71eb54f54e09a55a702d825201742189",
+    "pages": 17,
+    "short_pages": [],
+    "chars": 9891
+  },
+  {
+    "file": "Copy of Final2023(1).pdf",
+    "sha256": "a60e1e6d093642dbd6d4082c84b7ed59df6e0456c7662a921025cb1395557e85",
+    "pages": 14,
+    "short_pages": [],
+    "chars": 21672
+  },
+  {
+    "file": "ECE2050-Chap1.pdf",
+    "sha256": "7b9ee762c5091f4988a0ee602bcae3286918f902f4da5686716acb7b22e31587",
+    "pages": 44,
+    "short_pages": [
+      11,
+      14,
+      38
+    ],
+    "chars": 14633
+  },
+  {
+    "file": "ECE2050-Chap10.pdf",
+    "sha256": "0b1f841ece1383583b7e2517588b07353bbacd379b3dd6cee94acf68c6fc40a7",
+    "pages": 40,
+    "short_pages": [
+      4,
+      10,
+      12,
+      15,
+      20,
+      23,
+      24,
+      25,
+      26,
+      28,
+      35
+    ],
+    "chars": 8681
+  },
+  {
+    "file": "ECE2050-Chap11.pdf",
+    "sha256": "20b14b1259f86db3054b6cb525b848f2b744548f1e58cdd2872445ecfed48a78",
+    "pages": 38,
+    "short_pages": [
+      3,
+      7,
+      13,
+      18,
+      20,
+      29
+    ],
+    "chars": 8958
+  },
+  {
+    "file": "ECE2050-Chap2.pdf",
+    "sha256": "ffb19cf371ac704c7161a4e65872e8790135e970360119e4562a5e35e9cdca94",
+    "pages": 76,
+    "short_pages": [
+      2,
+      4,
+      16,
+      25,
+      29,
+      33,
+      34,
+      35,
+      36,
+      51,
+      58,
+      66
+    ],
+    "chars": 20450
+  },
+  {
+    "file": "ECE2050-Chap3.pdf",
+    "sha256": "e9f41ce9797f02dee7f0abd61b049862758810ca41902e822be8760f032dfb39",
+    "pages": 25,
+    "short_pages": [
+      11,
+      14
+    ],
+    "chars": 5686
+  },
+  {
+    "file": "ECE2050-Chap4.pdf",
+    "sha256": "4eea5eef0bea3a57877620a87e0699fc7ae195a520ff22f734350b662486c3d9",
+    "pages": 63,
+    "short_pages": [
+      3,
+      8,
+      15,
+      28,
+      29,
+      30,
+      34,
+      47,
+      53,
+      57
+    ],
+    "chars": 15576
+  },
+  {
+    "file": "ECE2050-Chap5.pdf",
+    "sha256": "cf91b6e7d46fd1e95a197e7044713d01c36b6c4ac0990948ffca0420421d2328",
+    "pages": 33,
+    "short_pages": [
+      3,
+      10,
+      15,
+      23,
+      26
+    ],
+    "chars": 7181
+  },
+  {
+    "file": "ECE2050-Chap6.pdf",
+    "sha256": "9c2e821bb81f789e30a597d13641f7f3afcd787dd7ecd1d8f642b5586e247da4",
+    "pages": 55,
+    "short_pages": [
+      3,
+      6,
+      7,
+      17,
+      19,
+      23,
+      27,
+      29,
+      31,
+      37,
+      40,
+      45
+    ],
+    "chars": 17203
+  },
+  {
+    "file": "ECE2050-Chap7.pdf",
+    "sha256": "0c1f920799ce117f1cb46ce3cf8889163fdc140a066f5352cbdc1d83ad5f4dbc",
+    "pages": 35,
+    "short_pages": [
+      3,
+      7,
+      10,
+      15,
+      18,
+      23,
+      24,
+      28
+    ],
+    "chars": 7225
+  },
+  {
+    "file": "ECE2050-Chap8.pdf",
+    "sha256": "5fae5876a0eb20b8f8c1e2e874d6cccf5706aaa3e58b45a50035db20713b1af5",
+    "pages": 34,
+    "short_pages": [
+      3,
+      4,
+      6,
+      7,
+      9,
+      11,
+      17,
+      22,
+      28,
+      29,
+      32
+    ],
+    "chars": 7199
+  },
+  {
+    "file": "ECE2050-Chap9.pdf",
+    "sha256": "8719d4d0d2854a36dccf576374dd080ac82ff6c7e72b6f0e63e39d0659ca2050",
+    "pages": 42,
+    "short_pages": [
+      3,
+      6,
+      10,
+      21,
+      30
+    ],
+    "chars": 11870
+  },
+  {
+    "file": "ECE2050-Final2024.pdf",
+    "sha256": "73028ac9fc0c83220af91694a620a620f3ff64d39cc63c25a1b043f5919fe189",
+    "pages": 10,
+    "short_pages": [],
+    "chars": 21878
+  },
+  {
+    "file": "ECE2050-VHDL-Tut.pptx",
+    "sha256": "10fe3c9dfd0d8e442641fda2e968818c8bc6658da3a1aa29abb4cf93ce3e6905",
+    "slides": 40,
+    "chars": 19586
+  },
+  {
+    "file": "ECE2050-Vivado-Tut.pptx",
+    "sha256": "de08ca37708b14418b8a0c9e7925f858cd30fcb2353d23bf70532c223b24827d",
+    "slides": 34,
+    "chars": 5006
+  },
+  {
+    "file": "ECE2050_HW4(1).pdf",
+    "sha256": "554fd2b757ada6e35219b08714fb7b089cf7cd7de364dbda5a945c0dc9092ebe",
+    "pages": 13,
+    "short_pages": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13
+    ],
+    "chars": 2024
+  },
+  {
+    "file": "ECE2050Project.pdf",
+    "sha256": "f6aada42893a9756288bc8b2198a6dd2e07c8dadbae099b15e9c3ac33f197b01",
+    "pages": 3,
+    "short_pages": [],
+    "chars": 1687
+  },
+  {
+    "file": "EIE2050-Final2023.pdf",
+    "sha256": "d0c840fd3797737878f6b99deba405123079d191a8c225595e423e9161e71b96",
+    "pages": 14,
+    "short_pages": [],
+    "chars": 22060
+  },
+  {
+    "file": "Final2021withSolutions.pdf",
+    "sha256": "44d146b38eade584bb8fb2b0b456388841ef1f7ea77c28302ad1711a70a99b55",
+    "pages": 13,
+    "short_pages": [
+      8
+    ],
+    "chars": 7289
+  },
+  {
+    "file": "Final2022SwithSolutions.pdf",
+    "sha256": "3b52cce50d1f744081481d1f820e7bb6e9da9acff46eab8fb789331d3ff55489",
+    "pages": 13,
+    "short_pages": [],
+    "chars": 8096
+  },
+  {
+    "file": "Final2023.pdf",
+    "sha256": "85e99c5db28624727a2483fcd53da44275a197f2f059989504640a37f445540d",
+    "pages": 14,
+    "short_pages": [],
+    "chars": 22060
+  },
+  {
+    "file": "Final2024.pdf",
+    "sha256": "ef537a056768573d7fce9b300946e13522bc833048dc7458d3a3db6747812a01",
+    "pages": 14,
+    "short_pages": [
+      14
+    ],
+    "chars": 24717
+  },
+  {
+    "file": "HW1_answer(1).pdf",
+    "sha256": "9b919246d8161e53f0e55edc53e4b4d4fecf68f9cbc7d6ad834d3d540c992cf0",
+    "pages": 12,
+    "short_pages": [
+      9
+    ],
+    "chars": 6212
+  },
+  {
+    "file": "HW2(1).pdf",
+    "sha256": "91d476637287eee588c9774fbf703066f246440183b9327a44ec6ec7f7d44a0a",
+    "pages": 6,
+    "short_pages": [],
+    "chars": 8846
+  },
+  {
+    "file": "HW2Solution(1).pdf",
+    "sha256": "af4c175ad05ba96f99ed796b3fd5e28b15ed8d663ba6872b784ee0891bd4ae0d",
+    "pages": 6,
+    "short_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "chars": 184
+  },
+  {
+    "file": "HW3 ece.pdf",
+    "sha256": "d869c43152c3ca42b804a76d33b8db1bdf22b4480ab018d477c2a7414a434241",
+    "pages": 9,
+    "short_pages": [],
+    "chars": 3368
+  },
+  {
+    "file": "HW3_Solution.pdf",
+    "sha256": "9f73874abd2e1f9a9ad06c71375c8ddf4f4a15c7a8e6b2e39c4a4f916c64bb5f",
+    "pages": 7,
+    "short_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "chars": 253
+  },
+  {
+    "file": "HW5_Answer.pdf",
+    "sha256": "598dab3d27448c52a25a7e4ba5388c14be5d79a03c38854188f2f642fd73b122",
+    "pages": 16,
+    "short_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "chars": 645
+  },
+  {
+    "file": "HW6 Solution.pdf",
+    "sha256": "56a4a9525afed0ab3f4cc11712ec161f6f9100e755d5d28c054ef5968e10462a",
+    "pages": 7,
+    "short_pages": [],
+    "chars": 1268
+  },
+  {
+    "file": "HW6.pdf",
+    "sha256": "147411aa419bff241bb668dd735709cc0d7fcc0e1f62c4047857e86a40a0eb89",
+    "pages": 6,
+    "short_pages": [
+      3
+    ],
+    "chars": 6426
+  },
+  {
+    "file": "HW7+Answer.pdf",
+    "sha256": "e14c199e4f997972643c40aeb002f66790f44285241629aef2cc98d59e9a13f3",
+    "pages": 7,
+    "short_pages": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "chars": 392
+  },
+  {
+    "file": "HW8(1).pdf",
+    "sha256": "71f75e5623712377902e7c80a4777f229910e11e338829fbf9a7f07f42b2a4d1",
+    "pages": 9,
+    "short_pages": [],
+    "chars": 3190
+  },
+  {
+    "file": "MidTerm.pdf",
+    "sha256": "7db161f274a302584a62ea80eb1fa06f366f590d358b0dcd43e7f143918e7941",
+    "pages": 108,
+    "short_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "chars": 3454
+  },
+  {
+    "file": "Midterm2021withSolutions.pdf",
+    "sha256": "576088721847bd77c56c323ef25378a6a64cd8486e0bbb772db9821c8a06dab2",
+    "pages": 11,
+    "short_pages": [],
+    "chars": 8217
+  },
+  {
+    "file": "Midterm2022withSolutions.pdf",
+    "sha256": "dd71d6830ecd1e8f4b9f47db40a3c93eebf6c48d16cd10b3e9e948de84605d9f",
+    "pages": 12,
+    "short_pages": [
+      5,
+      10
+    ],
+    "chars": 7688
+  },
+  {
+    "file": "Midterm2023withSolutions.pdf",
+    "sha256": "fb7c7207a21b3aeecbdb74e291fb61b074c4eb948e0b6f8e2c0e3ccc739df412",
+    "pages": 14,
+    "short_pages": [],
+    "chars": 11495
+  },
+  {
+    "file": "Midterm2024withSolutions.pdf",
+    "sha256": "a0f191be10087a990fbde50a4daab3e1010128d0e3c43f872cb4269787b7b1c7",
+    "pages": 12,
+    "short_pages": [],
+    "chars": 6951
+  },
+  {
+    "file": "Midterm2025 - solution.pdf",
+    "sha256": "4612c8f90652ef144f7ece4584d9a6ab585a0b9feecf5194e61cbd18c5f98395",
+    "pages": 10,
+    "short_pages": [],
+    "chars": 12414
+  },
+  {
+    "file": "Midterm2025withSolution.pdf",
+    "sha256": "4612c8f90652ef144f7ece4584d9a6ab585a0b9feecf5194e61cbd18c5f98395",
+    "pages": 10,
+    "short_pages": [],
+    "chars": 12414
+  },
+  {
+    "file": "README.md",
+    "sha256": "f4611a151d15b76f5346fc23c066bc16688ca6562a16cf01ba6b3f990ca865b2",
+    "chars": 21
+  },
+  {
+    "file": "Tutorial 1 (1).pdf",
+    "sha256": "fc6e460cc8ad61e26983b55810d478284623e24f25c6360dc63acef86fe0c804",
+    "pages": 10,
+    "short_pages": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "chars": 2207
+  },
+  {
+    "file": "Tutorial 2-updated.pdf",
+    "sha256": "454249c40eaaa2499e9b61712c4490303bcff79f8e86d5ed8868c4c415f819ac",
+    "pages": 17,
+    "short_pages": [
+      10,
+      14,
+      15,
+      16,
+      17
+    ],
+    "chars": 3118
+  },
+  {
+    "file": "Tutorial6--VHDL-Tut-for reference.pdf",
+    "sha256": "122e780783022821bdc2e0b76d9a4cc0ab22ca28d5600733a368f8a2dcb4a036",
+    "pages": 40,
+    "short_pages": [
+      1
+    ],
+    "chars": 20779
+  },
+  {
+    "file": "Tutorial6-Vivado-Tut.pdf",
+    "sha256": "9cc1ddec14480da4d32aedf3bd192c919174d77f98ffeab5b00b5bf26507e940",
+    "pages": 34,
+    "short_pages": [
+      1,
+      3,
+      6,
+      10,
+      30
+    ],
+    "chars": 6635
+  }
+]

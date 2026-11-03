@@ -1,0 +1,271 @@
+========== PAGE 1 ==========
+ECE2050 Homework 2
+Due: Oct. 1, 2025
+Q1 Is it possible to assign logic levels so that a device with the transfer characteristics shown
+below would serve as an inverter? If so, what are the input and output low and high levels
+( VIL, VOL, VIH , and VOH ) and noise margins (N ML and NH) ? If not, explain why not.
+Exercises 45
+Exercise 1.74 A three-input AND-OR (AO) gate shown in Figure 1.43 produces 
+a TRUE output if both A and B are TRUE or if C is TRUE. Complete a truth 
+table for the gate.
+Exercise 1.75 A three-input OR-AND-INVERT (OAI) gate shown in  
+Figure 1.44 produces a FALSE output if C is TRUE and A or B is TRUE. 
+Otherwise, it produces a TRUE output. Complete a truth table for the gate.
+Exercise 1.76 There are 16 different truth tables for Boolean functions of two 
+variables. List each truth table. Give each one a short descriptive name (such as 
+OR, NAND, and so on).
+Exercise 1.77 How many different truth tables exist for Boolean functions of N 
+variables?
+Exercise 1.78 Is it possible to assign logic levels so that a device with the transfer 
+characteristics shown in Figure 1.45 would serve as an inverter? If so, what are 
+the input and output low and high levels (VIL, VOL, VIH, and VOH) and noise 
+margins (NML and NH)? If not, explain why not.
+Figure 1.43 Three-input AND-OR gate
+A
+B YC
+Figure 1.44 Three-input OR-AND-INVERT gate
+A
+B YC
+Vin
+Vout
+0 12345
+0
+1
+2
+3
+4
+5
+Figure 1.45 DC transfer characteristics
+This book belongs to 月 月 (zhengyue@cuhk.edu.cn) Copyright Elsevier 2024
+1
+
+========== PAGE 2 ==========
+Q2 While walking down a dark alley, Ben Bitdiddle encounters a two-input gate with the
+transfer function shown below. The inputs are A and B and the output is Y .
+1. What kind of logic gate did he find?
+2. What are the approximate high and low logic levels?
+Exercises 47
+Exercise 1.82 While walking down a dark alley, Ben Bitdiddle encounters a two-
+input gate with the transfer function shown in Figure 1.49. The inputs are A and 
+B and the output is Y.
+Figure 1.48 Ben’s buffer DC 
+transfer characteristics
+Vin
+Vout
+0
+0
+0.6
+1.2
+1.8
+2.4
+3.0
+3.3
+3.30.61.21.82.43.0
+Figure 1.49 Two-input DC transfer 
+characteristics
+0
+1
+2
+3
+0
+1
+2
+3
+0
+1
+2
+3
+AB
+Y
+ (a) What kind of logic gate did he find?
+ (b) What are the approximate high and low logic levels?
+Exercise 1.83 Repeat Exercise 1.82 for Figure 1.50.
+Figure 1.50 Two-input DC transfer 
+characteristics
+0
+1
+2
+3
+0
+1
+2
+3
+0
+1
+2
+3
+AB
+Y
+This book belongs to 月 月 (zhengyue@cuhk.edu.cn) Copyright Elsevier 2024
+2
+
+========== PAGE 3 ==========
+Q3 The waveforms below are applied to points A and B of a 2-input XNOR gate. Draw the
+output waveform.
+180 Logic Gates
+ 2. A combination of inverters is shown in Figure 3–77. If a LOW is applied to point A, determine 
+the net output at points E and F.
+A
+B C D
+E
+F
+fg03_07500
+FIGURE 3–77 
+ 3. If the waveform in Figure 3–76 is applied to point A in Figure 3–77, determine the waveforms 
+at points B through F.
+Section 3–2 The AND Gate
+ 4. Draw the rectangular outline symbol for a 3-input AND gate.
+ 5. Determine the output, X, for a 2-input AND gate with the input waveforms shown in Figure 
+3–78. Show the proper relationship of output to inputs with a timing diagram.
+A
+B X
+fg03_07600
+FIGURE 3–78 
+ 6. The waveforms in Figure 3–79 are applied to points A and B of a 2-input AND gate followed 
+by an inverter. Draw the output waveform.
+A
+B
+fg03_07700
+FIGURE 3–79 
+ 7. The input waveforms applied to a 3-input AND gate are as indicated in Figure 3–80. Show the 
+output waveform in proper relation to the inputs with a timing diagram.
+B
+C X
+A
+B
+C
+A
+fg03_07800
+FIGURE 3–80 
+ 8. The input waveforms applied to a 4-input AND gate are as indicated in Figure 3–81. The 
+output of the AND gate is fed to an inverter. Draw the net output waveform of this system.
+B
+D
+X
+A
+C
+fg03_07900
+FIGURE 3–81 
+ 
+M03_FLOY5983_11_GE_C03.indd Page 180  12/11/14  7:56 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+3
+
+========== PAGE 4 ==========
+Q4 Is it possible to assign logic levels so that a device with the transfer characteristics shown
+below would serve as a buffer? If so, what are the input and output low and high levels
+( VIL, VOL, VIH , and VOH ) and noise margins ( N ML and N MH )? If not, explain why
+not.
+From Zero to OneCHAPTER ONE46
+Exercise 1.79 Repeat Exercise 1.78 for the transfer characteristics shown in 
+Figure 1.46.
+Vin
+Vout
+0 12345
+0
+1
+2
+3
+4
+5
+Figure 1.46 DC transfer characteristics
+Exercise 1.80 Is it possible to assign logic levels so that a device with the transfer 
+characteristics shown in Figure 1.47 would serve as a buffer? If so, what are 
+the input and output low and high levels (VIL, VOL, VIH, and VOH) and noise 
+margins (NML and NMH)? If not, explain why not.
+Vin
+Vout
+012345
+0
+1
+2
+3
+4
+5
+Figure 1.47 DC transfer characteristics
+Exercise 1.81 Ben Bitdiddle has invented a circuit with the transfer 
+characteristics shown in Figure 1.48 that he would like to use as a buffer.  
+Will it work? Why or why not? He would like to advertise that it is compatible 
+with LVCMOS and LVTTL logic. Can Ben’s buffer correctly receive inputs 
+from those logic families? Can its output properly drive those logic families? 
+Explain.
+This book belongs to 月 月 (zhengyue@cuhk.edu.cn) Copyright Elsevier 2024
+4
+
+========== PAGE 5 ==========
+Q5 Write down the truth table of the three-input Exclusive-OR (XOR) Gate. A, B and C are
+inputs and Y is output.
+A B C Y
+0 0 0
+0 0 1
+0 1 0
+0 1 1
+1 0 0
+1 0 1
+1 1 0
+1 1 1
+5
+
+========== PAGE 6 ==========
+Q6 Consider the below inverter circuit. VO1 is the output voltage of inverter I1, and VI2
+is the input voltage of inverter I2. Both inverters have the following characteristics:
+VDD = 5 V , VIL = 1 .5 V, VIH = 3 .8 V, VOL = 0 .5 V, and VOH = 4 V . What are the
+inverter low and high noise margins? Can the circuit tolerate 1.5 V of noise betweenVO1
+and VI2?
+From Zero to OneCHAPTER ONE22
+Solution The inverter noise margins are: NML = VIL – VOL = (1.35 V − 0.33 V) = 
+1.02 V, NMH = VOH − VIH = (3.84 V − 3.15 V) = 0.69 V. The circuit can tolerate 
+1 V of noise when the output is LOW (NML = 1.02 V) but not when the output 
+is HIGH (NMH = 0.69 V). For example, suppose the driver, I1, outputs its worst-
+case HIGH value, VO1 = VOH = 3.84 V. If noise causes the voltage to droop by 
+1 V before reaching the input of the receiver, VI2 = (3.84 V − 1 V) = 2.84 V. This 
+is less than the acceptable input HIGH value, VIH = 3.15 V, so the receiver may 
+not sense a proper HIGH input. 
+1.6.4  DC Transfer Characteristics
+To understand the limits of the digital abstraction, we must delve into 
+the analog behavior of a gate. The DC transfer characteristics of a gate 
+describe the output voltage as a function of the input voltage when the 
+input is changed slowly enough that the output can keep up. They are 
+called transfer characteristics because they describe the relationship 
+between input and output voltages.
+An ideal inverter would have an abrupt switching threshold at VDD/2, as 
+shown in Figure 1.25(a). For V(A) < VDD/2, V(Y) = VDD. For V(A) > VDD/2, 
+V(Y) = 0. In such a case, VIH = VIL = VDD/2. VOH = VDD and VOL = 0.
+A real inverter changes more gradually between the extremes, as 
+shown in Figure 1.25(b). When the input voltage V(A) is 0, the output 
+voltage V(Y) = VDD. When V(A) = VDD, V(Y) = 0. However, the tran-
+sition between these endpoints is smooth and may not be centered at 
+exactly VDD/2. This raises the question of how to define the logic levels.
+A reasonable place to choose the logic levels is where the slope 
+of the transfer characteristic dV(Y)/dV(A) is −1. These two points are 
+called the unity gain points. Choosing logic levels at the unity gain 
+points usually maximizes the noise margins. If VIL were reduced, VOH 
+would only increase by a small amount. But if VIL were increased, VOH 
+would drop precipitously.
+1.6.5  The Static Discipline
+To avoid inputs falling into the forbidden zone, digital logic gates are 
+designed to conform to the static discipline. The static discipline requires 
+that, given logically valid inputs, every circuit element will produce logi -
+cally valid outputs.
+By conforming to the static discipline, digital designers sacrifice 
+the freedom of using arbitrary analog circuit elements in return for 
+DC indicates behavior when 
+an input voltage is held 
+constant or changes slowly 
+enough for the rest of the 
+system to keep up. The term’s 
+historical root comes from 
+direct current, a method of 
+transmitting power across a 
+line with a constant voltage. 
+In contrast, the transient 
+response of a circuit is the 
+behavior when an input 
+voltage changes rapidly. 
+Section 2.9 explores transient 
+response further. 
+Figure 1.24 Inverter circuit
+I1 I2
+Noise
+VO1 VI2
+This book belongs to 月 月 (zhengyue@cuhk.edu.cn) Copyright Elsevier 2024
+6

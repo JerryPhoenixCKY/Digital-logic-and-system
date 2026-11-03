@@ -1,0 +1,1023 @@
+
+=== PDF PAGE 1 ===
+ECE 2050 Digital Logic and Systems
+Chapter 4 : Boolean Algebra and 
+Logic Simplification
+Instructor: Tinghuan Chen, Ph.D.
+
+=== PDF PAGE 2 ===
+Last Week 
+❑ Logic gates
+◆ Inverter, AND, OR, NAND, NOR, XOR, XNOR
+◆ Truth Table
+◆ Timing diagram
+◆ Logic expression
+◆ Distinctive Shape Symbols
+❑ Logic Levels 
+◆ Logic levels 
+◆ Noise Margins 
+
+=== PDF PAGE 3 ===
+Combinational Circuits
+
+=== PDF PAGE 4 ===
+Introduction
+inputs outputs
+functional spec
+timing spec
+A logic circuit is composed of:
+• Inputs
+• Outputs
+• Functional specification
+• Timing specification
+
+=== PDF PAGE 5 ===
+Circuits
+A E1
+E2
+E3B
+C
+n1
+Y
+Z
+• Nodes
+• Inputs: A, B, C
+• Outputs: Y, Z
+• Internal: n1
+• Circuit elements
+• E1, E2, E3
+• Each a circuit
+
+=== PDF PAGE 6 ===
+Types of Logic Circuits
+inputs outputs
+functional spec
+timing spec
+• Combinational Logic: Chapter 5
+• Memoryless
+• Outputs determined by current values of inputs
+• Sequential Logic: Chapter 6
+• Has memory
+• Outputs determined by previous and current values of inputs
+
+=== PDF PAGE 7 ===
+Rules of Combinational Composition
+• Every element is combinational
+• Every node is either an input or connects to exactly one output
+• The circuit contains no cyclic paths
+• Example:
+
+=== PDF PAGE 8 ===
+Boolean Equations
+
+=== PDF PAGE 9 ===
+Boolean Equations
+A S
+S      = A  B  Cin
+Cout  = AB + ACin + BCin
+B
+Cin
+CL Cout
+• Functional specification of outputs in terms of inputs
+• Example:    S     = F(A, B, Cin)
+                       Cout = F(A, B, Cin) 
+
+=== PDF PAGE 10 ===
+Forming Boolean Expressions
+Example 1:
+We will go to the Park (P is the output) if it’s not 
+Raining (R) and we have Sandwiches (S).
+Boolean Equation:
+P = RS
+
+=== PDF PAGE 11 ===
+Forming Boolean Expressions
+Example 2:
+You will be considered a Winner (W is the output) if we send 
+you a Million dollars (M) or a small Notepad (N).
+Boolean Equation:
+W = M + N
+
+=== PDF PAGE 12 ===
+Forming Boolean Expressions
+Example 3:
+You can Eat delicious food (E is the output) if you Make it yourself 
+(M) or you have a personal Chef (C) and she/he is talented (T) but 
+not eXpensive (X).
+Boolean Equation:
+E = M + CTX
+
+=== PDF PAGE 13 ===
+Forming Boolean Expressions
+Example 4:
+You can Enter the building if you have a Hat and 
+Shoes on or if you have a Hat on.
+Boolean Equation:
+E = HS + H
+
+=== PDF PAGE 14 ===
+Forming Boolean Expressions
+Example 5:
+You can Enter the building if you have a Hat and 
+Shoes on or if you have a Hat and no Shoes on.
+Boolean Equation:
+E = HS + HS
+
+=== PDF PAGE 15 ===
+Boolean Algebra:
+Axioms & Theorems
+
+=== PDF PAGE 16 ===
+Boolean Algebra
+• Axioms and theorems to simplify Boolean equations
+• Like regular algebra, but simpler: variables have only two values (1 or 0)
+• Duality (对偶性) in axioms and theorems:
+• ANDs and ORs, 0’s and 1’s interchanged
+
+=== PDF PAGE 17 ===
+Boolean Axioms
+Number Axiom Name
+A1 B = 0 if B ≠ 1 Binary Field
+A2 0 = 1 NOT
+A3 0 • 0 = 0 AND/OR
+A4 1 • 1 = 1 AND/OR
+A5 0 • 1 = 1 • 0 = 0 AND/OR
+Dual
+B = 1 if B ≠ 0
+1 = 0
+1 + 1 = 1
+0 + 0 = 0
+1 + 0 = 0 + 1 = 1
+Dual:  Replace: • with + 
+    0 with 1
+
+=== PDF PAGE 18 ===
+Boolean Operations and Expressions
+❑ Boolean Addition : Equivalent to the OR operation
+❑ Boolean Multiplication : Equivalent to the AND operation
+Determine the values of A, B, C, and D that make the sum term                          = 0𝐴 + ത𝐵 + 𝐶 + ഥ𝐷
+𝐴 = 0， ത𝐵 = 0， 𝐶 = 0， ഥ𝐷  =0 𝐴 = 0， B = 1， 𝐶 = 0， 𝐷 =1
+Solution :
+Determine the values of A, B, C, and D that make the product term                               𝐴 ത𝐵𝐶 ഥ𝐷 = 1
+𝐴 = 1， ത𝐵 = 1， 𝐶 = 1， ഥ𝐷  =1 𝐴 = 1， B = 0， 𝐶 = 1， 𝐷 =0
+Solution :
+
+=== PDF PAGE 19 ===
+Theorems of Boolean Algebra
+❑ Laws of Boolean Algebra
+▪ Commutative laws
+▪ Associative laws
+▪ Distributive law
+❑ Rules of Boolean Algebra
+𝐴 + 𝐵 = 𝐵 + 𝐴 𝐴𝐵 = 𝐵𝐴
+𝐴 + (𝐵 + 𝐶) = (𝐴 + 𝐵) + C 𝐴(𝐵𝐶) = 𝐴𝐵 C
+𝐴(𝐵 + 𝐶) = 𝐴𝐵 + AC
+
+
+=== PDF PAGE 20 ===
+How to Prove?
+• Method 1: Perfect induction
+• Method 2: Use other theorems and axioms to simplify 
+the equation
+– Make one side of the equation look like the other
+
+=== PDF PAGE 21 ===
+Proof by Perfect Induction
+• Also called: proof by exhaustion
+• Check every possible input value
+• If the two expressions produce the same value for every 
+possible input combination, the expressions are equal
+
+=== PDF PAGE 22 ===
+Proof of Rule 10
+Method 1: Perfect Induction
+Number Theorem
+10 A + AB = A
+
+=== PDF PAGE 23 ===
+Proof of Rule 10
+Number Theorem
+10 A + AB = A
+Method 2: Prove true using other axioms and theorems.
+
+=== PDF PAGE 24 ===
+Proof of Rule 11
+Number Theorem
+11 A + AB = A + B
+Method 1: Perfect Induction
+
+
+=== PDF PAGE 25 ===
+Proof of Rule 11
+Method 2: Prove true using other axioms and theorems.
+Number Theorem
+11 A + AB = A + B
+
+
+=== PDF PAGE 26 ===
+Proof of Rule 12  
+Number Theorem
+12 (A+B) (A+C) = A + (B•C) 
+Method 1: Perfect Induction
+
+=== PDF PAGE 27 ===
+Proof of Rule 12
+Number Theorem
+12 (A+B) (A+C) = A + (B•C) 
+Method 2: Prove true using other axioms and theorems.
+
+=== PDF PAGE 28 ===
+DeMorgan’s Theorems 
+𝑋𝑌 = ത𝑋 + ത𝑌
+𝑋 + 𝑌 = ത𝑋 ത𝑌
+
+=== PDF PAGE 29 ===
+DeMorgan’s Theorems: Examples 
+Example
+
+
+=== PDF PAGE 30 ===
+Boolean Algebra: 
+Simplifying Equations
+
+=== PDF PAGE 31 ===
+Logic Simplification Using Boolean Algebra
+❑ Use the axioms and theorems of Boolean algebra to manipulate and 
+simplify an expression.
+Example 1:
+Y = AB + AB
+  Y = (A + A)B 
+       = (1)B  
+       = B  
+Y = ABC + ABC + ABC 
+   = ABC + ABC + ABC + ABC
+   = (ABC+ABC) + (ABC+ABC)
+   = AC                 + BC  
+Example 2:
+
+=== PDF PAGE 32 ===
+Logic Simplification Using Boolean Algebra
+= AC + 𝐵
+𝐴𝐵 + 𝐴 𝐵 + 𝐶 + 𝐵 𝐵 + 𝐶
+= 𝐴𝐵 + AC + 𝐵 + 𝐵𝐶 
+= 𝐴𝐵 + AC + 𝐵
+distributive law
+Rule 5 Rule 7
+Rule 10
+Rule 10
+= 𝐴𝐵 + 𝐴𝐵 + AC + 𝐵𝐵 + 𝐵𝐶 
+Example 3:
+
+=== PDF PAGE 33 ===
+Logic Simplification Using Boolean Algebra
+Example 4:
+B•C + B•D + C•D 
+       = BC + BD + (CDB+CDB)  
+       = BC + BD + BCD+BCD  
+       = BC + BCD + BD + BCD  
+       = (BC + BCD) + (BD + BCD) 
+       =  BC                +  BD  
+
+=== PDF PAGE 34 ===
+SOP, Standard SOP
+POS, Standard POS
+
+=== PDF PAGE 35 ===
+Some Definitions
+• Complement: variable with a bar over it
+    A, B, C
+• Literal: variable or its complement
+    A, A, B, B, C, C
+• Implicant: product of literals
+    ABC, AC, BC
+• Minterm: product that includes all input variables
+    ABC, ABC, ABC
+• Maxterm: sum that includes all input variables
+ (A+B+C), (A+B+C), (A+B+C)
+
+=== PDF PAGE 36 ===
+Sum-of-Products (SOP) Form
+Y = F(A, B) =
+A B Y
+0 0
+0 1
+1 0
+1 1
+minterm
+A B
+A B
+A B
+A B
+minterm 
+name
+m0
+m1
+m2
+m3
+• All Boolean equations can be written in SOP form
+• Each row has a minterm
+• A minterm is a product (AND) of literals
+• Each minterm is TRUE for that row (and only that row)
+• Form function by ORing minterms where output is 1
+• Thus, a sum (OR) of products (AND terms)
+0
+1
+0
+1
+AB + AB 
+
+=== PDF PAGE 37 ===
+Product-of-Sums (POS) Form
+Y = F(A, B) = (A + B)●(A + B) 
+• All Boolean equations can be written in POS form
+• Each row has a maxterm
+• A maxterm is a sum (OR) of literals
+• Each maxterm is FALSE for that row (and only that row)
+• Form function by ANDing maxterms where output is 0
+• Thus, a product (AND) of sums (OR terms)
+A + B
+A B Y
+0 0
+0 1
+1 0
+1 1
+0
+1
+0
+1
+maxterm
+A + B
+A + B
+A + B
+maxterm 
+name
+M0
+M1
+M2
+M3
+
+=== PDF PAGE 38 ===
+Boolean Equations Examples
+• You are going to the cafeteria for lunch
+– You won’t eat lunch (E = 0) 
+• If it’s not clean (C = 0) or
+• If they only serve meatloaf (M = 1)
+• Write a truth table for determining if you will eat lunch (E).
+C M E
+0 0
+0 1
+1 0
+1 1
+0
+0
+1
+0
+
+=== PDF PAGE 39 ===
+SOP & POS Form
+C + M
+C M E
+0 0
+0 1
+1 0
+1 1
+0
+0
+1
+0
+maxterm
+C + M
+C + M
+C + M
+C M E
+0 0
+0 1
+1 0
+1 1
+0
+0
+1
+0
+minterm
+C M
+C M
+C M
+C M
+E = CM
+SOP – sum-of-products POS – product-of-sums
+E = (C + M)(C + M)(C + M)
+    = (C + MM)*       (C + M)
+    = (C + 0)*            (C + M)
+    = C        *            (C + M)
+    =  CC + CM
+    =  0 + CM
+    =           CM
+same
+
+=== PDF PAGE 40 ===
+SOP and Standard SOP Form 
+An expression is in SOP form when all products contain literals only.
+SOP form:  Y = AB + BC + DE
+NOT SOP form: Y = DF + E(A+B)
+SOP form:  Z = A + BC + DEF
+𝐴 ത𝐵𝐶 + 𝐴𝐵 ҧ𝐶𝐷= 𝐴 ത𝐵𝐶(𝐷 + ഥ𝐷) + 𝐴𝐵 ҧ𝐶𝐷= 𝐴 ത𝐵𝐶𝐷 + 𝐴 ത𝐵𝐶 ഥ𝐷 + 𝐴𝐵 ҧ𝐶𝐷
+❑ The Standard SOP Form 
+▪ all the variables in the domain appear in each product term in the expression.
+—
+—
+—
+
+=== PDF PAGE 41 ===
+POS and Standard POS Form
+An expression is in POS form when all sums contain literals only.
+POS form:  Y = (A+B)(C+D)(E+F)
+NOT POS form: Y = (D+E)(F+GH)
+POS form:  Z = A(B+C)(D+E)
+❑ The Standard POS Form 
+▪ all the variables in the domain appear in each product term in the expression.
+𝐴 + ത𝐵 + 𝐶 = 𝐴 + ത𝐵 + 𝐶 + 𝐷 ഥ𝐷 = (𝐴 + ത𝐵 + 𝐶 + 𝐷)(𝐴 + ത𝐵 + 𝐶 + ഥ𝐷)
+Rule12: X+YZ=(X+Y)(X+Z)
+—
+—
+—
+
+=== PDF PAGE 42 ===
+The Standard POS Form 
+𝐴 ത𝐵 + തC=(𝐴 + തC)( ത𝐵 + തC)=(𝐴 + 𝐵 + തC)(𝐴 + ത𝐵 + തC)(𝐴 + ത𝐵 + തC)( ҧ𝐴 + ത𝐵 + തC)
+(𝑨ഥ𝑩 + ഥ𝑪) (𝑨 + 𝑩): 
+POS Form ??
+𝐴 + 𝐵=(𝐴 + 𝐵+ 𝐶)(𝐴 + 𝐵 + തC)
+𝐴 ത𝐵 + തC 𝐴 + 𝐵 = (𝐴 + 𝐵+ 𝐶) (𝐴 + 𝐵 + തC)(𝐴 + ത𝐵 + തC)( ҧ𝐴 + ത𝐵 + തC)
+Standard POS Form ?? Recall 
+An expression is in POS form when all sums contain literals only.
+
+
+=== PDF PAGE 43 ===
+Boolean Expressions and Truth Tables (I)
+Develop a truth table for the standard SOP expression : ҧ𝐴 ത𝐵𝐶 + 𝐴 ത𝐵 ҧ𝐶 + 𝐴𝐵𝐶
+A B C Output
+0 0 0 0
+0 0 1 1 Don’t Care 1
+0 1 0 0
+0 1 1 0
+1 0 0 Don’t Care 1 Don’t Care 1
+1 0 1 0
+1 1 0 0
+1 1 1 Don’t Care 1 1
+ҧ𝐴 ത𝐵𝐶 𝐴 ത𝐵 ҧ𝐶 𝐴𝐵𝐶
+Example
+
+=== PDF PAGE 44 ===
+Boolean Expressions and Truth Tables (II)
+Determine the truth table for the following standard POS expression:Example
+(𝐴 + 𝐵 + 𝐶)(𝐴 + ത𝐵 + 𝐶)(𝐴 + ത𝐵 + ҧ𝐶)( ҧ𝐴 + 𝐵 + ҧ𝐶)( ҧ𝐴 + ഥB + 𝐶)
+A B C Output
+0 0 0 0 Don’t Care 0
+0 0 1 1
+0 1 0 Don’t Care 0 Don’t Care 0
+0 1 1 0 0
+1 0 0 1
+1 0 1 Don’t Care 0 Don’t Care 0
+1 1 0 Don’t Care 0 0
+1 1 1 1
+(𝐴 + 𝐵 + 𝐶) (𝐴 + ത𝐵 + 𝐶) (𝐴 + ത𝐵 + ҧ𝐶) ( ҧ𝐴 + 𝐵 + ҧ𝐶) ( ҧ𝐴 + ഥB + 𝐶)
+
+=== PDF PAGE 45 ===
+From Truth Tables to Standard Expressions
+Determine the truth table for the following standard SOP expression:Example
+ഥA𝐵𝐶
+𝐴 ത𝐵 ҧ𝐶
+𝐴B ҧ𝐶
+𝐴B𝐶
+𝑋 = ഥA𝐵𝐶+𝐴 ത𝐵 ҧ𝐶+𝐴B ҧ𝐶 + 𝐴B𝐶
+
+=== PDF PAGE 46 ===
+From Truth Tables to Standard Expressions
+Determine the truth table for the following standard POS expression:Example
+ഥA + 𝐵 + ҧ𝐶
+𝐴 + ത𝐵 + 𝐶
+𝐴 + B + ҧ𝐶
+𝐴 + B + 𝐶
+𝑋 =(𝐴 + B + 𝐶)(𝐴 + B + ҧ𝐶)(𝐴 + ത𝐵 + 𝐶)(ഥA + 𝐵 + ҧ𝐶)
+
+=== PDF PAGE 47 ===
+Karnaugh Maps
+
+=== PDF PAGE 48 ===
+The Karnaugh Map (K-Map)
+❑ A systematic method to simply Boolean expressions to their simplest SOP/POS expressions, 
+aka. the minimum expressions
+❑ Cells : each represents a binary value of the input variables
+◆ # of cells : the total # of possible input variable combinations
+◆ Adjacent cells are indexed with the Gray code, i.e. only a single variable change between 
+adjacent cells. 
+A 4-variable 
+K-map
+A 3-variable 
+K-map
+
+=== PDF PAGE 49 ===
+K-Map Rules 
+❑ Every 1 must be circled at least once 
+❑ Circles may be horizontal or vertical, but not diagonal
+❑ Each circle must span a power of 2 (i.e., 1, 2, 4, …2n) cells in each direction 
+❑ Each circle must be as large as possible 
+❑ A circle may wrap around the edges
+
+=== PDF PAGE 50 ===
+3-Input K-Map
+1
+B C Y
+0 0 0
+0 1 0
+1 0
+1 1 1
+Truth Table
+C 00 01
+0
+1
+Y
+11 10
+ABA
+0
+0
+0
+0
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+1
+1
+1
+1
+K-Map
+110 0
+0 00 1
+Y = AB + BC
+1
+B C Y
+0 0 0
+0 1 0
+1 0
+1 1 1
+Truth Table
+C 00 01
+0
+1
+Y
+11 10
+ABA
+0
+0
+0
+0
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+1
+1
+1
+1
+K-Map
+110 0
+0 00 1
+
+=== PDF PAGE 51 ===
+3-Input K-Map
+Example ഥA ത𝐵 ҧ𝐶 +ഥA ത𝐵𝐶 + ഥA𝐵 ҧ𝐶 + 𝐴B𝐶 + 𝐴 ത𝐵 ҧ𝐶+ 𝐴 ത𝐵𝐶
+ഥA ത𝐵
+𝐴𝐶
+= ഥA ҧ𝐶 +A𝐶 + ത𝐵
+𝐴 ത𝐵
+ഥA ҧ𝐶
+ത𝐵
+
+=== PDF PAGE 52 ===
+4-Input K-Map
+0
+C D
+0 0
+0 1
+1 0
+1 1
+B
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+1
+1
+1
+1
+1
+1
+1
+0
+1
+1
+1
+YA
+0
+0
+0
+0
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
+0
+0
+0
+0
+01 11
+1
+0
+0
+1
+0
+0
+1
+101
+1
+1
+1
+1
+0
+0
+0
+1
+11
+10
+00
+00
+10
+AB
+CD
+Y
+01 11
+1
+0
+0
+1
+0
+0
+1
+101
+1
+1
+1
+1
+0
+0
+0
+1
+11
+10
+00
+00
+10
+AB
+CD
+Y
+Y = AC + ABD + ABC + BD
+
+=== PDF PAGE 53 ===
+4-Input K-Map
+𝐴 ത𝐵𝐶
+ഥ𝐷
+𝐵 ҧ𝐶
+
+=== PDF PAGE 54 ===
+K-Map POS Minimization (I)
+Example of mapping a standard POS expression.   
+ In SOP minimization, we focus on those 1’s
+ In POS minimization, we focus on those 0’s
+
+=== PDF PAGE 55 ===
+K-Map POS Minimization (I)
+(𝐴 + 𝐵 + 𝐶)(𝐴 + 𝐵 + ҧ𝐶)(𝐴 + ത𝐵 + 𝐶)(𝐴 + ത𝐵 + ҧ𝐶)( ҧ𝐴 + ത𝐵+ 𝐶)Example 4-34
+000 001 010 011 110
+𝐴𝐶 + 𝐴 ത𝐵 = 𝐴( ത𝐵 + 𝐶)
+Example 4-35 (𝐵 + 𝐶 + 𝐷)(𝐴 + 𝐵 + ҧ𝐶 + 𝐷)( ҧ𝐴 + 𝐵 + 𝐶 + ഥ𝐷)(𝐴 + ത𝐵 + 𝐶 + 𝐷)( ҧ𝐴 + ത𝐵+ 𝐶 + 𝐷)
+X000 0010 1001 0100 1100
+
+=== PDF PAGE 56 ===
+Converting btw POS & SOP Using K-Map
+Example
+( ҧ𝐴 + ത𝐵 + 𝐶 + 𝐷)(𝐴 + ത𝐵 + 𝐶 + 𝐷)(𝐴 + 𝐵 + 𝐶 + ഥ𝐷)(𝐴 + 𝐵 + ҧ𝐶 + ഥ𝐷)( ҧ𝐴 + 𝐵 + 𝐶 + ഥ𝐷)(𝐴 + 𝐵 + ҧ𝐶 + 𝐷)
+1100 0100 0001 0011 0010
+Using a K-map, convert the following standard POS expression into a min. POS 
+expression, a standard SOP expression, and a minimum SOP expression.
+1001
+Fill 0’s Fill 1’s K-Map
+1 Find all 0’s
+2 3 4
+
+=== PDF PAGE 57 ===
+K-Map with Don’t Cares
+
+=== PDF PAGE 58 ===
+K-Map Rules
+❑ Every 1 must be circled at least once 
+❑ Circles may be horizontal or vertical, but not diagonal
+❑ Each circle must span a power of 2 (i.e., 1, 2, 4, …2n) cells in each direction 
+❑ Each circle must be as large as possible 
+❑ A circle may wrap around the edges
+❑ Circle a “don't care” (X) only if it helps minimize the equation
+
+=== PDF PAGE 59 ===
+K-Maps with Don’t Cares
+01 11
+1
+0
+0
+X
+X
+X
+1
+101
+1
+1
+1
+1
+X
+X
+X
+X
+11
+10
+00
+00
+10
+AB
+CD
+Y
+0
+C D
+0 0
+0 1
+1 0
+1 1
+B
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+1
+1
+1
+1
+1
+1
+1
+0
+X
+1
+1
+YA
+0
+0
+0
+0
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+X
+X
+X
+X
+X
+X
+01 11
+1
+0
+0
+X
+X
+X
+1
+101
+1
+1
+1
+1
+X
+X
+X
+X
+11
+10
+00
+00
+10
+AB
+CD
+Y
+Y = A + BD + C
+
+=== PDF PAGE 60 ===
+K-Maps with Don’t Cares: Example
+Each digit can be represented by a BCD code 
+A  B  C  D
+0  0  0  0
+0  0  0  1
+0  0  1  0
+0  0  1  1
+0  1  0  0
+0  1  0  1
+0  1  1  0
+0  1  1  1
+1  0  0  0
+1  0  0  1
+
+=== PDF PAGE 61 ===
+Example 4-32 (II)
+1 1 1
+1 1 1
+X X X X
+1 1 X X
+Truth table for Segment ‘a’
+CD
+AB 00 01 11 10
+00
+01
+11
+10
+𝑎 = 𝐴 + 𝐶 + 𝐵𝐷 + ത𝐵 ഥ𝐷
+0
+C D
+0 0
+0 1
+1 0
+1 1
+B
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+1
+1
+1
+1
+1
+1
+1
+0
+X
+1
+1
+YA
+0
+0
+0
+0
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+0
+0
+0
+0
+0 0
+0 1
+1 0
+1 1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+X
+X
+X
+X
+X
+X
+1
+0
+1
+1
+0
+1
+1
+1
+1
+1
+X
+X
+X
+X
+X
+X
+
+=== PDF PAGE 62 ===
+Chapter Review
+❑ Combinational Circuits 
+❑ Boolean Equations
+❑ Axioms & Theorems
+◆ Commutative laws
+◆ Associative laws
+◆ Distributive law
+◆ Rules of Boolean Algebra
+◆ DeMorgan’s Theorems 
+❑ Simplifying Equations
+◆ SOP and POS
+❑  Karnaugh Maps
+◆ Don’t Cares
+
+=== PDF PAGE 63 ===
+True/False Quiz
+❑ Variable, complement, and literal are all terms used in Boolean algebra.
+❑ Addition in Boolean algebra is equivalent to the NOR function.
+❑ Multiplication in Boolean algebra is equivalent to the AND function.
+❑ The commutative law, associative law, and distributive law are all laws in Boolean algebra.
+❑ The complement of 0 is 0 itself.
+❑ When a Boolean variable is multiplied by its complement, the result is the variable
+❑ “The complement of a product of variables is equal to the sum of the complements of each 
+variable” is a statement of DeMorgan’s theorem.
+❑ SOP means sum-of-products.
+❑ Karnaugh maps can be used to simplify Boolean expressions.
+❑ A 3-variable Karnaugh map has six cells.

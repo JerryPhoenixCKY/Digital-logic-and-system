@@ -1,0 +1,305 @@
+### PAGES: 25
+
+
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and Systems
+Chapter 3 : Logic Gates
+Instructor: Tinghuan Chen, Ph.D.
+
+========== PAGE 2 ==========
+Last Week
+q Base-R Number System
+q Decimal Number System
+q Binary Number System
+q Number Conversion
+q Octal & Hexadecimal Numbers
+q Conversion btw. Binary, Octal, & Hex. Numbers
+q Binary Arithmetic
+q Signed Numbers and Two’s Complement Numbers
+q Fixed-Point Numbers & Floating-Point Numbers
+q Binary Coded Decimal and Gray Code
+q Error Codes
+
+========== PAGE 3 ==========
+Logic Gates
+• Perform logic functions:
+• inversion (NOT), AND, OR, NAND, NOR, etc.
+• Single-input:
+• NOT gate, buffer
+• Two-input/Multiple-input:
+• AND, OR, XOR, NAND, NOR, XNOR
+
+========== PAGE 4 ==========
+The Inverter
+Input Output
+Negation indicator
+q Truth Table shows the output for each possible input in
+terms of levels and corresponding bits.
+q Timing diagrams: a graph that displays the relationship
+of two or more waveforms with respect to each other
+on a time basis
+q Logic Expression: The complement of a variable
+designated by a bar over the letter
+
+========== PAGE 5 ==========
+Single-Input Logic Gates
+NOT
+BUF
+A Y
+A Y
+Y = A Y = A
+A Y A Y
+0 1 0 0
+1 1
+1 0
+
+========== PAGE 6 ==========
+The AND Gate
+Inputs ≥ 2 Output
+q Truth Table : for an n-input AND gate, the total number
+of possible input combinations is 2n.
+q Timing diagrams:
+q Logic Expression
+
+========== PAGE 7 ==========
+The OR Gate
+Inputs ≥ 2 Output
+q Logic Expression
+q Truth Table
+q Timing diagrams
+
+========== PAGE 8 ==========
+The NAND Gate
+Inputs ≥ 2 Output
+q Truth Table
+q Logic Expression
+q Timing diagrams
+How to verify/prove?
+
+========== PAGE 9 ==========
+The NOR Gate
+Inputs ≥ 2 Output
+q Truth Table
+q Logic Expression
+q Timing diagrams
+How to verify/prove?
+
+========== PAGE 10 ==========
+The Exclusive-OR and Exclusive-NOR Gates
+q Exclusive-OR (XOR) Gates q Exclusive-NOR (XNOR) Gates
+q Timing diagram of XOR and
+XNOR
+
+========== PAGE 11 ==========
+XOR: Application
+An XOR gate can be used to add two bits
+
+========== PAGE 12 ==========
+Two-input Logic Gates
+OR !#A "%"& "#A !"#A
+AND
+A A A A A
+A
+Y Y ! ! ! !
+B B & & & &
+Y = AB Y = A + B !"#"A"B"& !"#"A& !"#"A"B"& !"#"A"B"&
+A B Y A B Y A & ! A & ! A & ! A & !
+0 0 0 0 0 0
+0 0 0 0 0 1 0 0 1 0 0 1
+0 1 0 0 1 1
+0 1 1 0 1 1 0 1 0 0 1 0
+1 0 0 1 0 1
+1 0 1 1 0 1 1 0 0 1 0 0
+1 1 1 1 1 1
+1 1 0 1 1 0 1 1 0 1 1 1
+
+========== PAGE 13 ==========
+Multiple-Input Logic Gates
+!"#$ AND3 • Multi-inApuNtD X3OR: Odd parity
+A
+A OutputA true if an odd number of
+C ! B Y B Y
+' C inputs a C re true
+!"#"ABCB' Y = ABC Y = ABC
+A C ' ! A B C Y A B C Y
+0 0 0 1 0 0 0 0 0 0 0 00
+0 0 1 0 0 0 1 0 0 0 1 10
+0 1 0 0 0 1 0 0 0 1 0 10
+0 1 1 0 0 1 1 0 0 1 1 0 0
+1 0 0 0 1 0 0 0 1 0 0 10
+1 0 1 0 1 0 1 0 1 0 1 00
+1 1 0 0
+1 1 0 0 1 1 0 00
+1 1 1 1 1 1 1 1
+1 1 1 0 1
+Truth table rows are listed in binary order.
+13
+
+========== PAGE 14 ==========
+
+
+========== PAGE 15 ==========
+Logic Levels
+• Discrete voltages represent 1 and 0
+• For example:
+• 0 = ground (GND) or 0 volts
+• 1 = V or 5 volts
+DD
+• What about 4.99 volts? Is that a 0 or a 1?
+• What about 3.2 volts?
+
+========== PAGE 16 ==========
+Logic Levels
+• Range of voltages for 1 and 0
+• Different ranges for inputs and outputs to allow for noise
+
+========== PAGE 17 ==========
+What is Noise?
+• Anything that degrades the signal
+• E.g., resistance, power supply noise, coupling to neighboring wires, etc.
+• Example: a gate (driver) outputs 5 V but, because of resistance in a
+long wire, receiver gets 4.5 V
+()#*%
+!"#$%" &%D%#$%"
++,- ./+,-
+
+========== PAGE 18 ==========
+Noise Margins
+!"#$%" &%D%#$%"
+High Noise Margin:
+4I-HI-.L0N#NO-D#%3-%O3 G(HI-.L0N#NO-D#%3-%O3
+%
+((
+8"9%O.:%90
+NM = V – V
+8"9%O.:%90
+4I-HI-.;N(9D H OH IH
+G(HI-.;N(9D
+%
+!"
+&D$
+$ Low Noise Margin:
+%
+!"#$%CCD(
+)$
+F"(D % NM = V – V
+)# L IL OL
+% !"
+&D# # 8"9%O.8"<
+8"9%O.8"<
+G(HI-.;N(9D
+4I-HI-.;N(9D
+R67
+
+========== PAGE 19 ==========
+DC Transfer Characteristics
+Ideal Buffer: Real Buffer:
+!!A" !!A"
+# A
+!
+! ! ""
+%& ""
+!
+%&
+$%&'()G+&%
+,-&%'.
+! /0-12)P)4
+%D
+!!#" !!#"
+!
+# #
+%D
+! *H*I
+! ! ! !
+""
+"" (D (& ""
+! ) !
+(D (&
+NM = NM = V /2 NM , NM < V /2
+H L DD H L DD
+
+========== PAGE 20 ==========
+DC Transfer Characteristics
+! "
+!!A"
+4I-+I-./0N#NO-D#%3-%O3 G(+I-./0N#NO-D#%3-%O3
+%
+!
+&&
+""
+!
+%&
+%
+D($ !"
+$
+!"#$%CCD( %
+)$
+F"(D %
+)#
+#$%&'()G%$ !"
+#
++,%$&-
+%
+! ./,01(2(P D(#
+%D
+!!#"
+4
+567
+! ! !
+(D (& ""
+
+========== PAGE 21 ==========
+VDD Scaling
+• In 1970’s and 1980’s, V = 5 V
+DD
+• V has dropped
+DD
+• Avoid frying tiny transistors
+• Save power
+• 3.3 V, 2.5 V, 1.8 V, 1.5 V, 1.2 V, 1.0 V, …
+• Be careful connecting chips with different supply voltages
+
+========== PAGE 22 ==========
+VDD Scaling
+• In 1970’s and 1980’s, V = 5 V
+DD
+• V has dropped
+DD
+• Avoid frying tiny transistors
+• Save power
+• 3.3 V, 2.5 V, 1.8 V, 1.5 V, 1.2 V, 1.0 V, …
+• Be careful connecting chips with different supply voltages
+Chips operate because they contain magic smoke
+Proof: if the magic smoke is let out, the chip stops working
+
+========== PAGE 23 ==========
+Logic Family Examples
+Logic Family V V V V V
+DD IL IH OL OH
+TTL 5 (4.75 - 5.25) 0.8 2.0 0.4 2.4
+CMOS 5 (4.5 - 6) 1.35 3.15 0.33 3.84
+LVTTL 3.3 (3 - 3.6) 0.8 2.0 0.4 2.4
+LVCMOS 3.3 (3 - 3.6) 0.9 1.8 0.36 2.7
+
+========== PAGE 24 ==========
+Chapter Review
+q Logic gates
+u Inverter, AND, OR, NAND, NOR, XOR, XNOR
+u Truth Table
+u Timing diagram
+u Logic expression
+u Distinctive Shape Symbols
+q Logic Levels
+u Logic levels
+u Noise Margins
+
+========== PAGE 25 ==========
+True/False Quiz
+q An inverter performs a NOT operation.
+q A NOT gate cannot have more than one input.
+q If any input to an OR gate is zero, the output is zero.
+q If all inputs to an AND gate are 1, the output is 0.
+q A NAND gate can be considered as an AND gate followed by a NOT gate.
+q A NOR gate can be considered as an OR gate followed by an inverter.
+q The output of an exclusive-OR is 0 if the inputs are opposite.
+25

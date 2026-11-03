@@ -1,0 +1,287 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and SystemsChapter 1 : Introductory ConceptsInstructor: Yue ZHENG, Ph.D.
+Instructor: Tinghuan CHEN
+
+========== PAGE 2 ==========
+2
+Instructors
+•Instructor: •Name: Prof. Yue Zheng (郑⽉), Ph.D.•Email: zhengyue@cuhk.edu.cn•Office: CD414•Office Hour: Wed. 17:00-18:00 
+L2 SessionLocationMon. 10:30-11:50 Zhi Xin Bldg110Wed. 10:30-11:50 
+•Instructor: •Name: Prof. Tinghuan Chen (陈廷欢), Ph.D.•Email: chentinghuan@cuhk.edu.cn•Office: TC413B•Office Hour: Thur. 15:00-16:00
+L1 SessionLocationMon. 15:30-17:00 TD103Wed. 15:30-17:00 
+
+========== PAGE 3 ==========
+3
+Teaching AssistantsLead TA•Name: Xin Wang•Office: CD417A•Email: xinwang3@link.cuhk.edu.cn•Office Hour: Wed 10：00-11：00
+•Name: Bohua Chen•Office: ZX301B•Email: 225010008@link.cuhk.edu.cn•Office Hour: Thu 14:00-15:00
+•Name: Junguang Yao•Office: CD417A•Email: junguangyao@link.cuhk.edu.cn•Office Hour: Tue 14:00-15:00•Name: Huaiyu Li•Office: ZX301B•Email: 223010059@link.cuhk.edu.cn•Office Hour: Thu 14:00-15:00
+•Name: Xuanyu Chen•Office: CD417A•Email: 224010209@link.cuhk.edu.cn•Office Hour: Wed 10:00-11:00
+•Name: Yihe Wang •Office: TC406•Email: 225010033@link.cuhk.edu.cn•Office Hour: Wed 14:00-15:00
+Lead TA
+
+========== PAGE 4 ==========
+4
+Activity Highlights
+Company Visit in 2020
+Invited seminars
+Company Visit in 2023
+
+
+========== PAGE 5 ==========
+5
+Course Outline•This course gives science and engineering students exposure to the basic concepts and techniques in digital logic and system design. Topics include digital system concepts, numbering systems and codes, Boolean algebra, logic gates and logic circuit elements, logic functions and simplification, logic circuits design, latches and flip-flops, counters, registers, memory and storage systems, FPGA, and introduction to CAD tools. Assessment% weightAssignments25%Project15%Mid-term Test25%Final Exam35%
+
+========== PAGE 6 ==========
+6
+Textbook & References•Digital Design and Computer Architecture RISC-V Edition (main) •by Sarah L. Harris and David Harris
+•Digital Fundamentals (11th Edition)•By Thomas Floyd
+https://pages.hmc.edu/harris/ddca/ddcarv.html
+
+========== PAGE 7 ==========
+7
+Course Map
+Microelectronics Circuits ECE3201Analog Integrated Circuits ECE3202
+Hon. Electronic Circuit Design Lab.ECE1811Basic Circuit TheoryECE2001Physics Lab.PHY1002
+Digital Systems Design LabECE2810Digital Logic and SystemsECE2050
+Intro. To Embedded Syst.ECE3080Embedded Syst. Lab.ECE3810Data StructuresCSC3100
+Digital Commun.ECE4002CMOS Digital Integrated Circuits DesignECE4102
+
+========== PAGE 8 ==========
+8
+Teaching PlanWeek Content/ topic/ activity19/1 - 9/7Ch1. Introductory conceptsDigital and analog quantities, Binary digits, Basic logic operations, System concept, Fixed-function integrated circuits29/8 - 9/14Ch2. Number systemsNumber systems and conversions, Binary arithmetic and operations, Signed numbers and operations, Binary coded decimal, Digital codes, Error detection codes39/15 - 9/21Ch3. Logic gatesThe inverter, Logic gates (AND, OR, NAND, NOR, XOR, XNOR), logic levels
+49/22 - 9/28Ch4. Boolean algebra and logic simplificationBoolean operations, Boolean algebra, De Morgan’s theorem, Boolean analysis of logic circuits, Simplification using Boolean algebra, Standard forms, Truth tables, Karnaugh map and minimization59/29 - 10/5Ch4. Boolean algebra and logic simplification &  Ch5. Combinational logic designBasic combinational logic circuits and implementation, the universal property, Combinational logic with NAND and NOR gates (Oct. 1-8 National Day & Mid-Autumn Festival)610/6 - 10/12Ch5. Combinational logic design (Mid-Autumn Festival)AND-OR, AND-OR-INVERT, XOR, XNOR, university property
+
+========== PAGE 9 ==========
+9
+Teaching Plan (Cont’d)Week Content/ topic/ activity710/13 - 10/19Ch6. Combinational Building Blocks Adders, Comparators, Encoder & Decoder, Multiplexer810/20 - 10/26Midterm & Ch7. Sequential Logic Designbistable circuits, SR Latch, D Latch, D Flip Flop, JK Flip Flop, 910/27 - 11/2Ch8. Shift registersSerial/Parallel in Serial/Parallel out, bidirectional shift registers, applications1011/3 - 11/9Ch9. Finite State MachineMoore/Mealy FSM, timing, set up time, hold time1111/10 - 11/16Ch10. CountersAsynchronous counters, Synchronous counters, Design, Applications1211/17 - 11/23Ch10. Counters Asynchronous counters, Synchronous counters, Design, Applications
+1311/24 - 11/30Ch11. Memory & Logic ArraysMemory basics, RAM, ROM, Flash memory, PLAs & FPGAs
+
+========== PAGE 10 ==========
+10
+Blackboard
+Lecture notes
+All homework assignments are submitted online via blackboardSubmit your homework here
+
+========== PAGE 11 ==========
+11
+
+
+========== PAGE 12 ==========
+12
+Some Reasons•Major Required•An insight into the specialty •Circuit design•Computer architecture •Built upon Boolean algebra, theoretical CS•High-performance software design requires you to understand the hardware layer •Microprocessors, datasheet, schematic diagram
+
+
+========== PAGE 13 ==========
+13
+Microprocessors•CPU•GPU•DSP•MCU•SoC•ASIC•FPGA•…
+CPU
+GPU
+FPGA
+MCU(microcontroller)
+
+========== PAGE 14 ==========
+14
+
+
+========== PAGE 15 ==========
+15
+Managing Complexity •Modern digital systems: •Millions or billions of transistors•How do we design things that are too big to fit in one person’s head at once? •Abstraction•Discipline •The 3-Y’s •Hierarchy•Modularity•Regularity
+
+========== PAGE 16 ==========
+16
+Abstraction•Hide complexity by working at higher level of representation•Millions of transistors•Ignore low-level details•Electron mobility •Voltage threshold/ switching delays 
+Focus of this course
+
+========== PAGE 17 ==========
+17
+Discipline•Imposing constraints and conventions to ensure consistency, correctness, and interoperability •Example: Digital discipline•Discrete voltages instead of continuous•Simpler to design than analog circuits – can build more sophisticated systems
+
+
+========== PAGE 18 ==========
+18
+Hierarchy•Organizing a system in Layers•Level 1: Transistors → form logic gates  •Level 2: Gates → form basic circuits (half-adder, mux)•Level 3: Basic circuits → form functional units (full-adder, flip-flops)•Level 4: Functional units → form systems (counter, state machine)
+
+
+========== PAGE 19 ==========
+19
+Modularity •Design components that are independent, well-defined, and interchangeable•Having well-defined functions and interfaces•Eg. 2-to-1 MUX•Once verified, reuse it anywhere: FSM, memory controller.. 
+
+
+========== PAGE 20 ==========
+20
+Regularity •Encouraging uniformity, so modules can be easily reused •A 4-bit register is made of 4 identical DFFs•A memory array is a grid of identical bit cells •An n-bit adder is built by repeating the same full-adder stage•Regularity simplifies circuit layout, testing and manufacturing •Easier scaling•Easier placement and routing
+
+
+========== PAGE 21 ==========
+21
+Regularity •Encouraging uniformity, so modules can be easily reused •A 4-bit register is made of 4 identical DFFs•A memory array is a grid of identical bit cells •An n-bit adder is built by repeating the same full-adder stage•Regularity simplifies circuit layout, testing and manufacturing •Easier scaling•Easier placement and routing
+
+
+========== PAGE 22 ==========
+22
+Analog vs Digital•Most physical variables are continuous•Voltage on a wire•Frequency of an oscillation•Position of a mass
+•Digital abstraction considers discrete subset of values
+Vinyl records 12 inches (~30cm), 3.5 hours
+Compact Disk (CD) 12cm, 74 minutes
+Analog quantity : continuous values
+Digital quantity : a discrete set of values
+
+========== PAGE 23 ==========
+23
+The Digital Advantages•Digital data can be stored, processed and transmitted more efficiently and reliably•Digital data is more noise resilient
+•Can you think of any disadvantages of digital systems?
+A typical analog systemAn audio system with a CD player 
+Do you think this is a digital system?
+D/A converter: convert digital data to an analog signal for amplification.
+
+========== PAGE 24 ==========
+24
+The Analytical Engine•Designed by Charles Babbage from 1834 – 1871•Considered to be the first digital computer•Built from mechanical gears, where each gear represented a discrete value (0-9)•Ada Lovelace: first programmer
+此照⽚，作者: 未知作者，许可证: CC 
+1791-18711815 – 1852
+
+========== PAGE 25 ==========
+25
+Digital Discipline: Binary Values•Two discrete values:•1’s and 0’s•1, TRUE, HIGH•0, FALSE, LOW•1 and 0: voltage levels, rotating gears, fluid levels, etc. •Digital circuits use voltage levels•0: low voltage (GND)•1: high voltage (VDD)•Bit: Binary digit
+
+
+========== PAGE 26 ==========
+26
+Bit•Binary digit:  a single number is either 0 or 1•Positive Logic: •1 is represented by the higher voltage level à HIGH, •0 is represented by the lower voltage level à LOW•Negative logic : 1 à Low, 0 à High
+
+========== PAGE 27 ==========
+27
+Number SystemsDecimal BinaryOctalHex00000000100010112001002230011033401000445010105560110066701110778100010891001119
+DecimalBinaryOctalHex10101012A11101113B12110014C13110115D14111016E15111117F
+
+
+========== PAGE 28 ==========
+28
+Logic Gates•Logic gate : A circuitthat performs a specified logic function
+NOT Opposite 
+AND
+OR
+True only if all inputs are true ( can have more than two inputs)
+True if one of the inputs is true ( can have more than two inputs)
+
+========== PAGE 29 ==========
+29
+Combinational Circuits & Sequential Circuits•Combinational Logic•Memoryless•Outputs determined by current values of inputs•Sequential Logic•Has memory•Outputs determined by previous and current values of inputs
+ANDABYABY000010100111
+Truth TableBoolean EquationY = AB
+
+========== PAGE 30 ==========
+30
+Boolean Algebra and Logic Simplification•Boolean Algebra
+• !=̅$%̅&+̅$%&+$%&=̅$%̅&+̅$%&+̅$%&+$%&=̅$%̅&+&+(̅$+$)%&=̅$%+%&
+ Karnaugh Map
+Rules§Commutative laws§Associative laws§Distributive law
+Laws
+ Demorgan’s Theorems
+
+========== PAGE 31 ==========
+31
+Combinational Logic•Basic combinational logic circuits•AND-OR Logic •AND-OR-Invert Logic •Exclusive-OR Logic •Exclusive-NOR Logic•Implementing combinational logic •From Boolean equation to logic circuit •From truth table to logic circuit
+
+
+========== PAGE 32 ==========
+32
+•Adders E.g. A plus B (3+9 = 12)
+Combinational Building Blocks•ComparatorE.g. A is less than B (2<5) as indicated by the High output (A<B)
+
+========== PAGE 33 ==========
+33
+Combinational Building Blocks •Encoders & Decoders
+•Multiplexer& Demultiplexer 
+Single LineSeparate Lines Separate Lines
+
+========== PAGE 34 ==========
+34
+Sequential Logic Design•Outputs of sequential logic depend on current and prior input values – it has memory.•State: all the information about a circuit necessary to explain its future behavior•Latches and Flip-flops:•Bistable circuit: 2 stable states•store only one bit at a time, either a 0 or a 1•SR Latch, D Latch•D Flip-flops, JK Flip-flops
+
+
+========== PAGE 35 ==========
+35
+Shift Registers•Shift register: Several Flip-Flops •Data Storage •Data Movement
+Serial: One bit at a time over a single lineExample: 8 time intervals for 8 bits
+Parallel : multiple bits at the same time over separate linesExample: 1 time interval for 8 bits
+Printer 
+Computer 
+
+========== PAGE 36 ==========
+36
+Counters•To count, the counter must “remember” the present number so that it can go to the next proper number in sequence.•Storage capability is an important characteristic of all counters, and flip-flops are generally used to implement them. 
+
+
+========== PAGE 37 ==========
+37
+Finite State Machine•State Register + Combinational Logic•States and transitions •Example: Traffic light controller system 
+!"
+#"
+!"
+#A
+!A
+!A
+#"
+#A
+"B&D(F*B "H(,
+A-&H&D.ALHD,
+0.-F1
+2*(LD1
+0*3*34
+5&LL
+#&61
+!"
+!"!"#$%%&
+!#!"$%'
+!#
+!"!"(%))*+
+!#!"$%'
+!$
+!"!"$%'
+!#!"(%))*+
+!%
+!"!"$%'
+!#!"#$%%&
+A"
+A"
+A#
+A#
+B&'&(
+
+========== PAGE 38 ==========
+38
+Memory•SRAM, DRAM•ROM•Flash
+
+
+========== PAGE 39 ==========
+39
+Example: A Process Control System1.The maximum # of tablets per bottle is entered from the keypad；2.An optical sensor detects each passing tablet & produces a pulse going to the Counter à Counter advanced by one；3.The binary count is transferred from the counter to the B input of the comparator;4.If A=B, comparator output goes HIGH, implying the bottle is full;5.The HIGH comparator output closes the hopper valve & stop the flow of tablets while activating the conveyor to move the next empty bottle into place6.When the bottle is in place, a pulse is issued to reset the counter to zero à the comparator output goes back LOW & the hopper valve restarts the flow of tablets.
+1
+2 435
+6
+hopper
+
+========== PAGE 40 ==========
+40
+Integrated Circuits (IC)•An electronic circuit entirely constructed on a single small chip of silicon •Programmable and Fixed-function Logic •IC packages :Through-hole mountedSurface-mounted 
+Solderless breadboard
+⾯包板or 免焊万⽤电路板
+
+========== PAGE 41 ==========
+41
+Complexity of Fixed-Function ICs# of gate circuits on a single chipTypical ExamplesSmall-scale integration (SSI)<10 Basic gates and flip-flopMedium-scale integration (MSI) 10 to 100 Encoders, Decoders, Counters, Registers, Multiplexers, Arithmetic circuits, Small memoriesVery large-scale integration (VLSI)10,000 to 100,000 MemoriesUltra large-scale integration (ULSI) >100,000Very large memories, Larger micro-processors, Larger single-chip computers
+Pin Numbering
+
+========== PAGE 42 ==========
+42
+Programmable Logic•Programmable Logic Devices (PLDs) •SPLDs (simple PLDs) •CPLDs (complex PLDs)•Field-Programmable Gate Array (FPGA )•Programing Process•Software development package installed on a computer•Graphic entry of a logic circuit•Text entry such as VHDL•A development board•A cable
+
+
+========== PAGE 43 ==========
+43
+Chapter ReviewqAnalog versus DigitalqBits (Binary digits), Logic Levels and Digital WaveformsqBasic logic functions: NOT, AND and ORqCombinational & sequential logic functions:       comparator, adder, encoder/decoder, (de)multiplexer,       flip-flops, registers, counterqIntegrated circuit (IC): Programmable versus Fixed-functionuPackage: Surface-mounted and Through-holeuProgrammable: PLD (SPLD and CPLD) and FPGAuFixed-function : SSI/MSI/VLSI/ULSI
+
+========== PAGE 44 ==========
+44
+True/False QuizqAn analog quantity is one having continuous values. qA digital quantity has no discrete values. qThere are two digits in the binary system. qThe term bit is short for binary digit. qIn positive logic, a LOW level represents a binary 1. qAn AND function is implemented by a logic circuit known as an inverter. qA flip-flop is a bistable logic circuit that can store only two bits at a time. qTwo broad types of digital integrated circuits are fixed-function and programmable.

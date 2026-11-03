@@ -1,0 +1,402 @@
+{
+  "groups": [
+    {
+      "chapter": "Ch1",
+      "target": "Digital Foundations and Waveforms",
+      "chinese": "数字基础与波形",
+      "sources": [
+        "Digital Abstraction and System Design",
+        "Digital Waveforms"
+      ]
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Number Systems and Base Conversion",
+      "chinese": "数制与进制转换",
+      "sources": [
+        "Number Systems",
+        "Decimal Number System",
+        "Binary Number System",
+        "Octal Number System",
+        "Hexadecimal Number System",
+        "Number Base Conversion",
+        "Bits and Bytes"
+      ]
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Binary Arithmetic and Signed Representation",
+      "chinese": "二进制运算与有符号表示",
+      "sources": [
+        "Binary Arithmetic",
+        "Sign-Magnitude Representation",
+        "Two's Complement Representation",
+        "Signed Binary Multiplication and Division"
+      ]
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Fixed-Point and Floating-Point Numbers",
+      "chinese": "定点数与浮点数",
+      "sources": [
+        "Fixed-Point Numbers",
+        "Floating-Point Numbers"
+      ]
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Data Coding and Character Representation",
+      "chinese": "数据编码与字符表示",
+      "sources": [
+        "Binary Coded Decimal",
+        "Gray Code",
+        "American Standard Code for Information Interchange"
+      ]
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Parity and Cyclic Redundancy Checks",
+      "chinese": "奇偶校验与循环冗余校验",
+      "sources": [
+        "Parity Bit",
+        "Cyclic Redundancy Check"
+      ]
+    },
+    {
+      "chapter": "Ch3",
+      "target": "Logic Gates and Boolean Functions",
+      "chinese": "逻辑门与布尔函数",
+      "sources": [
+        "Logic Gates",
+        "Inverter",
+        "AND Gate",
+        "OR Gate",
+        "NAND Gate",
+        "NOR Gate",
+        "Exclusive-OR Gate",
+        "Exclusive-NOR Gate"
+      ]
+    },
+    {
+      "chapter": "Ch3",
+      "target": "Logic Levels and Noise Margins",
+      "chinese": "逻辑电平与噪声容限",
+      "sources": [
+        "Logic Levels",
+        "DC Transfer Characteristic",
+        "Noise Margin"
+      ]
+    },
+    {
+      "chapter": "Ch4",
+      "target": "Boolean Algebra and Circuit Models",
+      "chinese": "布尔代数与组合电路模型",
+      "sources": [
+        "Combinational Circuit",
+        "Boolean Equation",
+        "Boolean Axioms",
+        "Laws and Rules of Boolean Algebra",
+        "DeMorgan's Theorems",
+        "Proof by Perfect Induction"
+      ]
+    },
+    {
+      "chapter": "Ch4",
+      "target": "Boolean Forms and Algebraic Simplification",
+      "chinese": "布尔表达形式与代数化简",
+      "sources": [
+        "Minterm and Maxterm",
+        "Truth Table and Boolean Expression",
+        "Sum-of-Products Form",
+        "Product-of-Sums Form",
+        "Boolean Expression Simplification"
+      ]
+    },
+    {
+      "chapter": "Ch4",
+      "target": "Karnaugh Map Minimization",
+      "chinese": "卡诺图化简",
+      "sources": [
+        "Karnaugh Map",
+        "Karnaugh Map with Don't Cares",
+        "POS Minimization with Karnaugh Map"
+      ]
+    },
+    {
+      "chapter": "Ch5",
+      "target": "Combinational Logic Analysis and Design",
+      "chinese": "组合逻辑分析与设计",
+      "sources": [
+        "AND-OR and AND-OR-Invert Logic",
+        "Combinational Logic Analysis",
+        "Combinational Logic Design"
+      ]
+    },
+    {
+      "chapter": "Ch5",
+      "target": "Universal Gates and Bubble Pushing",
+      "chinese": "通用门与气泡推移",
+      "sources": [
+        "Universal Gates and Bubble Pushing"
+      ]
+    },
+    {
+      "chapter": "Ch5",
+      "target": "Digital Logic Troubleshooting",
+      "chinese": "数字逻辑故障诊断",
+      "sources": [
+        "Digital Logic Troubleshooting"
+      ]
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Binary Arithmetic Circuits",
+      "chinese": "二进制算术电路",
+      "sources": [
+        "Half Adder and Full Adder",
+        "Ripple Carry and Carry Look-Ahead Adders",
+        "Binary Subtractors and Adder-Subtractors",
+        "Combinational Multiplier"
+      ]
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Comparison Decoding and Selection",
+      "chinese": "比较译码与选择电路",
+      "sources": [
+        "Magnitude Comparator",
+        "Encoder and Priority Encoder",
+        "Decoder",
+        "Multiplexer and Demultiplexer"
+      ]
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Seven-Segment Display and Code Conversion",
+      "chinese": "七段显示与码制转换",
+      "sources": [
+        "Seven-Segment Display and Code Conversion"
+      ]
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "chinese": "三态缓冲与总线驱动",
+      "sources": [
+        "Tri-State Buffers and Bus Drivers"
+      ]
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Propagation Delay and Logic Hazards",
+      "chinese": "传播延迟与逻辑冒险",
+      "sources": [
+        "Propagation Delay and Logic Hazards"
+      ]
+    },
+    {
+      "chapter": "Ch7",
+      "target": "Sequential Logic and Flip-Flops",
+      "chinese": "时序逻辑与触发器",
+      "sources": [
+        "Sequential Logic",
+        "Set-Reset Latch",
+        "D Latch and D Flip-Flop",
+        "JK and T Flip-Flops",
+        "Register Enable and Reset"
+      ]
+    },
+    {
+      "chapter": "Ch8",
+      "target": "Shift Registers and Ring Counters",
+      "chinese": "移位寄存器与环形计数器",
+      "sources": [
+        "Shift Registers",
+        "Ring and Johnson Counters"
+      ]
+    },
+    {
+      "chapter": "Ch8",
+      "target": "One-Shots and Pulse Applications",
+      "chinese": "单稳态与脉冲应用",
+      "sources": [
+        "One-Shots and Pulse Applications"
+      ]
+    },
+    {
+      "chapter": "Ch8",
+      "target": "Keyboard Scanning and Encoding",
+      "chinese": "键盘扫描与编码",
+      "sources": [
+        "Keyboard Scanning and Encoding"
+      ]
+    },
+    {
+      "chapter": "Ch9",
+      "target": "Finite State Machine Design and Applications",
+      "chinese": "有限状态机设计与应用",
+      "sources": [
+        "Finite State Machine",
+        "Moore and Mealy Machines",
+        "State Encoding and Unused States",
+        "Sequence Detector",
+        "Traffic Light Controller"
+      ]
+    },
+    {
+      "chapter": "Ch9",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "chinese": "时序约束与时钟域跨越",
+      "sources": [
+        "Setup and Hold Timing",
+        "Metastability and Clock Domain Crossing"
+      ]
+    },
+    {
+      "chapter": "Ch10",
+      "target": "Counter Design and Digital Clocks",
+      "chinese": "计数器设计与数字时钟",
+      "sources": [
+        "Counters",
+        "Synchronous Counter Design",
+        "Cascaded Counters and Digital Clocks"
+      ]
+    },
+    {
+      "chapter": "Ch11",
+      "target": "Memory Organization and Technologies",
+      "chinese": "存储组织与存储技术",
+      "sources": [
+        "Memory Arrays and Expansion",
+        "SRAM DRAM and ROM"
+      ]
+    },
+    {
+      "chapter": "Ch11",
+      "target": "Programmable Logic and FPGA",
+      "chinese": "可编程逻辑与FPGA",
+      "sources": [
+        "Read-Only Memory and Programmable Logic Arrays",
+        "Field-Programmable Gate Array"
+      ]
+    },
+    {
+      "chapter": "HDL",
+      "target": "VHDL Modeling and Verification",
+      "chinese": "VHDL建模与验证",
+      "sources": [
+        "VHDL Language and Modeling",
+        "Testbench and Functional Verification"
+      ]
+    },
+    {
+      "chapter": "HDL",
+      "target": "Structural Shift Register Project",
+      "chinese": "结构化移位寄存器项目",
+      "sources": [
+        "Structural Shift Register Project"
+      ]
+    },
+    {
+      "chapter": "Review",
+      "target": "Exam Review and Problem Solving",
+      "chinese": "考试复习与解题方法",
+      "sources": [
+        "Exam Review and Problem Solving"
+      ]
+    }
+  ],
+  "old_to_new": {
+    "Digital Abstraction and System Design": "Digital Foundations and Waveforms",
+    "Digital Waveforms": "Digital Foundations and Waveforms",
+    "Number Systems": "Number Systems and Base Conversion",
+    "Decimal Number System": "Number Systems and Base Conversion",
+    "Binary Number System": "Number Systems and Base Conversion",
+    "Octal Number System": "Number Systems and Base Conversion",
+    "Hexadecimal Number System": "Number Systems and Base Conversion",
+    "Number Base Conversion": "Number Systems and Base Conversion",
+    "Bits and Bytes": "Number Systems and Base Conversion",
+    "Binary Arithmetic": "Binary Arithmetic and Signed Representation",
+    "Sign-Magnitude Representation": "Binary Arithmetic and Signed Representation",
+    "Two's Complement Representation": "Binary Arithmetic and Signed Representation",
+    "Signed Binary Multiplication and Division": "Binary Arithmetic and Signed Representation",
+    "Fixed-Point Numbers": "Fixed-Point and Floating-Point Numbers",
+    "Floating-Point Numbers": "Fixed-Point and Floating-Point Numbers",
+    "Binary Coded Decimal": "Data Coding and Character Representation",
+    "Gray Code": "Data Coding and Character Representation",
+    "American Standard Code for Information Interchange": "Data Coding and Character Representation",
+    "Parity Bit": "Parity and Cyclic Redundancy Checks",
+    "Cyclic Redundancy Check": "Parity and Cyclic Redundancy Checks",
+    "Logic Gates": "Logic Gates and Boolean Functions",
+    "Inverter": "Logic Gates and Boolean Functions",
+    "AND Gate": "Logic Gates and Boolean Functions",
+    "OR Gate": "Logic Gates and Boolean Functions",
+    "NAND Gate": "Logic Gates and Boolean Functions",
+    "NOR Gate": "Logic Gates and Boolean Functions",
+    "Exclusive-OR Gate": "Logic Gates and Boolean Functions",
+    "Exclusive-NOR Gate": "Logic Gates and Boolean Functions",
+    "Logic Levels": "Logic Levels and Noise Margins",
+    "DC Transfer Characteristic": "Logic Levels and Noise Margins",
+    "Noise Margin": "Logic Levels and Noise Margins",
+    "Combinational Circuit": "Boolean Algebra and Circuit Models",
+    "Boolean Equation": "Boolean Algebra and Circuit Models",
+    "Boolean Axioms": "Boolean Algebra and Circuit Models",
+    "Laws and Rules of Boolean Algebra": "Boolean Algebra and Circuit Models",
+    "DeMorgan's Theorems": "Boolean Algebra and Circuit Models",
+    "Proof by Perfect Induction": "Boolean Algebra and Circuit Models",
+    "Minterm and Maxterm": "Boolean Forms and Algebraic Simplification",
+    "Truth Table and Boolean Expression": "Boolean Forms and Algebraic Simplification",
+    "Sum-of-Products Form": "Boolean Forms and Algebraic Simplification",
+    "Product-of-Sums Form": "Boolean Forms and Algebraic Simplification",
+    "Boolean Expression Simplification": "Boolean Forms and Algebraic Simplification",
+    "Karnaugh Map": "Karnaugh Map Minimization",
+    "Karnaugh Map with Don't Cares": "Karnaugh Map Minimization",
+    "POS Minimization with Karnaugh Map": "Karnaugh Map Minimization",
+    "AND-OR and AND-OR-Invert Logic": "Combinational Logic Analysis and Design",
+    "Combinational Logic Analysis": "Combinational Logic Analysis and Design",
+    "Combinational Logic Design": "Combinational Logic Analysis and Design",
+    "Universal Gates and Bubble Pushing": "Universal Gates and Bubble Pushing",
+    "Digital Logic Troubleshooting": "Digital Logic Troubleshooting",
+    "Half Adder and Full Adder": "Binary Arithmetic Circuits",
+    "Ripple Carry and Carry Look-Ahead Adders": "Binary Arithmetic Circuits",
+    "Binary Subtractors and Adder-Subtractors": "Binary Arithmetic Circuits",
+    "Combinational Multiplier": "Binary Arithmetic Circuits",
+    "Magnitude Comparator": "Comparison Decoding and Selection",
+    "Encoder and Priority Encoder": "Comparison Decoding and Selection",
+    "Decoder": "Comparison Decoding and Selection",
+    "Multiplexer and Demultiplexer": "Comparison Decoding and Selection",
+    "Seven-Segment Display and Code Conversion": "Seven-Segment Display and Code Conversion",
+    "Tri-State Buffers and Bus Drivers": "Tri-State Buffers and Bus Drivers",
+    "Propagation Delay and Logic Hazards": "Propagation Delay and Logic Hazards",
+    "Sequential Logic": "Sequential Logic and Flip-Flops",
+    "Set-Reset Latch": "Sequential Logic and Flip-Flops",
+    "D Latch and D Flip-Flop": "Sequential Logic and Flip-Flops",
+    "JK and T Flip-Flops": "Sequential Logic and Flip-Flops",
+    "Register Enable and Reset": "Sequential Logic and Flip-Flops",
+    "Shift Registers": "Shift Registers and Ring Counters",
+    "Ring and Johnson Counters": "Shift Registers and Ring Counters",
+    "One-Shots and Pulse Applications": "One-Shots and Pulse Applications",
+    "Keyboard Scanning and Encoding": "Keyboard Scanning and Encoding",
+    "Finite State Machine": "Finite State Machine Design and Applications",
+    "Moore and Mealy Machines": "Finite State Machine Design and Applications",
+    "State Encoding and Unused States": "Finite State Machine Design and Applications",
+    "Sequence Detector": "Finite State Machine Design and Applications",
+    "Traffic Light Controller": "Finite State Machine Design and Applications",
+    "Setup and Hold Timing": "Sequential Timing and Clock Domain Crossing",
+    "Metastability and Clock Domain Crossing": "Sequential Timing and Clock Domain Crossing",
+    "Counters": "Counter Design and Digital Clocks",
+    "Synchronous Counter Design": "Counter Design and Digital Clocks",
+    "Cascaded Counters and Digital Clocks": "Counter Design and Digital Clocks",
+    "Memory Arrays and Expansion": "Memory Organization and Technologies",
+    "SRAM DRAM and ROM": "Memory Organization and Technologies",
+    "Read-Only Memory and Programmable Logic Arrays": "Programmable Logic and FPGA",
+    "Field-Programmable Gate Array": "Programmable Logic and FPGA",
+    "VHDL Language and Modeling": "VHDL Modeling and Verification",
+    "Testbench and Functional Verification": "VHDL Modeling and Verification",
+    "Structural Shift Register Project": "Structural Shift Register Project",
+    "Exam Review and Problem Solving": "Exam Review and Problem Solving"
+  },
+  "original_topic_count": 88,
+  "target_topic_count": 31,
+  "scope": "Notes only; keep Figures and course sources"
+}

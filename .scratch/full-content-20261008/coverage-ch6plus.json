@@ -1,0 +1,3227 @@
+{
+  "chapters": [
+    "Ch6",
+    "Ch7",
+    "Ch8",
+    "Ch9",
+    "Ch10",
+    "Ch11",
+    "HDL"
+  ],
+  "target_count": 16,
+  "source_count": 37,
+  "original_H2_count": 241,
+  "scope": "逐原稿H2与H3记录；摘要与frontmatter用于定位概念，并非正文遗漏。现有推导、例题、图示与完整代码全部保留。",
+  "status_counts": {
+    "restored": 101,
+    "covered": 141,
+    "corrected": 4
+  },
+  "omissions": [],
+  "sections": [
+    {
+      "source": "Half Adder and Full Adder",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "1 · Half Adder and Full Adder · 位权守恒",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Half Adder and Full Adder",
+      "source_section": "Derivation · 推导",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "1 · Half Adder and Full Adder · 位权守恒",
+      "target_subsection": "Derivation · 推导",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Half Adder and Full Adder",
+      "source_section": "Worked Examples · 例题",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "1 · Half Adder and Full Adder · 位权守恒",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Half Adder and Full Adder",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "1 · Half Adder and Full Adder · 位权守恒",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Half Adder and Full Adder",
+      "source_section": "Connections · 相关笔记",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "1 · Half Adder and Full Adder · 位权守恒",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "source_section": "Derivation · 展开进位链",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径",
+      "target_subsection": "Derivation · 展开进位链",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "source_section": "Worked Examples · 例题",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "source_section": "Method and Exam English · 求解与答题",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径",
+      "target_subsection": "Method and Exam English · 求解与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "source_section": "Connections · 相关笔记",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "source_section": "Derivation · 推导",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路",
+      "target_subsection": "Derivation · 推导",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "source_section": "Adder-Subtractor · 共用加法器",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路",
+      "target_subsection": "Adder-Subtractor · 共用加法器",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "source_section": "Worked Examples · 例题",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "source_section": "Pitfalls and Review · 易错点与复习",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路",
+      "target_subsection": "Pitfalls and Review · 易错点与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "source_section": "Connections · 相关笔记",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Combinational Multiplier",
+      "source_section": "Core Definition and Derivation · 定义与推导",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "4 · Combinational Multiplier · 从部分积到列加法",
+      "target_subsection": "Core Definition and Derivation · 定义与推导",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Combinational Multiplier",
+      "source_section": "Worked Example · 3×3 位乘法",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "4 · Combinational Multiplier · 从部分积到列加法",
+      "target_subsection": "Worked Example · 3×3 位乘法",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Combinational Multiplier",
+      "source_section": "Timing and Signed Boundary · 时序与有符号边界",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "4 · Combinational Multiplier · 从部分积到列加法",
+      "target_subsection": "Timing and Signed Boundary · 时序与有符号边界",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Combinational Multiplier",
+      "source_section": "Practical Examples and Review · 应用与复习",
+      "target": "Binary Arithmetic Circuits",
+      "status": "covered",
+      "target_section": "4 · Combinational Multiplier · 从部分积到列加法",
+      "target_subsection": "Practical Examples and Review · 应用与复习",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Combinational Multiplier",
+      "source_section": "Connections · 相关笔记",
+      "target": "Binary Arithmetic Circuits",
+      "status": "restored",
+      "target_section": "4 · Combinational Multiplier · 从部分积到列加法",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Magnitude Comparator",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "1 · Magnitude Comparator · 最高不同位决定大小",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Magnitude Comparator",
+      "source_section": "Derivation · 从一位到多位",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "1 · Magnitude Comparator · 最高不同位决定大小",
+      "target_subsection": "Derivation · 从一位到多位",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Magnitude Comparator",
+      "source_section": "Worked Examples · 例题",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "1 · Magnitude Comparator · 最高不同位决定大小",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Magnitude Comparator",
+      "source_section": "Application · 最小值选择器",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "1 · Magnitude Comparator · 最高不同位决定大小",
+      "target_subsection": "Application · 最小值选择器",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Magnitude Comparator",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "1 · Magnitude Comparator · 最高不同位决定大小",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Magnitude Comparator",
+      "source_section": "Connections · 相关笔记",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "1 · Magnitude Comparator · 最高不同位决定大小",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Derivation · 推导",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Derivation · 推导",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Priority Circuit Versus Priority Encoder · 优先电路与编码输出，Ch5 p.20–22",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Priority Circuit Versus Priority Encoder · 优先电路与编码输出，Ch5 p.20–22",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Priority Circuit Versus Priority Encoder · 优先电路与编码输出，Ch5 p.20–22 > Input X Versus Output Don't-Care · 输入压缩与输出无关项",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Input X Versus Output Don't-Care · 输入压缩与输出无关项",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Worked Examples · 例题",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Pitfalls and Review · 易错点与复习",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Pitfalls and Review · 易错点与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Position codes in a scanned keyboard · 扫描键盘中的位置码",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Position codes in a scanned keyboard · 扫描键盘中的位置码",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Connections · 相关笔记",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "3 · Encoder and Priority Encoder · 线路变代码",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "source_section": "Sources · 来源",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "Sources · 课件依据",
+      "target_subsection": null,
+      "coverage_note": "保留原来源条目及主线课件链接。"
+    },
+    {
+      "source": "Decoder",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "2 · Decoder · 代码变线路",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Decoder",
+      "source_section": "Derivation · 为什么是 minterm",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "2 · Decoder · 代码变线路",
+      "target_subsection": "Derivation · 为什么是 minterm",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Decoder",
+      "source_section": "Worked Examples · 例题",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "2 · Decoder · 代码变线路",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Decoder",
+      "source_section": "Enable and Pin Constraints · 使能与引脚条件",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "2 · Decoder · 代码变线路",
+      "target_subsection": "Enable and Pin Constraints · 使能与引脚条件",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Decoder",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "2 · Decoder · 代码变线路",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Decoder",
+      "source_section": "Connections · 相关笔记",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "2 · Decoder · 代码变线路",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "4 · Multiplexer and Demultiplexer · 选择与分配",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "source_section": "Derivation · Shannon expansion",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "4 · Multiplexer and Demultiplexer · 选择与分配",
+      "target_subsection": "Derivation · Shannon expansion",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "source_section": "Worked Examples · 例题",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "4 · Multiplexer and Demultiplexer · 选择与分配",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "source_section": "Demultiplexing · 分配",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "4 · Multiplexer and Demultiplexer · 选择与分配",
+      "target_subsection": "Demultiplexing · 分配",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "source_section": "Pitfalls and Practical Use · 误区与应用",
+      "target": "Comparison Decoding and Selection",
+      "status": "covered",
+      "target_section": "4 · Multiplexer and Demultiplexer · 选择与分配",
+      "target_subsection": "Pitfalls and Practical Use · 误区与应用",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "source_section": "Connections · 相关笔记",
+      "target": "Comparison Decoding and Selection",
+      "status": "restored",
+      "target_section": "4 · Multiplexer and Demultiplexer · 选择与分配",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "restored",
+      "target_section": "1 · 字形先于电平",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Truth Table and Polarity · 真值表与极性",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "1 · 字形先于电平",
+      "target_subsection": "Truth Table and Polarity · 真值表与极性",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Assumptions and Validity · 适用前提",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "restored",
+      "target_section": "1 · 字形先于电平",
+      "target_subsection": "Assumptions and Validity · 适用前提",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Derivation · 从字形表到逻辑与控制",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": [
+        "2 · 字形表到组合逻辑",
+        "3 · Blanking and Zero Suppression · 控制输出可见性",
+        "4 · 动态扫描与共同端"
+      ],
+      "target_subsection": [
+        "Segment logic · 段逻辑",
+        "Blanking and zero suppression · 消隐与零抑制",
+        "Dynamic multiplexing · 动态扫描"
+      ],
+      "coverage_note": "原段逻辑、消隐与扫描分别完整移到第2/3/4节正文，推导公式和表格未删。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Derivation · 从字形表到逻辑与控制 > Segment logic · 段逻辑",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "2 · 字形表到组合逻辑",
+      "target_subsection": "Segment logic · 段逻辑",
+      "coverage_note": "原段逻辑、消隐与扫描分别完整移到第2/3/4节正文，推导公式和表格未删。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Derivation · 从字形表到逻辑与控制 > Blanking and zero suppression · 消隐与零抑制",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "3 · Blanking and Zero Suppression · 控制输出可见性",
+      "target_subsection": "Blanking and zero suppression · 消隐与零抑制",
+      "coverage_note": "原段逻辑、消隐与扫描分别完整移到第2/3/4节正文，推导公式和表格未删。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Derivation · 从字形表到逻辑与控制 > Dynamic multiplexing · 动态扫描",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "4 · 动态扫描与共同端",
+      "target_subsection": "Dynamic multiplexing · 动态扫描",
+      "coverage_note": "原段逻辑、消隐与扫描分别完整移到第2/3/4节正文，推导公式和表格未删。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Code Conversion · BCD 与纯二进制转换",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "5 · Code Conversion · 数值守恒与位权",
+      "target_subsection": "Code Conversion · BCD 与纯二进制转换",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Code Conversion · BCD 与纯二进制转换 > Two 4-bit adders · 两个四位加法器的构造",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "5 · Code Conversion · 数值守恒与位权",
+      "target_subsection": "Two 4-bit adders · 两个四位加法器的构造",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Worked Examples · 三个实际例题",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "5 · Code Conversion · 数值守恒与位权",
+      "target_subsection": "Worked Examples · 三个实际例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Pitfalls and Debugging · 易错点与排查",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "covered",
+      "target_section": "4 · 动态扫描与共同端",
+      "target_subsection": "Pitfalls and Debugging · 易错点与排查",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "English Exam Q&A · 英文答题训练",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "restored",
+      "target_section": "4 · 动态扫描与共同端",
+      "target_subsection": "English Exam Q&A · 英文答题训练",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "source_section": "Method and Review · 复习检查",
+      "target": "Seven-Segment Display and Code Conversion",
+      "status": "restored",
+      "target_section": "1 · 字形先于电平",
+      "target_subsection": "Method and Review · 复习检查",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "source_section": "Core Definition and Validity · 定义与条件",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "status": "restored",
+      "target_section": "1 · 三态与使能",
+      "target_subsection": "Core Definition and Validity · 定义与条件",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "source_section": "Mechanism · 机制",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "status": "covered",
+      "target_section": "2 · 总线共享与冲突",
+      "target_subsection": "Mechanism · 机制",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "source_section": "Worked Examples · 例题",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "status": "covered",
+      "target_section": "3 · 切换与实际边界",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "source_section": "Pitfalls and Review · 易错点与复习",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "status": "restored",
+      "target_section": "1 · 三态与使能",
+      "target_subsection": "Pitfalls and Review · 易错点与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "source_section": "Connections · 相关笔记",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "status": "restored",
+      "target_section": "1 · 三态与使能",
+      "target_subsection": "Connections · 相关笔记",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Propagation Delay and Logic Hazards",
+      "status": "restored",
+      "target_section": "1 · 最长路径与最短路径",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "source_section": "Worked Example 1 · 长短路径",
+      "target": "Propagation Delay and Logic Hazards",
+      "status": "covered",
+      "target_section": "1 · 最长路径与最短路径",
+      "target_subsection": "Worked Example 1 · 长短路径",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "source_section": "Derivation · Static-1 hazard",
+      "target": "Propagation Delay and Logic Hazards",
+      "status": "covered",
+      "target_section": "2 · 静态冒险来自不同路径",
+      "target_subsection": "Derivation · Static-1 hazard",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "source_section": "Worked Example 2 · 冒险宽度",
+      "target": "Propagation Delay and Logic Hazards",
+      "status": "covered",
+      "target_section": "2 · 静态冒险来自不同路径",
+      "target_subsection": "Worked Example 2 · 冒险宽度",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "source_section": "Sampling and Applications · 采样与应用",
+      "target": "Propagation Delay and Logic Hazards",
+      "status": "covered",
+      "target_section": "3 · 何时加项，何时依靠采样",
+      "target_subsection": "Sampling and Applications · 采样与应用",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "source_section": "Method and Exam English · 方法与英文",
+      "target": "Propagation Delay and Logic Hazards",
+      "status": "restored",
+      "target_section": "1 · 最长路径与最短路径",
+      "target_subsection": "Method and Exam English · 方法与英文",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "source_section": "Connections · 相关笔记",
+      "target": "Propagation Delay and Logic Hazards",
+      "status": "restored",
+      "target_section": "1 · 最长路径与最短路径",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Sequential Logic",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "1 · Sequential Logic · 用状态连接过去与现在",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Sequential Logic",
+      "source_section": "Mechanism and Composition · 机制与构成",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "1 · Sequential Logic · 用状态连接过去与现在",
+      "target_subsection": "Mechanism and Composition · 机制与构成",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Sequential Logic",
+      "source_section": "Worked Examples · 例题",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "1 · Sequential Logic · 用状态连接过去与现在",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Sequential Logic",
+      "source_section": "Assumptions and Limits · 条件与边界",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "1 · Sequential Logic · 用状态连接过去与现在",
+      "target_subsection": "Assumptions and Limits · 条件与边界",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Sequential Logic",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "1 · Sequential Logic · 用状态连接过去与现在",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Sequential Logic",
+      "source_section": "Connections · 相关笔记",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "1 · Sequential Logic · 用状态连接过去与现在",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Set-Reset Latch",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "2 · Set-Reset Latch · 反馈产生记忆",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Set-Reset Latch",
+      "source_section": "Derivation · 为什么能保持",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "2 · Set-Reset Latch · 反馈产生记忆",
+      "target_subsection": "Derivation · 为什么能保持",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Set-Reset Latch",
+      "source_section": "NAND Variant · NAND 型",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "2 · Set-Reset Latch · 反馈产生记忆",
+      "target_subsection": "NAND Variant · NAND 型",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Set-Reset Latch",
+      "source_section": "Worked Example · 事件序列",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "2 · Set-Reset Latch · 反馈产生记忆",
+      "target_subsection": "Worked Example · 事件序列",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Set-Reset Latch",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "2 · Set-Reset Latch · 反馈产生记忆",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Set-Reset Latch",
+      "source_section": "Connections · 相关笔记",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "2 · Set-Reset Latch · 反馈产生记忆",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "3 · D Latch and D Flip-Flop · 电平与边沿",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "source_section": "Derivation · 消除 SR 禁态",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "3 · D Latch and D Flip-Flop · 电平与边沿",
+      "target_subsection": "Derivation · 消除 SR 禁态",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "source_section": "Comparison · 对比",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "3 · D Latch and D Flip-Flop · 电平与边沿",
+      "target_subsection": "Comparison · 对比",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "source_section": "Worked Examples · 波形例题",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "3 · D Latch and D Flip-Flop · 电平与边沿",
+      "target_subsection": "Worked Examples · 波形例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "source_section": "Assumptions and Pitfalls · 条件与误区",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "3 · D Latch and D Flip-Flop · 电平与边沿",
+      "target_subsection": "Assumptions and Pitfalls · 条件与误区",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "source_section": "Exam English · 英文答题",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "3 · D Latch and D Flip-Flop · 电平与边沿",
+      "target_subsection": "Exam English · 英文答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "source_section": "Connections · 相关笔记",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "3 · D Latch and D Flip-Flop · 电平与边沿",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "source_section": "Core Definition and Derivation · 定义与推导",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "4 · JK and T Flip-Flops · 条件更新",
+      "target_subsection": "Core Definition and Derivation · 定义与推导",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "source_section": "Excitation Table · 激励表",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "4 · JK and T Flip-Flops · 条件更新",
+      "target_subsection": "Excitation Table · 激励表",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "source_section": "Conversion · 元件转换",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "4 · JK and T Flip-Flops · 条件更新",
+      "target_subsection": "Conversion · 元件转换",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "source_section": "Worked Examples · 例题",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "4 · JK and T Flip-Flops · 条件更新",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "4 · JK and T Flip-Flops · 条件更新",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "source_section": "Connections · 相关笔记",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "4 · JK and T Flip-Flops · 条件更新",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Register Enable and Reset",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "5 · Register Enable and Reset · 控制优先级",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Register Enable and Reset",
+      "source_section": "Reset and Set · 复位与置位",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "5 · Register Enable and Reset · 控制优先级",
+      "target_subsection": "Reset and Set · 复位与置位",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Register Enable and Reset",
+      "source_section": "Worked Examples · 例题",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "covered",
+      "target_section": "5 · Register Enable and Reset · 控制优先级",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Register Enable and Reset",
+      "source_section": "Timing Boundary · 时序边界",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "corrected",
+      "target_section": "5 · Register Enable and Reset · 控制优先级",
+      "target_subsection": "Timing Boundary · 时序边界",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。补充 recovery/removal 定义；同步 reset 检查 setup/hold，异步 reset 释放另检查 recovery/removal 与最小脉宽。"
+    },
+    {
+      "source": "Register Enable and Reset",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "5 · Register Enable and Reset · 控制优先级",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Register Enable and Reset",
+      "source_section": "Connections · 相关笔记",
+      "target": "Sequential Logic and Flip-Flops",
+      "status": "restored",
+      "target_section": "5 · Register Enable and Reset · 控制优先级",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Shift Registers",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Shift Registers and Ring Counters",
+      "status": "restored",
+      "target_section": "1 · Shift Registers · 位序与输入模式",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Shift Registers",
+      "source_section": "Derivation · Universal register",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "1 · Shift Registers · 位序与输入模式",
+      "target_subsection": "Derivation · Universal register",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Shift Registers",
+      "source_section": "Worked Example 1 · 左右混合",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "1 · Shift Registers · 位序与输入模式",
+      "target_subsection": "Worked Example 1 · 左右混合",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Shift Registers",
+      "source_section": "Worked Example 2 · 串入和时延",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "2 · 串行输入与时延",
+      "target_subsection": "Worked Example 2 · 串入和时延",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Shift Registers",
+      "source_section": "Applications and Review · 应用与复习",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "1 · Shift Registers · 位序与输入模式",
+      "target_subsection": "Applications and Review · 应用与复习",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Shift Registers",
+      "source_section": "Serial interfaces and matrix scanning · 串行接口与矩阵扫描",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "2 · 串行输入与时延",
+      "target_subsection": "Serial interfaces and matrix scanning · 串行接口与矩阵扫描",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Shift Registers",
+      "source_section": "Connections · 相关笔记",
+      "target": "Shift Registers and Ring Counters",
+      "status": "restored",
+      "target_section": "1 · Shift Registers · 位序与输入模式",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "source_section": "Core Definition and Model · 定义与模型",
+      "target": "Shift Registers and Ring Counters",
+      "status": "restored",
+      "target_section": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈",
+      "target_subsection": "Core Definition and Model · 定义与模型",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "source_section": "Ring Derivation · 环形序列",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈",
+      "target_subsection": "Ring Derivation · 环形序列",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "source_section": "Johnson Derivation · 扭环序列",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈",
+      "target_subsection": "Johnson Derivation · 扭环序列",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "source_section": "Worked Examples · 例题",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Shift Registers and Ring Counters",
+      "status": "restored",
+      "target_section": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "source_section": "One-cold scan application · 独冷扫描应用",
+      "target": "Shift Registers and Ring Counters",
+      "status": "covered",
+      "target_section": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈",
+      "target_subsection": "One-cold scan application · 独冷扫描应用",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "source_section": "Connections · 相关笔记",
+      "target": "Shift Registers and Ring Counters",
+      "status": "restored",
+      "target_section": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "source_section": "Core Definition · 核心定义",
+      "target": "One-Shots and Pulse Applications",
+      "status": "restored",
+      "target_section": "1 · 稳态数量决定类别",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "source_section": "Derivation · RC timing boundary",
+      "target": "One-Shots and Pulse Applications",
+      "status": "covered",
+      "target_section": "2 · RC 阈值决定脉宽",
+      "target_subsection": "Derivation · RC timing boundary",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "source_section": "Worked Examples · 例题",
+      "target": "One-Shots and Pulse Applications",
+      "status": "covered",
+      "target_section": "2 · RC 阈值决定脉宽",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "source_section": "Edge Detection · 边沿检测",
+      "target": "One-Shots and Pulse Applications",
+      "status": "covered",
+      "target_section": "3 · 数字事件脉冲与按键捕获",
+      "target_subsection": "Edge Detection · 边沿检测",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "source_section": "Delayed key capture · 延迟捕获按键",
+      "target": "One-Shots and Pulse Applications",
+      "status": "covered",
+      "target_section": "3 · 数字事件脉冲与按键捕获",
+      "target_subsection": "Delayed key capture · 延迟捕获按键",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "source_section": "Exam English and Connections · 答题与关联",
+      "target": "One-Shots and Pulse Applications",
+      "status": "restored",
+      "target_section": "1 · 稳态数量决定类别",
+      "target_subsection": "Exam English and Connections · 答题与关联",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "restored",
+      "target_section": "1 · 扫描先建立坐标",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Mechanism · 扫描机制",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "covered",
+      "target_section": "1 · 扫描先建立坐标",
+      "target_subsection": "Mechanism · 扫描机制",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Timing Derivation · 扫描与分频",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "covered",
+      "target_section": "4 · 边界与复习",
+      "target_subsection": "Timing Derivation · 扫描与分频",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Debounce and Capture · 去抖与捕获",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "covered",
+      "target_section": "3 · 去抖、稳定与一次捕获",
+      "target_subsection": "Debounce and Capture · 去抖与捕获",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Worked Examples · 例题",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "covered",
+      "target_section": "2 · 编码与有效条件",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Multi-key Boundary · 多键边界",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "covered",
+      "target_section": "4 · 边界与复习",
+      "target_subsection": "Multi-key Boundary · 多键边界",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Exam English and Review · 答题与复习",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "restored",
+      "target_section": "1 · 扫描先建立坐标",
+      "target_subsection": "Exam English and Review · 答题与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "source_section": "Connections · 相关笔记",
+      "target": "Keyboard Scanning and Encoding",
+      "status": "restored",
+      "target_section": "1 · 扫描先建立坐标",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Finite State Machine",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "1 · Finite State Machine · 状态保存了什么历史",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Finite State Machine",
+      "source_section": "Design Procedure · 设计过程",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "1 · Finite State Machine · 状态保存了什么历史",
+      "target_subsection": "Design Procedure · 设计过程",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Finite State Machine",
+      "source_section": "Worked Example · 按钮切换灯",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "1 · Finite State Machine · 状态保存了什么历史",
+      "target_subsection": "Worked Example · 按钮切换灯",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Finite State Machine",
+      "source_section": "State Meaning and Completeness · 状态含义与完备性",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "1 · Finite State Machine · 状态保存了什么历史",
+      "target_subsection": "State Meaning and Completeness · 状态含义与完备性",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Finite State Machine",
+      "source_section": "Assumptions and Pitfalls · 条件与误区",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "1 · Finite State Machine · 状态保存了什么历史",
+      "target_subsection": "Assumptions and Pitfalls · 条件与误区",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Finite State Machine",
+      "source_section": "Exam English · 英文答题",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "1 · Finite State Machine · 状态保存了什么历史",
+      "target_subsection": "Exam English · 英文答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Finite State Machine",
+      "source_section": "Connections · 相关笔记",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "1 · Finite State Machine · 状态保存了什么历史",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "2 · Moore and Mealy Machines · 输出依赖与时间对齐",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "source_section": "Worked Example · 检测最近两位 01",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "2 · Moore and Mealy Machines · 输出依赖与时间对齐",
+      "target_subsection": "Worked Example · 检测最近两位 01",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "source_section": "Output Timing · 输出时间对齐",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "2 · Moore and Mealy Machines · 输出依赖与时间对齐",
+      "target_subsection": "Output Timing · 输出时间对齐",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "source_section": "Tradeoffs · 取舍",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "2 · Moore and Mealy Machines · 输出依赖与时间对齐",
+      "target_subsection": "Tradeoffs · 取舍",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "source_section": "Additional Example · 同一状态不同输出",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "2 · Moore and Mealy Machines · 输出依赖与时间对齐",
+      "target_subsection": "Additional Example · 同一状态不同输出",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "2 · Moore and Mealy Machines · 输出依赖与时间对齐",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "source_section": "Connections · 相关笔记",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "2 · Moore and Mealy Machines · 输出依赖与时间对齐",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "source_section": "Core Definition and Derivation · 定义与推导",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "3 · State Encoding and Unused States · 编码与恢复",
+      "target_subsection": "Core Definition and Derivation · 定义与推导",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "source_section": "Worked Example · 三态循环",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "3 · State Encoding and Unused States · 编码与恢复",
+      "target_subsection": "Worked Example · 三态循环",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "source_section": "Don't-Care Policy · 无关项策略",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "3 · State Encoding and Unused States · 编码与恢复",
+      "target_subsection": "Don't-Care Policy · 无关项策略",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "3 · State Encoding and Unused States · 编码与恢复",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "source_section": "Connections · 相关笔记",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "3 · State Encoding and Unused States · 编码与恢复",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Sequence Detector",
+      "source_section": "Specification · 明确规范",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "4 · Sequence Detector · 最长可复用后缀",
+      "target_subsection": "Specification · 明确规范",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Sequence Detector",
+      "source_section": "Derivation · 最长后缀原则",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "4 · Sequence Detector · 最长可复用后缀",
+      "target_subsection": "Derivation · 最长后缀原则",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Sequence Detector",
+      "source_section": "Encoded Equations · 编码方程",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "4 · Sequence Detector · 最长可复用后缀",
+      "target_subsection": "Encoded Equations · 编码方程",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Sequence Detector",
+      "source_section": "Worked Example · 追踪 1110110",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "4 · Sequence Detector · 最长可复用后缀",
+      "target_subsection": "Worked Example · 追踪 1110110",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Sequence Detector",
+      "source_section": "Overlap Example · 101 的重叠",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "4 · Sequence Detector · 最长可复用后缀",
+      "target_subsection": "Overlap Example · 101 的重叠",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Sequence Detector",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "4 · Sequence Detector · 最长可复用后缀",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Sequence Detector",
+      "source_section": "Connections · 相关笔记",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "4 · Sequence Detector · 最长可复用后缀",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Traffic Light Controller",
+      "source_section": "Specification · 规范与模型边界",
+      "target": "Finite State Machine Design and Applications",
+      "status": "corrected",
+      "target_section": "5 · Traffic Light Controller · 安全条件进入状态模型",
+      "target_subsection": "Specification · 规范与模型边界",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。区别四态教学 reset→A 与实际安全恢复；四态二进制已占满编码，无未用二进制码。"
+    },
+    {
+      "source": "Traffic Light Controller",
+      "source_section": "Transition Table · 转换表",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "5 · Traffic Light Controller · 安全条件进入状态模型",
+      "target_subsection": "Transition Table · 转换表",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Traffic Light Controller",
+      "source_section": "Derivation · 编码与输出",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "5 · Traffic Light Controller · 安全条件进入状态模型",
+      "target_subsection": "Derivation · 编码与输出",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Traffic Light Controller",
+      "source_section": "Worked Example · 状态追踪",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "5 · Traffic Light Controller · 安全条件进入状态模型",
+      "target_subsection": "Worked Example · 状态追踪",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Traffic Light Controller",
+      "source_section": "Timer Extension · 定时器扩展",
+      "target": "Finite State Machine Design and Applications",
+      "status": "covered",
+      "target_section": "5 · Traffic Light Controller · 安全条件进入状态模型",
+      "target_subsection": "Timer Extension · 定时器扩展",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Traffic Light Controller",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "5 · Traffic Light Controller · 安全条件进入状态模型",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Traffic Light Controller",
+      "source_section": "Connections · 相关笔记",
+      "target": "Finite State Machine Design and Applications",
+      "status": "restored",
+      "target_section": "5 · Traffic Light Controller · 安全条件进入状态模型",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "source_section": "Definitions and Assumptions · 定义与假设",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "1 · Setup and Hold Timing · 建立统一时间基准",
+      "target_subsection": "Definitions and Assumptions · 定义与假设",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "source_section": "Setup Derivation · 建立约束推导",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "1 · Setup and Hold Timing · 建立统一时间基准",
+      "target_subsection": "Setup Derivation · 建立约束推导",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "source_section": "Hold Derivation · 保持约束推导",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "1 · Setup and Hold Timing · 建立统一时间基准",
+      "target_subsection": "Hold Derivation · 保持约束推导",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "source_section": "Worked Example · 同时检查两条约束",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "2 · 裕量与修复方向",
+      "target_subsection": "Worked Example · 同时检查两条约束",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "source_section": "Skew Extension · 偏斜扩展",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "2 · 裕量与修复方向",
+      "target_subsection": "Skew Extension · 偏斜扩展",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "restored",
+      "target_section": "1 · Setup and Hold Timing · 建立统一时间基准",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "source_section": "Connections · 相关笔记",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "restored",
+      "target_section": "1 · Setup and Hold Timing · 建立统一时间基准",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "restored",
+      "target_section": "3 · Metastability and Clock Domain Crossing · 异步输入的边界",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "source_section": "Mechanism · 两级同步器",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "3 · Metastability and Clock Domain Crossing · 异步输入的边界",
+      "target_subsection": "Mechanism · 两级同步器",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "source_section": "Validity Boundaries · 适用边界",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "4 · 按信息类型选跨域方法",
+      "target_subsection": "Validity Boundaries · 适用边界",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "source_section": "Worked Examples · 例题",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "covered",
+      "target_section": "4 · 按信息类型选跨域方法",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "restored",
+      "target_section": "3 · Metastability and Clock Domain Crossing · 异步输入的边界",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "source_section": "Connections · 相关笔记",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "status": "restored",
+      "target_section": "3 · Metastability and Clock Domain Crossing · 异步输入的边界",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Counters",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Counter Design and Digital Clocks",
+      "status": "restored",
+      "target_section": "1 · Counters · 模数与时钟结构",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Counters",
+      "source_section": "Asynchronous versus Synchronous · 异步与同步",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "1 · Counters · 模数与时钟结构",
+      "target_subsection": "Asynchronous versus Synchronous · 异步与同步",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Counters",
+      "source_section": "Derivation · 同步二进制翻转条件",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "2 · Synchronous Counter Design · 从转换表求激励",
+      "target_subsection": "Derivation · 同步二进制翻转条件",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Counters",
+      "source_section": "Worked Examples · 例题",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "1 · Counters · 模数与时钟结构",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Counters",
+      "source_section": "Control Inputs · 控制输入",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "4 · 混合进制与预置截断",
+      "target_subsection": "Control Inputs · 控制输入",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Counters",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Counter Design and Digital Clocks",
+      "status": "restored",
+      "target_section": "1 · Counters · 模数与时钟结构",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Counters",
+      "source_section": "Connections · 相关笔记",
+      "target": "Counter Design and Digital Clocks",
+      "status": "restored",
+      "target_section": "1 · Counters · 模数与时钟结构",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "source_section": "Design Method · 设计方法",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "2 · Synchronous Counter Design · 从转换表求激励",
+      "target_subsection": "Design Method · 设计方法",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "source_section": "Worked Example 1 · Modulo-3 with recovery",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "2 · Synchronous Counter Design · 从转换表求激励",
+      "target_subsection": "Worked Example 1 · Modulo-3 with recovery",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "source_section": "Worked Example 2 · 指定非顺序计数",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "2 · Synchronous Counter Design · 从转换表求激励",
+      "target_subsection": "Worked Example 2 · 指定非顺序计数",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "source_section": "JK Design · JK 设计细节",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "2 · Synchronous Counter Design · 从转换表求激励",
+      "target_subsection": "JK Design · JK 设计细节",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "source_section": "Verification and Review · 验证与复习",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "2 · Synchronous Counter Design · 从转换表求激励",
+      "target_subsection": "Verification and Review · 验证与复习",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "source_section": "Connections · 相关笔记",
+      "target": "Counter Design and Digital Clocks",
+      "status": "restored",
+      "target_section": "2 · Synchronous Counter Design · 从转换表求激励",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Counter Design and Digital Clocks",
+      "status": "restored",
+      "target_section": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Derivation · 同步级联",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转",
+      "target_subsection": "Derivation · 同步级联",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Worked Example 1 · 两级十进制",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转",
+      "target_subsection": "Worked Example 1 · 两级十进制",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Worked Example 2 · 60进制时钟",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "4 · 混合进制与预置截断",
+      "target_subsection": "Worked Example 2 · 60进制时钟",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Worked Example 3 · Preset truncated count",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "4 · 混合进制与预置截断",
+      "target_subsection": "Worked Example 3 · Preset truncated count",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Practical Timing · 实际时序",
+      "target": "Counter Design and Digital Clocks",
+      "status": "covered",
+      "target_section": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转",
+      "target_subsection": "Practical Timing · 实际时序",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Counter Design and Digital Clocks",
+      "status": "restored",
+      "target_section": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "source_section": "Connections · 相关笔记",
+      "target": "Counter Design and Digital Clocks",
+      "status": "restored",
+      "target_section": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Memory Organization and Technologies",
+      "status": "restored",
+      "target_section": "1 · Memory Arrays and Expansion · 寻址与容量",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Derivation · 行列与译码",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "1 · Memory Arrays and Expansion · 寻址与容量",
+      "target_subsection": "Derivation · 行列与译码",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Worked Example 1 · 容量与地址",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "1 · Memory Arrays and Expansion · 寻址与容量",
+      "target_subsection": "Worked Example 1 · 容量与地址",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Width Expansion · 位宽扩展",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "2 · 扩展先宽度，后深度",
+      "target_subsection": "Width Expansion · 位宽扩展",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Depth Expansion · 深度扩展",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "2 · 扩展先宽度，后深度",
+      "target_subsection": "Depth Expansion · 深度扩展",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Interface and Timing · 接口与时序",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "4 · 从物理存储到功能模型",
+      "target_subsection": "Interface and Timing · 接口与时序",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Method and Review · 方法与复习",
+      "target": "Memory Organization and Technologies",
+      "status": "restored",
+      "target_section": "1 · Memory Arrays and Expansion · 寻址与容量",
+      "target_subsection": "Method and Review · 方法与复习",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "source_section": "Connections · 相关笔记",
+      "target": "Memory Organization and Technologies",
+      "status": "restored",
+      "target_section": "1 · Memory Arrays and Expansion · 寻址与容量",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Memory Organization and Technologies",
+      "status": "restored",
+      "target_section": "3 · SRAM DRAM and ROM · 保存机制决定操作",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "source_section": "SRAM Mechanism · SRAM 机制",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "3 · SRAM DRAM and ROM · 保存机制决定操作",
+      "target_subsection": "SRAM Mechanism · SRAM 机制",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "source_section": "DRAM Mechanism · DRAM 机制",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "3 · SRAM DRAM and ROM · 保存机制决定操作",
+      "target_subsection": "DRAM Mechanism · DRAM 机制",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "source_section": "ROM and Reprogramming · ROM 与重写",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "3 · SRAM DRAM and ROM · 保存机制决定操作",
+      "target_subsection": "ROM and Reprogramming · ROM 与重写",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "source_section": "Worked Examples and Review · 例题与复习",
+      "target": "Memory Organization and Technologies",
+      "status": "covered",
+      "target_section": "4 · 从物理存储到功能模型",
+      "target_subsection": "Worked Examples and Review · 例题与复习",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "source_section": "Connections · 相关笔记",
+      "target": "Memory Organization and Technologies",
+      "status": "restored",
+      "target_section": "3 · SRAM DRAM and ROM · 保存机制决定操作",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Programmable Logic and FPGA",
+      "status": "restored",
+      "target_section": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "source_section": "Derivation · ROM 编程表",
+      "target": "Programmable Logic and FPGA",
+      "status": "covered",
+      "target_section": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积",
+      "target_subsection": "Derivation · ROM 编程表",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "source_section": "Worked Example · PLA 共享乘积",
+      "target": "Programmable Logic and FPGA",
+      "status": "covered",
+      "target_section": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积",
+      "target_subsection": "Worked Example · PLA 共享乘积",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "source_section": "ROM versus PLA versus LUT · 对比",
+      "target": "Programmable Logic and FPGA",
+      "status": "covered",
+      "target_section": "2 · LUT：查表实现组合逻辑",
+      "target_subsection": "ROM versus PLA versus LUT · 对比",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "Programmable Logic and FPGA",
+      "status": "restored",
+      "target_section": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "source_section": "Connections · 相关笔记",
+      "target": "Programmable Logic and FPGA",
+      "status": "restored",
+      "target_section": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "source_section": "Core Definition · 核心定义",
+      "target": "Programmable Logic and FPGA",
+      "status": "restored",
+      "target_section": "3 · Field-Programmable Gate Array · 从函数到物理实现",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "source_section": "Design Flow · 设计流程",
+      "target": "Programmable Logic and FPGA",
+      "status": "covered",
+      "target_section": "3 · Field-Programmable Gate Array · 从函数到物理实现",
+      "target_subsection": "Design Flow · 设计流程",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "source_section": "Worked Example · 四位 enabled register",
+      "target": "Programmable Logic and FPGA",
+      "status": "covered",
+      "target_section": "3 · Field-Programmable Gate Array · 从函数到物理实现",
+      "target_subsection": "Worked Example · 四位 enabled register",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "source_section": "Constraints and Interfaces · 约束与接口",
+      "target": "Programmable Logic and FPGA",
+      "status": "covered",
+      "target_section": "4 · 约束与可靠运行",
+      "target_subsection": "Constraints and Interfaces · 约束与接口",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "source_section": "Practical Review · 实践与复习",
+      "target": "Programmable Logic and FPGA",
+      "status": "covered",
+      "target_section": "4 · 约束与可靠运行",
+      "target_subsection": "Practical Review · 实践与复习",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "source_section": "Connections · 相关笔记",
+      "target": "Programmable Logic and FPGA",
+      "status": "restored",
+      "target_section": "3 · Field-Programmable Gate Array · 从函数到物理实现",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Core Definition · 核心定义",
+      "target": "VHDL Modeling and Verification",
+      "status": "restored",
+      "target_section": "1 · VHDL Language and Modeling · 接口与实现",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Types and Operators · 类型与运算",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "1 · VHDL Language and Modeling · 接口与实现",
+      "target_subsection": "Types and Operators · 类型与运算",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Concurrent and Sequential Semantics · 并发与顺序语义",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "2 · 并发、过程与更新时机",
+      "target_subsection": "Concurrent and Sequential Semantics · 并发与顺序语义",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Combinational versus Clocked Process · 组合与时钟过程",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "3 · 组合与时钟建模",
+      "target_subsection": "Combinational versus Clocked Process · 组合与时钟过程",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Reset Examples · 复位例题",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "3 · 组合与时钟建模",
+      "target_subsection": "Reset Examples · 复位例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Worked Examples · 例题",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "5 · 断言、采样与覆盖",
+      "target_subsection": "Worked Examples · 例题",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Coding Review and Boundaries · 编写检查与边界",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "3 · 组合与时钟建模",
+      "target_subsection": "Coding Review and Boundaries · 编写检查与边界",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "source_section": "Exam English and Connections · 答题与关联",
+      "target": "VHDL Modeling and Verification",
+      "status": "restored",
+      "target_section": "5 · 断言、采样与覆盖",
+      "target_subsection": "Exam English and Connections · 答题与关联",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "source_section": "Core Definition · 核心定义",
+      "target": "VHDL Modeling and Verification",
+      "status": "restored",
+      "target_section": "4 · Testbench and Functional Verification · 规范作为独立参照",
+      "target_subsection": "Core Definition · 核心定义",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "source_section": "Complete Minimal Example · 完整小型例子",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "4 · Testbench and Functional Verification · 规范作为独立参照",
+      "target_subsection": "Complete Minimal Example · 完整小型例子",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "source_section": "Trace and Coverage · 波形与覆盖",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "5 · 断言、采样与覆盖",
+      "target_subsection": "Trace and Coverage · 波形与覆盖",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "source_section": "Test Dimensions · 测试维度",
+      "target": "VHDL Modeling and Verification",
+      "status": "covered",
+      "target_section": "5 · 断言、采样与覆盖",
+      "target_subsection": "Test Dimensions · 测试维度",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "source_section": "Method and Exam English · 方法与答题",
+      "target": "VHDL Modeling and Verification",
+      "status": "restored",
+      "target_section": "4 · Testbench and Functional Verification · 规范作为独立参照",
+      "target_subsection": "Method and Exam English · 方法与答题",
+      "coverage_note": "补回此前省略的完整定义/条件/方法/误区/英文答句，放在本主题对应小节；无新增备份附录。"
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "source_section": "Connections · 相关笔记",
+      "target": "VHDL Modeling and Verification",
+      "status": "restored",
+      "target_section": "4 · Testbench and Functional Verification · 规范作为独立参照",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "source_section": "Specification and Boundary · 规范与边界",
+      "target": "Structural Shift Register Project",
+      "status": "corrected",
+      "target_section": "1 · 规范先写成位方程",
+      "target_subsection": "Specification and Boundary · 规范与边界",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。明确现有代码仅四位双向每拍移位+高有效异步复位；hold/load 是扩展，验证不假设其存在。"
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "source_section": "Reusable DFF · 基础触发器",
+      "target": "Structural Shift Register Project",
+      "status": "covered",
+      "target_section": "2 · 复用 DFF 与连接顶层",
+      "target_subsection": "Reusable DFF · 基础触发器",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "source_section": "Structural Top Level · 结构化顶层",
+      "target": "Structural Shift Register Project",
+      "status": "covered",
+      "target_section": "2 · 复用 DFF 与连接顶层",
+      "target_subsection": "Structural Top Level · 结构化顶层",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "source_section": "Worked Example · 从零串入后反向",
+      "target": "Structural Shift Register Project",
+      "status": "covered",
+      "target_section": "3 · 运行轨迹与独立验证",
+      "target_subsection": "Worked Example · 从零串入后反向",
+      "coverage_note": "原稿内容已在当前对应正文/本节折叠推导例题中保留。"
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "source_section": "Verification Plan · 验证路径",
+      "target": "Structural Shift Register Project",
+      "status": "corrected",
+      "target_section": "3 · 运行轨迹与独立验证",
+      "target_subsection": "Verification Plan · 验证路径",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。明确现有代码仅四位双向每拍移位+高有效异步复位；hold/load 是扩展，验证不假设其存在。"
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "source_section": "Pitfalls and Exam English · 误区与答题",
+      "target": "Structural Shift Register Project",
+      "status": "covered",
+      "target_section": "4 · 综合与实现",
+      "target_subsection": "Pitfalls and Exam English · 误区与答题",
+      "coverage_note": "内容原已保留；从折叠例题提升为对应正文的规则/表格/边界，逐行内容保持。"
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "source_section": "Connections · 相关笔记",
+      "target": "Structural Shift Register Project",
+      "status": "restored",
+      "target_section": "1 · 规范先写成位方程",
+      "target_subsection": "Connections · 概念关系与应用",
+      "coverage_note": "原关系中的所有链接改为 canonical+对应主小节，按先修、实现与应用写为本地说明。"
+    }
+  ],
+  "actions": [
+    {
+      "source": "Half Adder and Full Adder",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 1
+    },
+    {
+      "source": "Half Adder and Full Adder",
+      "heading": "Derivation · 推导",
+      "action": "promote",
+      "target": "Binary Arithmetic Circuits",
+      "section": 1
+    },
+    {
+      "source": "Half Adder and Full Adder",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 1
+    },
+    {
+      "source": "Half Adder and Full Adder",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 1
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 2
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "heading": "Method and Exam English · 求解与答题",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 2
+    },
+    {
+      "source": "Ripple Carry and Carry Look-Ahead Adders",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 2
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 3
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "heading": "Derivation · 推导",
+      "action": "promote",
+      "target": "Binary Arithmetic Circuits",
+      "section": 3
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "heading": "Pitfalls and Review · 易错点与复习",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 3
+    },
+    {
+      "source": "Binary Subtractors and Adder-Subtractors",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 3
+    },
+    {
+      "source": "Combinational Multiplier",
+      "heading": "Core Definition and Derivation · 定义与推导",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 4
+    },
+    {
+      "source": "Combinational Multiplier",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Binary Arithmetic Circuits",
+      "section": 4
+    },
+    {
+      "source": "Magnitude Comparator",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 1
+    },
+    {
+      "source": "Magnitude Comparator",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 1
+    },
+    {
+      "source": "Magnitude Comparator",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 1
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 3
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "heading": "Pitfalls and Review · 易错点与复习",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 3
+    },
+    {
+      "source": "Encoder and Priority Encoder",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 3
+    },
+    {
+      "source": "Decoder",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 2
+    },
+    {
+      "source": "Decoder",
+      "heading": "Enable and Pin Constraints · 使能与引脚条件",
+      "action": "promote",
+      "target": "Comparison Decoding and Selection",
+      "section": 2
+    },
+    {
+      "source": "Decoder",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 2
+    },
+    {
+      "source": "Decoder",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 2
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 4
+    },
+    {
+      "source": "Multiplexer and Demultiplexer",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Comparison Decoding and Selection",
+      "section": 4
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Seven-Segment Display and Code Conversion",
+      "section": 1
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "heading": "Truth Table and Polarity · 真值表与极性",
+      "action": "promote",
+      "target": "Seven-Segment Display and Code Conversion",
+      "section": 1
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "heading": "Assumptions and Validity · 适用前提",
+      "action": "restore",
+      "target": "Seven-Segment Display and Code Conversion",
+      "section": 1
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "heading": "Derivation · 从字形表到逻辑与控制",
+      "action": "promote",
+      "target": "Seven-Segment Display and Code Conversion",
+      "section": 2
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "heading": "English Exam Q&A · 英文答题训练",
+      "action": "restore",
+      "target": "Seven-Segment Display and Code Conversion",
+      "section": 4
+    },
+    {
+      "source": "Seven-Segment Display and Code Conversion",
+      "heading": "Method and Review · 复习检查",
+      "action": "restore",
+      "target": "Seven-Segment Display and Code Conversion",
+      "section": 1
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "heading": "Core Definition and Validity · 定义与条件",
+      "action": "restore",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "section": 1
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "heading": "Pitfalls and Review · 易错点与复习",
+      "action": "restore",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "section": 1
+    },
+    {
+      "source": "Tri-State Buffers and Bus Drivers",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "section": 1
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Propagation Delay and Logic Hazards",
+      "section": 1
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "heading": "Method and Exam English · 方法与英文",
+      "action": "restore",
+      "target": "Propagation Delay and Logic Hazards",
+      "section": 1
+    },
+    {
+      "source": "Propagation Delay and Logic Hazards",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Propagation Delay and Logic Hazards",
+      "section": 1
+    },
+    {
+      "source": "Sequential Logic",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 1
+    },
+    {
+      "source": "Sequential Logic",
+      "heading": "Assumptions and Limits · 条件与边界",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 1
+    },
+    {
+      "source": "Sequential Logic",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 1
+    },
+    {
+      "source": "Sequential Logic",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 1
+    },
+    {
+      "source": "Set-Reset Latch",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 2
+    },
+    {
+      "source": "Set-Reset Latch",
+      "heading": "NAND Variant · NAND 型",
+      "action": "promote",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 2
+    },
+    {
+      "source": "Set-Reset Latch",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 2
+    },
+    {
+      "source": "Set-Reset Latch",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 2
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 3
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "heading": "Comparison · 对比",
+      "action": "promote",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 3
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "heading": "Assumptions and Pitfalls · 条件与误区",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 3
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "heading": "Exam English · 英文答题",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 3
+    },
+    {
+      "source": "D Latch and D Flip-Flop",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 3
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "heading": "Core Definition and Derivation · 定义与推导",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 4
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "heading": "Excitation Table · 激励表",
+      "action": "promote",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 4
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "heading": "Conversion · 元件转换",
+      "action": "promote",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 4
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 4
+    },
+    {
+      "source": "JK and T Flip-Flops",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 4
+    },
+    {
+      "source": "Register Enable and Reset",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 5
+    },
+    {
+      "source": "Register Enable and Reset",
+      "heading": "Reset and Set · 复位与置位",
+      "action": "promote",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 5
+    },
+    {
+      "source": "Register Enable and Reset",
+      "heading": "Timing Boundary · 时序边界",
+      "action": "promote",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 5
+    },
+    {
+      "source": "Register Enable and Reset",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 5
+    },
+    {
+      "source": "Register Enable and Reset",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Sequential Logic and Flip-Flops",
+      "section": 5
+    },
+    {
+      "source": "Shift Registers",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Shift Registers and Ring Counters",
+      "section": 1
+    },
+    {
+      "source": "Shift Registers",
+      "heading": "Derivation · Universal register",
+      "action": "promote",
+      "target": "Shift Registers and Ring Counters",
+      "section": 1
+    },
+    {
+      "source": "Shift Registers",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Shift Registers and Ring Counters",
+      "section": 1
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "heading": "Core Definition and Model · 定义与模型",
+      "action": "restore",
+      "target": "Shift Registers and Ring Counters",
+      "section": 3
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Shift Registers and Ring Counters",
+      "section": 3
+    },
+    {
+      "source": "Ring and Johnson Counters",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Shift Registers and Ring Counters",
+      "section": 3
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "One-Shots and Pulse Applications",
+      "section": 1
+    },
+    {
+      "source": "One-Shots and Pulse Applications",
+      "heading": "Exam English and Connections · 答题与关联",
+      "action": "restore",
+      "target": "One-Shots and Pulse Applications",
+      "section": 1
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Keyboard Scanning and Encoding",
+      "section": 1
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "heading": "Mechanism · 扫描机制",
+      "action": "promote",
+      "target": "Keyboard Scanning and Encoding",
+      "section": 1
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "heading": "Debounce and Capture · 去抖与捕获",
+      "action": "promote",
+      "target": "Keyboard Scanning and Encoding",
+      "section": 3
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "heading": "Multi-key Boundary · 多键边界",
+      "action": "promote",
+      "target": "Keyboard Scanning and Encoding",
+      "section": 4
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "heading": "Exam English and Review · 答题与复习",
+      "action": "restore",
+      "target": "Keyboard Scanning and Encoding",
+      "section": 1
+    },
+    {
+      "source": "Keyboard Scanning and Encoding",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Keyboard Scanning and Encoding",
+      "section": 1
+    },
+    {
+      "source": "Finite State Machine",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 1
+    },
+    {
+      "source": "Finite State Machine",
+      "heading": "State Meaning and Completeness · 状态含义与完备性",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 1
+    },
+    {
+      "source": "Finite State Machine",
+      "heading": "Assumptions and Pitfalls · 条件与误区",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 1
+    },
+    {
+      "source": "Finite State Machine",
+      "heading": "Exam English · 英文答题",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 1
+    },
+    {
+      "source": "Finite State Machine",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 1
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 2
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "heading": "Output Timing · 输出时间对齐",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 2
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "heading": "Tradeoffs · 取舍",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 2
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 2
+    },
+    {
+      "source": "Moore and Mealy Machines",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 2
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "heading": "Core Definition and Derivation · 定义与推导",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 3
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "heading": "Don't-Care Policy · 无关项策略",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 3
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 3
+    },
+    {
+      "source": "State Encoding and Unused States",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 3
+    },
+    {
+      "source": "Sequence Detector",
+      "heading": "Specification · 明确规范",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 4
+    },
+    {
+      "source": "Sequence Detector",
+      "heading": "Encoded Equations · 编码方程",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 4
+    },
+    {
+      "source": "Sequence Detector",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 4
+    },
+    {
+      "source": "Sequence Detector",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 4
+    },
+    {
+      "source": "Traffic Light Controller",
+      "heading": "Specification · 规范与模型边界",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 5
+    },
+    {
+      "source": "Traffic Light Controller",
+      "heading": "Transition Table · 转换表",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 5
+    },
+    {
+      "source": "Traffic Light Controller",
+      "heading": "Derivation · 编码与输出",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 5
+    },
+    {
+      "source": "Traffic Light Controller",
+      "heading": "Timer Extension · 定时器扩展",
+      "action": "promote",
+      "target": "Finite State Machine Design and Applications",
+      "section": 5
+    },
+    {
+      "source": "Traffic Light Controller",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 5
+    },
+    {
+      "source": "Traffic Light Controller",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Finite State Machine Design and Applications",
+      "section": 5
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "heading": "Definitions and Assumptions · 定义与假设",
+      "action": "promote",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "section": 1
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "section": 1
+    },
+    {
+      "source": "Setup and Hold Timing",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "section": 1
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "section": 3
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "heading": "Validity Boundaries · 适用边界",
+      "action": "promote",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "section": 4
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "section": 3
+    },
+    {
+      "source": "Metastability and Clock Domain Crossing",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "section": 3
+    },
+    {
+      "source": "Counters",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Counter Design and Digital Clocks",
+      "section": 1
+    },
+    {
+      "source": "Counters",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Counter Design and Digital Clocks",
+      "section": 1
+    },
+    {
+      "source": "Counters",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Counter Design and Digital Clocks",
+      "section": 1
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "heading": "Design Method · 设计方法",
+      "action": "promote",
+      "target": "Counter Design and Digital Clocks",
+      "section": 2
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "heading": "JK Design · JK 设计细节",
+      "action": "promote",
+      "target": "Counter Design and Digital Clocks",
+      "section": 2
+    },
+    {
+      "source": "Synchronous Counter Design",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Counter Design and Digital Clocks",
+      "section": 2
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Counter Design and Digital Clocks",
+      "section": 3
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Counter Design and Digital Clocks",
+      "section": 3
+    },
+    {
+      "source": "Cascaded Counters and Digital Clocks",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Counter Design and Digital Clocks",
+      "section": 3
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Memory Organization and Technologies",
+      "section": 1
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "heading": "Width Expansion · 位宽扩展",
+      "action": "promote",
+      "target": "Memory Organization and Technologies",
+      "section": 2
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "heading": "Depth Expansion · 深度扩展",
+      "action": "promote",
+      "target": "Memory Organization and Technologies",
+      "section": 2
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "heading": "Interface and Timing · 接口与时序",
+      "action": "promote",
+      "target": "Memory Organization and Technologies",
+      "section": 4
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "heading": "Method and Review · 方法与复习",
+      "action": "restore",
+      "target": "Memory Organization and Technologies",
+      "section": 1
+    },
+    {
+      "source": "Memory Arrays and Expansion",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Memory Organization and Technologies",
+      "section": 1
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Memory Organization and Technologies",
+      "section": 3
+    },
+    {
+      "source": "SRAM DRAM and ROM",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Memory Organization and Technologies",
+      "section": 3
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Programmable Logic and FPGA",
+      "section": 1
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "heading": "ROM versus PLA versus LUT · 对比",
+      "action": "promote",
+      "target": "Programmable Logic and FPGA",
+      "section": 2
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "Programmable Logic and FPGA",
+      "section": 1
+    },
+    {
+      "source": "Read-Only Memory and Programmable Logic Arrays",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Programmable Logic and FPGA",
+      "section": 1
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "Programmable Logic and FPGA",
+      "section": 3
+    },
+    {
+      "source": "Field-Programmable Gate Array",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Programmable Logic and FPGA",
+      "section": 3
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "VHDL Modeling and Verification",
+      "section": 1
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "heading": "Types and Operators · 类型与运算",
+      "action": "promote",
+      "target": "VHDL Modeling and Verification",
+      "section": 1
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "heading": "Coding Review and Boundaries · 编写检查与边界",
+      "action": "promote",
+      "target": "VHDL Modeling and Verification",
+      "section": 3
+    },
+    {
+      "source": "VHDL Language and Modeling",
+      "heading": "Exam English and Connections · 答题与关联",
+      "action": "restore",
+      "target": "VHDL Modeling and Verification",
+      "section": 5
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "heading": "Core Definition · 核心定义",
+      "action": "restore",
+      "target": "VHDL Modeling and Verification",
+      "section": 4
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "heading": "Test Dimensions · 测试维度",
+      "action": "promote",
+      "target": "VHDL Modeling and Verification",
+      "section": 5
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "heading": "Method and Exam English · 方法与答题",
+      "action": "restore",
+      "target": "VHDL Modeling and Verification",
+      "section": 4
+    },
+    {
+      "source": "Testbench and Functional Verification",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "VHDL Modeling and Verification",
+      "section": 4
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "heading": "Specification and Boundary · 规范与边界",
+      "action": "promote",
+      "target": "Structural Shift Register Project",
+      "section": 1
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "heading": "Verification Plan · 验证路径",
+      "action": "promote",
+      "target": "Structural Shift Register Project",
+      "section": 3
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "heading": "Pitfalls and Exam English · 误区与答题",
+      "action": "promote",
+      "target": "Structural Shift Register Project",
+      "section": 4
+    },
+    {
+      "source": "Structural Shift Register Project",
+      "heading": "Connections · 相关笔记",
+      "action": "restore",
+      "target": "Structural Shift Register Project",
+      "section": 1
+    }
+  ]
+}

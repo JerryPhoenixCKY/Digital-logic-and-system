@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "independent_assertions": 10770,
+  "scope": "gate/arithmetic, multiplier, counter/FSM state equations, bidirectional shift, initialization, CRC conventions, timing and capacity examples",
+  "hdl_simulation": false
+}

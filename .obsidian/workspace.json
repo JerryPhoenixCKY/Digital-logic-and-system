@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "256cf291fc0c7a53",
+    "type": "split",
+    "children": [
+      {
+        "id": "b83fb7456c7837fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03b696475ec3712d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "36274f548808e868",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c3a62490e8633be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9381c9725ff91910",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a9614e3c1faae206",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "2a3987a6d7e6eb3e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "right": {
+    "id": "bd5047b180730794",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e85a102a234d26e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e284adb6969308c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/ECE2050 Knowledge Tree.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "6529479e1b57bded",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "b521b601701a5a00",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f8bbd2880d106f19",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "359dc49ea0a13ad7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Propagation Delay and Logic Hazards.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "0811a2397b1ff990",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "71f48067301a9db9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-importer:导入笔记": false
+    }
+  },
+  "active": "03b696475ec3712d",
+  "lastOpenFiles": [
+    "Notes/ECE2050.1.md",
+    "Notes/Tri-State Buffers and Bus Drivers.md",
+    "Notes/Seven-Segment Display and Code Conversion.md",
+    "Notes/Comparison Decoding and Selection.md",
+    "Notes/Binary Arithmetic Circuits.md",
+    "Notes/Digital Logic Troubleshooting.md",
+    "Notes/Universal Gates and Bubble Pushing.md",
+    "Notes/Combinational Logic Analysis and Design.md",
+    "Notes/Karnaugh Map Minimization.md",
+    "Notes/Logic Gates and Boolean Functions.md",
+    "Notes/Logic Levels and Noise Margins.md",
+    "Notes/Boolean Forms and Algebraic Simplification.md",
+    "midterm review.pdf",
+    "ECE2050期中复习讲座.pptx",
+    "Notes/Boolean Algebra and Circuit Models.md",
+    "Notes/Binary Arithmetic and Signed Representation.md",
+    "Notes/Number Systems and Base Conversion.md",
+    "Notes/Fixed-Point and Floating-Point Numbers.md",
+    "Notes/Data Coding and Character Representation.md",
+    "Notes/Parity and Cyclic Redundancy Checks.md",
+    "Midterm2024withSolutions(1).pdf",
+    "Notes/Midterm Targeted Chapter Review.md",
+    "Notes/Digital Foundations and Waveforms.md",
+    "ECE2050-Chap3.pdf",
+    "Unconfirmed 58947.crdownload",
+    "Midterm2025-spring(1).pdf",
+    "Unconfirmed 983821.crdownload",
+    "Midterm2025-fall(1).pdf",
+    "Unconfirmed 706992.crdownload",
+    "Midterm2026 (1).pdf",
+    "tmp/pdfs/hw3_review/page-8.png",
+    "tmp/pdfs/hw3_review/page-7.png",
+    "tmp/pdfs/hw3_review/page-6.png",
+    "tmp/pdfs/hw3_review/page-5.png",
+    "tmp/pdfs/hw3_review/page-4.png",
+    "tmp/pdfs/hw3_review/page-3.png",
+    "tmp/pdfs/hw3_review/page-2.png",
+    "tmp/pdfs/hw3_review/page-1.png",
+    "tmp/ch7-page21-inspection.png",
+    "tmp/pdfs/midterm/overflow-formula-final.png",
+    "Notes/Midterm Knowledge Outline.md",
+    "Notes/Midterm Practice and Answers.md",
+    "Notes/Midterm Formula Sheet.md",
+    "Notes/Midterm Review Guide.md",
+    "Notes/Exam Review and Problem Solving.md",
+    "Notes/Propagation Delay and Logic Hazards.md"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "notes": {
+    "Number Systems and Base Conversion": {
+      "preserved_main_headings": 6,
+      "preserved_code_blocks": 5,
+      "wikilinks": 49,
+      "before_bytes": 67127,
+      "after_bytes": 80057
+    },
+    "Binary Arithmetic and Signed Representation": {
+      "preserved_main_headings": 6,
+      "preserved_code_blocks": 1,
+      "wikilinks": 29,
+      "before_bytes": 47029,
+      "after_bytes": 58931
+    },
+    "Fixed-Point and Floating-Point Numbers": {
+      "preserved_main_headings": 6,
+      "preserved_code_blocks": 0,
+      "wikilinks": 16,
+      "before_bytes": 24127,
+      "after_bytes": 33108
+    },
+    "Data Coding and Character Representation": {
+      "preserved_main_headings": 6,
+      "preserved_code_blocks": 0,
+      "wikilinks": 25,
+      "before_bytes": 32060,
+      "after_bytes": 41537
+    },
+    "Parity and Cyclic Redundancy Checks": {
+      "preserved_main_headings": 6,
+      "preserved_code_blocks": 0,
+      "wikilinks": 21,
+      "before_bytes": 29810,
+      "after_bytes": 38407
+    }
+  },
+  "math_checks": {
+    "signed_multiply_and_add_sub_overflow_pairs": 5460,
+    "BCD_digit_additions": 200,
+    "Gray_roundtrip_and_cyclic_adjacency": "all codes for widths 1–8",
+    "CRC_examples_and_12_bit_exhaustion": {
+      "single": [
+        12,
+        12
+      ],
+      "odd": [
+        2048,
+        2048
+      ],
+      "short_burst": [
+        43,
+        34
+      ],
+      "double": [
+        66,
+        41
+      ],
+      "even": [
+        2047,
+        1536
+      ],
+      "long_burst": [
+        4052,
+        3550
+      ]
+    },
+    "binary32_encodings": 4,
+    "ASCII_partition": {
+      "printable": 95,
+      "controls": 33
+    }
+  },
+  "errors": []
+}

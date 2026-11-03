@@ -1,0 +1,570 @@
+[
+  {
+    "source": "Digital Abstraction and System Design",
+    "source_heading": "Core Definition · 核心定义",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "1 · Digital Abstraction and System Design · 从电压到信息",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "source_heading": "Assumptions and Validity · 适用前提",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "1 · Digital Abstraction and System Design · 从电压到信息",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "source_heading": "Derivation · 从抽象到系统",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "3 · 从模块到系统：先数据、后控制",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "source_heading": "Worked Examples · 实际例题",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "3 · 从模块到系统：先数据、后控制",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "source_heading": "Method and Review · 方法与复习",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "5 · 重点回忆与下一步",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "source_heading": "Connections · 相关笔记",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "5 · 重点回忆与下一步",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Waveforms",
+    "source_heading": "Core Definition · 核心定义",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "2 · Digital Waveforms · 再把时间加入模型",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Waveforms",
+    "source_heading": "Derivation and Reading Method · 推导与读图",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "4 · 波形分析：组合区间与时序边沿",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Waveforms",
+    "source_heading": "Worked Examples · 例题",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "4 · 波形分析：组合区间与时序边沿",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Waveforms",
+    "source_heading": "Pitfalls and Exam English · 易错点与英文答题",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "5 · 重点回忆与下一步",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Waveforms",
+    "source_heading": "Connections · 相关笔记",
+    "target": "Digital Foundations and Waveforms",
+    "target_heading": "5 · 重点回忆与下一步",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Core Definition · 核心定义",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Logic Levels and Gate Count · 逻辑级数与门数",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Worked Example 1 · 课件 p.4 的 SOP",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Worked Example 2 · 高有效液位传感器，课件 p.5",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "3 · 先处理极性：储罐报警",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Worked Example 3 · 低有效传感器与 AOI，课件 p.7",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "3 · 先处理极性：储罐报警",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "XOR and XNOR · 异或与同或的边界",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Quick Check · 自检",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Sources · 来源",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "Sources · 课件依据",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "source_heading": "Connections · 相关笔记",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Scope and Model · 范围与模型",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "5 · Combinational Logic Analysis · 从连接恢复函数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Read the Circuit · 电路到方程",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "5 · Combinational Logic Analysis · 从连接恢复函数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Worked Example 1 · 重复支路被吸收，课件 p.18",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "5 · Combinational Logic Analysis · 从连接恢复函数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Worked Example 2 · 四乘积项化为两项，课件 p.19",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "5 · Combinational Logic Analysis · 从连接恢复函数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Bubble Pushing as Analysis · 用气泡推移读混合门",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "5 · Combinational Logic Analysis · 从连接恢复函数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Limits and Common Errors · 边界与误区",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "5 · Combinational Logic Analysis · 从连接恢复函数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Exam Recall · 英文答题与复习",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "5 · Combinational Logic Analysis · 从连接恢复函数",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Sources · 来源",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "Sources · 课件依据",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "source_heading": "Connections · 相关笔记",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Core Definition · 核心定义",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "1 · Combinational Logic Design · 需求先于门",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Derivation · 规范到方程",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "1 · Combinational Logic Design · 需求先于门",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Worked Example 1 · 储罐报警",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "3 · 先处理极性：储罐报警",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Worked Example 2 · 恰好四个输入中的三个为 1，课件 p.17",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "4 · 精确处理量词：四个输入中恰好三个为 1",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Worked Example 3 · 同时四位中的模式",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "6 · 更一般的分类与匹配",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Worked Example 4 · 五位分类",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "6 · 更一般的分类与匹配",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Priority and Don't-Cares · 优先级与无关项，课件 p.20–22",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Chapter Quiz · 课件 p.33 判断题复习",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Pitfalls and Review · 误区与复习",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Connections · 相关笔记",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "7 · 验证、实现与易错重点",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Combinational Logic Design",
+    "source_heading": "Sources · 来源",
+    "target": "Combinational Logic Analysis and Design",
+    "target_heading": "Sources · 课件依据",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Core Definition · 核心定义",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "1 · 功能完备：先构成 NOT、AND、OR",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Derivation · 基本构造",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "1 · 功能完备：先构成 NOT、AND、OR",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Bubble Pushing · 气泡推移",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "3 · Bubble Pushing · 全部气泡同步移动",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Worked Examples · 例题",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "2 · 从标准形式选择实现",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Worked Example 4 · 三级门链，课件 p.30–31",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "4 · 三级门链：从输出向输入化简",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Method and Exam English · 方法与答题",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "5 · 重点检查",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Connections · 相关笔记",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "5 · 重点检查",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "source_heading": "Sources · 来源",
+    "target": "Universal Gates and Bubble Pushing",
+    "target_heading": "Sources · 课件依据",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Core Definition · 核心定义",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "1 · 故障模型：先解释实际电压",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Assumptions and Validity · 模型与适用条件",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "1 · 故障模型：先解释实际电压",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Derivation · 故障激活与传播",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "2 · 激活后再传播",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Worked Example 1 · AND–OR 网络的测试向量",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "3 · 从函数选择有区分力的测试",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Worked Example 2 · MUX 的选择故障",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "3 · 从函数选择有区分力的测试",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Worked Example 3 · 显示与转换器的故障症状",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "4 · 从输出症状到内部测量",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Method and Steps · 实际排查流程",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "5 · 排查与验收",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Common Errors · 常见误区",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "5 · 排查与验收",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "English Exam Q&A · 英文答题训练",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "5 · 排查与验收",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "source_heading": "Method and Review · 复习检查",
+    "target": "Digital Logic Troubleshooting",
+    "target_heading": "5 · 排查与验收",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Core Definition · 核心目标",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "1 · 用先修链组织复习",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Learning Path · 按先修关系复习",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "1 · 用先修链组织复习",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Read the Question · 先把题意变成约束",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "2 · 读题先标六项约束",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Number Problems · 数制与算术题",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "3 · 数制、算术与表示",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Boolean Forms and K-maps · 标准式与卡诺图",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "4 · 布尔与组合设计",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Gate and Block Implementation · 门与功能块实现",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "4 · 布尔与组合设计",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Timing Problems · 时序约束题",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "5 · 时序、状态与计数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "State Tracing and FSM Design · 状态追踪与状态机设计",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "5 · 时序、状态与计数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Counter and ROM Problems · 计数器与查表存储",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "5 · 时序、状态与计数",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "VHDL Problems · 从行为到硬件",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "6 · 存储与 HDL",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Checking Reference Solutions · 如何使用参考答案",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "7 · 重点自查与答句",
+    "status": "preserved",
+    "detail": "Original detailed derivation, example, figure or special discussion remains in the matching section."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "English Exam Q&A · 常用完整答句",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "7 · 重点自查与答句",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "source_heading": "Method and Review · 考前自查",
+    "target": "Exam Review and Problem Solving",
+    "target_heading": "7 · 重点自查与答句",
+    "status": "restored",
+    "detail": "Merged into visible definitions, conditions, procedure or recall; repeated formulas use the same authoritative explanation."
+  }
+]

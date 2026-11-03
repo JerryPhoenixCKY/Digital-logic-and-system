@@ -1,0 +1,90 @@
+========== PAGE 1 ==========
+ECE2050 Digital Logic and Systems
+Tutorial 1
+Xuanyu Chen 
+224010209@link.cuhk.edu.cn
+2025.09
+
+
+========== PAGE 2 ==========
+Review Analog & Digital Signal
+Q1: Differences between digital & analog quantities? 
+A1: 1. analog: natural, continuous, infinite; 
+2. digital: finite, discrete. 
+Q2: Advantages of digital signal? 
+A2:  1. process, store, and transmit data more efficiently and reliably; 
+             2. noise-resistant 
+Applications:
+Digital: CPU GPU DSP MCU SoC ASIC FPGA
+Analog: Power supply ADC DAC Interface
+
+========== PAGE 3 ==========
+Review Pulse waveform
+1. Rise time: The time required for a pulse to go from its LOW level to its HIGH 
+level. (common to measure from 10% to 90% of amplitude) 
+2. Fall time: the time required for the transition from the HIGH level to the LOW 
+level. (common to measure from 90% to 10% of amplitude) 
+3. Pulse width: a measure of the duration of the pulse. (often defined as the time 
+interval between the 50% points on the rising and falling edges) 
+4. Amplitude: the magnitude or intensity of the signal waveform measured in volts 
+or amps
+5. Frequency: the rate at which it repeats itself and is measured in hertz (Hz).. 
+6. Period: the length of time that the waveform takes to repeat itself from start to 
+finish 
+7. Duty cycle: the ratio of the pulse width ( ) to the period (T).𝑡𝑊
+
+========== PAGE 4 ==========
+Review Pulse waveform
+Q3:
+A3:
+
+========== PAGE 5 ==========
+Review Binary Values
+No overlap: > 
+
+========== PAGE 6 ==========
+Basic Logic Functions of NOT, AND, and OR 
+• Logic gate : A circuit that performs a specified logic function
+NOT A--- 
+AND
+OR
+A·B
+A+B
+
+========== PAGE 7 ==========
+Number system and Some Basic Units
+Decima
+l 
+Binary Octal Hex
+0 0000 00 0
+1 0001 01 1
+2 0010 02 2
+3 0011 03 3
+4 0100 04 4
+5 0101 05 5
+6 0110 06 6
+7 0111 07 7
+8 1000 10 8
+9 1001 11 9
+Decima
+l
+Binary Octal Hex
+10 1010 12 A
+11 1011 13 B
+12 1100 14 C
+13 1101 15 D
+14 1110 16 E
+15 1111 17 F
+
+========== PAGE 8 ==========
+Number system and Some Basic Units
+ms (millisecond):  1ms=s
+(microsecond):  1=s
+ns  (nanosecond):  1ns=s
+ps (picosecond): 1ps=s
+
+========== PAGE 9 ==========
+Q&A
+
+========== PAGE 10 ==========
+Thank You!

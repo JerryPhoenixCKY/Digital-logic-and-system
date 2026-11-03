@@ -1,0 +1,3 @@
+APPLICATION/REVIEW CHECKS PASSED: 535 assertions
+Coverage: all 100 BCD pairs; segment/invalid rows; complete fault vectors;
+canonical/K-map equivalence; word matching; state cycles; timing; ROM; CRC; links.

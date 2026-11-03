@@ -1,0 +1,3161 @@
+{
+  "scope": "Ch3 and Ch4: 25 original notes into 5 canonical notes",
+  "files": [
+    "Logic Gates and Boolean Functions.md",
+    "Logic Levels and Noise Margins.md",
+    "Boolean Algebra and Circuit Models.md",
+    "Boolean Forms and Algebraic Simplification.md",
+    "Karnaugh Map Minimization.md"
+  ],
+  "records": [
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "门的分类、符号与描述方式 (classification and representations)",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "区分负逻辑与active-low；输入数分类非数学硬限制；输出1数量只是认门线索；多输入=1与奇数性区分。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "门的分类、符号与描述方式 (classification and representations)",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "区分负逻辑与active-low；输入数分类非数学硬限制；输出1数量只是认门线索；多输入=1与奇数性区分。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "当前该H2内同名折叠“Logic Gates · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "① 为什么 $n$ 个输入正好有 $2^n$ 种组合",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "当前该H2内同名折叠“Logic Gates · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "② 三种描述方式其实是一件事",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "当前该H2内同名折叠“Logic Gates · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "③ 表的行按二进制顺序列出（讲义 p.13）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "当前该H2内同名折叠“Logic Gates · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "④ 气泡与\"怎么验证\"（讲义 p.8–9 的 How to verify/prove?）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "当前该H2内同名折叠“Logic Gates · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "门的分类、符号与描述方式 (classification and representations)",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "区分负逻辑与active-low；输入数分类非数学硬限制；输出1数量只是认门线索；多输入=1与奇数性区分。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "当前该H2内同名折叠“Logic Gates · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "门的分类、符号与描述方式 (classification and representations)",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "区分负逻辑与active-low；输入数分类非数学硬限制；输出1数量只是认门线索；多输入=1与奇数性区分。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Gates as functions and interfaces · 门的功能与接口",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "当前该H2内同名折叠“Logic Gates · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Gates.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "1 · Logic Gates · 统一的布尔模型",
+      "target_section": "1 · Logic Gates · 统一的布尔模型",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Inverter and Buffer · 单输入功能与适用边界",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "实际转换延迟可不对称、改变占空比；电压会连续过渡；两级NOT与专用BUF的功耗/晶体管数不可泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Inverter and Buffer · 单输入功能与适用边界",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "实际转换延迟可不对称、改变占空比；电压会连续过渡；两级NOT与专用BUF的功耗/晶体管数不可泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“Inverter · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "① 真值表为什么只有 2 行",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“Inverter · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "② 两次取反等于原值：$\\overline{\\bar A}=A$",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“Inverter · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "③ 时序图怎么读：理想零延迟 vs 真实延迟",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“Inverter · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Inverter and Buffer · 单输入功能与适用边界",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "实际转换延迟可不对称、改变占空比；电压会连续过渡；两级NOT与专用BUF的功耗/晶体管数不可泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“Inverter · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Inverter and Buffer · 单输入功能与适用边界",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "实际转换延迟可不对称、改变占空比；电压会连续过渡；两级NOT与专用BUF的功耗/晶体管数不可泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Inversion, assertion, and physical delay · 取反、有效状态与延迟",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“Inverter · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Inverter.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "AND Gate · 同时满足、许可与门控",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "固定输入1为AND恒等许可，原稿说不能让输入不限制其余条件过度绝对。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "AND Gate · 同时满足、许可与门控",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "固定输入1为AND恒等许可，原稿说不能让输入不限制其余条件过度绝对。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“AND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "① 从\"当且仅当\"导出 4 行真值表",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“AND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "② $n$ 输入推广：$Y=A\\cdot B\\cdot C\\cdots$，行数 $2^n$，只有全 1 那行是 1",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“AND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "③ 门控 (gating)：为什么它真的是一扇\"门\"",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“AND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "AND Gate · 同时满足、许可与门控",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "固定输入1为AND恒等许可，原稿说不能让输入不限制其余条件过度绝对。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“AND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "AND Gate · 同时满足、许可与门控",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "固定输入1为AND恒等许可，原稿说不能让输入不限制其余条件过度绝对。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Qualified conditions and enables · 条件许可与使能",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“AND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "AND Gate.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "OR Gate · 包含或与控制值",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "包含或与恰好一个/奇数性区分；与AND是对偶而非输出互补。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "OR Gate · 包含或与控制值",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "包含或与恰好一个/奇数性区分；与AND是对偶而非输出互补。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "① 从\"任一为 1\"导出 4 行真值表",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "② $n$ 输入推广：$Y=A+B+C+\\cdots$，行数 $2^n$，只有全 0 行是 0",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "③ 对偶性：AND 的\"零元\"与 OR 的\"壹元\"",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "④ 时序图怎么读",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "OR Gate · 包含或与控制值",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "包含或与恰好一个/奇数性区分；与AND是对偶而非输出互补。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "OR Gate · 包含或与控制值",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "包含或与恰好一个/奇数性区分；与AND是对偶而非输出互补。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Inclusive OR in specifications · 题目中的包含或",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "当前该H2内同名折叠“OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "OR Gate.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "target_section": "2 · Inverter, AND Gate and OR Gate · 三种基本运算",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NAND Gate · 先与后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "不重不漏的真值表排序均合法；单输入退化有数学定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NAND Gate · 先与后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "不重不漏的真值表排序均合法；单输入退化有数学定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NAND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "① 从 AND 出发接一个反相器",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NAND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "② 逐行穷举 (perfect induction)",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NAND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "③ 用德摩根定理改写成\"反相输入的 OR\"",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NAND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "④ 工程直觉：为什么数字电路偏爱 NAND",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NAND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NAND Gate · 先与后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "不重不漏的真值表排序均合法；单输入退化有数学定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NAND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NAND Gate · 先与后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "不重不漏的真值表排序均合法；单输入退化有数学定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "NAND as a complete construction set · NAND 的功能完备性",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NAND Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NAND Gate.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NOR Gate · 先或后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "NAND/NOR不是逐行互补；不同实现成本不能无条件泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NOR Gate · 先或后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "NAND/NOR不是逐行互补；不同实现成本不能无条件泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "① 从 OR 出发接一个反相器",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "② 逐行穷举 (perfect induction)",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "③ 德摩根改写：NOR = \"反相输入的 AND\"",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "④ 与 NAND 的对偶 (duality)",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "保留对偶推导，纠正NAND输出逐位取补等于NOR的错误；同输入下NOR列为1000。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "⑤ 工程直觉：为什么 NOR 常被\"NAND + 反相器\"替代",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NOR Gate · 先或后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "NAND/NOR不是逐行互补；不同实现成本不能无条件泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "NOR Gate · 先或后取补",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "NAND/NOR不是逐行互补；不同实现成本不能无条件泛化。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "NOR implementation and zero conditions · NOR 实现与零条件",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "当前该H2内同名折叠“NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "NOR Gate.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "target_section": "3 · NAND Gate and NOR Gate · 输出取补与气泡",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-OR Gate · 模2加法、受控反相与奇数性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "多输入恰好一个与奇数性区分；原稿三者只在11分歧的说法对XNOR并不成立，改为完整表与各定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-OR Gate · 模2加法、受控反相与奇数性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "多输入恰好一个与奇数性区分；原稿三者只在11分歧的说法对XNOR并不成立，改为完整表与各定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "① 从真值表写出 $Y=A\\bar B+\\bar AB$",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "② 另一种等价写法：$A\\oplus B=(A+B)\\overline{AB}$",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "③ 多输入推广：奇数个 1 → 1",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "④ XOR 的代数性质（都能用真值表一行行验证）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "⑤ 应用：XOR 把两个比特\"相加\"（讲义 p.11）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-OR Gate · 模2加法、受控反相与奇数性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "多输入恰好一个与奇数性区分；原稿三者只在11分歧的说法对XNOR并不成立，改为完整表与各定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-OR Gate · 模2加法、受控反相与奇数性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "多输入恰好一个与奇数性区分；原稿三者只在11分歧的说法对XNOR并不成立，改为完整表与各定义。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "XOR as difference and controlled inversion · 差异检测与受控取反",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Ch5 Application · 第五章门级应用",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-OR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-OR Gate.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-NOR Gate · 两位相等、偶数性与校验边界",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "区分整体XOR取補与二输入XNOR级联；XNOR可结合但归约极性随输入数变化；校验生成与检查分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-NOR Gate · 两位相等、偶数性与校验边界",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "区分整体XOR取補与二输入XNOR级联；XNOR可结合但归约极性随输入数变化；校验生成与检查分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "① 从 XOR 接一个反相器",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "② 从\"相同为 1\"直接写 SOP",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "③ 代数证明：$\\overline{A\\bar B+\\bar AB}=AB+\\bar A\\bar B$",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "④ 多输入：偶数个 1 → 1",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "⑤ 应用：相等检测器（equality detector）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-NOR Gate · 两位相等、偶数性与校验边界",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "区分整体XOR取補与二输入XNOR级联；XNOR可结合但归约极性随输入数变化；校验生成与检查分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "Exclusive-NOR Gate · 两位相等、偶数性与校验边界",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "区分整体XOR取補与二输入XNOR级联；XNOR可结合但归约极性随输入数变化；校验生成与检查分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Equality versus parity reduction · 相等与偶数重归约",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Ch5 Application · 第五章等价结构与校验边界",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "当前该H2内同名折叠“Exclusive-NOR Gate · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Exclusive-NOR Gate.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Gates and Boolean Functions.md",
+      "target_heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "target_section": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "四个保证边界与电压区间 (guaranteed interface limits)",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "接收范围更宽；未保证区开区间；不兼容意味着不保证非必然失败；保证条件限定；过压容许能力另查。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "四个保证边界与电压区间 (guaranteed interface limits)",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "接收范围更宽；未保证区开区间；不兼容意味着不保证非必然失败；保证条件限定；过压容许能力另查。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "当前该H2内同名折叠“Logic Levels · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "1. 为什么单点不行，必须用区间",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "当前该H2内同名折叠“Logic Levels · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "2. 两个范围之间的缝隙 = 噪声预算",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "当前该H2内同名折叠“Logic Levels · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "3. $V_{DD}$ 缩放：从 5 V 到 1.0 V（讲义 p.21–p.22）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "当前该H2内同名折叠“Logic Levels · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "四个保证边界与电压区间 (guaranteed interface limits)",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "接收范围更宽；未保证区开区间；不兼容意味着不保证非必然失败；保证条件限定；过压容许能力另查。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "当前该H2内同名折叠“Logic Levels · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "四个保证边界与电压区间 (guaranteed interface limits)",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "接收范围更宽；未保证区开区间；不兼容意味着不保证非必然失败；保证条件限定；过压容许能力另查。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Electrical validity and logical assertion · 电气有效与逻辑有效",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "当前该H2内同名折叠“Logic Levels · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Logic Levels.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "1 · Logic Levels · 保证值与接受范围",
+      "target_section": "1 · Logic Levels · 保证值与接受范围",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "VTC读数与模型适用范围 (curve interpretation)",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保证输入阈值/典型单位增益点/VM/晶体管VT分开；反相器为负斜率；缓冲器交点非通用VM；同比缩放需假设。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "VTC读数与模型适用范围 (curve interpretation)",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保证输入阈值/典型单位增益点/VM/晶体管VT分开；反相器为负斜率；缓冲器交点非通用VM；同比缩放需假设。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保留静态模型与数值例，补充轨到轨、对称/线性及单位增益假设；反相器斜率与晶体管VT区分，缓冲器交点非通用VM。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "1. 理想缓冲器：阶跃，两段余量正好铺满 $V_{DD}$",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保留静态模型与数值例，补充轨到轨、对称/线性及单位增益假设；反相器斜率与晶体管VT区分，缓冲器交点非通用VM。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "2. 实际缓冲器：过渡区吃掉一块预算",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保留静态模型与数值例，补充轨到轨、对称/线性及单位增益假设；反相器斜率与晶体管VT区分，缓冲器交点非通用VM。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "3. 增益与过渡带宽度：为什么\"陡\"就是\"抗噪\"",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保留静态模型与数值例，补充轨到轨、对称/线性及单位增益假设；反相器斜率与晶体管VT区分，缓冲器交点非通用VM。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "4. 实际反相器的 VTC 与 $V_M$（讲义 p.20）",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保留静态模型与数值例，补充轨到轨、对称/线性及单位增益假设；反相器斜率与晶体管VT区分，缓冲器交点非通用VM。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "5. $V_{DD}$ 缩放对 VTC 的影响",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保留静态模型与数值例，补充轨到轨、对称/线性及单位增益假设；反相器斜率与晶体管VT区分，缓冲器交点非通用VM。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "VTC读数与模型适用范围 (curve interpretation)",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保证输入阈值/典型单位增益点/VM/晶体管VT分开；反相器为负斜率；缓冲器交点非通用VM；同比缩放需假设。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保留静态模型与数值例，补充轨到轨、对称/线性及单位增益假设；反相器斜率与晶体管VT区分，缓冲器交点非通用VM。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "VTC读数与模型适用范围 (curve interpretation)",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "保证输入阈值/典型单位增益点/VM/晶体管VT分开；反相器为负斜率；缓冲器交点非通用VM；同比缩放需假设。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "What a static curve can establish · 静态曲线能证明什么",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "当前该H2内同名折叠“DC Transfer Characteristic · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "DC Transfer Characteristic.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "target_section": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "噪声来源与两侧预算 (noise sources and polarity)",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "超界为失去保证不等于必定逻辑翻转；噪声预算按方向；IR需电流；跨域保证参数条件各自适用。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "噪声来源与两侧预算 (noise sources and polarity)",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "超界为失去保证不等于必定逻辑翻转；噪声预算按方向；IR需电流；跨域保证参数条件各自适用。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "当前该H2内同名折叠“Noise Margin · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "1. 从讲义 p.17 的例子看\"退化\"与\"读错\"的距离",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "当前该H2内同名折叠“Noise Margin · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "2. 为什么 $NM_H$ 与 $NM_L$ 要分开看",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "当前该H2内同名折叠“Noise Margin · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "3. 两个容限之和与 $V_{DD}$ 的关系",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "当前该H2内同名折叠“Noise Margin · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "4. 相对余量：把 $NM$ 换算成 $V_{DD}$ 的百分比",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "当前该H2内同名折叠“Noise Margin · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "噪声来源与两侧预算 (noise sources and polarity)",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "超界为失去保证不等于必定逻辑翻转；噪声预算按方向；IR需电流；跨域保证参数条件各自适用。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "当前该H2内同名折叠“Noise Margin · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "噪声来源与两侧预算 (noise sources and polarity)",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "超界为失去保证不等于必定逻辑翻转；噪声预算按方向；IR需电流；跨域保证参数条件各自适用。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Noise margins are interface budgets · 噪声容限是接口预算",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "当前该H2内同名折叠“Noise Margin · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Noise Margin.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Logic Levels and Noise Margins.md",
+      "target_heading": "3 · Noise Margin · 接口的预算",
+      "target_section": "3 · Noise Margin · 接口的预算",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完整电路描述、节点与构成条件 (composition)",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "稳态无记忆不等于无动态历史；有反馈不必为稳定存储；区分外部输入与无内部驱动。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完整电路描述、节点与构成条件 (composition)",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "稳态无记忆不等于无动态历史；有反馈不必为稳定存储；区分外部输入与无内部驱动。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "当前该H2内同名折叠“Combinational Circuit · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "1. 先给每个节点找\"驱动者\"",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "当前该H2内同名折叠“Combinational Circuit · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "2. 扇出 (fan-out) 是允许的，两个驱动者是不允许的",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "当前该H2内同名折叠“Combinational Circuit · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "3. 无环 = 无记忆",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "当前该H2内同名折叠“Combinational Circuit · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完整电路描述、节点与构成条件 (composition)",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "稳态无记忆不等于无动态历史；有反馈不必为稳定存储；区分外部输入与无内部驱动。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "当前该H2内同名折叠“Combinational Circuit · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完整电路描述、节点与构成条件 (composition)",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "稳态无记忆不等于无动态历史；有反馈不必为稳定存储；区分外部输入与无内部驱动。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Composition and state boundaries · 构成规则与状态边界",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "当前该H2内同名折叠“Combinational Circuit · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Combinational Circuit.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "target_section": "1 · Combinational Circuit · 先确认可以使用的模型",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "二值命题、运算词典与优先级 (Boolean specification)",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "布尔方程亦可显式描述状态更新；组合规范才限定当前输入；抽查不证明。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "二值命题、运算词典与优先级 (Boolean specification)",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "布尔方程亦可显式描述状态更新；组合规范才限定当前输入；抽查不证明。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "当前该H2内同名折叠“Boolean Equation · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "1. 讲义 p.9：全加器的两个方程，逐项读",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "当前该H2内同名折叠“Boolean Equation · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "2. 从一段文字到方程的四个动作",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "当前该H2内同名折叠“Boolean Equation · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "3. 讲义 p.10–14 的五个例子",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "当前该H2内同名折叠“Boolean Equation · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "二值命题、运算词典与优先级 (Boolean specification)",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "布尔方程亦可显式描述状态更新；组合规范才限定当前输入；抽查不证明。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "当前该H2内同名折叠“Boolean Equation · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "二值命题、运算词典与优先级 (Boolean specification)",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "布尔方程亦可显式描述状态更新；组合规范才限定当前输入；抽查不证明。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Specification before implementation · 方程先描述需求",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "当前该H2内同名折叠“Boolean Equation · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Equation.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "2 · Boolean Equation · 从需求写函数",
+      "target_section": "2 · Boolean Equation · 从需求写函数",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "A1–A5与对偶原理 (axioms and duality)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "表达式可取对偶；恒等式两边取对偶才保证恒等；保留运算树而非简单字符替换。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "公理 A1–A5 及其对偶式（讲义 p.17 原表）",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "A1–A5与对偶原理 (axioms and duality)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "表达式可取对偶；恒等式两边取对偶才保证恒等；保留运算树而非简单字符替换。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "A1–A5与对偶原理 (axioms and duality)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "表达式可取对偶；恒等式两边取对偶才保证恒等；保留运算树而非简单字符替换。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Boolean Axioms · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "1. 为什么只有五条就够",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Boolean Axioms · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "2. 对偶是\"机械替换\"，为什么这样换不会出错",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Boolean Axioms · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "3. 从公理到定理：对偶把定理配对",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Boolean Axioms · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "A1–A5与对偶原理 (axioms and duality)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "表达式可取对偶；恒等式两边取对偶才保证恒等；保留运算树而非简单字符替换。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Boolean Axioms · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "A1–A5与对偶原理 (axioms and duality)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "表达式可取对偶；恒等式两边取对偶才保证恒等；保留运算树而非简单字符替换。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Duality and logical meaning · 对偶与逻辑含义",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Boolean Axioms · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Axioms.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "三条定律与十二规则完整表 (laws and rules)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "补全OR分配律；Rules1–9也可减少文字；合法子式可在横线内替换；POS直接OR→AND。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "三条定律 (laws, 讲义 p.19)",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "三条定律与十二规则完整表 (laws and rules)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "补全OR分配律；Rules1–9也可减少文字；合法子式可在横线内替换；POS直接OR→AND。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "十二条规则 (rules, Floyd 编号)",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "三条定律与十二规则完整表 (laws and rules)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "补全OR分配律；Rules1–9也可减少文字；合法子式可在横线内替换；POS直接OR→AND。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "三条定律与十二规则完整表 (laws and rules)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "补全OR分配律；Rules1–9也可减少文字；合法子式可在横线内替换；POS直接OR→AND。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Laws and Rules of Boolean Algebra · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "1. 规则从公理来：以 Rule 5 ($A+A=A$) 为例",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Laws and Rules of Boolean Algebra · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "2. 为什么 Rule 12 值得单独记",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Laws and Rules of Boolean Algebra · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "3. 布尔加法/乘法的两个\"取值问题\"（讲义 p.18）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Laws and Rules of Boolean Algebra · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "三条定律与十二规则完整表 (laws and rules)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "补全OR分配律；Rules1–9也可减少文字；合法子式可在横线内替换；POS直接OR→AND。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Laws and Rules of Boolean Algebra · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "三条定律与十二规则完整表 (laws and rules)",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "补全OR分配律；Rules1–9也可减少文字；合法子式可在横线内替换；POS直接OR→AND。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Choose the rule by structure · 看结构选择化简规则",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "当前该H2内同名折叠“Laws and Rules of Boolean Algebra · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Laws and Rules of Boolean Algebra.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "target_section": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "横线的范围、门级等价与递归步骤 (DeMorgan method)",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "修正原误区中把正确展开误列为错误、把未覆盖A误取补；一次补得到反函数；当前折叠Example2的011/111两行中间值及011输出错误已直接修正。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "横线的范围、门级等价与递归步骤 (DeMorgan method)",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "修正原误区中把正确展开误列为错误、把未覆盖A误取补；一次补得到反函数；当前折叠Example2的011/111两行中间值及011输出错误已直接修正。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "当前该H2内同名折叠“DeMorgan's Theorems · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "1. 用 perfect induction 证明第一条：$\\overline{XY}=\\bar X+\\bar Y$",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "当前该H2内同名折叠“DeMorgan's Theorems · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "2. 用 perfect induction 证明第二条：$\\overline{X+Y}=\\bar X\\bar Y$",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "当前该H2内同名折叠“DeMorgan's Theorems · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "3. 多变量推广",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "当前该H2内同名折叠“DeMorgan's Theorems · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "4. 两个用途",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "当前该H2内同名折叠“DeMorgan's Theorems · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "横线的范围、门级等价与递归步骤 (DeMorgan method)",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "修正原误区中把正确展开误列为错误、把未覆盖A误取补；一次补得到反函数；当前折叠Example2的011/111两行中间值及011输出错误已直接修正。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "全部原例题保留；Example2的011/111两行中间值及011行输出已修正，并逐项检查8行表。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "横线的范围、门级等价与递归步骤 (DeMorgan method)",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "修正原误区中把正确展开误列为错误、把未覆盖A误取补；一次补得到反函数；当前折叠Example2的011/111两行中间值及011输出错误已直接修正。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Move the outer complement carefully · 外层取补怎样分配",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "当前该H2内同名折叠“DeMorgan's Theorems · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "DeMorgan's Theorems.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "target_section": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完全穷举与代数证明的选择 (proof methods)",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "n≥5并非方法失效；区分数学归纳法；并非所有证明途径只有两种。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完全穷举与代数证明的选择 (proof methods)",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "n≥5并非方法失效；区分数学归纳法；并非所有证明途径只有两种。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "当前该H2内同名折叠“Proof by Perfect Induction · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "1. Method 1 的流程",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "当前该H2内同名折叠“Proof by Perfect Induction · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "2. Method 2 的流程",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "当前该H2内同名折叠“Proof by Perfect Induction · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "3. 什么时候用哪一种",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "当前该H2内同名折叠“Proof by Perfect Induction · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完全穷举与代数证明的选择 (proof methods)",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "n≥5并非方法失效；区分数学归纳法；并非所有证明途径只有两种。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "当前该H2内同名折叠“Proof by Perfect Induction · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "完全穷举与代数证明的选择 (proof methods)",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "n≥5并非方法失效；区分数学归纳法；并非所有证明途径只有两种。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Exhaustive proof and counterexamples · 穷举证明与反例",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "当前该H2内同名折叠“Proof by Perfect Induction · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Proof by Perfect Induction.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Algebra and Circuit Models.md",
+      "target_heading": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "target_section": "5 · Proof by Perfect Induction · 穷举与代数验证",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "文字、乘积项与编号全集 (terms and domain)",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "蕴含项须相对于F定义；最小项与乘积项形式分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "文字、乘积项与编号全集 (terms and domain)",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "蕴含项须相对于F定义；最小项与乘积项形式分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "当前该H2内同名折叠“Minterm and Maxterm · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "1. 为什么 minterm 只能在一行为 1",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "当前该H2内同名折叠“Minterm and Maxterm · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "2. 为什么 maxterm 只能在一行为 0（以及 $M_i=\\bar m_i$）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "当前该H2内同名折叠“Minterm and Maxterm · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "3. 2 变量的表（讲义 p.36–37 直接用到的两个表）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "当前该H2内同名折叠“Minterm and Maxterm · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "文字、乘积项与编号全集 (terms and domain)",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "蕴含项须相对于F定义；最小项与乘积项形式分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "当前该H2内同名折叠“Minterm and Maxterm · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "文字、乘积项与编号全集 (terms and domain)",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "蕴含项须相对于F定义；最小项与乘积项形式分开。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Row identities and polarity · 行编号与取补方向",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "当前该H2内同名折叠“Minterm and Maxterm · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Minterm and Maxterm.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "1 · Minterm and Maxterm · 一行对应一个项",
+      "target_section": "1 · Minterm and Maxterm · 一行对应一个项",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "真值表与标准式的双向映射 (table conversion)",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "标准式行少不证明实现最优；过程表注项值仍确定；有DC时ON/OFF非彼此严格补集。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "真值表与标准式的双向映射 (table conversion)",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "标准式行少不证明实现最优；过程表注项值仍确定；有DC时ON/OFF非彼此严格补集。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "当前该H2内同名折叠“Truth Table and Boolean Expression · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "1. 标准 SOP → 真值表（讲义 p.43）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "当前该H2内同名折叠“Truth Table and Boolean Expression · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "2. 标准 POS → 真值表（讲义 p.44）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "当前该H2内同名折叠“Truth Table and Boolean Expression · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "3. 真值表 → 最小 SOP / 最小 POS（讲义 p.45–46 的 $X$ 例）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "当前该H2内同名折叠“Truth Table and Boolean Expression · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "真值表与标准式的双向映射 (table conversion)",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "标准式行少不证明实现最优；过程表注项值仍确定；有DC时ON/OFF非彼此严格补集。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "当前该H2内同名折叠“Truth Table and Boolean Expression · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "真值表与标准式的双向映射 (table conversion)",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "标准式行少不证明实现最优；过程表注项值仍确定；有DC时ON/OFF非彼此严格补集。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "A table as a verification contract · 真值表是验证契约",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "当前该H2内同名折叠“Truth Table and Boolean Expression · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Truth Table and Boolean Expression.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "target_section": "2 · Truth Table and Boolean Expression · 用真值表定义全集",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Sum-of-Products Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "简化式有时仍标准；输入取补层/扇入增加实际级数；补变量因子精确。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Sum-of-Products Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "简化式有时仍标准；输入取补层/扇入增加实际级数；补变量因子精确。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Sum-of-Products Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "1. 从真值表到标准 SOP（逐行选择）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Sum-of-Products Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "2. 把非标准 SOP 补成标准 SOP（讲义 p.40）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Sum-of-Products Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "3. 判断标准 SOP 的三步自查",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Sum-of-Products Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Sum-of-Products Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "简化式有时仍标准；输入取补层/扇入增加实际级数；补变量因子精确。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Sum-of-Products Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Sum-of-Products Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "简化式有时仍标准；输入取补层/扇入增加实际级数；补变量因子精确。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Canonical SOP and hardware mapping · 标准与或式怎样落地",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Sum-of-Products Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Sum-of-Products Form.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Product-of-Sums Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "SOP一次取補不是同函数POS；补变量乘恒等因子合法但不完成标准POS结构。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Product-of-Sums Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "SOP一次取補不是同函数POS；补变量乘恒等因子合法但不完成标准POS结构。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Product-of-Sums Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "1. 从真值表到标准 POS（逐行选择）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Product-of-Sums Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "2. 把非标准 POS 补成标准 POS（讲义 p.41，用 Rule 12）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Product-of-Sums Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "3. POS 与 SOP 的等价性（讲义 p.39 的午餐例子）",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Product-of-Sums Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Product-of-Sums Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "SOP一次取補不是同函数POS；补变量乘恒等因子合法但不完成标准POS结构。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Product-of-Sums Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "Product-of-Sums Form · 形态、标准式与构建步骤",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "SOP一次取補不是同函数POS；补变量乘恒等因子合法但不完成标准POS结构。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Canonical POS from OFF rows · 从零行建立标准或与式",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "当前该H2内同名折叠“Product-of-Sums Form · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Product-of-Sums Form.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "target_section": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "化简的前提、成本与步骤 (simplification method)",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "最小需全局项数/总文字比较；K图非自动minimum；门成本非简单精确换算。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "化简的前提、成本与步骤 (simplification method)",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "最小需全局项数/总文字比较；K图非自动minimum；门成本非简单精确换算。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "当前该H2内同名折叠“Boolean Expression Simplification · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "1. 化简的三个\"动作\"",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "当前该H2内同名折叠“Boolean Expression Simplification · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "2. 为什么补一项不改变函数：$X=X\\cdot 1=X(Y+\\bar Y)$",
+      "source_level": 3,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "当前该H2内同名折叠“Boolean Expression Simplification · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "化简的前提、成本与步骤 (simplification method)",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "最小需全局项数/总文字比较；K图非自动minimum；门成本非简单精确换算。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "当前该H2内同名折叠“Boolean Expression Simplification · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "化简的前提、成本与步骤 (simplification method)",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "最小需全局项数/总文字比较；K图非自动minimum；门成本非简单精确换算。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Preserve behavior, then evaluate cost · 先等价，再比较代价",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "当前该H2内同名折叠“Boolean Expression Simplification · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Boolean Expression Simplification.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Boolean Forms and Algebraic Simplification.md",
+      "target_heading": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "target_section": "4 · Boolean Expression Simplification · 保持函数再比较代价",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "布局、坐标与代数含义 (layout and adjacency)",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "最大组不必给最小覆盖；最小按项数优先总文字其次；扩大矩形须构成完整cube。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "布局、坐标与代数含义 (layout and adjacency)",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "最大组不必给最小覆盖；最小按项数优先总文字其次；扩大矩形须构成完整cube。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "当前折叠例题保留；纠正m0/m10不是二格邻接、p50表顺序与最小性解释，并独立检查覆盖成本。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "1. 为什么相邻两格能合并：$X\\bar Y+XY=X$",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "当前折叠例题保留；纠正m0/m10不是二格邻接、p50表顺序与最小性解释，并独立检查覆盖成本。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "2. 圈多大，就消掉几个变量",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "当前折叠例题保留；纠正m0/m10不是二格邻接、p50表顺序与最小性解释，并独立检查覆盖成本。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "3. 从一个圈读出积项（本课最核心的一步）",
+      "source_level": 3,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "当前折叠例题保留；纠正m0/m10不是二格邻接、p50表顺序与最小性解释，并独立检查覆盖成本。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "布局、坐标与代数含义 (layout and adjacency)",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "最大组不必给最小覆盖；最小按项数优先总文字其次；扩大矩形须构成完整cube。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "当前折叠例题保留；纠正m0/m10不是二格邻接、p50表顺序与最小性解释，并独立检查覆盖成本。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "布局、坐标与代数含义 (layout and adjacency)",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "最大组不必给最小覆盖；最小按项数优先总文字其次；扩大矩形须构成完整cube。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Group meaning and implementation choices · 圈组含义与实现选择",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "当前该H2内同名折叠“Karnaugh Map · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Karnaugh Map.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "target_section": "1 · Karnaugh Map · 为什么相邻格能够合并",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "三类格的义务与X的来源 (don't-care specification)",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "非法BCD不代表永远不出现；X收益可能只降文字不降项；SOP/POS在X行可不同。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "三类格的义务与X的来源 (don't-care specification)",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "非法BCD不代表永远不出现；X收益可能只降文字不降项；SOP/POS在X行可不同。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "当前该H2内同名折叠“Karnaugh Map with Don't Cares · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "三类格的义务与X的来源 (don't-care specification)",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "非法BCD不代表永远不出现；X收益可能只降文字不降项；SOP/POS在X行可不同。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "当前该H2内同名折叠“Karnaugh Map with Don't Cares · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "三类格的义务与X的来源 (don't-care specification)",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "非法BCD不代表永远不出现；X收益可能只降文字不降项；SOP/POS在X行可不同。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Don't-care freedom and invalid-input policy · 自由度与非法输入策略",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "当前该H2内同名折叠“Karnaugh Map with Don't Cares · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "Karnaugh Map with Don't Cares.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "target_section": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Where this fits / Quick recall / metadata",
+      "source_level": 0,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "原稿定位、先修/下游关系与英文速览已由canonical开头、对应H2定义及可见方法/关系段覆盖；原aliases保留于canonical前言。不复制原稿序号叙事。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Core Definition · 核心定义",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "圈0是反函数的SOP再取补 (POS method)",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "扩大零圈对应和项而非全域maxterm；极性错不一定恰成反函数；修正p56B=1整片含零不合法。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Assumptions and Validity · 适用前提",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "圈0是反函数的SOP再取补 (POS method)",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "扩大零圈对应和项而非全域maxterm；极性错不一定恰成反函数；修正p56B=1整片含零不合法。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Derivation · 推导过程",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "当前该H2内同名折叠“POS Minimization with Karnaugh Map · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Method and Steps · 求解步骤与方法",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "圈0是反函数的SOP再取补 (POS method)",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "扩大零圈对应和项而非全域maxterm；极性错不一定恰成反函数；修正p56B=1整片含零不合法。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Worked Example · 例题",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "当前该H2内同名折叠“POS Minimization with Karnaugh Map · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Pitfalls · 常见误区",
+      "source_level": 2,
+      "status": "corrected",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "圈0是反函数的SOP再取补 (POS method)",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "扩大零圈对应和项而非全域maxterm；极性错不一定恰成反函数；修正p56B=1整片含零不合法。 其余正确定义、条件、表格和步骤已恢复到可见正文。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Read zero groups as maxterms · 零圈怎样读最大项",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "当前该H2内同名折叠“POS Minimization with Karnaugh Map · 推导与例题”已保留对应推导、表、例题或英文应用答句；未再次复制。"
+    },
+    {
+      "source": "POS Minimization with Karnaugh Map.md",
+      "source_heading": "Connections · 相关笔记",
+      "source_level": 2,
+      "status": "covered",
+      "target": "Karnaugh Map Minimization.md",
+      "target_heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "target_section": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项",
+      "note": "有意义前置/实现/对照关系融入该H2及相邻H3；同一canonical内关系用H2/H3组织，未保留重复链接清单。"
+    }
+  ],
+  "corrections": {
+    "Logic Gates": "区分负逻辑与active-low；输入数分类非数学硬限制；输出1数量只是认门线索；多输入=1与奇数性区分。",
+    "Inverter": "实际转换延迟可不对称、改变占空比；电压会连续过渡；两级NOT与专用BUF的功耗/晶体管数不可泛化。",
+    "AND Gate": "固定输入1为AND恒等许可，原稿说不能让输入不限制其余条件过度绝对。",
+    "OR Gate": "包含或与恰好一个/奇数性区分；与AND是对偶而非输出互补。",
+    "NAND Gate": "不重不漏的真值表排序均合法；单输入退化有数学定义。",
+    "NOR Gate": "NAND/NOR不是逐行互补；不同实现成本不能无条件泛化。",
+    "Exclusive-OR Gate": "多输入恰好一个与奇数性区分；原稿三者只在11分歧的说法对XNOR并不成立，改为完整表与各定义。",
+    "Exclusive-NOR Gate": "区分整体XOR取補与二输入XNOR级联；XNOR可结合但归约极性随输入数变化；校验生成与检查分开。",
+    "Logic Levels": "接收范围更宽；未保证区开区间；不兼容意味着不保证非必然失败；保证条件限定；过压容许能力另查。",
+    "DC Transfer Characteristic": "保证输入阈值/典型单位增益点/VM/晶体管VT分开；反相器为负斜率；缓冲器交点非通用VM；同比缩放需假设。",
+    "Noise Margin": "超界为失去保证不等于必定逻辑翻转；噪声预算按方向；IR需电流；跨域保证参数条件各自适用。",
+    "Combinational Circuit": "稳态无记忆不等于无动态历史；有反馈不必为稳定存储；区分外部输入与无内部驱动。",
+    "Boolean Equation": "布尔方程亦可显式描述状态更新；组合规范才限定当前输入；抽查不证明。",
+    "Boolean Axioms": "表达式可取对偶；恒等式两边取对偶才保证恒等；保留运算树而非简单字符替换。",
+    "Laws and Rules of Boolean Algebra": "补全OR分配律；Rules1–9也可减少文字；合法子式可在横线内替换；POS直接OR→AND。",
+    "DeMorgan's Theorems": "修正原误区中把正确展开误列为错误、把未覆盖A误取补；一次补得到反函数；当前折叠Example2的011/111两行中间值及011输出错误已直接修正。",
+    "Proof by Perfect Induction": "n≥5并非方法失效；区分数学归纳法；并非所有证明途径只有两种。",
+    "Minterm and Maxterm": "蕴含项须相对于F定义；最小项与乘积项形式分开。",
+    "Truth Table and Boolean Expression": "标准式行少不证明实现最优；过程表注项值仍确定；有DC时ON/OFF非彼此严格补集。",
+    "Sum-of-Products Form": "简化式有时仍标准；输入取补层/扇入增加实际级数；补变量因子精确。",
+    "Product-of-Sums Form": "SOP一次取補不是同函数POS；补变量乘恒等因子合法但不完成标准POS结构。",
+    "Boolean Expression Simplification": "最小需全局项数/总文字比较；K图非自动minimum；门成本非简单精确换算。",
+    "Karnaugh Map": "最大组不必给最小覆盖；最小按项数优先总文字其次；扩大矩形须构成完整cube。",
+    "Karnaugh Map with Don't Cares": "非法BCD不代表永远不出现；X收益可能只降文字不降项；SOP/POS在X行可不同。",
+    "POS Minimization with Karnaugh Map": "扩大零圈对应和项而非全域maxterm；极性错不一定恰成反函数；修正p56B=1整片含零不合法。"
+  },
+  "retained_current_h2": true,
+  "extra_files": {
+    "DeMorgan's Theorems.md": "Parent confirmed identical original; its unique core/method/pitfall material integrated in canonical DeMorgan section. No move/delete.",
+    "Boolean Forms and Algebraic Simplification 1.md": "Parent confirmed empty; all references restored to canonical without changing extra file."
+  },
+  "validation": {
+    "passed": true,
+    "checks": 222,
+    "boolean_identity_row_comparisons": 216,
+    "exact_minimum_cases": 12,
+    "details_file": "verification-ch34.json"
+  }
+}

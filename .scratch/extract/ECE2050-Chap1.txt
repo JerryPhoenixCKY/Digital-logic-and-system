@@ -1,0 +1,676 @@
+### PAGES: 51
+
+
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and Systems
+Chapter 1 :
+Introductory Concepts
+Instructor: Yue ZHENG, Ph.D.
+Instructor: Tinghuan CHEN
+
+========== PAGE 2 ==========
+Announcements
+• There is no tutorials for the first week;
+2 2
+
+========== PAGE 3 ==========
+Teaching Team
+L01 Session Location
+• Instructor:
+Tue. 8:30-9:50
+Teaching
+• Name: Tinghuan Chen (陈廷欢), Ph.D.
+Complex C202
+Thu. 8:30-9:50
+• Email: chentinghuan@cuhk.edu.cn
+L02 Session Location
+• Office: TC413B
+• Office Hour: Thur. 15:00-16:00 Tue. 10:30-11:50
+Teaching
+Complex C202
+Thu. 10:30-11:50
+T01-02 Location
+• Name: Yapeng Li Lead TA • Name: Yongchen Wang Tue. 18:00-18:50 TA205
+• Office: TC413B • Office: TC406 Tue. 19:00-19:50 TA204
+• Email: 223015121@link.cuhk.edu.cn • Email: 225010123@link.cuhk.edu.cn
+T03-04 Location
+• Office Hour: Mon 14:00-15:00 • Office Hour: Thu 14:00-15:00
+Wed. 18:00-18:50
+TD210
+Wed. 20:00-20:50
+3
+
+========== PAGE 4 ==========
+Activity Highlights
+Company Visit in 2020 Invited seminars
+Company Visit in 2023
+4
+
+========== PAGE 5 ==========
+Course Outline
+• This course gives science and engineering students exposure to the basic
+concepts and techniques in digital logic and system design. Topics include
+digital system concepts, numbering systems and codes, Boolean algebra,
+logic gates and logic circuit elements, logic functions and simplification,
+logic circuits design, latches and flip-flops, counters, registers, memory
+and storage systems, FPGA, and introduction to CAD tools.
+Assessment % weight
+In-class Performance 5%
+Assignments 20%
+Project 10%
+Mid-term Test 30%
+Final Exam 35%
+5
+
+========== PAGE 6 ==========
+Textbook & References
+• Digital Design and Computer Architecture RISC-V Edition (main)
+• by Sarah L. Harris and David Harris
+• Digital Fundamentals (11th Edition)
+• By Thomas Floyd
+https://pages.hmc.edu/harris/ddca/ddcarv.html
+6
+
+========== PAGE 7 ==========
+Course Map
+Physics Lab. Basic Circuit Theory Hon. Electronic Circuit Design Lab.
+PHY1002 ECE2001 ECE1811
+Digital Logic and Systems Digital Systems Design Lab
+ECE2050 ECE2810
+Data Structures Intro. To Embedded Syst. Embedded Syst. Lab.
+CSC3100 ECE3080 ECE3810
+CMOS Digital Integrated Analog Integrated
+Microelectronics Circuits Digital Commun.
+Circuits Design Circuits
+ECE3201 ECE4002
+ECE4102 ECE3202
+7
+
+========== PAGE 8 ==========
+Teaching Plan
+Week Content/ topic/ activity
+Ch1. Introductory concepts
+1 9/7 - 9/13 Digital and analog quantities, Binary digits, Basic logic operations, System concept, Fixed-function
+integrated circuits
+Ch2. Number systems
+2 9/14 - 9/20 Number systems and conversions, Binary arithmetic and operations, Signed numbers and
+operations, Binary coded decimal, Digital codes, Error detection codes
+Ch3. Logic gates
+3 9/21 - 9/27
+The inverter, Logic gates (AND, OR, NAND, NOR, XOR, XNOR), logic levels
+Ch4. Boolean algebra and logic simplification
+Boolean operations, Boolean algebra, De Morgan’s theorem, Boolean analysis of logic circuits,
+4 9/28 - 10/4
+Simplification using Boolean algebra, Standard forms, Truth tables, Karnaugh map and
+minimization
+Ch4. Boolean algebra and logic simplification & Ch5. Combinational logic design
+5 10/5 - 10/11 Basic combinational logic circuits and implementation, the universal property, Combinational logic
+with NAND and NOR gates
+Ch5. Combinational logic design
+6 10/12 - 10/18
+AND-OR, AND-OR-INVERT, XOR, XNOR, university property
+Ch6. Combinational Building Blocks
+7 10/19 - 10/25
+Adders, Comparators, Encoder & Decoder, Multiplexer
+8
+
+========== PAGE 9 ==========
+Teaching Plan (Cont’d)
+Week Content/ topic/ activity
+Midterm & Ch7. Sequential Logic Design
+8 10/26 - 11/1
+bistable circuits, SR Latch, D Latch, D Flip Flop, JK Flip Flop,
+Ch8. Shift registers
+9 11/2 - 11/8
+Serial/Parallel in Serial/Parallel out, bidirectional shift registers, applications
+Ch9. Finite State Machine
+10 11/9 - 11/15
+Moore/Mealy FSM, timing, set up time, hold time
+Ch10. Counters
+11 11/16 - 11/22
+Asynchronous counters, Synchronous counters, Design, Applications
+Ch10. Counters
+12 11/23 - 11/29
+Asynchronous counters, Synchronous counters, Design, Applications
+Ch11. Memory & Logic Arrays
+13 11/30 - 12/6 Memory basics, RAM, ROM, Flash memory, PLAs & FPGAs
+14 12/7 – 12/13 Seminar/Review
+9
+
+========== PAGE 10 ==========
+Blackboard
+Lecture notes
+Submit your homework here
+All homework assignments are submitted online via blackboard
+10
+
+========== PAGE 11 ==========
+11
+
+========== PAGE 12 ==========
+Some Reasons
+• Major Required
+• An insight into the specialty
+• Circuit design
+• Computer architecture
+• Built upon Boolean algebra, theoretical CS
+• High-performance software design requires you to understand
+the hardware layer
+• Microprocessors, datasheet, schematic diagram
+12
+
+========== PAGE 13 ==========
+Microprocessors
+• CPU
+• GPU
+• DSP
+CPU
+• MCU
+FPGA
+• SoC
+MCU
+• ASIC
+(microcontroller)
+• FPGA
+• …
+GPU
+13
+
+========== PAGE 14 ==========
+14
+
+========== PAGE 15 ==========
+Managing Complexity
+• Modern digital systems:
+• Millions or billions of transistors
+• How do we design things that are too big to fit in one person’s
+head at once?
+• Abstraction
+• Discipline
+• The 3-Y’s
+• Hierarchy
+• Modularity
+• Regularity
+15
+
+========== PAGE 16 ==========
+Abstraction
+• Hide complexity by working at higher level of representation
+• Millions of transistors
+• Ignore low-level details
+• Electron mobility
+• Voltage threshold/ switching delays
+Focus of this course
+16
+
+========== PAGE 17 ==========
+Discipline
+• Imposing constraints and conventions to ensure consistency,
+correctness, and interoperability
+• Example: Digital discipline
+• Discrete voltages instead of continuous
+• Simpler to design than analog circuits – can build more sophisticated
+systems
+17
+
+========== PAGE 18 ==========
+Hierarchy
+• Organizing a system in Layers
+• Level 1: Transistors → form logic gates
+• Level 2: Gates → form basic circuits (half-adder, mux)
+• Level 3: Basic circuits → form functional units (full-adder, flip-flops)
+• Level 4: Functional units → form systems (counter, state machine)
+18
+
+========== PAGE 19 ==========
+Modularity
+• Design components that are independent, well-defined, and
+interchangeable
+• Having well-defined functions and interfaces
+• Eg. 2-to-1 MUX
+• Once verified, reuse it anywhere: FSM, memory controller..
+19
+
+========== PAGE 20 ==========
+Regularity
+• Encouraging uniformity, so modules can be easily reused
+• A 4-bit register is made of 4 identical DFFs
+• A memory array is a grid of identical bit cells
+• An n-bit adder is built by repeating the same full-adder stage
+• Regularity simplifies circuit layout, testing and manufacturing
+• Easier scaling
+• Easier placement and routing
+20
+
+========== PAGE 21 ==========
+Regularity
+• Encouraging uniformity, so modules can be easily reused
+• A 4-bit register is made of 4 identical DFFs
+• A memory array is a grid of identical bit cells
+• An n-bit adder is built by repeating the same full-adder stage
+• Regularity simplifies circuit layout, testing and manufacturing
+• Easier scaling
+• Easier placement and routing
+21
+
+========== PAGE 22 ==========
+Analog vs Digital
+• Most physical variables are continuous
+• Voltage on a wire
+• Frequency of an oscillation
+Analog quantity :
+• Position of a mass
+continuous values
+Vinyl records
+12 inches (~30cm), 3.5 hours
+• Digital abstraction considers discrete
+subset of values
+Digital quantity :
+Compact Disk (CD)
+a discrete set of values
+12cm, 74 minutes
+22
+
+========== PAGE 23 ==========
+The Digital Advantages
+• Digital data can be stored, processed and transmitted more
+efficiently and reliably
+• Digital data is more noise resilient
+An audio system with a CD player
+A typical analog system
+D/A converter: convert digital
+data to an analog signal for
+amplification.
+Do you think this is a digital system?
+• Can you think of any disadvantages of digital systems?
+23
+
+========== PAGE 24 ==========
+The Analytical Engine
+• Designed by Charles Babbage from 1834 – 1871
+• Considered to be the first digital computer
+• Built from mechanical gears, where each gear represented a
+discrete value (0-9)
+• Ada Lovelace: first programmer
+1791-1871 1815 – 1852
+24
+此照⽚，作者: 未知作者，许可证: CC
+
+========== PAGE 25 ==========
+Digital Discipline: Binary Values
+• Two discrete values:
+• 1’s and 0’s
+• 1, TRUE, HIGH
+• 0, FALSE, LOW
+• 1 and 0: voltage levels, rotating gears, fluid levels, etc.
+• Digital circuits use voltage levels
+• 0: low voltage (GND)
+• 1: high voltage (VDD)
+• Bit: Binary digit
+25
+
+========== PAGE 26 ==========
+Bit
+• Binary digit: a single number is either 0 or 1
+• Positive Logic:
+• 1 is represented by the higher voltage level à HIGH,
+• 0 is represented by the lower voltage level à LOW
+• Negative logic : 1 à Low, 0 à High
+26
+
+========== PAGE 27 ==========
+Number Systems
+Decimal Binary Octal Hex Decimal Binary Octal Hex
+0 0000 00 0 10 1010 12 A
+1 0001 01 1 11 1011 13 B
+2 0010 02 2 12 1100 14 C
+3 0011 03 3 13 1101 15 D
+4 0100 04 4 14 1110 16 E
+5 0101 05 5 15 1111 17 F
+6 0110 06 6
+7 0111 07 7
+8 1000 10 8
+9 1001 11 9
+27
+
+========== PAGE 28 ==========
+Logic Gates
+• Logic gate : A circuit that performs a specified logic function
+NOT Opposite
+True only if all inputs
+are true
+( can have more
+AND
+than two inputs)
+True if one of the
+inputs is true
+OR ( can have
+more than two inputs)
+28
+
+========== PAGE 29 ==========
+Combinational Circuits & Sequential Circuits
+• Combinational Logic
+• Memoryless
+• Outputs determined by current values of inputs
+• Sequential Logic
+• Has memory
+• Outputs determined by previous and current values of inputs
+Truth Table Boolean Equation
+A
+AND
+Y
+B A B Y
+Y = AB
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+29
+
+========== PAGE 30 ==========
+Boolean Algebra and Logic Simplification
+• Boolean Algebra
+Laws Rules Demorgan’s Theorems
+§ Commutative laws
+§ Associative laws
+§ Distributive law
+̅ ̅ ̅
+• 𝑌 = 𝐴𝐵𝐶 + 𝐴𝐵𝐶 + 𝐴𝐵𝐶
+̅ ̅ ̅ ̅
+= 𝐴𝐵𝐶 + 𝐴𝐵𝐶 + 𝐴𝐵𝐶 + 𝐴𝐵𝐶 Karnaugh
+̅ ̅ ̅ Map
+= 𝐴𝐵 𝐶 + 𝐶 + (𝐴 + 𝐴)𝐵𝐶
+̅
+= 𝐴𝐵 + 𝐵𝐶
+30
+
+========== PAGE 31 ==========
+Combinational Logic
+• Basic combinational logic circuits
+• AND-OR Logic
+• AND-OR-Invert Logic
+• Exclusive-OR Logic
+• Exclusive-NOR Logic
+• Implementing combinational logic
+• From Boolean equation to logic circuit
+• From truth table to logic circuit
+31
+
+========== PAGE 32 ==========
+Combinational Building Blocks
+• Adders • Comparator
+E.g. A plus B (3+9 = 12) E.g. A is less than B (2<5) as indicated
+by the High output (A<B)
+32
+
+========== PAGE 33 ==========
+Combinational Building Blocks
+• Encoders & Decoders
+• Multiplexer Single Line
+& Demultiplexer
+Separate Separate
+Lines Lines
+33
+
+========== PAGE 34 ==========
+Sequential Logic Design
+• Outputs of sequential logic depend on current
+and prior input values – it has memory.
+• State: all the information about a circuit
+necessary to explain its future behavior
+• Latches and Flip-flops:
+• Bistable circuit: 2 stable states
+• store only one bit at a time, either a 0 or a 1
+• SR Latch, D Latch
+• D Flip-flops, JK Flip-flops
+34
+
+========== PAGE 35 ==========
+Shift Registers
+• Shift register: Several Flip-Flops
+• Data Storage
+• Data Movement
+Serial: One bit at a time over a single line
+Example: 8 time intervals for 8 bits
+Parallel : multiple bits at the same time over
+separate lines
+Example: 1 time interval for 8 bits
+35
+Computer
+Printer
+
+========== PAGE 36 ==========
+Counters
+• To count, the counter must “remember” the present number so
+that it can go to the next proper number in sequence.
+• Storage capability is an important characteristic of all counters,
+and flip-flops are generally used to implement them.
+36
+
+========== PAGE 37 ==========
+Finite State Machine
+• State Register + Combinational Logic
+• States and transitions
+• Example: Traffic light controller system
+#
+A
+# !
+" A #
+"
+"B&D(F*B ! ! "H(,
+" "
+#
+!
+A
+A
+37
+A-&H&D.
+ALHD,
+0*3*34
+A
+5&LL B&'&( "
+A
+!" " !#
+! !"#$%%& ! !"(%))*+
+" "
+! !"$%' ! !"$%'
+# #
+!$ !%
+0.-F1
+#&61 ! !"$%' ! !"$%'
+" "
+! !"(%))*+ ! !"#$%%&
+# A #
+#
+A
+#
+2*(LD1
+
+========== PAGE 38 ==========
+Memory
+• SRAM, DRAM
+• ROM
+• Flash
+38
+
+========== PAGE 39 ==========
+Example: A Process Control System
+1. The maximum # of tablets per bottle is entered from the
+1
+keypad；
+2. An optical sensor detects each passing tablet &
+produces a pulse going to the Counter à Counter
+advanced by one；
+4
+3. The binary count is transferred from the counter to the B
+5
+3
+input of the comparator;
+hopper
+2
+4. If A=B, comparator output goes HIGH, implying the
+bottle is full;
+5. The HIGH comparator output closes the hopper valve &
+stop the flow of tablets while activating the conveyor to
+6
+move the next empty bottle into place
+6. When the bottle is in place, a pulse is issued to reset the
+counter to zero à the comparator output goes back
+LOW & the hopper valve restarts the flow of tablets.
+39
+
+========== PAGE 40 ==========
+Integrated Circuits (IC)
+• An electronic circuit entirely constructed on a single small chip of silicon
+• Programmable and Fixed-function Logic
+• IC packages :
+Surface-mounted Through-hole mounted
+⾯包板
+or
+免焊万⽤电路板
+Solderless
+breadboard
+40
+
+========== PAGE 41 ==========
+Complexity of Fixed-Function ICs
+# of gate circuits on
+Typical Examples
+a single chip
+Small-scale integration (SSI) <10 Basic gates and flip-flop
+Encoders, Decoders, Counters,
+Medium-scale integration (MSI) 10 to 100 Registers, Multiplexers, Arithmetic
+circuits, Small memories
+Very large-scale integration
+10,000 to 100,000 Memories
+(VLSI)
+Ultra large-scale integration Very large memories, Larger micro-
+>100,000
+(ULSI) processors, Larger single-chip computers
+Pin Numbering
+41
+
+========== PAGE 42 ==========
+Programmable Logic
+• Programmable Logic Devices (PLDs)
+• SPLDs (simple PLDs)
+• CPLDs (complex PLDs)
+• Field-Programmable Gate Array (FPGA )
+• Programing Process
+• Software development package installed on
+a computer
+• Graphic entry of a logic circuit
+• Text entry such as VHDL
+• A development board
+• A cable
+42
+
+========== PAGE 43 ==========
+Chapter Review
+q Analog versus Digital
+q Bits (Binary digits), Logic Levels and Digital Waveforms
+q Basic logic functions: NOT, AND and OR
+q Combinational & sequential logic functions:
+comparator, adder, encoder/decoder, (de)multiplexer,
+flip-flops, registers, counter
+q Integrated circuit (IC): Programmable versus Fixed-function
+u Package: Surface-mounted and Through-hole
+u Programmable: PLD (SPLD and CPLD) and FPGA
+u Fixed-function : SSI/MSI/VLSI/ULSI
+43
+
+========== PAGE 44 ==========
+True/False Quiz
+q An analog quantity is one having continuous values.
+q A digital quantity has no discrete values.
+q There are two digits in the binary system.
+q The term bit is short for binary digit.
+q In positive logic, a LOW level represents a binary 1.
+q An AND function is implemented by a logic circuit known as an inverter.
+q A flip-flop is a bistable logic circuit that can store only two bits at a time.
+q Two broad types of digital integrated circuits are fixed-function and programmable.
+44
+
+========== PAGE 45 ==========
+The 3-y’s
+• Hierarchy
+• A system divided into modules and submodules
+• Modularity
+• Having well-defined functions and interfaces
+• Regularity
+• Encouraging uniformity, so modules can be easily reused
+45
+
+========== PAGE 46 ==========
+Example: Model T Ford
+• Famous early (1908) example of interchangeable parts.
+• Most previous cars were hand-crafted
+by skilled tradesmen.
+• Mass production on moving assembly
+lines greatly reduced cost.
+en.wikipedia.org/wiki/Ford_Model_T#/media/
+File:1925_Ford_Model_T_touring.jpg
+• Henry Ford:
+I will build a motor car for the great multitude. It will be large enough for the family, but
+small enough for the individual to run and care for. It will be constructed of the best
+materials, by the best men to be hired, after the simplest designs that modern
+engineering can devise. But it will be so low in price that no man making a good salary
+will be unable to own one – and enjoy with his family the blessing of hours of pleasure
+in God's great open spaces.
+46
+
+========== PAGE 47 ==========
+Example: Model T Ford
+• Hierarchy
+• Car has chassis, wheels, seats, engine.
+• Engine has cylinders, spark plugs, exhaust, carburetor.
+• Carburator has air intake, inlet needle, feed pipe, coupling nut.
+https://en.wikipedia.org/wiki/Ford_Model_T_engine#/media/
+File:Pagé_1917_Model_T_Ford_Car_Figure_14.png
+https://en.wikipedia.org/wiki/Ford_Model_T_engine#/media/
+File:Pagé_1917_Model_T_Ford_Car_Figure_08.png
+47
+
+========== PAGE 48 ==========
+Example: Model T Ford
+• Modularity
+• Function of coupling nut:
+• Hold fuel line to intake elbow
+• Prevent leaks
+• Easily removable
+• Interface of coupling nut:
+• Standardized diameter, thread pitch, torque
+• Regularity
+• Interchangeable parts
+• Standard nut could be purchased from many suppliers
+• “Any customer can have a car painted any color that he wants so long
+as it is black.” - Henry Ford
+48
+
+========== PAGE 49 ==========
+For Computer Engineering (CE) Students:
+We’re the ones who build the systems – this is our core.
+• This is where hardware design begins
+• You’ll master hardware description languages (HDL)
+• You’ll design real systems
+• You’re preparing for the future of computing
+49
+
+========== PAGE 50 ==========
+For Electronic Engineering (EE) students:
+I care about circuits and signals – is this relevant?
+• Most real systems are hybrid (Analog + Digital)
+• You’ll work with digital control systems
+• You’ll design or use digital ICs
+• You’ll collaborate with computer engineers
+50
+
+========== PAGE 51 ==========
+For Computer Science (CS) students:
+I code – why do I need logic gates?
+• You’ll understand what the CPU really does
+• You’ll see how data is represented and processed
+• You’ll appreciate performance and optimization
+• You’ll be ready for advanced topics
+51

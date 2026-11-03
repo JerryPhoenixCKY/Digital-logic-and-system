@@ -1,0 +1,360 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and SystemsChapter 7 : Sequential Logic DesignInstructor: Tinghuan CHEN, Ph.D.
+
+========== PAGE 2 ==========
+2
+Last WeekqHalf and Full AddersqParallel Binary AddersqRipple Carry and Look-Ahead Carry AddersqComparatorsqDecoders (n input lines à max. 2n output lines)qEncoders (e.g. Decimal-to-BCD Priority Encoder)qMultiplexers (To route several inputs onto a single output line) qDemultiplexersqTiming
+How to design a multiplier by FA/HA?
+
+========== PAGE 3 ==========
+3
+
+========== PAGE 4 ==========
+•Outputs of sequential logic depend on current and prior input values – it has memory.•Some definitions:•State: all the information about a circuit necessary to explain its future behavior•Latches and flip-flops: state elements that store one bit of state•Synchronous sequential circuits: Sequential circuits using flip-flops sharing a common clock
+4
+Introduction 
+
+========== PAGE 5 ==========
+•Give sequence to events•Have memory (short-term)•Use feedback from output to input to store information
+5
+Sequential Circuits
+
+========== PAGE 6 ==========
+•State: everything about the prior inputs to the circuit necessary to predict its future behavior•Usually just 1 bit, the last value captured•State elements store state–Bistable circuit–SR Latch–D Latch–D Flip-flop 6
+State Elements
+
+========== PAGE 7 ==========
+7
+
+========== PAGE 8 ==========
+•Fundamental building block of other state elements•Two outputs: Q, Q•No inputs
+8
+Bistable Circuit
+!!
+!
+!
+!"
+!#
+!# !"
+Back-to-back invertersCross-coupled inverters
+Same circuit!
+
+========== PAGE 9 ==========
+9
+Bistable Circuit Analysis
+!
+!
+"#
+"$
+%
+#
+#
+%
+!
+!
+!"
+!#
+"
+$
+$
+"
+•Consider the two possible cases:–Q = 0:    then Q = 1, Q = 0 (consistent)–Q = 1:    then Q = 0, Q = 1 (consistent)
+•Stores 1 bit of state in the state variable, Q (or Q)•But there are no inputs to control the state
+
+========== PAGE 10 ==========
+10
+
+========== PAGE 11 ==========
+•SR Latch
+•Consider the four possible cases:–S = 1, R = 0–S = 0, R = 1–S = 0, R = 0–S = 1, R = 1 11
+SR (Set/Reset) Latch!
+"
+#
+#
+$%
+$&
+
+========== PAGE 12 ==========
+12
+SR Latch Analysis–S = 1, R = 0:    then Q = 1 and Q = 0   Set the output–S = 0, R = 1:    then Q = 0 and Q = 1   Reset the output
+!
+"
+#
+#
+!"
+!#
+$
+"
+"
+$
+"
+$
+!
+"
+#
+#
+!"
+!#
+"
+$
+$
+"
+$
+"
+
+========== PAGE 13 ==========
+13
+SR Latch Analysis
+!
+"
+#
+#
+!"
+!#
+$
+!
+"
+#
+#
+!"
+!#
+$
+$
+$
+#$%&'(%&$ #$%&'(%&"
+"
+$
+"
+"
+$
+"
+$
+$
+–S = 0, R = 0:    then Q = Qprev   Memory!
+–S = 1, R = 1:    then Q = 0, Q = 0   Invalid State   Q ≠ NOT Q
+!
+"
+#
+#
+!"
+!#
+"
+"
+$
+$
+$
+$
+
+========== PAGE 14 ==========
+•SR stands for Set/Reset Latch–Stores one bit of state (Q)•Control what value is being stored with S, R inputs–Set: Make the output 1 •    S = 1, R = 0, Q = 1–Reset: Make the output 0 •    S = 0, R = 1, Q = 0–Memory: Retain value•    S = 0, R = 0, Q = Qprev
+•Must do something to avoid invalid state (when S = R = 1)14
+SR Latch
+SR Latch symbol
+
+========== PAGE 15 ==========
+15
+
+========== PAGE 16 ==========
+•Two inputs: CLK, D–CLK: controls when the output changes–D (the data input): controls what the output changes to•Function–When CLK = 1, •    D passes through to Q (transparent)–When CLK = 0, •    Q holds its previous value (opaque)
+16
+D Latch
+!"#$%CD
+()*+,-
+K#L
+! 0
+0
+
+========== PAGE 17 ==========
+17
+D Latch Internal Circuit
+!
+" #
+#
+#
+#
+$
+%CD
+$
+"
+!
+!"#
+$ %
+%
+! " #
+0 0 Q
+prev
+0 1 0
+1 0 1
+#
+1
+0
+$%C D
+0 X
+1 0
+1 1
+D
+X
+1
+0
+Q
+prev
+
+========== PAGE 18 ==========
+18
+
+========== PAGE 19 ==========
+•Inputs: CLK, D•Truth Table:
+•Called edge-triggered–Activated on the clock edge19
+D Flip-Flop !"#$%&D#$(&
+F*+,($-
+! .
+.
+!"#$%&'()'*
+!+,
+
+
+========== PAGE 20 ==========
+•Two back-to-back D latches (L1 and L2) controlled by complementary clocks•When CLK = 0–L1 is transparent–L2 is opaque–D passes through to N1•When CLK = 1–L2 is transparent–L1 is opaque–N1 passes through to Q•Thus, on the edge of the clock (when CLK rises from 0  →  1)–D passes through to Q 20
+D Flip-Flop Internal Circuit
+!"#
+$ %
+%
+!"#
+$ %
+%
+!
+!
+"
+CD
+#$%
+"D "(
+
+========== PAGE 21 ==========
+•By exploiting a small delay through the inverter on one input to the NAND gate, generate a very short-duration spike on the positive-going transition of the clock pulse.
+21
+Edge-Triggered Operation
+A type of pulse transition detector
+
+========== PAGE 22 ==========
+22
+D Latch vs. D Flip-Flop
+!"#
+$
+%CD()*+,-
+%CDK(L0-
+!"#
+$ %
+%
+! "
+"
+D LatchD Flip-flop!"#
+$
+%CD()*+,-
+%CDK(L0-
+
+========== PAGE 23 ==========
+23
+
+========== PAGE 24 ==========
+24
+J-K Flip Flop
+•Inputs: CLK, J, K•Truth Table:
+•Toggle State
+
+========== PAGE 25 ==========
+25
+J-K Flip-Flop Internal Circuit
+JKQNQN+100000011010001101001101111011110
+
+========== PAGE 26 ==========
+Functions of Combinational Logic26
+Master-Slave JK Flip-Flop (Optional) 
+Ref: Master Slave JK Flip-Flop Explained | Digital Electronics https://www.youtube.com/watch?v=XgRmLl9uRfI 
+
+========== PAGE 27 ==========
+Functions of Combinational Logic
+Master-Slave PTD-basedArchitectureTwo back-to-back latches + clock inversionSingle latch + pulse generator (delay + AND gate)ProsRobust, PVT-tolerant, clean timingCompact, low power, fasterConsLarger area, higher power, legacy compatibilitySensitive to pulse width, metastability riskApplicationsCPUs, FPGAs, industrial controlsHigh-speed I/Os, low-power IoT, RF circuit
+27
+Master-Slave vs PTD-based Design (Optional)
+Takeaway:Choose Master-Slave for reliability, PTD for speed/power.
+
+========== PAGE 28 ==========
+28
+
+========== PAGE 29 ==========
+29
+Registers: One or More Flip-Flops!"#
+$ %
+$ %
+$ %
+$ %
+$C
+$D
+$(
+$)
+%C
+%D
+%(
+%)
+!
+"#$
+% %
+CD(
+)
+"#$
+4-bit Register
+4-bit Register
+
+========== PAGE 30 ==========
+•Inputs: CLK, D, EN–The enable input (EN) controls when new data (D) is stored•Function–EN = 1: D passes through to Q on the clock edge –EN = 0: the flip-flop retains its previous state
+30
+Enabled Flip-Flops
+!"#$%"CD
+E)%*+)#
+I -
+EKL0N
+I
+-
+2
+3
+I -
+0N
+Q5S78D
+
+========== PAGE 31 ==========
+•Inputs: CLK, D, Reset•Function:–Reset = 1:  Q is forced to 0 –Reset = 0:  flip-flop behaves
+31
+Resettable Flip-Flops
+!"#$%&'
+! "
+()')*
+#
+
+========== PAGE 32 ==========
+•Two types:–Synchronous:   resets at the clock edge only–Asynchronous: resets immediately when Reset = 1•Asynchronously resettable flip-flop requires changing the internal circuitry of the flip-flop•Synchronously resettable flip-flop?
+32
+Resettable Flip-Flops
+!"#$%"C'
+()%*+)#
+! "
+#$%
+!
+"
+CD(D)
+
+========== PAGE 33 ==========
+•Inputs: CLK, D, Set•Function:–Set = 1:  Q is set to 1 –Set = 0:  the flip-flop behaves as ordinary D flip-flop
+33
+Settable Flip-Flops
+!"#$%&'
+! "
+!()
+#
+
+========== PAGE 34 ==========
+34
+Chapter ReviewqState qSR Latch, D LatchqD Flip FlopqJ-K Flip FlopqVariations on a FlopqRegistersqEnabled Flip-FlopsqResettable Flip-FlopsqSettable Flip-Flops
+
+========== PAGE 35 ==========
+35
+True/False QuizqA latch has one stable state.qA latch is considered to be in the RESET state when the Q output is low.qFlip-flops and latches are both bistable devices.qAn edge-triggered D flip-flop changes state whenever the D input changes.qA clock input is necessary for an edge-triggered flip-flop.qWhen both the J and K inputs are HIGH, an edge-triggered J-K flip-flop changes state on each clock pulse.

@@ -1,0 +1,212 @@
+========== PAGE 1 ==========
+EIE 2050 Digital Logic and Systems
+Midterm Test
+(Time allowed: 90 minutes)
+March 17, 2024
+NOTE: Answer ALL 8 questions. Show all intermediate steps, except Question 1 and Question 2.
+1. (10 points) Are the following statements necessarily true (Y) or not (N)?
+(1) In positive logic, a HIGH level represents a binary 0.
+(2) The hexdecimal number system is a weighted system with 16 digits.
+(3) The 2’s complement of the binary number 1100 is 0011.
+(4) It is possible to build an XOR gate with multiple NAND gates.
+(5) The domain of the expression ABD + ¯CD is A, B, C and D.
+(6) In Boolean Algebra, the multiplication of two values is equivalent to the logical OR function.
+(7) The MSB represents the highest-order bit in a binary representation.
+(8) The complement of a sum of variables is equal to the product of the complements of each variable is a
+statement of Demorgan’s theorem.
+(9) A full-adder can be realized using only 2 half-adders.
+(10) The multiplexer is a data distributor while a de-multiplexer is a data selector.
+Solution:
+(1) N
+(2) Y
+(3) N
+(4) Y
+(5) Y
+(6) N
+(7) Y
+(8) Y
+(9) N
+(10) N
+CONTINUED
+
+========== PAGE 2 ==========
+– 2 – EIE 2050 Digital Logic and Systems
+2. (10 points) Provide your answers to the following short questions.
+(1) Convert the binary number 101101 to its hex representation;
+(2) Convert the gray code 11010010 to binary;
+(3) How many cells do a 4-variable Karnaugh map have?
+(4) If the inputs to an exclusive-NOR function is A and B, write down the logic expression using And-Or-
+Invert logic.
+(5) Determine the odd parity bit for the BCD number 00101001.
+Solution:
+(1) 2 D;
+(2) 10011100
+(3) 16;
+(4) AB + ¯A ¯B;
+(5) 0.
+CONTINUED
+
+========== PAGE 3 ==========
+– 3 – EIE 2050 Digital Logic and Systems
+3. (15 points) Perform each of the following calculations in the 2’s complement form.
+(1) 01100101 − 11101000;
+(2) 01101010 × 11110001;
+(3) 01100110 ÷ 00100010.
+Solution:
+(1) 01111101 in Figure 1;
+(2) 100111001010 in Figure 2;
+(3) 00000011 in Figure 3.
+Figure 1: Q3-1 solution.
+Figure 2: Q3-2 solution.
+Figure 3: Q3-3 solution.
+CONTINUED
+
+========== PAGE 4 ==========
+– 4 – EIE 2050 Digital Logic and Systems
+4. (15 points)
+(1) Convert the following expression to standard sum-of-product(SOP) forms:
+(A + C)(BC + AC)
+(2) Convert the following expression to standard product-of-sum(POS) forms:
+(A + ¯C)(A + BC)
+(3) Convert binary 1101.11 to its decimal representation.
+Solution:
+(1)
+(A + C)(BC + AC)
+=ABC + AC + BC + AC
+=ABC + A(B + ¯B)C + (A + ¯A)BC
+=ABC + ABC + A ¯BC + ABC + ¯ABC
+=ABC + A ¯BC + ¯ABC
+(2)
+(A + ¯C)(A + BC)
+=(A + ¯C)(A + B)(A + C)
+=(A + ¯C + B ¯B)(A + B + C ¯C)(A + C + B ¯B)
+=(A + ¯C + B)(A + ¯C + ¯B)(A + B + C)(A + B + ¯C)(A + C + B)(A + C + ¯B)
+=(A + B + ¯C)(A + ¯B + ¯C)(A + B + C)(A + ¯B + C)
+(3) 1101 .112 = 1 × 23 + 1 × 22 + 1 × 20 + 1 × 2−1 + 1 × 2−2 = 13.75
+CONTINUED
+
+========== PAGE 5 ==========
+– 5 – EIE 2050 Digital Logic and Systems
+5. (12 points) For the logic circuit and the input waveforms shown in Figure. 4, respectively, answer the
+following questions.
+Figure 4: Combinational logic circuit and input waveforms for Q.5.
+(1) (4 points) Derive the expression of the output X and minimize it using the boolean algebra laws and
+rules, show the intermediate steps;
+(2) (4 points) Draw the output waveform based on the inputs.
+(3) (4 points) Assuming that the input B is shorted to ground, derive the expression of the output X and
+draw its waveform.
+Solution:
+(1)
+CONTINUED
+
+========== PAGE 6 ==========
+– 6 – EIE 2050 Digital Logic and Systems
+Figure 5: Output waveform of X for Q.5(1).
+(2)
+(3) X = ¯A + D
+Figure 6: Output waveform of X for Q.5(2).
+CONTINUED
+
+========== PAGE 7 ==========
+– 7 – EIE 2050 Digital Logic and Systems
+6. (15 points)
+(1) Derive the minimized SOP expression from the truth table below using K-map (5 points), and implement
+it using basic gates such as AND, OR, Inverter(5 points). The complementary inputs, if needed, are
+NOT directly available, i.e. ¯A, ¯B, ¯C, ¯D are NOT available. Same for the question below.
+(2) (5 points) Implement the logic function specified in the truth table by using a 74HC151 8-input data
+selector/multiplexer.
+A B C D X
+0 0 0 0 0
+0 0 0 1 0
+0 0 1 0 1
+0 0 1 1 1
+0 1 0 0 1
+0 1 0 1 0
+0 1 1 0 0
+0 1 1 1 0
+1 0 0 0 1
+1 0 0 1 1
+1 0 1 0 1
+1 0 1 1 1
+1 1 0 0 0
+1 1 0 1 0
+1 1 1 0 0
+1 1 1 1 1
+Table 1: The truth table of Q.6.
+Figure 7: The 74HC151 8-input multiplexer.
+Solution:
+(1) The K-map is shown in Fig. 8.
+CONTINUED
+
+========== PAGE 8 ==========
+– 8 – EIE 2050 Digital Logic and Systems
+Figure 8: The K-map from the truth table.
+The minimized SOP form is:
+X = ACD + A ¯B + ¯BC + ¯AB ¯C ¯D
+The logic circuit implemented is shown in Fig. 9.
+Figure 9: The logic circuit implementation.
+(2) The logic function implemented by a 74HC151 is shown in Figure 10.
+CONTINUED
+
+========== PAGE 9 ==========
+– 9 – EIE 2050 Digital Logic and Systems
+Figure 10: The 74HC151 implemented logic function.
+CONTINUED
+
+========== PAGE 10 ==========
+– 10 – EIE 2050 Digital Logic and Systems
+7. (13 points)
+(1) (2 points) For the parallel adder in Fig. 11, determine the complete sum by analyzing the operation of
+the circuit.
+Figure 11: The 4-bit ripple carry adder.
+(2) Assume A = A1A0 and B = B1B0, and C0 denotes the initial carry input. If implement the 2-bit
+addition using the look-ahead carry adder: Firstly, please give the expressions of the carry generation
+(G1 and G0, respectively), carry propagation ( P1 and P0, respectively) and the carry output ( C1 and
+C2, respectively) for each stage (6 points), and draw the logic diagrams inside the block 1 and block 2
+of Fig. 12 to show the inside logic circuits using necessary logic gates (5 points).
+Figure 12: Carry prediction circuits of the 2-bit Look-ahead carry adder.
+Solution:
+(1) The complete sum is Σ = Σ 5Σ4Σ3Σ2Σ1 = 10001.
+CONTINUED
+
+========== PAGE 11 ==========
+– 11 – EIE 2050 Digital Logic and Systems
+Figure 13: The addition of two 4-bit numbers using ripple carry adder.
+(2) The equations and the logic diagrams are shown below (Note: Both “OR” and “XOR” gates can be
+used to calculate the carry propagation.):
+G0 = A0B0
+P0 = A0 + B0
+C1 = G0 + P0C0
+G1 = A1B1
+P1 = A1 + B1
+C2 = G1 + P1C1 = G1 + P1(G0 + P0C0) = G1 + P1G0 + P1P0C0
+Figure 14: Carry prediction circuits of the 2-bit Look-ahead carry adder.
+CONTINUED
+
+========== PAGE 12 ==========
+– 12 – EIE 2050 Digital Logic and Systems
+8. (10 points) Develop a logic circuit with BCD inputs that will only produce a 1 output when exactly 2 input
+variables are 1s.
+(1) Please develop the truth table for the above circuit.
+(2) Please use K-map to derive the minimized SOP expression for the circuit.
+Solution:
+(1) The truth table for the circuit is:
+A B C D X
+0 0 0 0 0
+0 0 0 1 0
+0 0 1 0 0
+0 0 1 1 1
+0 1 0 0 0
+0 1 0 1 1
+0 1 1 0 1
+0 1 1 1 0
+1 0 0 0 0
+1 0 0 1 1
+1 0 1 0 X
+1 0 1 1 X
+1 1 0 0 X
+1 1 0 1 X
+1 1 1 0 X
+1 1 1 1 X
+(2) X = AB + AC + AD + BC ¯D + B ¯CD + ¯BCD
+Figure 15: Solution for Q.8.

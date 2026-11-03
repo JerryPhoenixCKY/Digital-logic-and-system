@@ -1,0 +1,289 @@
+========== PAGE 1 ==========
+EIE 2050 Digital Logic and Systems
+Final Exam
+(Time allowed: 120 minutes)
+May 15, 2022
+NOTE: Answer ALL 9 questions. Show all intermediate steps, except Question 1.
+1. (10 points) Are the following statements necessarily true (Y) or not (N)?
+(1) A flip-flop is a bistable logic circuit that can store only one bit at a time.
+(2) An edge-triggered D flip-flop changes states whenever the D input changes.
+(3) A ring counter uses one flip-flop for each state in its sequence.
+(4) For the Mealy machine, the outputs come directly from the combinational logic and not the memory.
+(5) A synchronous counter is also known as a ripple counter.
+(6) To achieve a modulus of 100, ten decade counters are required.
+(7) All shift registers are defined by specified sequences.
+(8) NAND gates can be used to produce the AND functions.
+(9) Static RAM (SRAM) must be periodically refreshed to retain data.
+(10) Registers are at the top of a memory hierarchy.
+Solution:
+(1) Y
+(2) N
+(3) Y
+(4) Y
+(5) N
+(6) N
+(7) N
+(8) Y
+(9) N
+(10) Y
+CONTINUED
+
+========== PAGE 2 ==========
+– 2 – EIE 2050 Digital Logic and Systems
+2. (10 points)
+(1) Convert the fractional binary number 10 .10110010112 to octal and hexadecimal
+(2) Perform binary subtraction on the following signed numbers:
+00110011 − 00010000
+(3) Multiply 1011 by 1101 in binary form. Note that both numbers are in the 2’s compliment form.
+Solution:
+(1)
+10.10110010112 = 2.54548 = 2.B2C16
+(2) The 2’s compliment of 00010000 is 11110000. Thus, we have
+The answer is 00100011.
+(3) The 2’s compliment of 1011 and 1101 are 0101 and 0011, respectively.
+Therefore, the product is 01111.
+CONTINUED
+
+========== PAGE 3 ==========
+– 3 – EIE 2050 Digital Logic and Systems
+3. (10 points)
+(1) Develop a truth table for ABC + ¯A ¯BC + AB ¯C
+(2) Convert ABC + ¯A ¯BC + AB ¯C into the standard Product Of Sums (POS) form.
+(3) Convert AB + CD into the standard Sum Of Products (SOP) form.
+Solution:
+(1)
+A B C X
+0 0 0 0
+0 0 1 1
+0 1 0 0
+0 1 1 0
+1 0 0 0
+1 0 1 0
+1 1 0 1
+1 1 1 1
+(2)
+ABC + ¯A ¯BC + AB ¯C = (A + B + C)(A + ¯B + C)(A + ¯B + ¯C)( ¯A + B + C)( ¯A + B + ¯C)
+(3)
+AB + CD = ABCD + ABC ¯D + AB ¯CD + AB ¯C ¯D + ¯A ¯BCD + ¯ABCD + A ¯BCD
+CONTINUED
+
+========== PAGE 4 ==========
+– 4 – EIE 2050 Digital Logic and Systems
+4. (10 points)
+(1) In the simple programmed AND array with programmable links as shown above, determine the Boolean
+output expressions for X1, X2 and X3;
+(2) Given the input waveforms for A and B as shown below, draw the output waveform for X2.
+Solution:
+(1) The output expressions are given as follows:
+X1 = ¯AB (1)
+X2 = ¯A ¯B (2)
+X3 = A ¯B (3)
+(2) X2 = ¯A ¯B = A + B
+CONTINUED
+
+========== PAGE 5 ==========
+– 5 – EIE 2050 Digital Logic and Systems
+5. (10 points) Design a synchronous counter using the following state transition table where we assign states:
+S0 = 00, S1 = 01, S2 = 10 and S3 = 11.
+Present Present Next State
+Q1Q0 S X=0 X=1
+00 S0 S1 S2
+01 S1 S1 S2
+10 S2 S2 S3
+11 S3 S3 S0
+(1) Derive the next state table in terms of X, Q1 and Q0, assuming that D flip flops are used;
+(2) Derive the expressions for D0 and D1 in terms of Q1, Q0 and X.
+Solution:
+(1) The next state table is given as
+Present State Next State
+X=0 X=1
+Q1 Q0 Q1 Q0 Q1 Q0
+0 0 0 1 1 0
+0 1 0 1 1 0
+1 0 1 0 1 1
+1 1 1 1 0 0
+(2) The expressions for D0 and D1 are given as follows:
+CONTINUED
+
+========== PAGE 6 ==========
+– 6 – EIE 2050 Digital Logic and Systems
+6. (10 points)
+(1) Using K-Map, derive the simplest expression for output Y
+Inputs Output
+Q3 Q2 Q1 Q0 Y
+0 0 0 0 0
+0 0 0 1 1
+0 0 1 0 1
+0 0 1 1 1
+0 1 0 0 0
+0 1 0 1 1
+0 1 1 0 0
+0 1 1 1 1
+1 0 0 0 0
+1 0 0 1 0
+1 0 1 0 X
+1 0 1 1 X
+1 1 0 0 X
+1 1 0 1 X
+1 1 1 0 X
+1 1 1 1 X
+(2) A gated D latch is shown below.
+The gated D latch operates according to the following truth table.
+Enable D Qn Qn+1 STATE
+1 0 X 0 RESET
+1 1 X 1 SET
+0 X X Qn No Change
+where Qn and Qn+1 stand for the current and next state of the D flip flop, respectively. Furthermore,
+X represents “Don’t care”.
+Derive the simplest expression for Qn+1 in terms of Enable, D and Qn using K-Map.
+Solution:
+(1)
+Y = Q0 ¯Q3 + Q0Q2 + Q1 ¯Q2
+CONTINUED
+
+========== PAGE 7 ==========
+– 7 – EIE 2050 Digital Logic and Systems
+(2) The complete truth table is given by
+E D Qn Qn+1
+0 0 0 0
+0 0 1 1
+0 1 0 0
+0 1 1 1
+1 0 0 0
+1 0 1 0
+1 1 0 1
+1 1 1 1
+Using K-Map, we can derive Qn+1 = ED + ¯EQn
+CONTINUED
+
+========== PAGE 8 ==========
+– 8 – EIE 2050 Digital Logic and Systems
+7. (15 points)
+(1) Denote by Qn and Qn+1 the current and the next state of the J-K flip flop output, respectively.
+Complete the following truth table of the J-K flip flop, assuming that CLK provides the rising edges
+required.
+J K Qn Qn+1
+0 0 0
+0 0 1
+0 1 0
+0 1 1
+1 0 0
+1 0 1
+1 1 0
+1 1 1
+(2) Derive the expression for Qn+1 in terms of Qn, J and K.
+(3) The following diagram shows a synchronous counter. Derive the expression for Qn+1
+2 , Qn+1
+1 and Qn+1
+0 .
+(4) Derive the next state table for the counter above.
+Solution:
+CONTINUED
+
+========== PAGE 9 ==========
+– 9 – EIE 2050 Digital Logic and Systems
+(1)
+J K Qn Qn+1
+0 0 0 0
+0 0 1 1
+0 1 0 0
+0 1 1 0
+1 0 0 1
+1 0 1 1
+1 1 0 1
+1 1 1 0
+(2) Qn+1 = ¯QnJ + Qn ¯K
+(3) It is straightforward to find that
+J2 = Q2 K2 = ¯Q1
+J1 = ¯Q2 K1 = ¯Q0
+J0 = 1 K0 = Q2
+Recalling the results derived in (2), we have
+Qn+1
+2 = ¯Qn
+2 Qn
+1 + Qn
+2 Qn
+1 = Qn
+1 (4)
+Qn+1
+1 = ¯Qn
+2 ¯Qn
+1 + Qn
+0 Qn
+1 (5)
+Qn+1
+0 = ¯Qn
+0 + ¯Qn
+2 Qn
+0 (6)
+(4) The next state table is given as
+Qn
+2 Qn
+1 Qn
+0 Qn+1
+2 Qn+1
+1 Qn+1
+0
+0 0 0 0 1 1
+0 1 1 1 1 1
+1 1 1 1 1 0
+1 1 0 1 0 1
+1 0 1 0 0 0
+CONTINUED
+
+========== PAGE 10 ==========
+– 10 – EIE 2050 Digital Logic and Systems
+8. (15 points) Recall we have discussed the design of a digital clock in Chapter 9 as shown below, where TC
+stands for terminal count. TC outputs HIGH when the counter is in the last state of its sequence.
+(1) The hours counter is implemented as follows:
+Assuming that the clock shows “11:59:59”, what are the values for the following inputs before the TC
+input turns HIGH.
+Input Q3 Q2 Q1 Q0 J K Q LOAD
+Value
+(2) With the clock showing “11:59:59”, we consider the first rising edge presented to the CLK input of the
+hours counter above after TC becomes HIGH. Q3, Q2, Q1 and Q0 change their values twice within one
+CONTINUED
+
+========== PAGE 11 ==========
+– 11 – EIE 2050 Digital Logic and Systems
+clock cycle. What are their values?
+Input Q3 Q2 Q1 Q0
+Time Instant 1
+Time Instant 2
+(3) If the inverter labeled as “INV1” is removed, i.e. the J-K flip flop is directly connected to CLK, can
+the remaining design of the hours counter work properly? Elaborate on your answer.
+(4) If we replace both “ G1” and “INV2” with a simple AND gate, can the new design of the hours counter
+work properly? Elaborate on your answer.
+Solution:
+(1) The values are as follows:
+Input Q3 Q2 Q1 Q0 J K Q LOAD
+Value 1 0 1 1 1 0 1 1
+(2)
+Input Q3 Q2 Q1 Q0
+Time Instant 1 1 1 0 0
+Time Instant 2 0 0 0 0
+(3) No, the hours counter will NOT work properly. As the J-K flip flop is triggered by the falling edge off
+CLK, the new design may display “19”.
+(4) No, the hours counter will NOT work properly. This is because that the output of the AND gate may
+race to the J input of the J-K flip flop before the rising edge that triggered the decade counter to change
+to “9”. As a result, the new design may potentially cause the hour display to show “19”.
+CONTINUED
+
+========== PAGE 12 ==========
+– 12 – EIE 2050 Digital Logic and Systems
+9. (10 points) Recall the traffic light application discussed in Chapter 7, the state transition diagram is given
+as follows:
+(1) Derive the expression for D0 in terms of Q0, Q1, TL, TS and VS;
+(2) Derive the expression for D1 in terms of Q0, Q1, TL, TS and VS.
+Solution:
+(1) The two entries with Q1 = 0 and Q0 = 1 suggest that D0 = 1 regardless of the values of {TL, TS, VS}.
+Thus, we have
+D0 = Q1Q0T LVs + Q1Q0TS + Q1Q0T S + Q1Q0TLVs
+= Q1Q0 + T LVsQ1 + TLVsQ0
+CONTINUED
+
+========== PAGE 13 ==========
+– 13 – EIE 2050 Digital Logic and Systems
+(2) Note that T L + V S = TLVS. Thus, the two entries with Q1 = Q0 = 1 suggest that D1 = 1 regardless
+of the values of {TL, TS, VS}. Thus, we have
+D1 = Q0T S + Q1TS

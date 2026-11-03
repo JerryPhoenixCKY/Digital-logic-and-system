@@ -1,0 +1,206 @@
+========== PAGE 1 ==========
+ECE2050 Homework 1
+Due: Feb. 20, 2025
+Q1 What is the largest 14-bit binary number that can be represented with.
+1. unsigned numbers?
+2. two’s complement numbers?
+3. sign/magnitude numbers?
+1
+A1:
+1.Unsigned: 16383
+2.Two's Complement: 8191
+3.Sign/Magnitude: 8191
+
+========== PAGE 2 ==========
+Q2 What is the smallest (most negative) 15-bit binary number that can be represented with
+1. unsigned numbers?
+2. two’s complement numbers?
+3. sign/magnitude numbers?
+2
+A2:
+1.Unsigned: 0
+2.Two's Complement: -16384
+3.Sign/Magnitude: -16383
+
+========== PAGE 3 ==========
+Q3 Convert the following hexadecimal numbers to unsigned binary. Show your work.
+1. A616;
+2. 3C16;
+3. F F F C16;
+4. E000000016.
+3
+A3 :
+1.A6₁₆ → 10100110₂
+2.3C₁₆ → 0011 1100₂
+3.FFFC₁₆ → 1111 1111 1111 1100₂
+4.E00 00000₁₆ → 1110 0000 0000 0000 0000 0000 0000 0000₂
+
+========== PAGE 4 ==========
+Q4 Convert the following two’s complement binary numbers to decimal.
+1. 10112;
+2. 1101112;
+3. 011100102;
+4. 100011112.
+4
+A4:
+1.
+Starts with 1 (negative). 
+Invert: 0100₂
+Add 1: 0101₂ = 5
+Answer: -510
+2.
+Starts with 1 (negative). 
+Invert: 001000₂
+Add 1: 001001₂ = 9 
+Answer: -910
+3.
+Starts with 0 (positive). 
+Convert normally: 
+0+64+32+16+0+0+2+0=114 
+Answer: 11410
+4.
+Starts with 1 (negative). 
+Invert: 01110000₂
+Add 1: 01110001₂ = 113 
+Answer: -11310
+
+========== PAGE 5 ==========
+Q5 Convert the following decimal numbers to 8-bit two’s complement numbers or indicate that
+the decimal number would overflow the range.
+1. −5110;
+2. −6710;
+3. −15110;
+4. −12810.
+5
+A5:
+1.−51₁₀
+∣51∣=51 → 00110011₂
+Invert: 11001100₂
+Add 1: 11001101₂
+Answer: 11001101₂
+2.−67₁₀
+∣67∣=67 → 01000011₂
+Invert: 10111100₂
+Add 1: 10111101₂
+Answer: 10111101₂
+3.−151₁₀
+The range for 8-bit two’s complement is −128 to 127, but −151 is out of range.
+Overflow!
+4.−128₁₀
+Special case: −128 is the lowest possible value in 8-bit two’s complement.
+Answer: 10000000₂
+
+========== PAGE 6 ==========
+Q6 Convert the following 4-bit 2’s complement numbers to 8-bit 2’s complement numbers.
+1. 11002;
+2. 10112.
+6
+A6:
+1.1100₂ (4-bit)
+Starts with 1 (negative).
+Extend the sign bit (1) to make it 8-bit:
+1111 1100₂
+Answer: 11111100₂
+2.1011₂ (4-bit)
+Starts with 1 (negative).
+Extend the sign bit (1) to make it 8-bit:
+1111 1011₂
+Answer: 11111011₂
+
+========== PAGE 7 ==========
+Q7 Perform each addition in the 2’s complement form. Indicate whether the sum overflows a
+7-bit result.
+1. 1810 + 910;
+2. 2910 + 3210;
+3. −610 + 2310;
+4. −310 + 3110;
+5. −1810 + −1010;
+6. −2810 + −3610.
+7
+A7:
+1. 1810 + 910=00110112  (No Overflow)
+2. 2910 + 3210=01111012  (No Overflow)
+3. −610 + 2310=00100012  (No Overflow)
+4. −310 + 3110=00111002  (No Overflow)
+5. −1810 + −1010=11001002  (No Overflow)
+6. −2810 + −3610=10000002  (No Overflow)
+Set question 3 as an example:
+
+
+========== PAGE 8 ==========
+Q8 The IEEE 754 standard specifies a 32-bit binary as having: 1 bit Sign; 8 bits Exponent
+width; 24 bits (23 explicitly stored) Mantissa precision. The sign bit determines the sign
+of the number, which is the sign of the mantissa as well. The exponent is an 8-bit unsigned
+integer from 0 to 255, in biased form: an exponent value of 127 represents the actual
+zero. Exponents range from -126 to +127 because exponents of -127 (all 0s) and +128
+(all 1s) are reserved for special numbers. The true mantissa includes 23 fraction bits to
+the right of the binary point and an implicit leading bit (to the left of the binary point)
+with value 1, unless the exponent is stored with all zeros. Thus only 23 fraction bits of
+the mantissa appear in the memory format, but the total precision is 24 bits. The bits are
+laid out as shown in Figure 1: The real value assumed by a given 32-bit binary data with
+a given sign, biased exponent (the 8-bit unsigned integer), and a 23-bit mantissa is
+(−1)b31 × 2(b30b29···b23)2−127 × (1.b22b21 · · · b0)2.
+1. Convert the decimal number 102.2510 to IEEE 754 standard 32-bit binary. Show
+your work;
+2. The IEEE 754 standard specifies a 64-bit binary as having: 1 bit Sign; 11 bits
+Exponent width; 53 bits (52 explicitly stored) Mantissa precision. The sign bit
+determines the sign of the number. The exponent is an 11-bit unsigned integer
+from 0 to 2047, in biased form: an exponent value of 1023 represents the actual
+zero. Exponents range from -1022 to +1023 because exponents of -1023 (all 0s)
+and +1024 (all 1s) are reserved for special numbers. The true mantissa includes 52
+fraction bits to the right of the binary point and an implicit leading bit (to the left
+of the binary point) with value 1, unless the exponent is stored with all zeros. Thus
+only 52 fraction bits of the mantissa appear in the memory format, but the total
+precision is 53 bits. Sketch IEEE 754 standard 64-bit binary layout;
+3. Convert the decimal number 102.2510 to IEEE 754 standard 64-bit binary. Show
+your work.
+Sign
+Exponent
+(8 bits)
+Mantissa (fraction)
+(23 bits)
+31 30 23 22 0(bit index)
+Figure 1: IEEE 754 standard 32-bit binary.
+8
+
+========== PAGE 9 ==========
+
+
+========== PAGE 10 ==========
+Q9 Multiply 01101011 by 11110000 in the two’s complement form.
+9
+A9:
+4. According to the sign of two numbers, the result is negative. So right answer is
+-011010110000, then converter it into new format. The right answer is:
+100101010000
+1.Sign bit=1
+2.2's complement of 11110000 = 00010000
+3.Multiplication
+
+========== PAGE 11 ==========
+Q10 Convert each of the following octal numbers to binary, hexadecimal, and decimal.
+1. 238;
+2. 458;
+3. 3718;
+4. 25608.
+10
+A10:
+23 (Octal) = Binary: 010011, Hex: 13, Decimal: 19
+45 (Octal) = Binary: 100101, Hex: 25, Decimal: 37
+371 (Octal) = Binary: 011111001, Hex: F9, Decimal: 249 2560 
+(Octal) = Binary: 010101110000, Hex: 570, Decimal: 1392
+
+========== PAGE 12 ==========
+Q11 How many 7-bit two’s complement numbers are greater than 0? How many are less than
+0? How would your answers differ for sign/magnitude numbers?
+11
+A11:
+Two's Complement:
+Numbers greater than 0: 63.
+Numbers less than 0: 64.
+Sign/Magnitude:
+Numbers greater than 0: 63.
+Numbers less than 0: 63.
+The answers differ because two's complement has an asymmetric range (one extra 
+negative number), while sign/magnitude has a symmetric range but a redundant 
+representation for 0

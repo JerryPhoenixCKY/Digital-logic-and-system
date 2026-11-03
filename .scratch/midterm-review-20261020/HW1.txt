@@ -1,0 +1,71 @@
+
+=== PDF PAGE 1 ===
+ECE2050 Homework 1
+Due: Oct. 3, 2026
+Q1Convert each number to decimal.
+(a)(110101.101) 2
+(b)(572.34) 8
+(c)(3AF.C) 16
+1
+
+=== PDF PAGE 2 ===
+Q2(a) Convert(173) 10 to octal.
+(b) Convert(45.625) 10 to binary.
+(c) Convert(946) 10 to hexadecimal using repeated division.
+2
+
+=== PDF PAGE 3 ===
+Q3(a) How many different values can be represented by a 12-bit unsigned number?
+(b) State the decimal range of a 12-bit unsigned number.
+(c) State the decimal range of a 12-bit sign/magnitude number.
+(d) State the decimal range of a 12-bit two’s-complement number.
+(e) What is the minimum number of unsigned bits required to represent every integer
+from0through1000?
+3
+
+=== PDF PAGE 4 ===
+Q4For each operation:
+•Convert both operands to 8-bit two’s-complement form.
+•Perform the binary addition.
+•Convert the result to decimal.
+•State whether signed overflow occurs.
+(a)
+(−52) + (−37)
+(b)
+84 + (−109)
+4
+
+=== PDF PAGE 5 ===
+Q5(a) Use the sign rules for signed multiplication. Express the answer as an 8-bit two’s-
+complement number if it is representable. Otherwise, state that overflow occurs.
+(−13)×7
+(b) Represent(−5.375) 10 in Q4.4 format.
+(c) Convert(−45.375) 10 to IEEE 754 single-precision format.
+(d) Decode the IEEE 754 single-precision pattern0xC1200000. Show the sign,
+exponent, significand, and final decimal value.
+5
+
+=== PDF PAGE 6 ===
+Q6(a) Convert binary(101101) 2 to Gray code.
+(b) Convert Gray code110101to binary.
+(c) Add an even-parity bit to the data:1011011.
+(d) An odd-parity receiver receives the group11010010. Identify whether this group
+containing a detectable error
+6
+
+=== PDF PAGE 7 ===
+Q7Perform
+739 + 486
+using BCD addition.
+7
+
+=== PDF PAGE 8 ===
+Q8Use modulo-2 division (XOR), find the CRC checksum.
+D= (10110110) 2, G= (1101) 2
+For the case:
+(i) Append the correct number of zeros to the data.
+(ii) Calculate the remainder.
+(iii) Write the complete transmitted code.
+(iv) Verify that dividing the transmitted codeword by the generator produces a zero
+remainder.
+8

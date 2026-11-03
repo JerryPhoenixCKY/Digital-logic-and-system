@@ -1,0 +1,811 @@
+========== PAGE 1 ==========
+EIE 2050 Digital Logic and Systems
+Final Exam
+(Time allowed: 120 minutes)
+May 13, 2023
+NOTE: Answer ALL 9 questions. Show all intermediate steps, except Question 1.
+1. (10 points) Are the following statements necessarily true (Y) or not (N)?
+(1) Pulse oscillators are also known as astable multivibrators;
+(2) If the present state is 1000, the next state of a 4-bit up/down counter in the DOWN mode is 1111;
+(3) To achieve a modulus of 100, 2 decade counters are required;
+(4) A serial shift register can accept more than one bit at a time on a single line;
+(5) An S-R latch has two stable states;
+(6) When the input bits are both 1 and the input carry bit is 1, the sum output of a full adder is 0;
+(7) If the inputs of an exclusive-OR gate are the same, the output is 1;
+(8) A 4-variable Karnaugh map has 16 cells;
+(9) 16 Bits = 1 Byte;
+(10) The ﬁnal output from the synthesis phase in the FPGA design ﬂow is called Gatelist.
+Solution:
+(1) Y;
+(2) N;
+(3) Y;
+(4) N;
+(5) Y;
+(6) N;
+(7) N;
+(8) Y;
+(9) N;
+(10) N.
+CONTINUED
+
+========== PAGE 2 ==========
+– 2 – EIE 2050 Digital Logic and Systems
+2. (10 points)
+(1) (3 points) Convert the binary number 1111001 into octal and hexadecimal;
+(2) (3 points) Perform the subtraction of the signed numbers: 00001101 − 11110110;
+(3) (4 points) Divide 00011001 by 00000101.
+Solution:
+(1) 1111001 2 = 7516 = 1718;
+(2) In this case, 13 − (−10) = 13 + 10 = 23
+00001101
++00001010
+00010111
+(3) In this case, 00000101 → 11111011 (2’s complement)
+00011001
++11111011
+100010100
++11111011
+100001111
++11111011
+100001010
++11111011
+100000101
++11111011
+100000000
+Quotient is 5 = 0101. remainder is 0. Note that 1 indicates the result is positive. It is discarded.
+CONTINUED
+
+========== PAGE 3 ==========
+– 3 – EIE 2050 Digital Logic and Systems
+3. (10 points)
+(1) (4 points) Design a logic circuit to generate the output waveform (You may assume that complementary
+inputs, if needed, are directly available - e.g., both A and ¯A are available. Unknown outputs can be
+represented as “don’t care”);
+Problems  305
+ 30. For the input waveforms in Figure 5–61, what logic circuit will generate the output waveform 
+shown?
+A
+B
+C
+X
+Inputs
+Output
+fg05_06100
+FIGURE 5–61 
+A
+B
+C
+D
+E
+F
+X
+A
+B
+C
+D
+F
+E
+1
+2
+3
+4 5
+fg05_06300
+FIGURE 5–63 
+A
+B
+C
+D
+E
+X
+100 ns pulse width
+25 ns minimum
+X
+A
+B
+C
+D
+E
+G1
+G2
+G3
+G4
+fg05_06400
+FIGURE 5–64 
+ 31. Repeat Problem 30 for the waveforms in Figure 5–62.
+ 32. For the circuit in Figure 5–63, draw the waveforms at the numbered points in the proper rela-
+tionship to each other.
+A
+B
+C
+X
+Inputs
+Output
+fg05_06200
+FIGURE 5–62 
+ 33. Assuming a propagation delay through each gate of 10 nanoseconds (ns), determine if the 
+desired output waveform X in Figure 5–64 (a pulse with a minimum tW 5 25 ns positioned as 
+shown) will be generated properly with the given inputs.
+Section 5–6 Combinational Logic with VHDL
+ 34. Describe a 2-input NAND gate with VHDL.
+ 35. Describe a 3-input AND gate with VHDL.
+ 36. Write a VHDL program using the data flow approach (Boolean expressions) to describe the 
+logic circuit in Figure 5–54(b).
+ 37. Write VHDL programs using the data flow approach (Boolean expressions) for the logic 
+ circuits in Figure 5–55(e) and (f).
+M05_FLOY5983_11_GE_C05.indd Page 305  17/11/14  5:59 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+(2) (3 points) Develop a truth table for X = AB + ¯B ¯C;
+(3) (3 points) Convert X = AB + ¯B ¯C into the standard Product of Sum (POS) form.
+Solution:
+(1) The truth table is shown in Table 1:
+A B C X
+0 0 0 0
+0 0 1 0
+0 1 0 0
+0 1 1 don’t care
+1 0 0 1
+1 0 1 0
+1 1 0 0
+1 1 1 don’t care
+Table 1: The truth table
+The K-map and its logic circuit are shown in Figure 1.
+0
+0
+0
+X
+0
+1
+X
+0
+AB 
+C
+00 
+01 
+10 
+11 
+0 1
+¯C¯C
+¯B¯B
+A A
+Figure 1: K-map and logic circuit.
+(2) X = AB + ¯B ¯C = ¯A + ¯B. The truth table is shown in Table 2.
+CONTINUED
+
+========== PAGE 4 ==========
+– 4 – EIE 2050 Digital Logic and Systems
+A B C X
+0 0 0 1
+0 0 1 1
+0 1 0 1
+0 1 1 1
+1 0 0 1
+1 0 1 1
+1 1 0 0
+1 1 1 0
+Table 2: The truth table
+(3) According to Table 2, X = ( ¯A + ¯B + C)( ¯A + ¯B + ¯C).
+4. (8 points) The relationship between the BCD code B3B2B1B0A3A2A1A0 and its binary number
+C6C5C4C3C2C1C0 is C6C5C4C3C2C1C0 = A3A2A1A0+1010×B3B2B1B0 = A3A2A1A0+0010×B3B2B1B0+
+1000× B3B2B1B0, where B3B2B1B0 is tens digit and A3A2A1A0 is units digit. Furthermore, we have
+A3A2A1A0
+B3B2B1B0
++B3B2B1B0
+C6C5C4C3C2C1C0
+Design a circuit by using ONL Ytwo 4-bit adders to convert a BCD codeB3B2B1B0A3A2A1A0 to its binary
+number C6C5C4C3C2C1C0 (Connect ALL input pins as needed).
+380 Functions of Combinational Logic
+ 35. List the possible faults for each decoder/display in Figure 6–85.
+1
+2
+4
+8
+1
+0
+0
+1
+(a)
+BCD/7-seg
+1
+BCD/7-seg
+2
+4
+8
+0
+0
+0
+1
+(b)
+b
+a
+c
+d
+e
+f
+g
+b
+a
+c
+d
+e
+f
+g
+0
+1
+1
+0
+1
+2
+4
+8
+(c)
+BCD/7-seg
+b
+a
+c
+d
+e
+f
+g
+fg06_08900
+FIGURE 6–85 
+1432 1Cin432
+134
+A0
+7-bit binary output
+2Cout
+BA
+Σ
+1432 1Cin432
+134 2Cout
+BA
+Σ
+A1A2A3B0B1B2B3
+BCD tens digit BCD units digit
+6432168 421
+fg06_09000
+FIGURE 6–86 
+ 36. Develop a systematic test procedure to check out the complete operation of the keyboard 
+encoder in Figure 6–39.
+ 37. You are testing a BCD-to-binary converter consisting of 4-bit adders as shown in Figure 6–86. 
+First verify that the circuit converts BCD to binary. The test procedure calls for applying BCD 
+numbers in sequential order beginning with 010 and checking for the correct binary output. 
+What symptom or symptoms will appear on the binary outputs in the event of each of the fol-
+lowing faults? For what BCD number is each fault first detected?
+(a) The A1 input is open (top adder).
+(b) The Cout is open (top adder).
+(c) The ©4 output is shorted to ground (top adder).
+(d) The 32 output is shorted to ground (bottom adder).
+M06_FLOY5983_11_GE_C06.indd Page 380  12/11/14  8:17 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+Solution:
+CONTINUED
+
+========== PAGE 5 ==========
+– 5 – EIE 2050 Digital Logic and Systems
+380 Functions of Combinational Logic
+ 35. List the possible faults for each decoder/display in Figure 6–85.
+1
+2
+4
+8
+1
+0
+0
+1
+(a)
+BCD/7-seg
+1
+BCD/7-seg
+2
+4
+8
+0
+0
+0
+1
+(b)
+b
+a
+c
+d
+e
+f
+g
+b
+a
+c
+d
+e
+f
+g
+0
+1
+1
+0
+1
+2
+4
+8
+(c)
+BCD/7-seg
+b
+a
+c
+d
+e
+f
+g
+fg06_08900
+FIGURE 6–85 
+1432 1Cin432
+134
+A0
+7-bit binary output
+2Cout
+BA
+Σ
+1432 1Cin432
+134 2Cout
+BA
+Σ
+A1A2A3B0B1B2B3
+BCD tens digit BCD units digit
+6432168 421
+fg06_09000
+FIGURE 6–86 
+ 36. Develop a systematic test procedure to check out the complete operation of the keyboard 
+encoder in Figure 6–39.
+ 37. You are testing a BCD-to-binary converter consisting of 4-bit adders as shown in Figure 6–86. 
+First verify that the circuit converts BCD to binary. The test procedure calls for applying BCD 
+numbers in sequential order beginning with 010 and checking for the correct binary output. 
+What symptom or symptoms will appear on the binary outputs in the event of each of the fol-
+lowing faults? For what BCD number is each fault first detected?
+(a) The A1 input is open (top adder).
+(b) The Cout is open (top adder).
+(c) The ©4 output is shorted to ground (top adder).
+(d) The 32 output is shorted to ground (bottom adder).
+M06_FLOY5983_11_GE_C06.indd Page 380  12/11/14  8:17 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+Figure 2: Q4 solution.
+5. (10 points) Consider the combinational circuit below, which has three inputs A, B, C and two outputs X
+and Y .
+S0S0
+S1S1
+0 0
+1 1
+2 2
+3 3
+Y Y
+MUX 
+S0S0
+S1S1
+0 0
+1 1
+2 2
+3 3
+Y Y
+MUX 
+0 0
+1 1
+A A
+B B
+C C
+X X
+Y Y
+(1) (4 points) Draw the truth table for X and Y in terms of A, B, C;
+(2) (3 points) Determine the output X in terms of A, B, C in the standard Sum of Product (SOP) forms;
+(3) (3 points) Use Karnaugh Map to simplify the Boolean expression of the output Y .
+Solution:
+CONTINUED
+
+========== PAGE 6 ==========
+– 6 – EIE 2050 Digital Logic and Systems
+(1) The truth table is shown in Table 3.
+A B C X Y
+0 0 0 0 0
+0 0 1 1 0
+0 1 0 1 0
+0 1 1 0 1
+1 0 0 1 0
+1 0 1 0 1
+1 1 0 0 1
+1 1 1 1 1
+Table 3: The truth table
+(2) According to Table 3, X = ¯A ¯BC + ¯AB ¯C + A ¯B ¯C + ABC;
+(3) The K-map is shown in Figure 3. Y = BC + AB + AC.
+0
+0
+0
+1
+1
+0
+1
+1
+AB 
+C
+00 
+01 
+10 
+11 
+0 1
+Figure 3: K-map.
+CONTINUED
+
+========== PAGE 7 ==========
+– 7 – EIE 2050 Digital Logic and Systems
+6. (12 points) Design a counter to produce the state diagram below using positive edge-triggered J-K ﬂip-ﬂops.
+01 
+11 10 
+The truth table for a positive edge-triggered J-K ﬂip-ﬂop is given as follows.
+398 Latches, Flip-Flops, and Timers
+TABLE 7–3
+Truth table for a positive edge-triggered J-K flip-flop.
+Inputs Outputs
+J K CLK Q Q Comments
+0 0 c  Q0  Q0 No change
+0 1 c 0 1      RESET
+1 0 c 1 0      SET
+1 1 c  Q0  Q0      Toggle
+c = clock transition LOW to HIGH
+Q0 = output level prior to clock transition
+Solution
+Since this is a negative edge-triggered ﬂip-ﬂop, as indicated by the “bubble” at the clock input, the Q output will change 
+only on the negative-going edge of the clock pulse.
+ 1. At the ﬁrst clock pulse, both J and K are HIGH; and because this is a toggle condition, Q goes HIGH.
+ 2. At clock pulse 2, a no-change condition exists on the inputs, keeping Q at a HIGH level.
+ 3. When clock pulse 3 occurs, J is LOW and K is HIGH, resulting in a RESET condition; Q goes LOW.
+ 4. At clock pulse 4, J is HIGH and K is LOW, resulting in a SET condition; Q goes HIGH.
+ 5. A SET condition still exists on J and K when clock pulse 5 occurs, so Q will remain HIGH.
+The resulting Q waveform is indicated in Figure 7–18(b).
+Related Problem
+Determine the Q output of the J-K ﬂip-ﬂop if the J and K inputs in Figure 7–18(a) are inverted.
+EXAMPLE 7–5
+The waveforms in Figure 7–18(a) are applied to the J, K, and clock inputs as indicated. Determine the Q output, assuming 
+that the ﬂip-ﬂop is initially RESET.
+(a)
+J
+K
+(b)
+1 2 3 4 51
+0CLK
+Q
+1
+0
+1
+0
+1
+0
+Toggle No
+change
+Reset Set Set
+J
+Q
+Q
+C
+K
+CLK
+fg07_02400
+FIGURE 7–18 
+Edge-Triggered Operation
+D Flip-Flop
+A simplified implementation of an edge-triggered D flip-flop is illustrated in Figure 7–19(a) 
+and is used to demonstrate the concept of edge-triggering. Notice that the basic D flip-flop 
+differs from the gated D latch only in that it has a pulse transition detector.
+M07_FLOY5983_11_GE_C07.indd Page 398  12/11/14  8:02 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+(1) (2 points) Complete the following transition table for the positive edge-triggered J-K ﬂip-ﬂop;
+Figure 4: The transition table for the positive edge-triggered J-K ﬂip-ﬂop.
+(2) (2 points) Derive the next-state table based on the state diagram above;
+(3) (3 points) Derive the expressions for J and K of each positive edge-triggered J-K ﬂip-ﬂop;
+(4) (3 points) Draw the counter circuit with positive edge-triggered J-K ﬂip-ﬂops and combinational logic
+gates;
+(5) (2 points) Based on the designed counter circuit in (4), determine the next state for an initial state of
+00.
+Solution:
+(1) The transition table for the positive edge-triggered J-K ﬂip-ﬂop is shown in Figure 5.
+CONTINUED
+
+========== PAGE 8 ==========
+– 8 – EIE 2050 Digital Logic and Systems
+520 Counters
+Step 2: Next-State Table
+Once the sequential circuit is defined by a state diagram, the second step is to derive a 
+next-state table, which lists each state of the counter (present state) along with the cor-
+responding next state. The next state is the state that the counter goes to from its present 
+state upon application of a clock pulse. The next-state table is derived from the state 
+diagram and is shown in Table 9–8 for the 3-bit Gray code counter. Q0 is the least sig-
+nificant bit.
+TABLE 9–8
+Next-state table for 3-bit Gray code counter.
+Present State Next State
+Q2 Q1 Q0 Q2 Q1 Q0
+0 0 0 0 0 1
+0 0 1 0 1 1
+0 1 1 0 1 0
+0 1 0 1 1 0
+1 1 0 1 1 1
+1 1 1 1 0 1
+1 0 1 1 0 0
+1 0 0 0 0 0
+TABLE 9–9
+Transition table for a J-K flip-flop.
+Output Transitions Flip-Flop Inputs
+QN QN 1 1 J K
+0 ¡ 0 0 X
+0 ¡ 1 1 X
+1 ¡ 0 X 1
+1 ¡ 1 X 0
+QN: present state
+QN + 1: next state
+X: “don’t care”
+Step 3: Flip-Flop Transition Table
+Table 9–9 is a transition table for the J-K flip-flop. All possible output transitions are 
+listed by showing the Q output of the flip-flop going from present states to next states. 
+QN is the present state of the flip-flop (before a clock pulse) and QN + 1 is the next state 
+(after a clock pulse). For each output transition, the J and K inputs that will cause the 
+transition to occur are listed. An X indicates a “don’t care” (the input can be either a 1 
+or a 0).
+To design the counter, the transition table is applied to each of the flip-flops in the 
+counter, based on the next-state table (Table 9–8). For example, for the present state 000, 
+001
+011
+010
+110
+100
+101
+111
+000
+fg08_02600
+FIGURE 9–26 State diagram for a 3-bit Gray code counter.
+clocked. As an example, Figure 9–26 is a state diagram for a basic 3-bit Gray code  counter. 
+This particular circuit has no inputs other than the clock and no outputs other than the 
+outputs taken off each flip-flop in the counter. You may wish to review the coverage of the 
+Gray code in Chapter 2 at this time.
+M09_FLOY5983_11_GE_C09.indd Page 520  17/11/14  6:08 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+Figure 5: The transition table for the positive edge-triggered J-K ﬂip-ﬂop.
+(2) The next-state table is shown in Table 4.
+Present State Next State
+Q1 Q0 Q1 Q0
+0 1 1 1
+1 1 1 0
+1 0 0 1
+Table 4: The next-state table
+(3) The truth table is shown in Table 5. J1 = 1, K1 = ¯Q0, J0 = 1, K0 = Q1.
+Present State Next State JK FF1 JK FF0
+Q1 Q0 Q1 Q0 J1 K1 J0 K0
+0 1 1 1 1 X X 0
+1 1 1 0 X 0 X 1
+1 0 0 1 X 1 1 X
+Table 5: The truth table
+(4) The counter circuit is shown in Figure 6.
+J0J0
+K0K0
+Q0Q0
+J1J1
+K1K1
+Q1Q1
+1 1
+CLK CLK 
+¯Q0¯Q0 ¯Q1¯Q1
+Figure 6: The transition table for the positive edge-triggered J-K ﬂip-ﬂop.
+(5) If the initial state is 00, the next state is 11 and the complete state diagram is shown in Figure 7.
+CONTINUED
+
+========== PAGE 9 ==========
+– 9 – EIE 2050 Digital Logic and Systems
+!" 
+"" "! 00 
+Figure 7: The state diagram if the initial state is 00.
+CONTINUED
+
+========== PAGE 10 ==========
+– 10 – EIE 2050 Digital Logic and Systems
+7. (12 points) Consider the synchronous sequential logic circuit below,
+J0J0
+K0K0
+Q0Q0
+J1J1
+K1K1
+Q1Q1
+AND 
+XOR 
+X X
+1 1
+CLK CLK 
+Q0Q0 Q1Q1
+Z Z
+Figure 8: A synchronous sequential logic circuit.
+(1) (4 points) Derive logic expressions for J0, K0, J1, K1 and Z in terms of X, Q0 and Q1;
+(2) (3 points) Fill in its next-state table below;
+Present State Next State ( X = 0) Next State ( X = 1)
+Q1 Q0 Q1 Q0 Z Q1 Q0 Z
+(3) (2 points) Determine the function of this circuit implements;
+(4) (3 points) Complete the following next-state table if the input J1 is open ( J1 = 1).
+Present State Next State ( X = 0) Next State ( X = 1)
+Q1 Q0 Q1 Q0 Z Q1 Q0 Z
+Solution:
+(1) J0 = 1, K0 = 1, J1 = X⊕ Q0, K1 = X⊕ Q0, Z = Q0Q1;
+(2) The next-state table is shown in Table 6;
+Present State Next State ( X = 0) Next State ( X = 1)
+Q1 Q0 Q1 Q0 Z Q1 Q0 Z
+0 0 0 1 0 1 1 1
+0 1 1 0 0 0 0 0
+1 0 1 1 1 0 1 0
+1 1 0 0 0 1 0 0
+Table 6: The next-state table
+CONTINUED
+
+========== PAGE 11 ==========
+– 11 – EIE 2050 Digital Logic and Systems
+(3) 2-bit (modulus-4) down/up counter;
+(4) If the input J1 = 1 is open, the next-state table is shown in Table 7;
+Present State Next State ( X = 0) Next State ( X = 1)
+Q1 Q0 Q1 Q0 Z Q1 Q0 Z
+0 0 1 1 1 1 1 1
+0 1 1 0 0 1 0 0
+1 0 1 1 1 0 1 0
+1 1 0 0 0 1 0 0
+Table 7: The next-state table
+CONTINUED
+
+========== PAGE 12 ==========
+– 12 – EIE 2050 Digital Logic and Systems
+8. (10 points) Recall the traﬃc light application discussed in Chapter 7, the state diagram is given below.
+366 Functions of Combinational Logic
+Third State  The Gray code is 11. In this state, the light is red on the main street and 
+green on the side street for 25 s when the long timer is on as long as there is a vehicle on 
+the side street. This condition is expressed as TLVs. The system transitions to the next state 
+when the long timer goes off or when there is no vehicle on the side street. This condition 
+is expressed as TL+Vs.
+Fourth State  The Gray code is 10. In this state, the light is red on the main street and 
+yellow on the side street. The system remains in this state for 4 s when the short timer is 
+on. This condition is expressed as TS. The system transitions back to the first state when 
+the short timer goes off. This condition is expressed as TS.
+Exercise
+1. How long can the system remain in the first state?
+2. How long can the system remain in the fourth state?
+3. Write the expression for the condition that produces a transition from the first state 
+to the second state.
+4. Write the expression for the condition that keeps the system in the second state.
+Block Diagram
+The traffic signal controller consists of three units: combinational logic, sequential logic, 
+and timing circuits, as shown in Figure 6–64. The combinational logic unit provides out-
+puts to turn the signal lights on and off. It also provides trigger outputs to start the long and 
+short timers. The input sequence to this logic represents the four states described by the 
+state diagram. The timing circuits unit provides the 25 s and the 4 s timing outputs. A fre-
+quency divider in the timing circuits unit divides the system clock down to a 1 Hz clock for 
+use in producing the 25 s and 4 s signals. The sequential logic unit produces the sequence 
+of 2-bit Gray codes representing the four states.
+TL + Vs
+TLVsTS
+TL + Vs TS
+TS
+TLVs
+Third state
+11
+Main: red
+Side:green
+Fourth state
+10
+Main: red
+Side: yellow
+First state
+00
+Main: green
+Side: red
+Second state
+01
+Main: yellow
+Side: red
+TS
+fg06_06600
+FIGURE 6–63 State diagram for the traffic signal control.
+M06_FLOY5983_11_GE_C06.indd Page 366  12/11/14  8:16 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+Figure 9: The state diagram for traﬃc light controller.
+Here J-K ﬂip-ﬂops are used to implement this controller. Fill the next-state table for the counter with J-K
+ﬂip-ﬂops, where Q1 and Q0 are the outputs of J-K ﬂip-ﬂops FF1 and FF0. J1, K1 and J0, K0 are the inputs
+of FF1 and FF0. (use X to represent “don’t care”).
+Present State Next State Input Conditions FF1 Inputs FF0 Inputs
+Q1 Q0 Q1 Q0 J1 K1 J0 K0
+0 0 0 0 TL + ¯VS
+0 0 0 1 ¯TLVS
+0 1 0 1 TS
+0 1 1 1 ¯TS
+1 1 1 1 TLVS
+1 1 1 0 ¯TL + ¯VS
+1 0 1 0 TS
+1 0 0 0 ¯TS
+Solution:
+Present State Next State Input Conditions FF1 Inputs FF0 Inputs
+Q1 Q0 Q1 Q0 J1 K1 J0 K0
+0 0 0 0 TL + ¯VS 0 X 0 X
+0 0 0 1 ¯TLVS 0 X 1 X
+0 1 0 1 TS 0 X X 0
+0 1 1 1 ¯TS 1 X X 0
+1 1 1 1 TLVS X 0 X 0
+1 1 1 0 ¯TL + ¯VS X 0 X 1
+1 0 1 0 TS X 0 0 X
+1 0 0 0 ¯TS X 1 0 X
+Table 8: Next-state table for the counter
+CONTINUED
+
+========== PAGE 13 ==========
+– 13 – EIE 2050 Digital Logic and Systems
+9. (10 points) Four illumination panels showing “C”, “U”, “H” and “K” have been set up on the upper campus.
+Diﬀerent from our campus, we show “C”, “U”, “H” and “K” on ONE panel, instead of four panels. For
+simplicity, we assume that the panel is composed of nine LED lights labeled as ”a” to ”i”, as shown below.
+To display an alphabet, we should turn on and oﬀ the corresponding LED lights. For instance, ”C” is
+displayed by turning on all LED lights except ”e” and ”f”. More speciﬁcally, an LED light is turned on if it
+is connected to a logic HIGH. In contrast, it is turned oﬀ if it is connected to a logic LOW. In other words,
+we display ”C” by connecting “1” to “a, b, c, d, g, h, i” while “0” to “e, f”.
+– 14 – EIE 2050 Digital Logic and Systems
+10.(15 points) Four illumination panels showing “C”,“U”, “H” and “K” have been set up on the upper campus.
+For simplicity, we assume that each panel is composed of nine LED lights labeled as “a” to “i”. To display
+an alphabet, we should turn on and o↵ the corresponding LED lights. For instance, “C” is displayed by
+turning on all LED lights except “e” and “f”. More speciﬁcally, an LED light is turned on if it is connected
+to a logic HIGH. In contrast, it is turned o↵ if it is connected to a logic LOW. In other words, we display
+“C” by connecting “1” to “a,b,c,d,g,h,i” while “0” to “e,f”.
+(1)First, design an LED controller with three inputsA0,A1andA2and nine outputsB0 B8to implement
+the following features:
+•whenA2=0,A1=0,A0= 0, All LED lights are o↵;
+•whenA2=0,A1=0,A0= 1, Display “C”;
+•whenA2=0,A1=1,A0= 0, Display “U”;
+•whenA2=0,A1=1,A0= 1, Display “H”;
+•whenA2=1,A1=0,A0= 0, Display “K”;
+•Otherwise, don’t care.
+Derive the logic expressions for the followingfouroutputs, namelyB0,B1,B2andB3, in terms of
+A0,A1andA2, assuming thatB0 B8are connected to “a-i”, respectively.
+CONTINUED
+We have designed a circuit to display “C”, “U”, “H”, “K” on ONE panel by using counters and a mask
+ROM as shown below.
+Address 
+decoder 
+0
+1
+2
+3
+1
+2
+a b c d e f g h i
+Combinational Logic Circuit or Connection 
+A0A0 A1A1A2A2A3A3 B0B0 B1B1B2B2B3B3
+O1O1
+O2O2
+Mask ROM 
+CTR DIV 16 CTR DIV 16 
+(1) (5 points) Determine a stored value in each cell in the mask ROM to satisfy the conditions as follows.
+• O2O1 = 00, show “C”;
+• O2O1 = 01, show “U”;
+• O2O1 = 10, show “H”;
+• O2O1 = 11, show “K”.
+(2) (5 points) Based on the mask ROM in (a), given fin = 64 Hz, design combinational logic circuits or
+connections between inputs A0, A1, A2, A3, B0, B1, B2, B3 and outputs O0, O1 to periodically and
+sequentially show “C”, “U”, “H” and “K”. During each period, each alphabet will last 1 second.
+Solution:
+CONTINUED
+
+========== PAGE 14 ==========
+– 14 – EIE 2050 Digital Logic and Systems
+(1) The stored value in each cell in the mask ROM is shown in Figure 10;
+(2) The combinational logic circuits or connections between inputs A0, A1, A2, A3, B0, B1, B2, B3 and
+outputs O0, O1 is shown in Figure 10.
+Address 
+decoder 
+0
+1
+2
+3
+1
+2
+1 1 1 0 0 1 1 1
+0 1 1 0 1 1 1 1
+0 1 1 1 1 1 0 1
+0 1 1 1 0 1 0 1
+1
+1
+1
+1
+a b c d e f g h i
+Combinational Logic Circuit or Connection 
+A0A0 A1A1A2A2A3A3 B0B0 B1B1B2B2B3B3
+O1O1
+O2O2
+Mask ROM 
+CTR DIV 16 CTR DIV 16 
+Figure 10: The stored value in each cell in the mask ROM.

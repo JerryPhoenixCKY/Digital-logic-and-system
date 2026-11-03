@@ -1,0 +1,1483 @@
+========== SLIDE 1 ==========
+ECE 2050 Digital Logic and Systems
+VHDL tutorial
+
+========== SLIDE 2 ==========
+Basic Structure of a VHDL Module
+A VHDL file 
+1) Library Declaration 
+library IEEE;
+use IEEE.std_logic_1164.all; 
+use 
+IEEE.std_logic_arith.all
+; 
+use 
+IEEE.std_logic_unsigned.all
+; 
+2) Entity Declaration 
+Define the signals that can be seen outside externally (I/O pins) 
+3) Architecture Body 
+Define the internal signals and operations of the desired function 
+
+========== SLIDE 3 ==========
+Example: 4-bit Comparator in VHDL
+2  library IEEE;
+3  use IEEE.std_logic_1164.all; 
+4  entity eqcomp4 is
+5  port (a, b: in 
+std_logic_vector
+(3 
+downto
+ 0); 
+6      equals: out 
+std_logic
+);
+7  end eqcomp4; 
+8  architecture arch_eqcomp4 of eqcomp4 is 
+9  begin
+10     equals <= '1' when (a = b) else '0’; 
+11     -- “comment line” 
+12 end arch_eqcomp4; 
+eqcomp4.vhd 
+1 
+    
+--the code starts here, “a comment” 
+
+========== SLIDE 4 ==========
+Identifiers
+Identifiers: Used to name any object in VHDL
+Naming Rules: 
+1)  Made up of only alphabets, numbers, and underscores 
+2)  First character must be a letter 
+3)  Last character 
+CANNOT 
+be an underscore 
+4)  Two connected underscores are 
+NOT 
+allowed 
+5)  
+VHDL-reserved words 
+are 
+NOT 
+allowed 
+6)  VHDL is 
+NOT 
+case sensitive 
+• 
+Txclk
+, 
+Txclk
+, TXCLK, 
+TxClk
+ are all equivalent 
+
+========== SLIDE 5 ==========
+External Signals (I/O Pin)
+•  An 
+external signal 
+(or I/O pin) is a physical wire that can carry logic information. 
+• Many 
+logic types 
+are eligible for external signals, e.g., 
+       
+– 
+bit
+: can be logic ‘
+1
+’ or ‘
+0
+’ only 
+       
+– 
+std_logic
+: can be logic ‘
+U
+’, ‘
+X
+’, ‘
+0
+’, ‘
+1
+’, ‘
+Z
+’, ‘
+W
+’, ‘
+L
+’, ‘
+H
+’, or ‘
+-
+’ 
+	• 9-valued standard logic (IEEE standard 1164) 
+	• E.g., 
+equals:out
+std_logic
+; 
+       
+– 
+std_logic_vector
+: a group of wires (i.e., a 
+signal bus
+) 
+	
+• E.g., 
+a, b: in 
+std_logic_vector
+(3 
+downto
+ 0); 
+	        – Each of 
+a(3)
+, 
+a(2)
+, 
+a(1)
+, 
+a(0) 
+is a 
+std_logic
+ 
+signal. 
+• VHDL is 
+strongly-typed 
+language. 
+       – Signals of different base types 
+CANNOT 
+to assigned to each other without the use of type-conversion. 
+
+========== SLIDE 6 ==========
+Resolved Logic Concept
+Resolved Logic 
+(Multi-value Signal): Multiple outputs can be connected together to drive a signal. 
+The 
+resolution function 
+is used to determine how multiple values from different sources (drivers) for a signal will be reduced to one value. 
+Single-value Signal Assignment: 
+	signal a, c: bit; 
+	
+c <= a; 
+Multi-value Signal Assignment: 
+signal a, b, c: bit; 
+c <= a; 
+c <= b; 
+
+========== SLIDE 7 ==========
+std_logic
+ vs. 
+std_ulogic
+std_logic
+: a type of 
+resolved logic
+, which means a signal can be driven by 2 inputs. 
+std_
+u
+logic
+ 
+(“
+u
+” means unresolved): a type of 
+unresolved logic
+, that means a signal 
+CANNOT 
+be driven by 2 inputs. 
+
+========== SLIDE 8 ==========
+Modes of I/O Pins
+Modes of I/O pin 
+must be explicitly specified in 
+port 
+of 
+entity declaration
+: 
+     Example: 
+  entity eqcomp4 is
+  
+port 
+(a, b: 
+in 
+std_logic_vector
+(3 
+downto
+ 0); 
+     equals: 
+out 
+std_logic
+); 
+  
+end eqcomp4; 
+There are 
+4 available modes of I/O pins
+:
+1) 
+in
+:Dataflows
+in
+only
+2) out
+: Data flows 
+out 
+only (cannot be read back by the entity) 
+      3) 
+inout
+: Data flows 
+bi-directionally 
+(i.e., in or out) 
+     4) buffer
+: Similar to 
+out 
+but it can be 
+read back 
+by the entity 
+
+========== SLIDE 9 ==========
+Architecture Body
+Architecture Body
+: Defines the internal of the chip Example: the architecture body of the entity 
+eqcomp4 
+architecture 
+arch_eqcomp4 
+of 
+eqcomp4 
+is 
+begin 
+   equals 
+<= '1' when (
+a 
+= 
+b
+) else '0’; 
+   -- “comment line” 
+end 
+arch_eqcomp4
+; 
+– 
+arch_eqcomp4
+: the architecture identifier (entered by the user)
+– 
+equals
+, 
+a
+, 
+b
+: I/O pins designed by the user in the entity declaration 
+– 
+begin ... end
+: define the internal operation
+– equals <= '1' when (a = b) else '0’; 
+   • <= 
+here means “signal assignment” not “less than or equal”. 
+       
+• 
+when-else 
+is a concurrent design construction. 
+– 
+--
+: comment on a line
+
+========== SLIDE 10 ==========
+Built-in Operators
+• Logical Operators
+: 
+and
+, 
+or
+, 
+nand
+, 
+nor
+, 
+xor
+, 
+xnor
+, 
+not 
+have their usual meanings. 
+• Relation Operators 
+(result is Boolean) 
+    = equal                                               /= not equal            < less than 
+    <= less than or equal                         > greater than         >= greater than or equal 
+• Logical Shift and Rotate 
+  – 
+sll
+ 
+shift left logical, fill blank with 0 
+  – 
+srl
+ 
+shift right logical, fill blank with 0 
+  – 
+rol
+ 
+rotate left logical, circular operation 
+              
+E.g., “10010101” 
+rol
+ 
+3 is “10101100” 
+  – 
+ror
+ 
+rotate right logical, circular operation 
+
+========== SLIDE 11 ==========
+Internal Signal
+• The 
+entity 
+declares the external signals.
+• The 
+architecture body 
+can also declare 
+signals 
+that 
+can be used 
+internally
+. 
+architecture 
+arch_eqcomp4 
+of 
+eqcomp4 
+is
+-- Internal signals shall be declared here! 
+begin
+...
+end 
+arch_eqcomp4
+; 
+– 
+Signal
+: Represent physical wires
+     • E.g., 
+signal 
+s1: BIT := '1'; 
+– 
+Constant
+: Hold unchangeable values 
+     
+• E.g., 
+constant 
+c1: BIT := '1'; 
+
+========== SLIDE 12 ==========
+Signal Object
+signal SIG_NAME: <type> [:= <value>]; 
+Note: Signals can be declared without initialized values. 
+• Examples: 
+  – signal SIG_NAME: STD_LOGIC; 
+        • Declared without initialized value 
+  – signal SIG_NAME: STD_LOGIC := ‘1’;
+ 
+• Signals can be declared
+    – In the “
+port
+” of the entity declaration (as external signals); 
+    
+– Or in the architecture body (as internal signals). 
+
+========== SLIDE 13 ==========
+Constant Object
+constant CONST_NAME: <type> := <value>; 
+Note: Constants must be declared with initialized values. 
+• Examples: 
+   – constant CONST_NAME: STD_LOGIC := 'Z’; 
+   
+– constant CONST_NAME: STD_LOGIC_VECTOR (3 
+downto
+ 0) := "0-0-"; 
+      • '-' 
+means “don’t care”
+• Constants can be declared in 
+      – Anywhere allowed for declaration. 
+
+========== SLIDE 14 ==========
+Data Flow (Concurrent Statements)
+• Data flow 
+design method uses 
+concurrent statements 
+rather than 
+sequential statements
+. 
+   – Concurrent statements can be 
+interchanged 
+freely. 
+   – There’s no “execution order” for concurrent statements. 
+1 library IEEE; %Vivado2014.4 tested ok
+2 use IEEE.STD_LOGIC_1164.ALL;
+3 entity eqb_comp4 is
+4 port (a, b: in 
+std_logic_vector
+(3 
+downto
+ 0); 5 equals, bigger: out 
+std_logic
+); 
+6 end eqb_comp4;
+7 architecture dataflow4 of eqb_comp4 is 
+8 begin 
+9    equals <= '1' when (a = b) else '0'; --concurrent 
+10   bigger <= '1' when (a > b) else '0'; --concurrent 
+11 end dataflow4; 
+Lines 9 & 10 will be executed whenever signal a or b (or both) changes. 
+
+========== SLIDE 15 ==========
+Structural Design (use “port map”)
+• Structural Design
+: Like a circuit but describe it by text. 
+Connected by 
+port map 
+in the architecture body of the top-level design module 
+• 
+Design Steps
+:
+    
+Step 1
+: Create 
+entities
+  
+Step 2
+: Create 
+components 
+from 
+entities 
+    Step 3
+: Use “
+port map
+” to relate the components
+
+========== SLIDE 16 ==========
+Step 1: Create Entities
+1  library IEEE;
+2  use IEEE.STD_LOGIC_1164.ALL;
+3  
+entity 
+and2 is
+4  port (
+a,b
+: in STD_LOGIC;
+5       c: out STD_LOGIC );
+6  end and2;
+7  architecture and2_arch of and2 is 
+8  begin
+9    c<=a 
+and 
+b; 
+10 end and2_arch;
+11 ---------------------------------
+12 library IEEE;
+13 use IEEE.STD_LOGIC_1164.ALL;
+14 
+entity 
+or2 is
+15 port (
+a,b
+: in STD_LOGIC;
+16      c: out STD_LOGIC ); 
+17 end or2; 
+18 architecture or2_arch of or2 is
+19 begin
+20   c <= a 
+or 
+b; 
+21 end or2_arch; 
+
+========== SLIDE 17 ==========
+Step 2: Create Components
+component 
+and2 
+--create components--
+   
+port (
+a,b
+: in 
+std_logic
+; c: out 
+std_logic
+); 
+end 
+component
+; 
+component 
+or2 
+--create components--
+   
+port (
+a,b
+: in 
+std_logic
+; c: out 
+std_logic
+); 
+end 
+component
+;
+signal con1_signal: 
+std_logic
+; 
+--internal signal-- 
+                               --    (optional) -- 
+
+========== SLIDE 18 ==========
+Step 3: Connect Components
+begin
+     label1: and2 
+port map 
+(in1, in2, 
+inter_sig
+); 
+     
+label2: or2 
+port map 
+(
+inter_sig
+, in3, out1); 
+end 
+test_arch
+; 
+
+========== SLIDE 19 ==========
+Structural vs. Data Flow
+Structural 
+(“
+port map
+”) 
+architecture 
+test_arch
+ of test is 
+component and2
+  port (
+a,b
+: in 
+std_logic
+; 
+    c: out 
+std_logic
+); 
+end component; 
+component nor2
+  port (
+a,b
+: in 
+std_logic
+; 
+    c: out 
+std_logic
+); 
+end component ; 
+signal x: 
+std_logic
+; 
+Begin
+  label1: nor2 port map (a, b, x); 
+  label2: and2 port map (x, c, y); 
+end 
+test_arch
+; 
+Data Flow 
+(“
+concurrent statements
+”) 
+architecture 
+test_arch
+ of test is 
+signal x : 
+std_logic
+;
+begin 
+  x <= a nor b; 
+  y <= x and c; 
+end 
+test_arch
+; 
+
+========== SLIDE 20 ==========
+Behavioral Design (use “process”)
+• Behavioral design is sequential 
+   
+– Just like a sequential program 
+• The keyword is “
+process
+”: 
+   – The main character is “
+process (sensitivity list)
+”. 
+   – A 
+process 
+is executed when one (or more) of the signals in the 
+sensitivity list 
+changes. 
+   – Statements inside a process are 
+sequentially executed
+. 
+
+========== SLIDE 21 ==========
+Behavioral Design Example
+library IEEE; --vivado14.4
+use IEEE.STD_LOGIC_1164.ALL;
+entity eqcomp4 is
+port (a, b: in 
+std_logic_vector
+(3 
+downto
+ 0); 
+     equals: out 
+std_logic
+); 
+end eqcomp4; 
+architecture behavioral of eqcomp4 is 
+begin 
+   process(a, b) 
+ 
+Behavioral Design
+: Sequential in a “
+process
+” 
+      
+begin 
+      if a = b then 
+         
+equals <= '1’; 
+      else 
+         
+equals <= '0’; 
+      
+end if; 
+   end process; 
+end behavioral; 
+
+========== SLIDE 22 ==========
+Concurrent vs. Sequential Statements
+• 
+Concurrent Statement
+    
+1) Statements inside the architecture body can be executed 
+concurrently
+, except statements enclosed by a 
+process
+. 
+    
+2) Every statement will be executed once whenever any 
+signal in the right-hand-side of statement changes. 
+• 
+Sequential Statement 
+    1) Statements within a 
+process 
+are executed 
+sequentially
+, and the result is obtained when the process is complete. 
+  2) process(sensitivity list)
+: Whenever any signals in the sensitivity list changes its state, the process executes once. 
+    3) A 
+process 
+can be treated as one 
+concurrent statement 
+in the architecture body. 
+
+========== SLIDE 23 ==========
+Concurrent with Sequential
+1  library IEEE; --vivado14.4 ok 
+ 
+2  use IEEE.STD_LOGIC_1164.ALL;
+ 
+3  entity 
+conc_ex
+ is
+4  port (in1,in2,in3: in 
+std_logic
+;
+5      out1,out2 : 
+inout
+ 
+std_logic
+);
+6  end 
+conc_ex
+;
+7  architecture 
+for_ex_arch
+ of 
+conc_ex
+ is 
+8  begin 
+process (in1, in2)
+10 begin
+11     out1 <= in1 and in2; 
+12 end process; 
+13 out2 <= out1 and in3; -- concurrent statement 
+14 end 
+for_ex_arch
+; 
+The process (9-12) 
+and 
+line 13 
+are concurrent and can be interchanged! 
+
+========== SLIDE 24 ==========
+Design Constructions
+• 
+Concurrent
+: Statements that can be stand-alone 
+  1) when-else
+  2) with-select-when 
+• 
+Sequential
+: Statements inside the 
+process 
+  
+1) if-then-else 
+  2) case-when
+  3) for-in-to-loop 
+Concurrent: 
+OUTSIDE 
+process 
+Sequential – 
+INSIDE 
+process 
+
+========== SLIDE 25 ==========
+Concurrent 1) when-else
+1  library IEEE; 
+2  use IEEE.STD_LOGIC_1164.ALL; 
+3  entity 
+when_ex
+ is 
+4  port (in1, in2 : in 
+std_logic
+; 
+5            out1 : out 
+std_logic
+); 
+6  end 
+when_ex
+; 
+7  architecture 
+when_ex_arch
+ of 
+when_ex
+ is 
+8  begin 
+9     out1<='1'
+when
+in1=‘1’ and in2='1'
+else
+'0’
+;
+10 end 
+when_ex_arch
+; 
+when 
+condition 
+is true then out1 <= ‘1’ 
+otherwise then out1 <= ‘0’ 
+
+========== SLIDE 26 ==========
+Concurrent 2) with-select-when
+library IEEE;
+2
+  
+use IEEE.STD_LOGIC_1164.ALL; 
+3
+  
+entity 
+when_ex
+ is
+4
+  
+port (in1, in2 : in 
+std_logic
+; 
+5
+            
+out1 : out 
+std_logic
+); 
+6
+  
+end 
+when_ex
+; 
+architecture 
+when_ex_arch
+ of 
+when_ex
+ is 
+begin 
+9
+    
+with 
+in1 
+select
+ 
+Signal based 
+10
+      
+out1 <= in2 
+when 
+'1',
+ 
+when 
+in1
+='1' then out1 <= in2 
+11
+              
+'0' 
+when 
+others;
+
+when 
+in1 
+= other cases 
+12
+ 
+end 
+when_ex_arch
+; 
+             
+then out1 <= ‘ 
+0
+’
+
+========== SLIDE 27 ==========
+when-else vs. with-select-when
+• Concurrent1)
+ 
+when-else
+:
+ 
+Condition
+ 
+based
+    
+out1 <= '1' 
+when 
+in1 = '1' and in2 = '1' 
+else 
+'0’; 
+  
+when 
+in1=‘1’ and in2=‘1’ 
+then out1 <= ‘1’, otherwise out <= ‘0’ 
+• Concurrent2)
+ 
+with-select-when
+:
+ 
+Signal
+ 
+based 
+   
+with 
+in1 
+select 
+    
+out1 <= in2 
+when 
+‘1‘, 
+   
+
+when 
+in1
+='1' then out1 <= in2 
+            
+‘0’
+ 
+when 
+others; 
+
+when 
+in1 
+= other cases 
+                                                                 
+then out1 <= ‘0’ 
+
+========== SLIDE 28 ==========
+Design Constructions
+• 
+Concurrent
+: Statements that can be stand-alone 
+  
+1) when-else
+  
+2) with-select-when 
+• 
+Sequential
+:
+ 
+Statements
+ 
+inside
+ 
+the
+ 
+process 
+  
+1) if-then-else 
+  
+2) case-when
+  
+3) for-in-to-loop 
+Concurrent: 
+OUTSIDE 
+process 
+Sequential – 
+INSIDE 
+process 
+
+========== SLIDE 29 ==========
+Sequential 1) if-then-else
+entity 
+if_ex
+ is
+port(in1,in2: in 
+std_logic
+; 
+        
+out1: out 
+std_logic
+); 
+end 
+if_ex
+;
+architecture 
+if_ex_arch
+ of 
+if_ex
+ is 
+begin 
+  
+process(b) 
+  
+begin 
+  
+if
+ 
+in1=‘1‘
+ 
+and
+ 
+in2='1‘
+ 
+then 
+     
+out1 <= '1‘; 
+  
+else 
+     
+out1 <= '0’; 
+  
+end if
+; 
+end process; 
+end 
+if_ex_arch
+; 
+if (
+cond
+) then 
+   
+statement; 
+end if; 
+if (
+cond
+) then 
+   
+statement1; 
+else 
+   
+statement2; 
+end if; 
+if (cond1) then 
+   
+statement1; 
+elsif
+ (cond2) then 
+   
+statement2; 
+elsif
+ ... 
+   
+... 
+else 
+   
+statementn
+; 
+end if; 
+
+========== SLIDE 30 ==========
+Sequential 2) case-when
+entity 
+test_case
+ is
+   
+port ( in1, in2: in 
+std_logic
+; 
+         
+out1,out2: out 
+std_logic
+); 
+end 
+test_case
+; 
+architecture 
+case_arch
+ of 
+test_case
+ is 
+   
+signal b: 
+std_logic_vector
+ (1 
+downto
+ 0); 
+begin 
+   
+process (b) 
+   
+begin 
+       
+case b is
+       when 
+"
+00
+"
+|
+"
+11
+" 
+=> 
+out1 <= '0’; 
+                         
+out2 <= '1’;
+                  
+when 
+others    
+=> 
+out1 <= ‘1’; 
+                         
+out2 <= ‘0’;
+       
+end case
+;
+   
+end process; 
+   
+b<=in1&in2; 
+end 
+case_arch
+; 
+"
+00
+"
+|
+"
+11
+" 
+means case “00” or “11”
+“
+=>
+” means “implies” not “bigger” 
+
+========== SLIDE 31 ==========
+Sequential 3) loop (1/2)
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+entity 
+for_ex
+ is
+port (in1: in 
+std_logic_vector
+(3 
+downto
+ 0); 
+     out1: out 
+std_logic_vector
+(3 
+downto
+ 0)); 
+end 
+for_ex
+; 
+architecture 
+for_ex_arch
+ of 
+for_ex
+ is 
+begin 
+     process (in1) 
+for-loop 
+     
+begin 
+        for 
+I 
+in 
+0 
+to 
+3 
+loop 
+          
+out1(
+i
+) <= not in1(
+i
+); 
+        end loop; 
+     end process; 
+end 
+for_ex_arch
+; 
+process (in1) 
+while-loop 
+variable 
+i
+: integer:= 0; 
+begin 
+   
+i
+:=0; 
+   
+while 
+I < 4 
+loop 
+      out1(
+i
+) <= not in1(
+i
+); 
+      
+i
+:=i+1; 
+   end loop; 
+end process; 
+
+========== SLIDE 32 ==========
+Sequential 3) loop (2/2)
+• 
+for-loop 
+  for 
+i
+ 
+in 
+0 
+to 
+3
+loop 
+     
+out1(
+i
+) <= not in1(
+i
+); 
+  end loop; 
+• 
+while-loop 
+variable 
+i
+: integer:=0; 
+...
+While 
+I < 4 
+loop 
+  out1(
+i
+) <= not in1(
+i
+); 
+  ... 
+end loop; 
+– No need to declare the 
+loop index 
+(e.g., 
+i
+). 
+   • It is implicitly declared within the loop. 
+   • It may not be modified within the loop (e.g., 
+i
+ := i-1;
+). 
+– for-loop 
+is generally 
+   supported 
+for synthesis. 
+– The while loop repeats if the 
+condition 
+tested is true. 
+   • The condition is tested before each iteration. 
+– while-loop 
+is supported 
+   by 
+some 
+logic synthesis tools with 
+restrictions
+. 
+
+========== SLIDE 33 ==========
+Variable Object
+variable VAR_NAME: <type> [:= <value>]; 
+Note: Variables can be declared without initialized values. 
+• Examples: 
+ – variable VAR_NAME: STD_LOGIC; 
+     • Declared without initialized value 
+ – variable VAR_NAME : STD_LOGIC := '1’;
+• Variables can only be declared/used in the 
+process
+. 
+• Variables are used only by programmers for internal representation (less direct relationship to hardware). 
+
+========== SLIDE 34 ==========
+Signal vs. Variable Assignment
+• Both 
+signals 
+and 
+variables 
+can be declared without initialized values. 
+   – signal SIG_NAME: <type> [:= <value>]; 
+   
+– variable VAR_NAME: <type> [:= <value>]; 
+• Their values can be assigned after declaration. 
+       
+– Syntax of 
+signal 
+assignment: 
+                   SIG_NAME 
+<= 
+<expression>; 
+   
+– Syntax of 
+variable 
+assignment: 
+                   
+VAR_NAME 
+:= 
+<expression>;
+
+========== SLIDE 35 ==========
+Combinational Circuit
+• 
+Logic/Schematic Diagram 
+shows the 
+wiring 
+and 
+connections 
+of each individual logic gate.
+architecture 
+com_arch
+ of comb is 
+signal X, Y: 
+std_logic
+; 
+begin 
+  X <= not (A and B); 
+  
+Y <= not (A or B);
+  Q <= (X and C) and Y; 
+end 
+com_arch
+; 
+
+========== SLIDE 36 ==========
+D Latch in VHDL
+1  library IEEE;--(ok 
+vivado
+ 2014.4) 
+2  use IEEE.STD_LOGIC_1164.ALL; 
+3  
+entity 
+latch_ex
+ is
+4  port (C, D: in 
+std_logic
+; 
+          Q: out 
+std_logic
+); 
+ 
+end 
+latch_ex
+; 
+7  architecture 
+latch_ex_arch
+ of 
+latch_ex
+ is 
+8  begin 
+9    process(C, D) -- sensitivity list 
+10     begin 
+       if(
+C='1'
+)then 
+          
+Q<=D; 
+       end if; 
+     end process;
+   end process;
+ end 
+latch_ex_arch
+;
+
+========== SLIDE 37 ==========
+D Flip-flop with Async. Reset in VHDL
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL; 
+entity DFF_ASYNC is 
+port(D,CLK,RESET: in 
+std_logic
+; 
+               Q: out 
+std_logic
+); 
+end 
+dff_async
+;
+architecture DFF_ASYNC_ARCH of DFF_ASYNC is begin 
+begin
+  process(CLK, RESET) -- sensitivity list 
+  begin
+    if (
+RESET = '1'
+) then
+        
+Q <= '0'; -- Reset Q anytime 
+    
+elsif
+ 
+CLK = '1' 
+and 
+CLK'event
+ 
+then 
+        
+Q <= D;-- Q follows input D 
+  end if;
+  end process;
+ end DFF_ASYNC_ARCH;
+ 
+Positive-edge- triggered 
+
+========== SLIDE 38 ==========
+D Flip-flop with Sync. Reset in VHDL
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL; 
+entity DFF_SYNC is 
+port(D,CLK,RESET: in 
+std_logic
+; 
+               Q: out 
+std_logic
+); 
+end DFF_SYNC;
+architecture DFF_SYNC_ARCH of DFF_SYNC is begin 
+begin
+  process(CLK)
+  begin
+    
+if 
+CLK = ‘1’ 
+and 
+CLK’event
+ then
+       if (
+RESET = '1'
+) then
+          
+Q <= '0'; -- Reset Q anytime 
+       else
+          Q <= D; 
+-- Q follows input D 
+       end if;
+    end if;
+  end process;
+end 
+DFF_SYNC
+_ARCH;
+ 
+Positive-edge- triggered 
+ 
+shall we put 
+RESET 
+in the sensitivity list? 
+
+========== SLIDE 39 ==========
+Seq. Circuit Example: Shift Register
+A 
+register 
+is a device that can be composed of a group of FFs to store multiple bits of data. 
+A 
+shift register 
+allows the stored data being moved from one FF to another. 
+     – There are basically 
+four 
+types
+: 1.
+Serial-In-Serial-Out (SISO), 2. Serial-In-Parallel-Out (SIPO), 3. Parallel-In-Serial-Out (PISO), and 4. Parallel-In-Parallel-Out (PIPO). 
+
+========== SLIDE 40 ==========
+SIPO Shift Register in VHDL
+entity SIPO_ASYNC is
+port (
+D
+, 
+CLK
+, 
+RST 
+: IN STD_LOGIC; 
+Q 
+: OUT STD_LOGIC_VECTOR(3 
+downto
+ 0) ); end SIPO_ASYNC; 
+architecture SIPO_ASYNC_ARCH of SIPO_ASYNC is 
+component 
+DFF_ASYNC 
+is
+port(D, 
+clk
+, reset : in STD_LOGIC; 
+Q : out STD_LOGIC ); end component; 
+signal 
+dout
+ : STD_LOGIC_VECTOR(3 
+downto
+ 0);
+ 
+necessary? 
+begin 
+DFF0: DFF_ASYNC port map(
+D
+, 
+CLK
+, 
+RST
+, 
+dout
+(0)); 
+DFF1: DFF_ASYNC port map(
+dout
+(0), 
+CLK
+, 
+RST
+, 
+dout
+(1)); 
+DFF2: DFF_ASYNC port map(
+dout
+(1), 
+CLK
+, 
+RST
+, 
+dout
+(2)); 
+DFF3: DFF_ASYNC port map(
+dout
+(2), 
+CLK
+, 
+RST
+, 
+dout
+(3)); 
+Q 
+<= 
+dout
+;
+end SIPO_ASYNC_ARCH; 

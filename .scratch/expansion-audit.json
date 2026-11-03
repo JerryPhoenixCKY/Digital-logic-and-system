@@ -1,0 +1,632 @@
+{
+  "notes": 86,
+  "hubs": 2,
+  "wikilink_edges": 1070,
+  "unresolved": [],
+  "ambiguous_aliases": {},
+  "semantic_orphans": [],
+  "tree_missing": [],
+  "glossary_missing": [],
+  "english_words": 38027,
+  "cjk_characters": 110906,
+  "estimated_english_reading_share": 40.7,
+  "language_estimator": "English words / (English words + Chinese characters / 2), excluding YAML, code and math; a readability estimate rather than a strict token ratio.",
+  "note_stats": [
+    {
+      "title": "American Standard Code for Information Interchange",
+      "lines": 277,
+      "english_words": 447,
+      "cjk_characters": 2085,
+      "estimated_english_reading_share": 30.0
+    },
+    {
+      "title": "AND Gate",
+      "lines": 209,
+      "english_words": 426,
+      "cjk_characters": 1721,
+      "estimated_english_reading_share": 33.1
+    },
+    {
+      "title": "Binary Arithmetic",
+      "lines": 269,
+      "english_words": 353,
+      "cjk_characters": 2311,
+      "estimated_english_reading_share": 23.4
+    },
+    {
+      "title": "Binary Coded Decimal",
+      "lines": 278,
+      "english_words": 474,
+      "cjk_characters": 2356,
+      "estimated_english_reading_share": 28.7
+    },
+    {
+      "title": "Binary Number System",
+      "lines": 269,
+      "english_words": 422,
+      "cjk_characters": 2046,
+      "estimated_english_reading_share": 29.2
+    },
+    {
+      "title": "Binary Subtractors and Adder-Subtractors",
+      "lines": 78,
+      "english_words": 202,
+      "cjk_characters": 203,
+      "estimated_english_reading_share": 66.6
+    },
+    {
+      "title": "Bits and Bytes",
+      "lines": 255,
+      "english_words": 471,
+      "cjk_characters": 1886,
+      "estimated_english_reading_share": 33.3
+    },
+    {
+      "title": "Boolean Axioms",
+      "lines": 230,
+      "english_words": 342,
+      "cjk_characters": 2125,
+      "estimated_english_reading_share": 24.4
+    },
+    {
+      "title": "Boolean Equation",
+      "lines": 234,
+      "english_words": 401,
+      "cjk_characters": 2054,
+      "estimated_english_reading_share": 28.1
+    },
+    {
+      "title": "Boolean Expression Simplification",
+      "lines": 263,
+      "english_words": 380,
+      "cjk_characters": 2222,
+      "estimated_english_reading_share": 25.5
+    },
+    {
+      "title": "Cascaded Counters and Digital Clocks",
+      "lines": 68,
+      "english_words": 379,
+      "cjk_characters": 280,
+      "estimated_english_reading_share": 73.0
+    },
+    {
+      "title": "Combinational Circuit",
+      "lines": 220,
+      "english_words": 394,
+      "cjk_characters": 2387,
+      "estimated_english_reading_share": 24.8
+    },
+    {
+      "title": "Combinational Logic Design",
+      "lines": 73,
+      "english_words": 312,
+      "cjk_characters": 304,
+      "estimated_english_reading_share": 67.2
+    },
+    {
+      "title": "Combinational Multiplier",
+      "lines": 61,
+      "english_words": 275,
+      "cjk_characters": 201,
+      "estimated_english_reading_share": 73.2
+    },
+    {
+      "title": "Counters",
+      "lines": 75,
+      "english_words": 317,
+      "cjk_characters": 346,
+      "estimated_english_reading_share": 64.7
+    },
+    {
+      "title": "Cyclic Redundancy Check",
+      "lines": 290,
+      "english_words": 566,
+      "cjk_characters": 3078,
+      "estimated_english_reading_share": 26.9
+    },
+    {
+      "title": "D Latch and D Flip-Flop",
+      "lines": 67,
+      "english_words": 332,
+      "cjk_characters": 243,
+      "estimated_english_reading_share": 73.2
+    },
+    {
+      "title": "DC Transfer Characteristic",
+      "lines": 279,
+      "english_words": 445,
+      "cjk_characters": 2251,
+      "estimated_english_reading_share": 28.3
+    },
+    {
+      "title": "Decimal Number System",
+      "lines": 236,
+      "english_words": 392,
+      "cjk_characters": 2185,
+      "estimated_english_reading_share": 26.4
+    },
+    {
+      "title": "Decoder",
+      "lines": 62,
+      "english_words": 238,
+      "cjk_characters": 289,
+      "estimated_english_reading_share": 62.2
+    },
+    {
+      "title": "DeMorgan's Theorems",
+      "lines": 270,
+      "english_words": 359,
+      "cjk_characters": 1782,
+      "estimated_english_reading_share": 28.7
+    },
+    {
+      "title": "Digital Abstraction and System Design",
+      "lines": 81,
+      "english_words": 346,
+      "cjk_characters": 436,
+      "estimated_english_reading_share": 61.3
+    },
+    {
+      "title": "Digital Logic Troubleshooting",
+      "lines": 145,
+      "english_words": 886,
+      "cjk_characters": 1144,
+      "estimated_english_reading_share": 60.8
+    },
+    {
+      "title": "Digital Waveforms",
+      "lines": 74,
+      "english_words": 323,
+      "cjk_characters": 342,
+      "estimated_english_reading_share": 65.4
+    },
+    {
+      "title": "ECE2050 Knowledge Tree",
+      "lines": 207,
+      "english_words": 1749,
+      "cjk_characters": 452,
+      "estimated_english_reading_share": 88.6
+    },
+    {
+      "title": "Encoder and Priority Encoder",
+      "lines": 71,
+      "english_words": 245,
+      "cjk_characters": 314,
+      "estimated_english_reading_share": 60.9
+    },
+    {
+      "title": "Exam Review and Problem Solving",
+      "lines": 172,
+      "english_words": 1297,
+      "cjk_characters": 1133,
+      "estimated_english_reading_share": 69.6
+    },
+    {
+      "title": "Exclusive-NOR Gate",
+      "lines": 264,
+      "english_words": 483,
+      "cjk_characters": 2019,
+      "estimated_english_reading_share": 32.4
+    },
+    {
+      "title": "Exclusive-OR Gate",
+      "lines": 256,
+      "english_words": 515,
+      "cjk_characters": 1922,
+      "estimated_english_reading_share": 34.9
+    },
+    {
+      "title": "Field-Programmable Gate Array",
+      "lines": 69,
+      "english_words": 291,
+      "cjk_characters": 334,
+      "estimated_english_reading_share": 63.5
+    },
+    {
+      "title": "Finite State Machine",
+      "lines": 83,
+      "english_words": 268,
+      "cjk_characters": 288,
+      "estimated_english_reading_share": 65.0
+    },
+    {
+      "title": "Fixed-Point Numbers",
+      "lines": 278,
+      "english_words": 438,
+      "cjk_characters": 2173,
+      "estimated_english_reading_share": 28.7
+    },
+    {
+      "title": "Floating-Point Numbers",
+      "lines": 285,
+      "english_words": 503,
+      "cjk_characters": 2140,
+      "estimated_english_reading_share": 32.0
+    },
+    {
+      "title": "Glossary",
+      "lines": 366,
+      "english_words": 2329,
+      "cjk_characters": 4334,
+      "estimated_english_reading_share": 51.8
+    },
+    {
+      "title": "Gray Code",
+      "lines": 253,
+      "english_words": 404,
+      "cjk_characters": 2512,
+      "estimated_english_reading_share": 24.3
+    },
+    {
+      "title": "Half Adder and Full Adder",
+      "lines": 70,
+      "english_words": 226,
+      "cjk_characters": 191,
+      "estimated_english_reading_share": 70.3
+    },
+    {
+      "title": "Hexadecimal Number System",
+      "lines": 277,
+      "english_words": 438,
+      "cjk_characters": 2192,
+      "estimated_english_reading_share": 28.6
+    },
+    {
+      "title": "Inverter",
+      "lines": 220,
+      "english_words": 566,
+      "cjk_characters": 2225,
+      "estimated_english_reading_share": 33.7
+    },
+    {
+      "title": "JK and T Flip-Flops",
+      "lines": 75,
+      "english_words": 246,
+      "cjk_characters": 191,
+      "estimated_english_reading_share": 72.0
+    },
+    {
+      "title": "Karnaugh Map with Don't Cares",
+      "lines": 204,
+      "english_words": 368,
+      "cjk_characters": 1650,
+      "estimated_english_reading_share": 30.8
+    },
+    {
+      "title": "Karnaugh Map",
+      "lines": 277,
+      "english_words": 485,
+      "cjk_characters": 2519,
+      "estimated_english_reading_share": 27.8
+    },
+    {
+      "title": "Keyboard Scanning and Encoding",
+      "lines": 110,
+      "english_words": 527,
+      "cjk_characters": 686,
+      "estimated_english_reading_share": 60.6
+    },
+    {
+      "title": "Laws and Rules of Boolean Algebra",
+      "lines": 268,
+      "english_words": 385,
+      "cjk_characters": 1910,
+      "estimated_english_reading_share": 28.7
+    },
+    {
+      "title": "Logic Gates",
+      "lines": 246,
+      "english_words": 557,
+      "cjk_characters": 2438,
+      "estimated_english_reading_share": 31.4
+    },
+    {
+      "title": "Logic Levels",
+      "lines": 254,
+      "english_words": 584,
+      "cjk_characters": 2306,
+      "estimated_english_reading_share": 33.6
+    },
+    {
+      "title": "Magnitude Comparator",
+      "lines": 62,
+      "english_words": 189,
+      "cjk_characters": 286,
+      "estimated_english_reading_share": 56.9
+    },
+    {
+      "title": "Memory Arrays and Expansion",
+      "lines": 72,
+      "english_words": 324,
+      "cjk_characters": 344,
+      "estimated_english_reading_share": 65.3
+    },
+    {
+      "title": "Metastability and Clock Domain Crossing",
+      "lines": 64,
+      "english_words": 266,
+      "cjk_characters": 374,
+      "estimated_english_reading_share": 58.7
+    },
+    {
+      "title": "Minterm and Maxterm",
+      "lines": 244,
+      "english_words": 423,
+      "cjk_characters": 1893,
+      "estimated_english_reading_share": 30.9
+    },
+    {
+      "title": "Moore and Mealy Machines",
+      "lines": 69,
+      "english_words": 306,
+      "cjk_characters": 301,
+      "estimated_english_reading_share": 67.0
+    },
+    {
+      "title": "Multiplexer and Demultiplexer",
+      "lines": 64,
+      "english_words": 295,
+      "cjk_characters": 158,
+      "estimated_english_reading_share": 78.9
+    },
+    {
+      "title": "NAND Gate",
+      "lines": 230,
+      "english_words": 452,
+      "cjk_characters": 1918,
+      "estimated_english_reading_share": 32.0
+    },
+    {
+      "title": "Noise Margin",
+      "lines": 263,
+      "english_words": 563,
+      "cjk_characters": 2254,
+      "estimated_english_reading_share": 33.3
+    },
+    {
+      "title": "NOR Gate",
+      "lines": 255,
+      "english_words": 490,
+      "cjk_characters": 1688,
+      "estimated_english_reading_share": 36.7
+    },
+    {
+      "title": "Number Base Conversion",
+      "lines": 265,
+      "english_words": 430,
+      "cjk_characters": 2054,
+      "estimated_english_reading_share": 29.5
+    },
+    {
+      "title": "Number Systems",
+      "lines": 251,
+      "english_words": 479,
+      "cjk_characters": 2262,
+      "estimated_english_reading_share": 29.8
+    },
+    {
+      "title": "Octal Number System",
+      "lines": 279,
+      "english_words": 423,
+      "cjk_characters": 2114,
+      "estimated_english_reading_share": 28.6
+    },
+    {
+      "title": "One-Shots and Pulse Applications",
+      "lines": 71,
+      "english_words": 300,
+      "cjk_characters": 341,
+      "estimated_english_reading_share": 63.8
+    },
+    {
+      "title": "OR Gate",
+      "lines": 204,
+      "english_words": 468,
+      "cjk_characters": 1731,
+      "estimated_english_reading_share": 35.1
+    },
+    {
+      "title": "Parity Bit",
+      "lines": 261,
+      "english_words": 401,
+      "cjk_characters": 2397,
+      "estimated_english_reading_share": 25.1
+    },
+    {
+      "title": "POS Minimization with Karnaugh Map",
+      "lines": 206,
+      "english_words": 360,
+      "cjk_characters": 1296,
+      "estimated_english_reading_share": 35.7
+    },
+    {
+      "title": "Product-of-Sums Form",
+      "lines": 252,
+      "english_words": 456,
+      "cjk_characters": 1821,
+      "estimated_english_reading_share": 33.4
+    },
+    {
+      "title": "Proof by Perfect Induction",
+      "lines": 260,
+      "english_words": 370,
+      "cjk_characters": 1925,
+      "estimated_english_reading_share": 27.8
+    },
+    {
+      "title": "Propagation Delay and Logic Hazards",
+      "lines": 70,
+      "english_words": 294,
+      "cjk_characters": 453,
+      "estimated_english_reading_share": 56.5
+    },
+    {
+      "title": "Read-Only Memory and Programmable Logic Arrays",
+      "lines": 74,
+      "english_words": 364,
+      "cjk_characters": 172,
+      "estimated_english_reading_share": 80.9
+    },
+    {
+      "title": "Register Enable and Reset",
+      "lines": 66,
+      "english_words": 296,
+      "cjk_characters": 264,
+      "estimated_english_reading_share": 69.2
+    },
+    {
+      "title": "Ring and Johnson Counters",
+      "lines": 74,
+      "english_words": 287,
+      "cjk_characters": 279,
+      "estimated_english_reading_share": 67.3
+    },
+    {
+      "title": "Ripple Carry and Carry Look-Ahead Adders",
+      "lines": 63,
+      "english_words": 237,
+      "cjk_characters": 237,
+      "estimated_english_reading_share": 66.7
+    },
+    {
+      "title": "Sequence Detector",
+      "lines": 86,
+      "english_words": 230,
+      "cjk_characters": 296,
+      "estimated_english_reading_share": 60.8
+    },
+    {
+      "title": "Sequential Logic",
+      "lines": 71,
+      "english_words": 248,
+      "cjk_characters": 364,
+      "estimated_english_reading_share": 57.7
+    },
+    {
+      "title": "Set-Reset Latch",
+      "lines": 74,
+      "english_words": 272,
+      "cjk_characters": 237,
+      "estimated_english_reading_share": 69.7
+    },
+    {
+      "title": "Setup and Hold Timing",
+      "lines": 85,
+      "english_words": 288,
+      "cjk_characters": 354,
+      "estimated_english_reading_share": 61.9
+    },
+    {
+      "title": "Seven-Segment Display and Code Conversion",
+      "lines": 167,
+      "english_words": 836,
+      "cjk_characters": 1048,
+      "estimated_english_reading_share": 61.5
+    },
+    {
+      "title": "Shift Registers",
+      "lines": 83,
+      "english_words": 368,
+      "cjk_characters": 353,
+      "estimated_english_reading_share": 67.6
+    },
+    {
+      "title": "Sign-Magnitude Representation",
+      "lines": 249,
+      "english_words": 358,
+      "cjk_characters": 2193,
+      "estimated_english_reading_share": 24.6
+    },
+    {
+      "title": "Signed Binary Multiplication and Division",
+      "lines": 292,
+      "english_words": 411,
+      "cjk_characters": 2367,
+      "estimated_english_reading_share": 25.8
+    },
+    {
+      "title": "SRAM DRAM and ROM",
+      "lines": 61,
+      "english_words": 357,
+      "cjk_characters": 294,
+      "estimated_english_reading_share": 70.8
+    },
+    {
+      "title": "State Encoding and Unused States",
+      "lines": 70,
+      "english_words": 255,
+      "cjk_characters": 198,
+      "estimated_english_reading_share": 72.0
+    },
+    {
+      "title": "Structural Shift Register Project",
+      "lines": 119,
+      "english_words": 320,
+      "cjk_characters": 247,
+      "estimated_english_reading_share": 72.2
+    },
+    {
+      "title": "Sum-of-Products Form",
+      "lines": 255,
+      "english_words": 440,
+      "cjk_characters": 1858,
+      "estimated_english_reading_share": 32.1
+    },
+    {
+      "title": "Synchronous Counter Design",
+      "lines": 80,
+      "english_words": 232,
+      "cjk_characters": 238,
+      "estimated_english_reading_share": 66.1
+    },
+    {
+      "title": "Testbench and Functional Verification",
+      "lines": 126,
+      "english_words": 354,
+      "cjk_characters": 189,
+      "estimated_english_reading_share": 78.9
+    },
+    {
+      "title": "Traffic Light Controller",
+      "lines": 76,
+      "english_words": 337,
+      "cjk_characters": 259,
+      "estimated_english_reading_share": 72.2
+    },
+    {
+      "title": "Tri-State Buffers and Bus Drivers",
+      "lines": 57,
+      "english_words": 304,
+      "cjk_characters": 206,
+      "estimated_english_reading_share": 74.7
+    },
+    {
+      "title": "Truth Table and Boolean Expression",
+      "lines": 254,
+      "english_words": 476,
+      "cjk_characters": 2032,
+      "estimated_english_reading_share": 31.9
+    },
+    {
+      "title": "Two's Complement Representation",
+      "lines": 348,
+      "english_words": 403,
+      "cjk_characters": 2815,
+      "estimated_english_reading_share": 22.3
+    },
+    {
+      "title": "Universal Gates and Bubble Pushing",
+      "lines": 68,
+      "english_words": 266,
+      "cjk_characters": 223,
+      "estimated_english_reading_share": 70.5
+    },
+    {
+      "title": "VHDL Language and Modeling",
+      "lines": 118,
+      "english_words": 413,
+      "cjk_characters": 367,
+      "estimated_english_reading_share": 69.2
+    }
+  ]
+}

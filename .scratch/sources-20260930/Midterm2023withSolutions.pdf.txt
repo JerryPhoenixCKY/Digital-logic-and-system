@@ -1,0 +1,525 @@
+========== PAGE 1 ==========
+EIE 2050 Digital Logic and Systems
+Midterm Test
+(Time allowed: 90 minutes)
+March 19, 2023
+NOTE: Answer ALL 8 questions. Show all intermediate steps, except Question 1 and Question 2.
+1. (10 points) Are the following statements necessarily true (Y) or not (N)?
+(1) An XNOR gate output is LOW if both its inputs is HIGH.
+(2) Minimization with a K-map may result in multiple possible solutions.
+(3) Decoders are logic circuits with many outputs and inputs that convert coded inputs into coded outputs.
+(4) It is possible to build an AND gate with multiple NOR gates.
+(5) The dual symbol for a NAND gate is a negative-OR symbol.
+(6) In Boolean Algebra, the addition of two values is equivalent to the logical OR function.
+(7) The right-most bit in a signed binary number is the sign bit.
+(8) Fan-out is the minimum number of similar gates that a given gate can drive.
+(9) When a Boolean variable is multiplied by its complement, the result is 0.
+(10) A parity generator can be implemented using exclusive-OR gates.
+Solution:
+(1) N
+(2) Y
+(3) N
+(4) Y
+(5) Y
+(6) Y
+(7) N
+(8) N
+(9) Y
+(10) Y
+CONTINUED
+
+========== PAGE 2 ==========
+– 2 – EIE 2050 Digital Logic and Systems
+2. (10 points) Provide your answers to the following short questions.
+(1) For a periodic digital waveform with 20 ms period and 5 ms pulse width, write down its frequency and
+duty cycle;
+(2) Determine the even parity bit for the BCD number 00010100;
+(3) Subtract 173 16 from BCD 16, write down the result;
+(4) Convert binary 101101 to Gray code;
+(5) A ternary numeral system (also called base 3 or trinary) has three as its base. Analogous to a bit, a
+ternary digit is a trit (trinary digit). Ternary most often refers to a system in which the three digits
+are all non–negative numbers; specifically 0, 1, and 2. Convert the fractional ternary number 10.2 to
+decimal (round to the nearest hundredth).
+Solution:
+(1) 50Hz, 25%;
+(2) 0;
+(3) A5A16;
+(4) 111011;
+(5) 3.67.
+CONTINUED
+
+========== PAGE 3 ==========
+– 3 – EIE 2050 Digital Logic and Systems
+3. (15 points) Perform each of the following calculations of the signed numbers. Show your work.
+(1) 00001001 − 00000010;
+(2) 01010010 × 11111110;
+(3) 01001011 ÷ 00011001.
+Solution:
+(1) 00000111 in Figure 1;
+(2) 101011100 in Figure 2;
+(3) 00000011 in Figure 3.
+00001001 
+11111110 +
+100000111 Discard carry Diﬀerence (+7) 
+Minuend (+9) 
+2’s complement of subtrahend (-2) 
+Figure 1: Q3-1 solution.
+01010010 
+00000010 X
+00000000 
+01010010 +
+010100100 
+101011100 
+2’s complement 
+Figure 2: Q3-2 solution.
+01001011 
+11100111 +
+11100111 00011001 
+2’s complement 
+00110010 
+11100111 +
+00111001 
+11100111 +
+00000000 
+Add 1 to quotient 
+Add 1 to quotient 
+Add 1 to quotient 
+Quotient=3=0011 
+Figure 3: Q3-3 solution.
+CONTINUED
+
+========== PAGE 4 ==========
+– 4 – EIE 2050 Digital Logic and Systems
+4. (10 points) For the logic circuit and the input waveforms shown in Figure. 4, respectively, answer the
+following questions.
+Figure 4: Combinational logic circuit and input waveform for Q.4.
+(1) (5 points) Derive the expression of the output X and draw its waveform;
+(2) (5 points) Assuming that the output of gate G3 is open, derive the expression of the output X and
+draw its waveform.
+Solution:
+(1) X = ¯AE + ¯BE + CE + ¯DE
+CONTINUED
+
+========== PAGE 5 ==========
+– 5 – EIE 2050 Digital Logic and Systems
+Figure 5: Output waveform of X for Q.4(1).
+(2) X = E
+Figure 6: Output waveform of X for Q.4(2).
+CONTINUED
+
+========== PAGE 6 ==========
+– 6 – EIE 2050 Digital Logic and Systems
+5. (20 points) A circuit that compares two 2-bit numbers, A = {A1, A0} and B = {B1, B0}, and produces the
+output C = {C1, C0} as follows:
+ C equals to the lowest input (for example if A = 11 and B = 10, then C = 10);
+ C is a don’t care if A = B.
+(1) (5 points) Write down the truth table;
+(2) (5 points) Use Karnaugh Map to simplify the Boolean expression of the outputs C1 and C0, show your
+work step by step;
+(3) (5 points) Sketch the C1 logic diagram of the circuit, using NAND gates only (You CANNOT assume
+that complementary inputs are directly available, i.e. ¯A1, ¯A0, ¯B1, ¯B0 are NOT available);
+(4) (5 points) Given the input waveforms as shown in Figure 7, draw the output C1 waveform for your
+design circuit in (3).
+A0A0
+A1A1
+C1C1
+B0B0
+B1B1
+Figure 7: The input waveforms for Q.5.
+Solution:
+(1) The solution is shown in Table 1.
+(2) The Karnaugh Map is shown in Figure 8.
+C1 = ¯A1 ¯A0 ¯B1 ¯B0 + ¯A1A0 ¯B1B0 + A1B1;
+C0 = ¯A1 ¯A0 ¯B1 ¯B0 + A1 ¯A0B1 ¯B0 + A0B0 + ¯A1A0B1 + A1 ¯B1B0.
+(3) The C1 logic diagram of the circuit is shown in Figure 9.
+(4) The output C1 waveform is shown in in Figure 10.
+CONTINUED
+
+========== PAGE 7 ==========
+– 7 – EIE 2050 Digital Logic and Systems
+A1 A0 B1 B0 C1 C0
+0 0 0 0 X X
+0 0 0 1 0 0
+0 0 1 0 0 0
+0 0 1 1 0 0
+0 1 0 0 0 0
+0 1 0 1 X X
+0 1 1 0 0 1
+0 1 1 1 0 1
+1 0 0 0 0 0
+1 0 0 1 0 1
+1 0 1 0 X X
+1 0 1 1 1 0
+1 1 0 0 0 0
+1 1 0 1 0 1
+1 1 1 0 1 0
+1 1 1 1 X X
+Table 1: The truth table.
+X
+X
+X 1
+1 X
+00 
+00 01 
+01 
+11 
+11 
+10 
+10 
+B1B0B1B0
+A1A0A1A0
+X
+X 1 1
+1 X
+1 X
+00 
+00 01 
+01 
+11 
+11 
+10 
+10 
+B1B0B1B0
+A1A0A1A0
+C1C1 C0C0
+Figure 8: The Karnaugh Map.
+CONTINUED
+
+========== PAGE 8 ==========
+– 8 – EIE 2050 Digital Logic and Systems
+NAND 
+NAND 
+NAND 
+NAND 
+A1A1
+A0A0
+B1B1
+B0B0
+NAND 
+NAND 
+NAND 
+NAND C1C1
+Figure 9: The C1 logic diagram of the circuit.
+A0A0
+A1A1
+C1C1
+B0B0
+B1B1
+Figure 10: The output C1 waveform.
+CONTINUED
+
+========== PAGE 9 ==========
+– 9 – EIE 2050 Digital Logic and Systems
+6. (15 points) Design a magnitude comparator circuit for 2-bit binary numbersA = {A1, A0} and B = {B1, B0}.
+The outputs are X, Y , and Z, where X = 1 if A > B ; X = 0 otherwise. Y = 1 if A < B ; Y = 0 otherwise.
+Z = 1 if A = B; Z = 0 otherwise.
+(1) (9 points) Fill in the truth table in Table 2 for the three outputs of the comparator and write down the
+standard SOP forms for X, Y and Z;
+A1 A0 B1 B0 X(A > B ) Y (A < B ) Z(A = B)
+0 0 0 0
+0 0 0 1
+0 0 1 0
+0 0 1 1
+0 1 0 0
+0 1 0 1
+0 1 1 0
+0 1 1 1
+1 0 0 0
+1 0 0 1
+1 0 1 0
+1 0 1 1
+1 1 0 0
+1 1 0 1
+1 1 1 0
+1 1 1 1
+Table 2: The truth table of a magnitude comparator circuit for 2-bit binary numbers
+(2) (6 points) Implement Z logic diagram of the circuit using a 74HC154 decoder as shown in Figure 11 and
+one or several NAND gates (Connect ALL input pins as needed; You may assume that complementary
+inputs, if needed, are directly available, i.e. ¯A1, ¯A0, ¯B1, ¯B0 are available).
+334 Functions of Combinational Logic
+BIN/DEC
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+1
+2
+4
+8
+fg06_02800
+FIGURE 6–28 Logic symbol for a 4-line-to-16-line (1-of-16) decoder. Open file F06-28 to 
+verify operation.
+(a) Pin diagram (b) Logic symbol
+(16)
+(17)
+(13)
+(14)
+(15)
+(1)
+(2)
+(3)
+(4)
+(9)
+(10)
+(11)
+(5)
+(6)
+(7)
+(8)
+OUT15
+OUT12
+OUT13
+OUT14
+OUT1
+OUT2
+OUT3
+OUT4
+OUT9
+OUT10
+OUT11
+OUT5
+OUT6
+OUT7
+OUT8
+OUT0
+EN
+&(18)
+(21)
+(20)
+(23)
+(22)
+(19)CS2
+CS1
+A0
+A1
+A2
+A3
+BIN/DEC
+4
+8
+1
+2
+241OUT0
+OUT1
+OUT2
+OUT3
+OUT4
+OUT5
+OUT6
+OUT7
+OUT8
+OUT9
+OUT10
+GND
+VCC
+A0
+A1
+A2
+A3
+CS2
+CS1
+OUT15
+OUT14
+OUT13
+OUT12
+OUT11
+232
+223
+214
+205
+196
+187
+178
+169
+1510
+1411
+1312
+FIGURE 6–29 The 74HC154 1-of-16 decoder.
+IMPLEMENTATION: 1-OF-16 DECODER
+Fixed-Function Device  The 74HC154 is a good example of a fixed-function IC decoder. 
+The logic symbol is shown in Figure 6–29. There is an enable function (EN) provided on 
+this device, which is implemented with a NOR gate used as a negative-AND. A LOW level 
+on each chip select input, CS1 and CS2, is required in order to make the enable gate output 
+(EN) HIGH. The enable gate output is connected to an input of each NAND gate in the 
+decoder, so it must be HIGH for the NAND gates to be enabled. If the enable gate is not 
+activated by a LOW on both inputs, then all sixteen decoder outputs (OUT) will be HIGH 
+regardless of the states of the four input variables, A0, A1, A2, and A3.
+M06_FLOY5983_11_GE_C06.indd Page 334  12/11/14  8:14 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+Figure 11: The 74HC154 decoder.
+CONTINUED
+
+========== PAGE 10 ==========
+– 10 – EIE 2050 Digital Logic and Systems
+Solution:
+(1) The truth table is shown in Table 3. The standard SOP forms are
+X = ¯A1A0 ¯B1 ¯B0 + A1 ¯A0 ¯B1 ¯B0 + A1 ¯A0 ¯B1B0 + A1A0 ¯B1 ¯B0 + A1A0 ¯B1B0 + A1A0B1 ¯B0
+Y = ¯A1 ¯A0 ¯B1B0 + ¯A1 ¯A0B1 ¯B0 + ¯A1 ¯A0B1B0 + ¯A1A0B1 ¯B0 + ¯A1A0B1B0 + A1 ¯A0B1B0
+Z = ¯A1 ¯A0 ¯B1 ¯B0 + ¯A1A0 ¯B1B0 + A1 ¯A0B1 ¯B0 + A1A0B1B0
+(2) The Z logic diagram of the circuit is shown in Figure 12.
+A1 A0 B1 B0 X(A > B ) Y (A < B ) Z(A = B)
+0 0 0 0 0 0 1
+0 0 0 1 0 1 0
+0 0 1 0 0 1 0
+0 0 1 1 0 1 0
+0 1 0 0 1 0 0
+0 1 0 1 0 0 1
+0 1 1 0 0 1 0
+0 1 1 1 0 1 0
+1 0 0 0 1 0 0
+1 0 0 1 1 0 0
+1 0 1 0 0 0 1
+1 0 1 1 0 1 0
+1 1 0 0 1 0 0
+1 1 0 1 1 0 0
+1 1 1 0 1 0 0
+1 1 1 1 0 0 1
+Table 3: The truth table of a magnitude comparator circuit for 2-bit binary numbers
+(b) Logic symbol 
+(16) 
+(17) 
+(13) 
+(14) 
+(15) 
+(1) 
+(2) 
+(3) 
+(4) 
+(9) 
+(10) 
+(11) 
+(5) 
+(6) 
+(7) 
+(8) 
+OUT15
+OUT12
+OUT13
+OUT14
+OUT1 
+OUT2 
+OUT3 
+OUT4 
+OUT9 
+OUT10
+OUT11
+OUT5 
+OUT6 
+OUT7 
+OUT8 
+OUT0 
+EN 
+&(18) 
+(21) 
+(20) 
+(23) 
+(22) 
+(19) 
+0
+1
+2
+3
+BIN/DEC 
+4
+8
+1
+2
+A0A0
+A1A1
+B0B0
+B1B1
+NAND Z Z
+Figure 12: The Z logic diagram of the circuit.
+CONTINUED
+
+========== PAGE 11 ==========
+– 11 – EIE 2050 Digital Logic and Systems
+7. (10 points) Consider the boolean expressions as follows,
+D0 = X ¯S1 ¯S0 + Y S1 ¯S0
+D1 = X ¯S1S0 + Y S1S0
+D2 = XS 1 ¯S0 + Y ¯S1 ¯S0
+D0 = XS 1S0 + Y ¯S1S0
+Design a circuit to implement the boolean expressions using 1-of-4 decoders as shown in Figure 13 and
+NAND gates, where the truth table of 1-of-4 decoder is shown in Table 4. (Connect ALL input pins as
+needed. You may assume that complementary inputs, if needed, are directly available - e.g., both A0 and
+¯A0 are available).
+A0A0
+A1A1
+OU T 0OU T 0
+OU T 1OU T 1
+OU T 2OU T 2
+OU T 3OU T 3
+ENEN
+Figure 13: A 2-line-to-4-line (1-of-4) decoder.
+EN A1 A0 OU T0 OU T1 OU T2 OU T3
+0 X X 1 1 1 1
+1 0 0 0 1 1 1
+1 0 1 1 0 1 1
+1 1 0 1 1 0 1
+1 1 1 1 1 1 0
+Table 4: The truth table of 2-line-to-4-line (1-of-4) decoder
+Solution: The designed circuit is shown in Figure 14.
+CONTINUED
+
+========== PAGE 12 ==========
+– 12 – EIE 2050 Digital Logic and Systems
+S1S1
+S0S0
+XX
+Y Y
+A0A0
+A1A1
+OU T 0OU T 0
+OU T 1OU T 1
+OU T 2OU T 2
+OU T 3OU T 3
+ENEN
+A0A0
+A1A1
+OU T 0OU T 0
+OU T 1OU T 1
+OU T 2OU T 2
+OU T 3OU T 3
+ENEN
+NAND 
+NAND 
+NAND 
+NAND 
+D0D0
+D1D1
+D2D2
+D3D3
+Figure 14: Q7 solution.
+CONTINUED
+
+========== PAGE 13 ==========
+– 13 – EIE 2050 Digital Logic and Systems
+8. (10 points) In Chapter 6, we have studied a simplified method of multiplexing two four-bit BCD numbers
+to a single BCD-to-7-segment decoder as shown in Figure 15. Note that the 74HC157 is a quad 2-input
+multiplexer. If the data-select line is LOW, the multiplex passes A bits ( A3, A2, A1, A0) to the BCD-to-7-
+segment decoder. In contrast, if the data-select line is HIGH, the multiplex passes B bits ( B3, B2, B1, B0)
+to the BCD-to-7-segment decoder.
+Figure 15: Simplified 7-segment display multiplexing logic from the textbook.
+Now, we would like to extend this design to multiplexing THREE four-bit BCD numbers with only ONE
+additional multiplexer and one additional data-select line.
+(1) (5 points) Design and draw the data-select input waveform for both S1 and S2;
+(2) (5 points) Complete the circuit shown in Figure 16 by properly connecting all the components, assuming
+that the third BCD C is represented by ( C3, C2, C1, C0)
+Figure 16: Multiplexing three four-bit BCD numbers.
+Solution:
+CONTINUED
+
+========== PAGE 14 ==========
+– 14 – EIE 2050 Digital Logic and Systems
+Figure 17: Solution for Q.8.

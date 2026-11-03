@@ -1,0 +1,583 @@
+{
+  "notes": [
+    {
+      "chapter": "Ch1",
+      "target": "Digital Foundations and Waveforms",
+      "sources": 2,
+      "lines": 127,
+      "characters": 5249,
+      "folds": 3
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Number Systems and Base Conversion",
+      "sources": 7,
+      "lines": 1110,
+      "characters": 49423,
+      "folds": 7
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Binary Arithmetic and Signed Representation",
+      "sources": 4,
+      "lines": 759,
+      "characters": 32466,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Fixed-Point and Floating-Point Numbers",
+      "sources": 2,
+      "lines": 384,
+      "characters": 17660,
+      "folds": 2
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Data Coding and Character Representation",
+      "sources": 3,
+      "lines": 510,
+      "characters": 22126,
+      "folds": 3
+    },
+    {
+      "chapter": "Ch2",
+      "target": "Parity and Cyclic Redundancy Checks",
+      "sources": 2,
+      "lines": 454,
+      "characters": 20023,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch3",
+      "target": "Logic Gates and Boolean Functions",
+      "sources": 8,
+      "lines": 1135,
+      "characters": 52752,
+      "folds": 8
+    },
+    {
+      "chapter": "Ch3",
+      "target": "Logic Levels and Noise Margins",
+      "sources": 3,
+      "lines": 489,
+      "characters": 22594,
+      "folds": 3
+    },
+    {
+      "chapter": "Ch4",
+      "target": "Boolean Algebra and Circuit Models",
+      "sources": 6,
+      "lines": 901,
+      "characters": 35091,
+      "folds": 6
+    },
+    {
+      "chapter": "Ch4",
+      "target": "Boolean Forms and Algebraic Simplification",
+      "sources": 5,
+      "lines": 732,
+      "characters": 30995,
+      "folds": 5
+    },
+    {
+      "chapter": "Ch4",
+      "target": "Karnaugh Map Minimization",
+      "sources": 3,
+      "lines": 431,
+      "characters": 17016,
+      "folds": 3
+    },
+    {
+      "chapter": "Ch5",
+      "target": "Combinational Logic Analysis and Design",
+      "sources": 3,
+      "lines": 412,
+      "characters": 17180,
+      "folds": 9
+    },
+    {
+      "chapter": "Ch5",
+      "target": "Universal Gates and Bubble Pushing",
+      "sources": 1,
+      "lines": 146,
+      "characters": 6059,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch5",
+      "target": "Digital Logic Troubleshooting",
+      "sources": 1,
+      "lines": 134,
+      "characters": 6247,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Binary Arithmetic Circuits",
+      "sources": 4,
+      "lines": 186,
+      "characters": 7970,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Comparison Decoding and Selection",
+      "sources": 4,
+      "lines": 234,
+      "characters": 9980,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Seven-Segment Display and Code Conversion",
+      "sources": 1,
+      "lines": 165,
+      "characters": 8435,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Tri-State Buffers and Bus Drivers",
+      "sources": 1,
+      "lines": 57,
+      "characters": 2138,
+      "folds": 2
+    },
+    {
+      "chapter": "Ch6",
+      "target": "Propagation Delay and Logic Hazards",
+      "sources": 1,
+      "lines": 75,
+      "characters": 3013,
+      "folds": 3
+    },
+    {
+      "chapter": "Ch7",
+      "target": "Sequential Logic and Flip-Flops",
+      "sources": 5,
+      "lines": 199,
+      "characters": 8137,
+      "folds": 6
+    },
+    {
+      "chapter": "Ch8",
+      "target": "Shift Registers and Ring Counters",
+      "sources": 2,
+      "lines": 134,
+      "characters": 5381,
+      "folds": 3
+    },
+    {
+      "chapter": "Ch8",
+      "target": "One-Shots and Pulse Applications",
+      "sources": 1,
+      "lines": 77,
+      "characters": 2753,
+      "folds": 2
+    },
+    {
+      "chapter": "Ch8",
+      "target": "Keyboard Scanning and Encoding",
+      "sources": 1,
+      "lines": 114,
+      "characters": 4904,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch9",
+      "target": "Finite State Machine Design and Applications",
+      "sources": 5,
+      "lines": 269,
+      "characters": 9320,
+      "folds": 5
+    },
+    {
+      "chapter": "Ch9",
+      "target": "Sequential Timing and Clock Domain Crossing",
+      "sources": 2,
+      "lines": 142,
+      "characters": 5289,
+      "folds": 4
+    },
+    {
+      "chapter": "Ch10",
+      "target": "Counter Design and Digital Clocks",
+      "sources": 3,
+      "lines": 185,
+      "characters": 7906,
+      "folds": 6
+    },
+    {
+      "chapter": "Ch11",
+      "target": "Memory Organization and Technologies",
+      "sources": 2,
+      "lines": 110,
+      "characters": 4957,
+      "folds": 5
+    },
+    {
+      "chapter": "Ch11",
+      "target": "Programmable Logic and FPGA",
+      "sources": 2,
+      "lines": 130,
+      "characters": 5386,
+      "folds": 3
+    },
+    {
+      "chapter": "HDL",
+      "target": "VHDL Modeling and Verification",
+      "sources": 2,
+      "lines": 233,
+      "characters": 8924,
+      "folds": 6
+    },
+    {
+      "chapter": "HDL",
+      "target": "Structural Shift Register Project",
+      "sources": 1,
+      "lines": 146,
+      "characters": 5399,
+      "folds": 4
+    },
+    {
+      "chapter": "Review",
+      "target": "Exam Review and Problem Solving",
+      "sources": 1,
+      "lines": 191,
+      "characters": 14804,
+      "folds": 7
+    }
+  ],
+  "glossary_terms": 241,
+  "provenance": {
+    "Digital Foundations and Waveforms": {
+      "original_topics": [
+        "Digital Abstraction and System Design",
+        "Digital Waveforms"
+      ],
+      "assets": []
+    },
+    "Number Systems and Base Conversion": {
+      "original_topics": [
+        "Number Systems",
+        "Decimal Number System",
+        "Binary Number System",
+        "Octal Number System",
+        "Hexadecimal Number System",
+        "Number Base Conversion",
+        "Bits and Bytes"
+      ],
+      "assets": [
+        "positional-weights.svg",
+        "binary-powers-and-counting.svg",
+        "linux-file-permissions.svg",
+        "hex-memory-address.svg",
+        "base-conversion-grouping.svg",
+        "powers-of-two-scale.svg"
+      ]
+    },
+    "Binary Arithmetic and Signed Representation": {
+      "original_topics": [
+        "Binary Arithmetic",
+        "Sign-Magnitude Representation",
+        "Two's Complement Representation",
+        "Signed Binary Multiplication and Division"
+      ],
+      "assets": [
+        "binary-addition-carries.svg",
+        "sign-magnitude-zero.svg",
+        "twos-complement-wheel.svg",
+        "nbit-range.svg",
+        "overflow-detection.svg",
+        "signed-multiplication-partial-products.svg",
+        "signed-division-restoring.svg"
+      ]
+    },
+    "Fixed-Point and Floating-Point Numbers": {
+      "original_topics": [
+        "Fixed-Point Numbers",
+        "Floating-Point Numbers"
+      ],
+      "assets": [
+        "fixed-point-format.svg",
+        "saturating-arithmetic.svg",
+        "ieee754-single-format.svg",
+        "floating-point-dynamic-range.svg"
+      ]
+    },
+    "Data Coding and Character Representation": {
+      "original_topics": [
+        "Binary Coded Decimal",
+        "Gray Code",
+        "American Standard Code for Information Interchange"
+      ],
+      "assets": [
+        "bcd-8421-encoding.svg",
+        "bcd-addition-correction.svg",
+        "gray-code-sequence.svg",
+        "gray-code-symbol-mapping.svg",
+        "ascii-code-structure.svg"
+      ]
+    },
+    "Parity and Cyclic Redundancy Checks": {
+      "original_topics": [
+        "Parity Bit",
+        "Cyclic Redundancy Check"
+      ],
+      "assets": [
+        "parity-bit-format.svg",
+        "parity-generator-checker.svg",
+        "crc-modulo2-division.svg",
+        "crc-shift-register.svg",
+        "binary-parity-vs-crc.svg"
+      ]
+    },
+    "Logic Gates and Boolean Functions": {
+      "original_topics": [
+        "Logic Gates",
+        "Inverter",
+        "AND Gate",
+        "OR Gate",
+        "NAND Gate",
+        "NOR Gate",
+        "Exclusive-OR Gate",
+        "Exclusive-NOR Gate"
+      ],
+      "assets": [
+        "logic-gate-symbols.svg",
+        "ch3-two-input-gates.png",
+        "ch3-multiple-input-gates.png",
+        "ch3-inverter-symbol.png",
+        "ch3-single-input-gates.png",
+        "inverter-timing.svg",
+        "and-gate-timing.svg",
+        "or-gate-timing.svg",
+        "nand-gate-timing.svg",
+        "nor-gate-timing.svg",
+        "xor-gate-timing.svg",
+        "ch3-xor-xnor.png",
+        "xor-half-adder.svg",
+        "ch3-xor-adder.png",
+        "xnor-gate-timing.svg"
+      ]
+    },
+    "Logic Levels and Noise Margins": {
+      "original_topics": [
+        "Logic Levels",
+        "DC Transfer Characteristic",
+        "Noise Margin"
+      ],
+      "assets": [
+        "logic-level-ranges.svg",
+        "dc-transfer-buffer.svg",
+        "noise-margin.svg"
+      ]
+    },
+    "Boolean Algebra and Circuit Models": {
+      "original_topics": [
+        "Combinational Circuit",
+        "Boolean Equation",
+        "Boolean Axioms",
+        "Laws and Rules of Boolean Algebra",
+        "DeMorgan's Theorems",
+        "Proof by Perfect Induction"
+      ],
+      "assets": [
+        "ch4-combinational-nodes.png",
+        "combinational-rules.svg",
+        "demorgan-gate-equivalence.svg",
+        "perfect-induction-rule10.svg"
+      ]
+    },
+    "Boolean Forms and Algebraic Simplification": {
+      "original_topics": [
+        "Minterm and Maxterm",
+        "Truth Table and Boolean Expression",
+        "Sum-of-Products Form",
+        "Product-of-Sums Form",
+        "Boolean Expression Simplification"
+      ],
+      "assets": [
+        "minterm-maxterm-table.svg",
+        "truth-table-conversion.svg",
+        "sop-from-truth-table.svg",
+        "pos-from-truth-table.svg",
+        "simplification-example4.svg"
+      ]
+    },
+    "Karnaugh Map Minimization": {
+      "original_topics": [
+        "Karnaugh Map",
+        "Karnaugh Map with Don't Cares",
+        "POS Minimization with Karnaugh Map"
+      ],
+      "assets": [
+        "kmap-rules.svg",
+        "ch4-kmap-3var-basic.png",
+        "ch4-kmap-3var-example.png",
+        "ch4-kmap-4var.png",
+        "kmap-pos-minimization.svg",
+        "ch4-kmap-pos-to-sop.png",
+        "ch4-kmap-pos-example.png",
+        "ch4-kmap-dont-care.png",
+        "kmap-dont-care.svg",
+        "ch4-seven-segment-kmap.png"
+      ]
+    },
+    "Combinational Logic Analysis and Design": {
+      "original_topics": [
+        "AND-OR and AND-OR-Invert Logic",
+        "Combinational Logic Analysis",
+        "Combinational Logic Design"
+      ],
+      "assets": [
+        "and-or-aoi-logic.svg",
+        "combinational-reduction-kmap.svg"
+      ]
+    },
+    "Universal Gates and Bubble Pushing": {
+      "original_topics": [
+        "Universal Gates and Bubble Pushing"
+      ],
+      "assets": [
+        "demorgan-gate-equivalence.svg",
+        "bubble-pushing-cascade.svg"
+      ]
+    },
+    "Digital Logic Troubleshooting": {
+      "original_topics": [
+        "Digital Logic Troubleshooting"
+      ],
+      "assets": []
+    },
+    "Binary Arithmetic Circuits": {
+      "original_topics": [
+        "Half Adder and Full Adder",
+        "Ripple Carry and Carry Look-Ahead Adders",
+        "Binary Subtractors and Adder-Subtractors",
+        "Combinational Multiplier"
+      ],
+      "assets": []
+    },
+    "Comparison Decoding and Selection": {
+      "original_topics": [
+        "Magnitude Comparator",
+        "Encoder and Priority Encoder",
+        "Decoder",
+        "Multiplexer and Demultiplexer"
+      ],
+      "assets": []
+    },
+    "Seven-Segment Display and Code Conversion": {
+      "original_topics": [
+        "Seven-Segment Display and Code Conversion"
+      ],
+      "assets": []
+    },
+    "Tri-State Buffers and Bus Drivers": {
+      "original_topics": [
+        "Tri-State Buffers and Bus Drivers"
+      ],
+      "assets": []
+    },
+    "Propagation Delay and Logic Hazards": {
+      "original_topics": [
+        "Propagation Delay and Logic Hazards"
+      ],
+      "assets": []
+    },
+    "Sequential Logic and Flip-Flops": {
+      "original_topics": [
+        "Sequential Logic",
+        "Set-Reset Latch",
+        "D Latch and D Flip-Flop",
+        "JK and T Flip-Flops",
+        "Register Enable and Reset"
+      ],
+      "assets": []
+    },
+    "Shift Registers and Ring Counters": {
+      "original_topics": [
+        "Shift Registers",
+        "Ring and Johnson Counters"
+      ],
+      "assets": [
+        "serial-shift-trace.svg"
+      ]
+    },
+    "One-Shots and Pulse Applications": {
+      "original_topics": [
+        "One-Shots and Pulse Applications"
+      ],
+      "assets": []
+    },
+    "Keyboard Scanning and Encoding": {
+      "original_topics": [
+        "Keyboard Scanning and Encoding"
+      ],
+      "assets": []
+    },
+    "Finite State Machine Design and Applications": {
+      "original_topics": [
+        "Finite State Machine",
+        "Moore and Mealy Machines",
+        "State Encoding and Unused States",
+        "Sequence Detector",
+        "Traffic Light Controller"
+      ],
+      "assets": []
+    },
+    "Sequential Timing and Clock Domain Crossing": {
+      "original_topics": [
+        "Setup and Hold Timing",
+        "Metastability and Clock Domain Crossing"
+      ],
+      "assets": [
+        "setup-hold-window.svg",
+        "register-short-long-paths.svg"
+      ]
+    },
+    "Counter Design and Digital Clocks": {
+      "original_topics": [
+        "Counters",
+        "Synchronous Counter Design",
+        "Cascaded Counters and Digital Clocks"
+      ],
+      "assets": []
+    },
+    "Memory Organization and Technologies": {
+      "original_topics": [
+        "Memory Arrays and Expansion",
+        "SRAM DRAM and ROM"
+      ],
+      "assets": []
+    },
+    "Programmable Logic and FPGA": {
+      "original_topics": [
+        "Read-Only Memory and Programmable Logic Arrays",
+        "Field-Programmable Gate Array"
+      ],
+      "assets": []
+    },
+    "VHDL Modeling and Verification": {
+      "original_topics": [
+        "VHDL Language and Modeling",
+        "Testbench and Functional Verification"
+      ],
+      "assets": []
+    },
+    "Structural Shift Register Project": {
+      "original_topics": [
+        "Structural Shift Register Project"
+      ],
+      "assets": []
+    },
+    "Exam Review and Problem Solving": {
+      "original_topics": [
+        "Exam Review and Problem Solving"
+      ],
+      "assets": []
+    }
+  }
+}

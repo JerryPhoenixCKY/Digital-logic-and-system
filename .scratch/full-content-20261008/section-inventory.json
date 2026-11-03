@@ -1,0 +1,3974 @@
+[
+  {
+    "source": "Digital Abstraction and System Design",
+    "heading": "Core Definition · 核心定义",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "heading": "Derivation · 从抽象到系统",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "heading": "Worked Examples · 实际例题",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Abstraction and System Design",
+    "heading": "Connections · 相关笔记",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Waveforms",
+    "heading": "Core Definition · 核心定义",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Waveforms",
+    "heading": "Derivation and Reading Method · 推导与读图",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Waveforms",
+    "heading": "Worked Examples · 例题",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Waveforms",
+    "heading": "Pitfalls and Exam English · 易错点与英文答题",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Digital Waveforms",
+    "heading": "Connections · 相关笔记",
+    "target": "Digital Foundations and Waveforms",
+    "chapter": "Ch1"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Core Definition · 核心定义",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Derivation · 推导过程",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Method and Steps · 求解步骤",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Worked Example · 例题",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Representation choices · 表示法与英文理解",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Systems",
+    "heading": "Connections · 相关笔记",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Core Definition · 核心定义",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Derivation · 推导过程",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Method and Steps · 求解步骤",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Worked Example · 例题",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Decimal intent in digital hardware · 十进制语义与英文理解",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Decimal Number System",
+    "heading": "Connections · 相关笔记",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Core Definition · 核心定义",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Derivation · 推导过程",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Method and Steps · 求解步骤",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Worked Example · 例题",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Bit patterns in a datapath · 二进制与数据通路",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Number System",
+    "heading": "Connections · 相关笔记",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Core Definition · 核心定义",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Derivation · 推导过程",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Method and Steps · 求解步骤",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Worked Example · 例题",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Grouping around the radix point · 八进制分组与英文理解",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Octal Number System",
+    "heading": "Connections · 相关笔记",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Core Definition · 核心定义",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Derivation · 推导过程",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Method and Steps · 求解步骤",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Worked Example · 例题",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Hexadecimal as a hardware reading tool · 十六进制读硬件",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Hexadecimal Number System",
+    "heading": "Connections · 相关笔记",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Core Definition · 核心定义",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Derivation · 推导过程",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Worked Example · 例题",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Conversion, encoding, and approximation · 转换、编码与近似",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Number Base Conversion",
+    "heading": "Connections · 相关笔记",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Core Definition · 核心定义",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Derivation · 推导过程",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Worked Example · 例题",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Width, capacity, and addressing · 位宽、容量与寻址",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Bits and Bytes",
+    "heading": "Connections · 相关笔记",
+    "target": "Number Systems and Base Conversion",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Core Definition · 核心定义",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Derivation · 推导过程",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Worked Example · 例题",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Arithmetic as Boolean hardware · 算术怎样变成门电路",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Arithmetic",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Core Definition · 核心定义",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Derivation · 推导过程",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Worked Example · 例题",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Comparing signed representations · 有符号表示的英文理解",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Sign-Magnitude Representation",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Core Definition · 核心定义",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Derivation · 推导过程",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Worked Example · 例题",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Signed subtraction and independent checks · 有符号减法与独立验证",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Two's Complement Representation",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Core Definition · 核心定义",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Derivation · 推导过程",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Worked Example · 例题",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Width and remainder semantics · 位宽与余数约定",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Signed Binary Multiplication and Division",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic and Signed Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Core Definition · 核心定义",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Derivation · 推导过程",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Worked Example · 例题",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Scaling belongs to the representation · 定点缩放与英文理解",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Fixed-Point Numbers",
+    "heading": "Connections · 相关笔记",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Core Definition · 核心定义",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Derivation · 推导过程",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Worked Example · 例题",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Decode the format before the fields · 先确认格式再读字段",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Custom 16-bit format · 自定义十六位格式",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Floating-Point Numbers",
+    "heading": "Connections · 相关笔记",
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "Core Definition · 核心定义",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "Derivation · 推导过程",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "Worked Example · 例题",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "BCD validity and decimal carries · BCD 合法性与英文理解",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Binary Coded Decimal",
+    "heading": "Connections · 相关笔记",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Core Definition · 核心定义",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Derivation · 推导过程",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Worked Example · 例题",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Gray code across logic and timing · 格雷码、逻辑与时序",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Gray Code",
+    "heading": "Connections · 相关笔记",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Core Definition · 核心定义",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Derivation · 推导过程",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Worked Example · 例题",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Character processing as a datapath · 字符怎样进入数据通路",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "American Standard Code for Information Interchange",
+    "heading": "Connections · 相关笔记",
+    "target": "Data Coding and Character Representation",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Core Definition · 核心定义",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Derivation · 推导过程",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Worked Example · 例题",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Parity generation, checking, and limits · 生成、校验与边界",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Gate-Level Parity Circuits · 门级校验电路，Ch5 p.11–14",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Sources · 来源",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Parity Bit",
+    "heading": "Connections · 相关笔记",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Core Definition · 核心定义",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Derivation · 推导过程",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Worked Example · 例题",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Standard exam algorithm and guarantees · 标准算法与检错边界",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Degree-three serial divider · 三阶生成式的串行模型",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Cyclic Redundancy Check",
+    "heading": "Connections · 相关笔记",
+    "target": "Parity and Cyclic Redundancy Checks",
+    "chapter": "Ch2"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Gates as functions and interfaces · 门的功能与接口",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Gates",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Inversion, assertion, and physical delay · 取反、有效状态与延迟",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Inverter",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Qualified conditions and enables · 条件许可与使能",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "AND Gate",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Inclusive OR in specifications · 题目中的包含或",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "OR Gate",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "NAND as a complete construction set · NAND 的功能完备性",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NAND Gate",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "NOR implementation and zero conditions · NOR 实现与零条件",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "NOR Gate",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "XOR as difference and controlled inversion · 差异检测与受控取反",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Ch5 Application · 第五章门级应用",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-OR Gate",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Equality versus parity reduction · 相等与偶数重归约",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Ch5 Application · 第五章等价结构与校验边界",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Exclusive-NOR Gate",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Gates and Boolean Functions",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Electrical validity and logical assertion · 电气有效与逻辑有效",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Logic Levels",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "What a static curve can establish · 静态曲线能证明什么",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "DC Transfer Characteristic",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Core Definition · 核心定义",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Derivation · 推导过程",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Worked Example · 例题",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Noise margins are interface budgets · 噪声容限是接口预算",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Noise Margin",
+    "heading": "Connections · 相关笔记",
+    "target": "Logic Levels and Noise Margins",
+    "chapter": "Ch3"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Composition and state boundaries · 构成规则与状态边界",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Combinational Circuit",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Specification before implementation · 方程先描述需求",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Equation",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Duality and logical meaning · 对偶与逻辑含义",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Axioms",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Choose the rule by structure · 看结构选择化简规则",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Laws and Rules of Boolean Algebra",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Move the outer complement carefully · 外层取补怎样分配",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "DeMorgan's Theorems",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Exhaustive proof and counterexamples · 穷举证明与反例",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Proof by Perfect Induction",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Algebra and Circuit Models",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Row identities and polarity · 行编号与取补方向",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Minterm and Maxterm",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "A table as a verification contract · 真值表是验证契约",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Truth Table and Boolean Expression",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Canonical SOP and hardware mapping · 标准与或式怎样落地",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Sum-of-Products Form",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Canonical POS from OFF rows · 从零行建立标准或与式",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Product-of-Sums Form",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Core Definition · 核心定义",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Derivation · 推导过程",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Worked Example · 例题",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Preserve behavior, then evaluate cost · 先等价，再比较代价",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Boolean Expression Simplification",
+    "heading": "Connections · 相关笔记",
+    "target": "Boolean Forms and Algebraic Simplification",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Core Definition · 核心定义",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Derivation · 推导过程",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Worked Example · 例题",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Group meaning and implementation choices · 圈组含义与实现选择",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map",
+    "heading": "Connections · 相关笔记",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Core Definition · 核心定义",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Derivation · 推导过程",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Worked Example · 例题",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Don't-care freedom and invalid-input policy · 自由度与非法输入策略",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "Karnaugh Map with Don't Cares",
+    "heading": "Connections · 相关笔记",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Core Definition · 核心定义",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Derivation · 推导过程",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Method and Steps · 求解步骤与方法",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Worked Example · 例题",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Pitfalls · 常见误区",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Read zero groups as maxterms · 零圈怎样读最大项",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "POS Minimization with Karnaugh Map",
+    "heading": "Connections · 相关笔记",
+    "target": "Karnaugh Map Minimization",
+    "chapter": "Ch4"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Core Definition · 核心定义",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Logic Levels and Gate Count · 逻辑级数与门数",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Worked Example 1 · 课件 p.4 的 SOP",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Worked Example 2 · 高有效液位传感器，课件 p.5",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Worked Example 3 · 低有效传感器与 AOI，课件 p.7",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "XOR and XNOR · 异或与同或的边界",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Quick Check · 自检",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Sources · 来源",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "AND-OR and AND-OR-Invert Logic",
+    "heading": "Connections · 相关笔记",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Scope and Model · 范围与模型",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Read the Circuit · 电路到方程",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Worked Example 1 · 重复支路被吸收，课件 p.18",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Worked Example 2 · 四乘积项化为两项，课件 p.19",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Bubble Pushing as Analysis · 用气泡推移读混合门",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Limits and Common Errors · 边界与误区",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Exam Recall · 英文答题与复习",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Sources · 来源",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Analysis",
+    "heading": "Connections · 相关笔记",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Core Definition · 核心定义",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Derivation · 规范到方程",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Worked Example 1 · 储罐报警",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Worked Example 2 · 恰好四个输入中的三个为 1，课件 p.17",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Worked Example 3 · 同时四位中的模式",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Worked Example 4 · 五位分类",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Priority and Don't-Cares · 优先级与无关项，课件 p.20–22",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Chapter Quiz · 课件 p.33 判断题复习",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Pitfalls and Review · 误区与复习",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Connections · 相关笔记",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Combinational Logic Design",
+    "heading": "Sources · 来源",
+    "target": "Combinational Logic Analysis and Design",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Core Definition · 核心定义",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Derivation · 基本构造",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Bubble Pushing · 气泡推移",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Worked Examples · 例题",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Worked Example 4 · 三级门链，课件 p.30–31",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Connections · 相关笔记",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Universal Gates and Bubble Pushing",
+    "heading": "Sources · 来源",
+    "target": "Universal Gates and Bubble Pushing",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Core Definition · 核心定义",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Assumptions and Validity · 模型与适用条件",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Derivation · 故障激活与传播",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Worked Example 1 · AND–OR 网络的测试向量",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Worked Example 2 · MUX 的选择故障",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Worked Example 3 · 显示与转换器的故障症状",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Method and Steps · 实际排查流程",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Common Errors · 常见误区",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "English Exam Q&A · 英文答题训练",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Digital Logic Troubleshooting",
+    "heading": "Method and Review · 复习检查",
+    "target": "Digital Logic Troubleshooting",
+    "chapter": "Ch5"
+  },
+  {
+    "source": "Half Adder and Full Adder",
+    "heading": "Core Definition · 核心定义",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Half Adder and Full Adder",
+    "heading": "Derivation · 推导",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Half Adder and Full Adder",
+    "heading": "Worked Examples · 例题",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Half Adder and Full Adder",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Half Adder and Full Adder",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Ripple Carry and Carry Look-Ahead Adders",
+    "heading": "Core Definition · 核心定义",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Ripple Carry and Carry Look-Ahead Adders",
+    "heading": "Derivation · 展开进位链",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Ripple Carry and Carry Look-Ahead Adders",
+    "heading": "Worked Examples · 例题",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Ripple Carry and Carry Look-Ahead Adders",
+    "heading": "Method and Exam English · 求解与答题",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Ripple Carry and Carry Look-Ahead Adders",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Binary Subtractors and Adder-Subtractors",
+    "heading": "Core Definition · 核心定义",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Binary Subtractors and Adder-Subtractors",
+    "heading": "Derivation · 推导",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Binary Subtractors and Adder-Subtractors",
+    "heading": "Adder-Subtractor · 共用加法器",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Binary Subtractors and Adder-Subtractors",
+    "heading": "Worked Examples · 例题",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Binary Subtractors and Adder-Subtractors",
+    "heading": "Pitfalls and Review · 易错点与复习",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Binary Subtractors and Adder-Subtractors",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Combinational Multiplier",
+    "heading": "Core Definition and Derivation · 定义与推导",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Combinational Multiplier",
+    "heading": "Worked Example · 3×3 位乘法",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Combinational Multiplier",
+    "heading": "Timing and Signed Boundary · 时序与有符号边界",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Combinational Multiplier",
+    "heading": "Practical Examples and Review · 应用与复习",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Combinational Multiplier",
+    "heading": "Connections · 相关笔记",
+    "target": "Binary Arithmetic Circuits",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Magnitude Comparator",
+    "heading": "Core Definition · 核心定义",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Magnitude Comparator",
+    "heading": "Derivation · 从一位到多位",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Magnitude Comparator",
+    "heading": "Worked Examples · 例题",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Magnitude Comparator",
+    "heading": "Application · 最小值选择器",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Magnitude Comparator",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Magnitude Comparator",
+    "heading": "Connections · 相关笔记",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Core Definition · 核心定义",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Derivation · 推导",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Priority Circuit Versus Priority Encoder · 优先电路与编码输出，Ch5 p.20–22",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Worked Examples · 例题",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Pitfalls and Review · 易错点与复习",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Position codes in a scanned keyboard · 扫描键盘中的位置码",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Connections · 相关笔记",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Encoder and Priority Encoder",
+    "heading": "Sources · 来源",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Decoder",
+    "heading": "Core Definition · 核心定义",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Decoder",
+    "heading": "Derivation · 为什么是 minterm",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Decoder",
+    "heading": "Worked Examples · 例题",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Decoder",
+    "heading": "Enable and Pin Constraints · 使能与引脚条件",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Decoder",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Decoder",
+    "heading": "Connections · 相关笔记",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Multiplexer and Demultiplexer",
+    "heading": "Core Definition · 核心定义",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Multiplexer and Demultiplexer",
+    "heading": "Derivation · Shannon expansion",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Multiplexer and Demultiplexer",
+    "heading": "Worked Examples · 例题",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Multiplexer and Demultiplexer",
+    "heading": "Demultiplexing · 分配",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Multiplexer and Demultiplexer",
+    "heading": "Pitfalls and Practical Use · 误区与应用",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Multiplexer and Demultiplexer",
+    "heading": "Connections · 相关笔记",
+    "target": "Comparison Decoding and Selection",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Core Definition · 核心定义",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Truth Table and Polarity · 真值表与极性",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Assumptions and Validity · 适用前提",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Derivation · 从字形表到逻辑与控制",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Code Conversion · BCD 与纯二进制转换",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Worked Examples · 三个实际例题",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Pitfalls and Debugging · 易错点与排查",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "English Exam Q&A · 英文答题训练",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Seven-Segment Display and Code Conversion",
+    "heading": "Method and Review · 复习检查",
+    "target": "Seven-Segment Display and Code Conversion",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Tri-State Buffers and Bus Drivers",
+    "heading": "Core Definition and Validity · 定义与条件",
+    "target": "Tri-State Buffers and Bus Drivers",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Tri-State Buffers and Bus Drivers",
+    "heading": "Mechanism · 机制",
+    "target": "Tri-State Buffers and Bus Drivers",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Tri-State Buffers and Bus Drivers",
+    "heading": "Worked Examples · 例题",
+    "target": "Tri-State Buffers and Bus Drivers",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Tri-State Buffers and Bus Drivers",
+    "heading": "Pitfalls and Review · 易错点与复习",
+    "target": "Tri-State Buffers and Bus Drivers",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Tri-State Buffers and Bus Drivers",
+    "heading": "Connections · 相关笔记",
+    "target": "Tri-State Buffers and Bus Drivers",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Propagation Delay and Logic Hazards",
+    "heading": "Core Definition · 核心定义",
+    "target": "Propagation Delay and Logic Hazards",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Propagation Delay and Logic Hazards",
+    "heading": "Worked Example 1 · 长短路径",
+    "target": "Propagation Delay and Logic Hazards",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Propagation Delay and Logic Hazards",
+    "heading": "Derivation · Static-1 hazard",
+    "target": "Propagation Delay and Logic Hazards",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Propagation Delay and Logic Hazards",
+    "heading": "Worked Example 2 · 冒险宽度",
+    "target": "Propagation Delay and Logic Hazards",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Propagation Delay and Logic Hazards",
+    "heading": "Sampling and Applications · 采样与应用",
+    "target": "Propagation Delay and Logic Hazards",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Propagation Delay and Logic Hazards",
+    "heading": "Method and Exam English · 方法与英文",
+    "target": "Propagation Delay and Logic Hazards",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Propagation Delay and Logic Hazards",
+    "heading": "Connections · 相关笔记",
+    "target": "Propagation Delay and Logic Hazards",
+    "chapter": "Ch6"
+  },
+  {
+    "source": "Sequential Logic",
+    "heading": "Core Definition · 核心定义",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Sequential Logic",
+    "heading": "Mechanism and Composition · 机制与构成",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Sequential Logic",
+    "heading": "Worked Examples · 例题",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Sequential Logic",
+    "heading": "Assumptions and Limits · 条件与边界",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Sequential Logic",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Sequential Logic",
+    "heading": "Connections · 相关笔记",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Set-Reset Latch",
+    "heading": "Core Definition · 核心定义",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Set-Reset Latch",
+    "heading": "Derivation · 为什么能保持",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Set-Reset Latch",
+    "heading": "NAND Variant · NAND 型",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Set-Reset Latch",
+    "heading": "Worked Example · 事件序列",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Set-Reset Latch",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Set-Reset Latch",
+    "heading": "Connections · 相关笔记",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "D Latch and D Flip-Flop",
+    "heading": "Core Definition · 核心定义",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "D Latch and D Flip-Flop",
+    "heading": "Derivation · 消除 SR 禁态",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "D Latch and D Flip-Flop",
+    "heading": "Comparison · 对比",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "D Latch and D Flip-Flop",
+    "heading": "Worked Examples · 波形例题",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "D Latch and D Flip-Flop",
+    "heading": "Assumptions and Pitfalls · 条件与误区",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "D Latch and D Flip-Flop",
+    "heading": "Exam English · 英文答题",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "D Latch and D Flip-Flop",
+    "heading": "Connections · 相关笔记",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "JK and T Flip-Flops",
+    "heading": "Core Definition and Derivation · 定义与推导",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "JK and T Flip-Flops",
+    "heading": "Excitation Table · 激励表",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "JK and T Flip-Flops",
+    "heading": "Conversion · 元件转换",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "JK and T Flip-Flops",
+    "heading": "Worked Examples · 例题",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "JK and T Flip-Flops",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "JK and T Flip-Flops",
+    "heading": "Connections · 相关笔记",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Register Enable and Reset",
+    "heading": "Core Definition · 核心定义",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Register Enable and Reset",
+    "heading": "Reset and Set · 复位与置位",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Register Enable and Reset",
+    "heading": "Worked Examples · 例题",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Register Enable and Reset",
+    "heading": "Timing Boundary · 时序边界",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Register Enable and Reset",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Register Enable and Reset",
+    "heading": "Connections · 相关笔记",
+    "target": "Sequential Logic and Flip-Flops",
+    "chapter": "Ch7"
+  },
+  {
+    "source": "Shift Registers",
+    "heading": "Core Definition · 核心定义",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Shift Registers",
+    "heading": "Derivation · Universal register",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Shift Registers",
+    "heading": "Worked Example 1 · 左右混合",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Shift Registers",
+    "heading": "Worked Example 2 · 串入和时延",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Shift Registers",
+    "heading": "Applications and Review · 应用与复习",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Shift Registers",
+    "heading": "Serial interfaces and matrix scanning · 串行接口与矩阵扫描",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Shift Registers",
+    "heading": "Connections · 相关笔记",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Ring and Johnson Counters",
+    "heading": "Core Definition and Model · 定义与模型",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Ring and Johnson Counters",
+    "heading": "Ring Derivation · 环形序列",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Ring and Johnson Counters",
+    "heading": "Johnson Derivation · 扭环序列",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Ring and Johnson Counters",
+    "heading": "Worked Examples · 例题",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Ring and Johnson Counters",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Ring and Johnson Counters",
+    "heading": "One-cold scan application · 独冷扫描应用",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Ring and Johnson Counters",
+    "heading": "Connections · 相关笔记",
+    "target": "Shift Registers and Ring Counters",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "One-Shots and Pulse Applications",
+    "heading": "Core Definition · 核心定义",
+    "target": "One-Shots and Pulse Applications",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "One-Shots and Pulse Applications",
+    "heading": "Derivation · RC timing boundary",
+    "target": "One-Shots and Pulse Applications",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "One-Shots and Pulse Applications",
+    "heading": "Worked Examples · 例题",
+    "target": "One-Shots and Pulse Applications",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "One-Shots and Pulse Applications",
+    "heading": "Edge Detection · 边沿检测",
+    "target": "One-Shots and Pulse Applications",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "One-Shots and Pulse Applications",
+    "heading": "Delayed key capture · 延迟捕获按键",
+    "target": "One-Shots and Pulse Applications",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "One-Shots and Pulse Applications",
+    "heading": "Exam English and Connections · 答题与关联",
+    "target": "One-Shots and Pulse Applications",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Core Definition · 核心定义",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Mechanism · 扫描机制",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Timing Derivation · 扫描与分频",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Debounce and Capture · 去抖与捕获",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Worked Examples · 例题",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Multi-key Boundary · 多键边界",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Exam English and Review · 答题与复习",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Keyboard Scanning and Encoding",
+    "heading": "Connections · 相关笔记",
+    "target": "Keyboard Scanning and Encoding",
+    "chapter": "Ch8"
+  },
+  {
+    "source": "Finite State Machine",
+    "heading": "Core Definition · 核心定义",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Finite State Machine",
+    "heading": "Design Procedure · 设计过程",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Finite State Machine",
+    "heading": "Worked Example · 按钮切换灯",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Finite State Machine",
+    "heading": "State Meaning and Completeness · 状态含义与完备性",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Finite State Machine",
+    "heading": "Assumptions and Pitfalls · 条件与误区",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Finite State Machine",
+    "heading": "Exam English · 英文答题",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Finite State Machine",
+    "heading": "Connections · 相关笔记",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Moore and Mealy Machines",
+    "heading": "Core Definition · 核心定义",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Moore and Mealy Machines",
+    "heading": "Worked Example · 检测最近两位 01",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Moore and Mealy Machines",
+    "heading": "Output Timing · 输出时间对齐",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Moore and Mealy Machines",
+    "heading": "Tradeoffs · 取舍",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Moore and Mealy Machines",
+    "heading": "Additional Example · 同一状态不同输出",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Moore and Mealy Machines",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Moore and Mealy Machines",
+    "heading": "Connections · 相关笔记",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "State Encoding and Unused States",
+    "heading": "Core Definition and Derivation · 定义与推导",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "State Encoding and Unused States",
+    "heading": "Worked Example · 三态循环",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "State Encoding and Unused States",
+    "heading": "Don't-Care Policy · 无关项策略",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "State Encoding and Unused States",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "State Encoding and Unused States",
+    "heading": "Connections · 相关笔记",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Sequence Detector",
+    "heading": "Specification · 明确规范",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Sequence Detector",
+    "heading": "Derivation · 最长后缀原则",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Sequence Detector",
+    "heading": "Encoded Equations · 编码方程",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Sequence Detector",
+    "heading": "Worked Example · 追踪 1110110",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Sequence Detector",
+    "heading": "Overlap Example · 101 的重叠",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Sequence Detector",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Sequence Detector",
+    "heading": "Connections · 相关笔记",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Traffic Light Controller",
+    "heading": "Specification · 规范与模型边界",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Traffic Light Controller",
+    "heading": "Transition Table · 转换表",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Traffic Light Controller",
+    "heading": "Derivation · 编码与输出",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Traffic Light Controller",
+    "heading": "Worked Example · 状态追踪",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Traffic Light Controller",
+    "heading": "Timer Extension · 定时器扩展",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Traffic Light Controller",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Traffic Light Controller",
+    "heading": "Connections · 相关笔记",
+    "target": "Finite State Machine Design and Applications",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Setup and Hold Timing",
+    "heading": "Definitions and Assumptions · 定义与假设",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Setup and Hold Timing",
+    "heading": "Setup Derivation · 建立约束推导",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Setup and Hold Timing",
+    "heading": "Hold Derivation · 保持约束推导",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Setup and Hold Timing",
+    "heading": "Worked Example · 同时检查两条约束",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Setup and Hold Timing",
+    "heading": "Skew Extension · 偏斜扩展",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Setup and Hold Timing",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Setup and Hold Timing",
+    "heading": "Connections · 相关笔记",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Metastability and Clock Domain Crossing",
+    "heading": "Core Definition · 核心定义",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Metastability and Clock Domain Crossing",
+    "heading": "Mechanism · 两级同步器",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Metastability and Clock Domain Crossing",
+    "heading": "Validity Boundaries · 适用边界",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Metastability and Clock Domain Crossing",
+    "heading": "Worked Examples · 例题",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Metastability and Clock Domain Crossing",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Metastability and Clock Domain Crossing",
+    "heading": "Connections · 相关笔记",
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "chapter": "Ch9"
+  },
+  {
+    "source": "Counters",
+    "heading": "Core Definition · 核心定义",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Counters",
+    "heading": "Asynchronous versus Synchronous · 异步与同步",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Counters",
+    "heading": "Derivation · 同步二进制翻转条件",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Counters",
+    "heading": "Worked Examples · 例题",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Counters",
+    "heading": "Control Inputs · 控制输入",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Counters",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Counters",
+    "heading": "Connections · 相关笔记",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Synchronous Counter Design",
+    "heading": "Design Method · 设计方法",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Synchronous Counter Design",
+    "heading": "Worked Example 1 · Modulo-3 with recovery",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Synchronous Counter Design",
+    "heading": "Worked Example 2 · 指定非顺序计数",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Synchronous Counter Design",
+    "heading": "JK Design · JK 设计细节",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Synchronous Counter Design",
+    "heading": "Verification and Review · 验证与复习",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Synchronous Counter Design",
+    "heading": "Connections · 相关笔记",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Core Definition · 核心定义",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Derivation · 同步级联",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Worked Example 1 · 两级十进制",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Worked Example 2 · 60进制时钟",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Worked Example 3 · Preset truncated count",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Practical Timing · 实际时序",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Cascaded Counters and Digital Clocks",
+    "heading": "Connections · 相关笔记",
+    "target": "Counter Design and Digital Clocks",
+    "chapter": "Ch10"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Core Definition · 核心定义",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Derivation · 行列与译码",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Worked Example 1 · 容量与地址",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Width Expansion · 位宽扩展",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Depth Expansion · 深度扩展",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Interface and Timing · 接口与时序",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Method and Review · 方法与复习",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Memory Arrays and Expansion",
+    "heading": "Connections · 相关笔记",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "SRAM DRAM and ROM",
+    "heading": "Core Definition · 核心定义",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "SRAM DRAM and ROM",
+    "heading": "SRAM Mechanism · SRAM 机制",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "SRAM DRAM and ROM",
+    "heading": "DRAM Mechanism · DRAM 机制",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "SRAM DRAM and ROM",
+    "heading": "ROM and Reprogramming · ROM 与重写",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "SRAM DRAM and ROM",
+    "heading": "Worked Examples and Review · 例题与复习",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "SRAM DRAM and ROM",
+    "heading": "Connections · 相关笔记",
+    "target": "Memory Organization and Technologies",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Read-Only Memory and Programmable Logic Arrays",
+    "heading": "Core Definition · 核心定义",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Read-Only Memory and Programmable Logic Arrays",
+    "heading": "Derivation · ROM 编程表",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Read-Only Memory and Programmable Logic Arrays",
+    "heading": "Worked Example · PLA 共享乘积",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Read-Only Memory and Programmable Logic Arrays",
+    "heading": "ROM versus PLA versus LUT · 对比",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Read-Only Memory and Programmable Logic Arrays",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Read-Only Memory and Programmable Logic Arrays",
+    "heading": "Connections · 相关笔记",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Field-Programmable Gate Array",
+    "heading": "Core Definition · 核心定义",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Field-Programmable Gate Array",
+    "heading": "Design Flow · 设计流程",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Field-Programmable Gate Array",
+    "heading": "Worked Example · 四位 enabled register",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Field-Programmable Gate Array",
+    "heading": "Constraints and Interfaces · 约束与接口",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Field-Programmable Gate Array",
+    "heading": "Practical Review · 实践与复习",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "Field-Programmable Gate Array",
+    "heading": "Connections · 相关笔记",
+    "target": "Programmable Logic and FPGA",
+    "chapter": "Ch11"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Core Definition · 核心定义",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Types and Operators · 类型与运算",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Concurrent and Sequential Semantics · 并发与顺序语义",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Combinational versus Clocked Process · 组合与时钟过程",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Reset Examples · 复位例题",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Worked Examples · 例题",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Coding Review and Boundaries · 编写检查与边界",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "VHDL Language and Modeling",
+    "heading": "Exam English and Connections · 答题与关联",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Testbench and Functional Verification",
+    "heading": "Core Definition · 核心定义",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Testbench and Functional Verification",
+    "heading": "Complete Minimal Example · 完整小型例子",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Testbench and Functional Verification",
+    "heading": "Trace and Coverage · 波形与覆盖",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Testbench and Functional Verification",
+    "heading": "Test Dimensions · 测试维度",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Testbench and Functional Verification",
+    "heading": "Method and Exam English · 方法与答题",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Testbench and Functional Verification",
+    "heading": "Connections · 相关笔记",
+    "target": "VHDL Modeling and Verification",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Structural Shift Register Project",
+    "heading": "Specification and Boundary · 规范与边界",
+    "target": "Structural Shift Register Project",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Structural Shift Register Project",
+    "heading": "Reusable DFF · 基础触发器",
+    "target": "Structural Shift Register Project",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Structural Shift Register Project",
+    "heading": "Structural Top Level · 结构化顶层",
+    "target": "Structural Shift Register Project",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Structural Shift Register Project",
+    "heading": "Worked Example · 从零串入后反向",
+    "target": "Structural Shift Register Project",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Structural Shift Register Project",
+    "heading": "Verification Plan · 验证路径",
+    "target": "Structural Shift Register Project",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Structural Shift Register Project",
+    "heading": "Pitfalls and Exam English · 误区与答题",
+    "target": "Structural Shift Register Project",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Structural Shift Register Project",
+    "heading": "Connections · 相关笔记",
+    "target": "Structural Shift Register Project",
+    "chapter": "HDL"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Core Definition · 核心目标",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Learning Path · 按先修关系复习",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Read the Question · 先把题意变成约束",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Number Problems · 数制与算术题",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Boolean Forms and K-maps · 标准式与卡诺图",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Gate and Block Implementation · 门与功能块实现",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Timing Problems · 时序约束题",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "State Tracing and FSM Design · 状态追踪与状态机设计",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Counter and ROM Problems · 计数器与查表存储",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "VHDL Problems · 从行为到硬件",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Checking Reference Solutions · 如何使用参考答案",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "English Exam Q&A · 常用完整答句",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  },
+  {
+    "source": "Exam Review and Problem Solving",
+    "heading": "Method and Review · 考前自查",
+    "target": "Exam Review and Problem Solving",
+    "chapter": "Review"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "vault": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "concept-graph": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "new-models": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "applications": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "original-ch2": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "original-ch34": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "new-figure-models": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "new-figure-layout": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "plugin-vault-audit": {
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "markdown-boundaries": {
+    "status": "PASS",
+    "findings": 0
+  },
+  "source-integrity": {
+    "status": "PASS",
+    "checked_files": 45,
+    "changed_files": []
+  }
+}

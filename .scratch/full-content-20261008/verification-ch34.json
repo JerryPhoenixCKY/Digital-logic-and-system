@@ -1,0 +1,1422 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Logic Gates and Boolean Functions H2 preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Gates and Boolean Functions current image embeds preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Gates and Boolean Functions current detailed callouts preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Gates and Boolean Functions canonical duplicate references removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Gates and Boolean Functions control characters absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Gates and Boolean Functions alias list retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Gates and Boolean Functions self heading links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Logic Levels and Noise Margins H2 preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Levels and Noise Margins current image embeds preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Levels and Noise Margins current detailed callouts preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Levels and Noise Margins canonical duplicate references removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Levels and Noise Margins control characters absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Levels and Noise Margins alias list retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Logic Levels and Noise Margins self heading links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Boolean Algebra and Circuit Models H2 preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Algebra and Circuit Models current image embeds preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Algebra and Circuit Models current detailed callouts preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Algebra and Circuit Models canonical duplicate references removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Algebra and Circuit Models control characters absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Algebra and Circuit Models alias list retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Algebra and Circuit Models self heading links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Boolean Forms and Algebraic Simplification H2 preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Forms and Algebraic Simplification current image embeds preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Forms and Algebraic Simplification current detailed callouts preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Forms and Algebraic Simplification canonical duplicate references removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Forms and Algebraic Simplification control characters absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Forms and Algebraic Simplification alias list retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean Forms and Algebraic Simplification self heading links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Karnaugh Map Minimization H2 preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Karnaugh Map Minimization current image embeds preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Karnaugh Map Minimization current detailed callouts preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Karnaugh Map Minimization canonical duplicate references removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Karnaugh Map Minimization control characters absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Karnaugh Map Minimization alias list retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Karnaugh Map Minimization self heading links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Boolean identities row (False, False, False)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean identities row (False, False, True)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean identities row (False, True, False)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean identities row (False, True, True)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean identities row (True, False, False)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean identities row (True, False, True)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean identities row (True, True, False)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Boolean identities row (True, True, True)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=1 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=1 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=2 00",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=2 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=2 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=2 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=3 111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 0111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=4 1111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 00111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 01111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 10111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=5 11111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 000111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 001111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 010111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 011111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 100111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 101111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 110111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111010",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111011",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111101",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111110",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "XNOR cascade n=6 111111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=2 i=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=2 i=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=2 i=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=2 i=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=3 i=7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minterm/maxterm n=4 i=15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "p45 SOP assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "actual": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "dc": []
+      }
+    },
+    {
+      "check": "p45 SOP exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 2,
+        "literals": 4
+      }
+    },
+    {
+      "check": "p50 assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          2,
+          3,
+          7
+        ],
+        "actual": [
+          2,
+          3,
+          7
+        ],
+        "dc": []
+      }
+    },
+    {
+      "check": "p50 exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 2,
+        "literals": 4
+      }
+    },
+    {
+      "check": "p51 assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "actual": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "dc": []
+      }
+    },
+    {
+      "check": "p51 exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 3,
+        "literals": 5
+      }
+    },
+    {
+      "check": "p52 assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "dc": []
+      }
+    },
+    {
+      "check": "p52 exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 4,
+        "literals": 10
+      }
+    },
+    {
+      "check": "p56 SOP assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          0,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "actual": [
+          0,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "dc": []
+      }
+    },
+    {
+      "check": "p56 SOP exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 4,
+        "literals": 9
+      }
+    },
+    {
+      "check": "p59 X fixed 0 assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "dc": []
+      }
+    },
+    {
+      "check": "p59 X fixed 0 exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 3,
+        "literals": 8
+      }
+    },
+    {
+      "check": "p59 X free assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "dc": [
+          5,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "check": "p59 X free exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 3,
+        "literals": 4
+      }
+    },
+    {
+      "check": "seven-segment a assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "dc": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "check": "seven-segment a exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 4,
+        "literals": 6
+      }
+    },
+    {
+      "check": "boundary wrap assigned rows",
+      "passed": true,
+      "detail": {
+        "on": [
+          0,
+          1,
+          8,
+          9,
+          12
+        ],
+        "actual": [
+          0,
+          1,
+          8,
+          9,
+          12
+        ],
+        "dc": []
+      }
+    },
+    {
+      "check": "boundary wrap exact cover minimum",
+      "passed": true,
+      "detail": {
+        "terms": 2,
+        "literals": 5
+      }
+    },
+    {
+      "check": "p56 POS assigned rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "p56 POS exact cover minimum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exactly three ones singleton minimum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "p45 POS exact cover minimum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "retained DeMorgan worked-example table cells",
+      "passed": true,
+      "detail": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "check": "coverage every original subsection and orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "coverage destinations exist",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "original_topics": 88,
+  "canonical_topics": 31,
+  "original_H2_sections": 662,
+  "source_H2_sections_covered": 662,
+  "existing_code_blocks_checked": 21,
+  "existing_embed_locations_checked": 71,
+  "topic_characters_before": 449623,
+  "topic_characters_after": 568864,
+  "issues": []
+}

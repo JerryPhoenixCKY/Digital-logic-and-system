@@ -1,0 +1,5 @@
+setup-hold-window: OK
+register-short-long-paths: OK
+serial-shift-trace: OK
+
+total problems: 0

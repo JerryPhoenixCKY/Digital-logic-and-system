@@ -1,0 +1,1676 @@
+[
+  {
+    "name": "American Standard Code for Information Interchange",
+    "characters": 11619,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么是 7 位",
+      "### 2. 三条结构规律（可直接算，不必查表）",
+      "### 3. 从字符到字节：字符串就是字节序列",
+      "### 4. 8 位扩展与 Unicode 的分工",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Character processing as a datapath · 字符怎样进入数据通路",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "ascii-code-structure.svg"
+    ]
+  },
+  {
+    "name": "AND Gate",
+    "characters": 7980,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 从\"当且仅当\"导出 4 行真值表",
+      "### ② $n$ 输入推广：$Y=A\\cdot B\\cdot C\\cdots$，行数 $2^n$，只有全 1 那行是 1",
+      "### ③ 门控 (gating)：为什么它真的是一扇\"门\"",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Qualified conditions and enables · 条件许可与使能",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "ch3-two-input-gates.png",
+      "and-gate-timing.svg",
+      "ch3-multiple-input-gates.png"
+    ]
+  },
+  {
+    "name": "AND-OR and AND-OR-Invert Logic",
+    "characters": 5217,
+    "headings": [
+      "# AND-OR and AND-OR-Invert Logic · 与或逻辑与与或非逻辑",
+      "## Core Definition · 核心定义",
+      "## Logic Levels and Gate Count · 逻辑级数与门数",
+      "## Worked Example 1 · 课件 p.4 的 SOP",
+      "## Worked Example 2 · 高有效液位传感器，课件 p.5",
+      "## Worked Example 3 · 低有效传感器与 AOI，课件 p.7",
+      "## XOR and XNOR · 异或与同或的边界",
+      "## Quick Check · 自检",
+      "## Sources · 来源",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "and-or-aoi-logic.svg"
+    ]
+  },
+  {
+    "name": "Binary Arithmetic",
+    "characters": 10342,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 加法：法则与逐列进位链",
+      "### ② 减法：借位就是\"向高位借 2\"",
+      "### ③ 乘法：只有 $1\\times1=1$ → 部分积移位相加",
+      "### ④ 除法：长除与\"反复相减\"是同一件事",
+      "### ⑤ 溢出：固定位宽的模运算语义",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Arithmetic as Boolean hardware · 算术怎样变成门电路",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "binary-addition-carries.svg"
+    ]
+  },
+  {
+    "name": "Binary Coded Decimal",
+    "characters": 11314,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 十进制 → BCD：逐位翻译，没有除法、没有进位",
+      "### 2. BCD → 十进制：从右往左每 4 位一组（讲义 p.65）",
+      "### 3. 为什么要加 6：6 个被跳过的码字",
+      "### 4. 多位 BCD 的进位传播",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## BCD validity and decimal carries · BCD 合法性与英文理解",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "bcd-8421-encoding.svg",
+      "bcd-addition-correction.svg"
+    ]
+  },
+  {
+    "name": "Binary Number System",
+    "characters": 10339,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 位权阶梯：为什么是\"每隔一位翻倍\"",
+      "### 2. 逐步展开 $(10.101)_2$（讲义 p.7）",
+      "### 3. 加 1 的进位链与各位翻转频率",
+      "### 4. 二进制太长：八/十六进制为什么能\"压缩\"",
+      "## Method and Steps · 求解步骤",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Bit patterns in a datapath · 二进制与数据通路",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "binary-powers-and-counting.svg"
+    ]
+  },
+  {
+    "name": "Binary Subtractors and Adder-Subtractors",
+    "characters": 2662,
+    "headings": [
+      "# Binary Subtractors and Adder-Subtractors · 二进制减法器与加减器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 推导",
+      "## Adder-Subtractor · 共用加法器",
+      "## Worked Examples · 例题",
+      "## Pitfalls and Review · 易错点与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Bits and Bytes",
+    "characters": 10510,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 为什么是 $2^N$ 个码字：每一位翻一倍",
+      "### ② nibble / byte 与十六进制是\"同一件事\"",
+      "### ③ 大幂次的速记：$2^{10}\\approx10^{3}$",
+      "### ④ IEC 与 SI：1024 与 1000 的制度性分歧",
+      "### ⑤ 两个必背估算点（讲义 p.26）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Width, capacity, and addressing · 位宽、容量与寻址",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "powers-of-two-scale.svg"
+    ]
+  },
+  {
+    "name": "Boolean Axioms",
+    "characters": 8881,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "### 公理 A1–A5 及其对偶式（讲义 p.17 原表）",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么只有五条就够",
+      "### 2. 对偶是\"机械替换\"，为什么这样换不会出错",
+      "### 3. 从公理到定理：对偶把定理配对",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Duality and logical meaning · 对偶与逻辑含义",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Boolean Equation",
+    "characters": 9398,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 讲义 p.9：全加器的两个方程，逐项读",
+      "### 2. 从一段文字到方程的四个动作",
+      "### 3. 讲义 p.10–14 的五个例子",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Specification before implementation · 方程先描述需求",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Boolean Expression Simplification",
+    "characters": 10435,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 化简的三个\"动作\"",
+      "### 2. 为什么补一项不改变函数：$X=X\\cdot 1=X(Y+\\bar Y)$",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Preserve behavior, then evaluate cost · 先等价，再比较代价",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "simplification-example4.svg"
+    ]
+  },
+  {
+    "name": "Cascaded Counters and Digital Clocks",
+    "characters": 3442,
+    "headings": [
+      "# Cascaded Counters and Digital Clocks · 级联计数器与数字时钟",
+      "## Core Definition · 核心定义",
+      "## Derivation · 同步级联",
+      "## Worked Example 1 · 两级十进制",
+      "## Worked Example 2 · 60进制时钟",
+      "## Worked Example 3 · Preset truncated count",
+      "## Practical Timing · 实际时序",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Combinational Circuit",
+    "characters": 8567,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 先给每个节点找\"驱动者\"",
+      "### 2. 扇出 (fan-out) 是允许的，两个驱动者是不允许的",
+      "### 3. 无环 = 无记忆",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Composition and state boundaries · 构成规则与状态边界",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "ch4-combinational-nodes.png",
+      "combinational-rules.svg"
+    ]
+  },
+  {
+    "name": "Combinational Logic Analysis",
+    "characters": 5441,
+    "headings": [
+      "# Combinational Logic Analysis · 组合逻辑分析",
+      "## Scope and Model · 范围与模型",
+      "## Read the Circuit · 电路到方程",
+      "## Worked Example 1 · 重复支路被吸收，课件 p.18",
+      "## Worked Example 2 · 四乘积项化为两项，课件 p.19",
+      "### K-map Cross-check · 卡诺图复核",
+      "## Bubble Pushing as Analysis · 用气泡推移读混合门",
+      "## Limits and Common Errors · 边界与误区",
+      "## Exam Recall · 英文答题与复习",
+      "## Sources · 来源",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "combinational-reduction-kmap.svg"
+    ]
+  },
+  {
+    "name": "Combinational Logic Design",
+    "characters": 6743,
+    "headings": [
+      "# Combinational Logic Design · 组合逻辑设计",
+      "## Core Definition · 核心定义",
+      "## Derivation · 规范到方程",
+      "### Expression and Truth Table to Circuit · 课件 p.16",
+      "## Worked Example 1 · 储罐报警",
+      "## Worked Example 2 · 恰好四个输入中的三个为 1，课件 p.17",
+      "## Worked Example 3 · 同时四位中的模式",
+      "## Worked Example 4 · 五位分类",
+      "## Priority and Don't-Cares · 优先级与无关项，课件 p.20–22",
+      "## Chapter Quiz · 课件 p.33 判断题复习",
+      "## Pitfalls and Review · 误区与复习",
+      "## Connections · 相关笔记",
+      "## Sources · 来源"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Combinational Multiplier",
+    "characters": 2763,
+    "headings": [
+      "# Combinational Multiplier · 组合乘法器",
+      "## Core Definition and Derivation · 定义与推导",
+      "## Worked Example · 3×3 位乘法",
+      "## Timing and Signed Boundary · 时序与有符号边界",
+      "## Practical Examples and Review · 应用与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Counters",
+    "characters": 3246,
+    "headings": [
+      "# Counters · 计数器",
+      "## Core Definition · 核心定义",
+      "## Asynchronous versus Synchronous · 异步与同步",
+      "## Derivation · 同步二进制翻转条件",
+      "## Worked Examples · 例题",
+      "## Control Inputs · 控制输入",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Cyclic Redundancy Check",
+    "characters": 13537,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 模 2 运算：加法不进位，减法就是加法",
+      "### 2. 发送端：补零 → 长除 → 取余",
+      "### 3. 接收端：整帧再除一次",
+      "### 4. 为什么比奇偶校验强：错误模式 $E(x)$",
+      "### 5. 能力对照（同一帧上穷举，数字来自图 3）",
+      "### 6. 硬件：移位寄存器 + XOR 反馈",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Standard exam algorithm and guarantees · 标准算法与检错边界",
+      "## Degree-three serial divider · 三阶生成式的串行模型",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "crc-modulo2-division.svg",
+      "crc-shift-register.svg",
+      "binary-parity-vs-crc.svg"
+    ]
+  },
+  {
+    "name": "D Latch and D Flip-Flop",
+    "characters": 2856,
+    "headings": [
+      "# D Latch and D Flip-Flop · D锁存器与D触发器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 消除 SR 禁态",
+      "## Comparison · 对比",
+      "## Worked Examples · 波形例题",
+      "## Assumptions and Pitfalls · 条件与误区",
+      "## Exam English · 英文答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "DC Transfer Characteristic",
+    "characters": 11859,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 理想缓冲器：阶跃，两段余量正好铺满 $V_{DD}$",
+      "### 2. 实际缓冲器：过渡区吃掉一块预算",
+      "### 3. 增益与过渡带宽度：为什么\"陡\"就是\"抗噪\"",
+      "### 4. 实际反相器的 VTC 与 $V_M$（讲义 p.20）",
+      "### 5. $V_{DD}$ 缩放对 VTC 的影响",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## What a static curve can establish · 静态曲线能证明什么",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "dc-transfer-buffer.svg"
+    ]
+  },
+  {
+    "name": "Decimal Number System",
+    "characters": 9463,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 位权阶梯：为什么\"每往左一位就大十倍\"",
+      "### 2. $(568.23)_{10}$ 的展开与求和",
+      "### 3. \"除以 10 取余\"与十进制记法自洽",
+      "## Method and Steps · 求解步骤",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Decimal intent in digital hardware · 十进制语义与英文理解",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "positional-weights.svg"
+    ]
+  },
+  {
+    "name": "Decoder",
+    "characters": 2456,
+    "headings": [
+      "# Decoder · 译码器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 为什么是 minterm",
+      "## Worked Examples · 例题",
+      "## Enable and Pin Constraints · 使能与引脚条件",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "DeMorgan's Theorems",
+    "characters": 10447,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 用 perfect induction 证明第一条：$\\overline{XY}=\\bar X+\\bar Y$",
+      "### 2. 用 perfect induction 证明第二条：$\\overline{X+Y}=\\bar X\\bar Y$",
+      "### 3. 多变量推广",
+      "### 4. 两个用途",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Move the outer complement carefully · 外层取补怎样分配",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "demorgan-gate-equivalence.svg"
+    ]
+  },
+  {
+    "name": "Digital Abstraction and System Design",
+    "characters": 3672,
+    "headings": [
+      "# Digital Abstraction and System Design · 数字抽象与系统设计",
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 从抽象到系统",
+      "## Worked Examples · 实际例题",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Digital Logic Troubleshooting",
+    "characters": 8300,
+    "headings": [
+      "# Digital Logic Troubleshooting · 数字逻辑故障诊断",
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 模型与适用条件",
+      "## Derivation · 故障激活与传播",
+      "### Boolean sensitivity · 布尔敏感度",
+      "## Worked Example 1 · AND–OR 网络的测试向量",
+      "## Worked Example 2 · MUX 的选择故障",
+      "## Worked Example 3 · 显示与转换器的故障症状",
+      "## Method and Steps · 实际排查流程",
+      "## Common Errors · 常见误区",
+      "## English Exam Q&A · 英文答题训练",
+      "## Method and Review · 复习检查"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Digital Waveforms",
+    "characters": 3166,
+    "headings": [
+      "# Digital Waveforms · 数字波形",
+      "## Core Definition · 核心定义",
+      "## Derivation and Reading Method · 推导与读图",
+      "## Worked Examples · 例题",
+      "## Pitfalls and Exam English · 易错点与英文答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "ECE2050 Knowledge Tree",
+    "characters": 18383,
+    "headings": [
+      "# ECE2050 Knowledge Tree · 知识树",
+      "## Learning Path · 学习路径",
+      "## Ch1 · Introductory Concepts ✅ (2 notes)",
+      "## Ch2 · Number Systems ✅ (73 lecture pages · 18 notes)",
+      "## Ch3 · Logic Gates ✅ (25 lecture pages · 11 notes)",
+      "## Ch4 · Boolean Algebra and Logic Simplification ✅ (63 lecture pages · 14 notes)",
+      "## Ch5 · Combinational Logic Analysis and Design · 组合逻辑分析与设计 ✅ (33 lecture pages · 5 primary notes)",
+      "## Ch6 · Functions of Combinational Logic ✅ (11 notes)",
+      "## Ch7 · Sequential Logic and Storage Elements ✅ (5 notes)",
+      "## Ch8 · Shift Registers and Applications ✅ (4 notes)",
+      "## Ch9 · Finite State Machines and Timing ✅ (7 notes)",
+      "## Ch10 · Counters ✅ (3 notes)",
+      "## Ch11 · Data Storage and Programmable Logic ✅ (4 notes)",
+      "## HDL · VHDL, FPGA Workflow and Project ✅ (3 notes)",
+      "## Review · Exam Review and Integration ✅ (1 notes)",
+      "## Course Roadmap · 课程路线图",
+      "## Conventions and Status · 约定与统计"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Encoder and Priority Encoder",
+    "characters": 4897,
+    "headings": [
+      "# Encoder and Priority Encoder · 编码器与优先编码器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 推导",
+      "## Priority Circuit Versus Priority Encoder · 优先电路与编码输出，Ch5 p.20–22",
+      "### Input X Versus Output Don't-Care · 输入压缩与输出无关项",
+      "## Worked Examples · 例题",
+      "## Pitfalls and Review · 易错点与复习",
+      "## Position codes in a scanned keyboard · 扫描键盘中的位置码",
+      "## Connections · 相关笔记",
+      "## Sources · 来源"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Exam Review and Problem Solving",
+    "characters": 12332,
+    "headings": [
+      "# Exam Review and Problem Solving · 考试复习与解题方法",
+      "## Core Definition · 核心目标",
+      "## Learning Path · 按先修关系复习",
+      "## Read the Question · 先把题意变成约束",
+      "## Number Problems · 数制与算术题",
+      "## Boolean Forms and K-maps · 标准式与卡诺图",
+      "## Gate and Block Implementation · 门与功能块实现",
+      "## Timing Problems · 时序约束题",
+      "## State Tracing and FSM Design · 状态追踪与状态机设计",
+      "### Word matching versus serial matching · 并行字匹配与串行序列",
+      "## Counter and ROM Problems · 计数器与查表存储",
+      "## VHDL Problems · 从行为到硬件",
+      "## Checking Reference Solutions · 如何使用参考答案",
+      "## English Exam Q&A · 常用完整答句",
+      "## Method and Review · 考前自查"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Exclusive-NOR Gate",
+    "characters": 11724,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 从 XOR 接一个反相器",
+      "### ② 从\"相同为 1\"直接写 SOP",
+      "### ③ 代数证明：$\\overline{A\\bar B+\\bar AB}=AB+\\bar A\\bar B$",
+      "### ④ 多输入：偶数个 1 → 1",
+      "### ⑤ 应用：相等检测器（equality detector）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Equality versus parity reduction · 相等与偶数重归约",
+      "## Ch5 Application · 第五章等价结构与校验边界",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "xnor-gate-timing.svg",
+      "ch3-xor-xnor.png"
+    ]
+  },
+  {
+    "name": "Exclusive-OR Gate",
+    "characters": 11368,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 从真值表写出 $Y=A\\bar B+\\bar AB$",
+      "### ② 另一种等价写法：$A\\oplus B=(A+B)\\overline{AB}$",
+      "### ③ 多输入推广：奇数个 1 → 1",
+      "### ④ XOR 的代数性质（都能用真值表一行行验证）",
+      "### ⑤ 应用：XOR 把两个比特\"相加\"（讲义 p.11）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## XOR as difference and controlled inversion · 差异检测与受控取反",
+      "## Ch5 Application · 第五章门级应用",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "xor-gate-timing.svg",
+      "ch3-xor-xnor.png",
+      "xor-half-adder.svg",
+      "ch3-xor-adder.png"
+    ]
+  },
+  {
+    "name": "Field-Programmable Gate Array",
+    "characters": 3156,
+    "headings": [
+      "# Field-Programmable Gate Array · 现场可编程门阵列",
+      "## Core Definition · 核心定义",
+      "## Design Flow · 设计流程",
+      "## Worked Example · 四位 enabled register",
+      "## Constraints and Interfaces · 约束与接口",
+      "## Practical Review · 实践与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Finite State Machine",
+    "characters": 2911,
+    "headings": [
+      "# Finite State Machine · 有限状态机",
+      "## Core Definition · 核心定义",
+      "## Design Procedure · 设计过程",
+      "## Worked Example · 按钮切换灯",
+      "## State Meaning and Completeness · 状态含义与完备性",
+      "## Assumptions and Pitfalls · 条件与误区",
+      "## Exam English · 英文答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Fixed-Point Numbers",
+    "characters": 12526,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 从位权到\"整数缩放\"：为什么 $x = n/2^{b}$",
+      "### 2. 同一数值、不同约定：U4.4 / U3.5 / U6.2",
+      "### 3. Q 格式的负数：取反加一，与补码同源",
+      "### 4. 溢出：回绕 (wrap) 与饱和 (saturate)",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Scaling belongs to the representation · 定点缩放与英文理解",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "fixed-point-format.svg",
+      "saturating-arithmetic.svg"
+    ]
+  },
+  {
+    "name": "Floating-Point Numbers",
+    "characters": 12987,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么需要浮点：定点的范围太窄",
+      "### 2. 规格化：把二进制点搬到最高位 1 的右边",
+      "### 3. 为什么可以不存前导 1",
+      "### 4. 偏移阶码：为什么存的是 $E+127$",
+      "### 5. 精度与动态范围",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Decode the format before the fields · 先确认格式再读字段",
+      "## Custom 16-bit format · 自定义十六位格式",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "ieee754-single-format.svg",
+      "floating-point-dynamic-range.svg"
+    ]
+  },
+  {
+    "name": "Glossary",
+    "characters": 31246,
+    "headings": [
+      "# ECE2050 Glossary · 术语表",
+      "## 1 · Foundations",
+      "## 2 · Number Bases",
+      "## 3 · Conversion",
+      "## 4 · Bits and Scale",
+      "## 5 · Binary Arithmetic",
+      "## 6 · Signed Numbers",
+      "## 7 · Fractional Numbers",
+      "## 8 · Codes",
+      "## 9 · Error Detection Codes",
+      "## 10 · Logic Gates（Ch3 讲义 25 页）",
+      "## 11 · Logic Levels, Noise and VTC（Ch3 讲义 p.15–23）",
+      "## 12 · Boolean Algebra and Simplification（Ch4 讲义 63 页）",
+      "## 13 · Introductory Concepts (Ch1)",
+      "## 14 · Combinational Logic Analysis and Design (Ch5)",
+      "## 15 · Functions of Combinational Logic (Ch6)",
+      "## 16 · Sequential Logic and Storage Elements (Ch7)",
+      "## 17 · Shift Registers and Applications (Ch8)",
+      "## 18 · Finite State Machines and Timing (Ch9)",
+      "## 19 · Counters (Ch10)",
+      "## 20 · Data Storage and Programmable Logic (Ch11)",
+      "## 21 · VHDL, FPGA Workflow and Project (HDL)",
+      "## 22 · Exam Review and Integration (Review)",
+      "## 23 · Cross-chapter Working Vocabulary · 跨章常用术语"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Gray Code",
+    "characters": 10488,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 反射构造法 (reflection)：为什么相邻只差 1 位",
+      "### 2. 二进制 → 格雷码：$g = b \\oplus (b \\gg 1)$",
+      "### 3. 格雷码 → 二进制：前缀异或",
+      "### 4. 为什么通信与位置检测偏爱它（讲义 p.68）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Gray code across logic and timing · 格雷码、逻辑与时序",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "gray-code-sequence.svg",
+      "gray-code-symbol-mapping.svg"
+    ]
+  },
+  {
+    "name": "Half Adder and Full Adder",
+    "characters": 2666,
+    "headings": [
+      "# Half Adder and Full Adder · 半加器与全加器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 推导",
+      "## Worked Examples · 例题",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Hexadecimal Number System",
+    "characters": 11036,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 十六进制 → 十进制：按位权求和（讲义 p.16）",
+      "### 2. 十进制 → 十六进制：反复除以 16，**首个余数是 LSD**（讲义 p.18）",
+      "### 3. 十六进制 ↔ 二进制：1 位 = 4 bit（讲义 p.19–20）",
+      "### 4. 1 byte = 2 个十六进制位：$00$–$FF$",
+      "## Method and Steps · 求解步骤",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Hexadecimal as a hardware reading tool · 十六进制读硬件",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "hex-memory-address.svg"
+    ]
+  },
+  {
+    "name": "Inverter",
+    "characters": 8867,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 真值表为什么只有 2 行",
+      "### ② 两次取反等于原值：$\\overline{\\bar A}=A$",
+      "### ③ 时序图怎么读：理想零延迟 vs 真实延迟",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Inversion, assertion, and physical delay · 取反、有效状态与延迟",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "ch3-inverter-symbol.png",
+      "ch3-single-input-gates.png",
+      "inverter-timing.svg"
+    ]
+  },
+  {
+    "name": "JK and T Flip-Flops",
+    "characters": 2412,
+    "headings": [
+      "# JK and T Flip-Flops · JK与T触发器",
+      "## Core Definition and Derivation · 定义与推导",
+      "## Excitation Table · 激励表",
+      "## Conversion · 元件转换",
+      "## Worked Examples · 例题",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Karnaugh Map with Don't Cares",
+    "characters": 6960,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Don't-care freedom and invalid-input policy · 自由度与非法输入策略",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "ch4-kmap-dont-care.png",
+      "kmap-dont-care.svg",
+      "ch4-seven-segment-kmap.png"
+    ]
+  },
+  {
+    "name": "Karnaugh Map",
+    "characters": 11782,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么相邻两格能合并：$X\\bar Y+XY=X$",
+      "### 2. 圈多大，就消掉几个变量",
+      "### 3. 从一个圈读出积项（本课最核心的一步）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Group meaning and implementation choices · 圈组含义与实现选择",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "kmap-rules.svg",
+      "ch4-kmap-3var-basic.png",
+      "ch4-kmap-3var-example.png",
+      "ch4-kmap-4var.png"
+    ]
+  },
+  {
+    "name": "Keyboard Scanning and Encoding",
+    "characters": 5499,
+    "headings": [
+      "# Keyboard Scanning and Encoding · 键盘扫描与编码",
+      "## Core Definition · 核心定义",
+      "## Mechanism · 扫描机制",
+      "## Timing Derivation · 扫描与分频",
+      "## Debounce and Capture · 去抖与捕获",
+      "## Worked Examples · 例题",
+      "## Multi-key Boundary · 多键边界",
+      "## Exam English and Review · 答题与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Laws and Rules of Boolean Algebra",
+    "characters": 10291,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "### 三条定律 (laws, 讲义 p.19)",
+      "### 十二条规则 (rules, Floyd 编号)",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 规则从公理来：以 Rule 5 ($A+A=A$) 为例",
+      "### 2. 为什么 Rule 12 值得单独记",
+      "### 3. 布尔加法/乘法的两个\"取值问题\"（讲义 p.18）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Choose the rule by structure · 看结构选择化简规则",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Logic Gates",
+    "characters": 10407,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 为什么 $n$ 个输入正好有 $2^n$ 种组合",
+      "### ② 三种描述方式其实是一件事",
+      "### ③ 表的行按二进制顺序列出（讲义 p.13）",
+      "### ④ 气泡与\"怎么验证\"（讲义 p.8–9 的 How to verify/prove?）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Gates as functions and interfaces · 门的功能与接口",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "logic-gate-symbols.svg",
+      "ch3-two-input-gates.png",
+      "ch3-multiple-input-gates.png"
+    ]
+  },
+  {
+    "name": "Logic Levels",
+    "characters": 10826,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么单点不行，必须用区间",
+      "### 2. 两个范围之间的缝隙 = 噪声预算",
+      "### 3. $V_{DD}$ 缩放：从 5 V 到 1.0 V（讲义 p.21–p.22）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Electrical validity and logical assertion · 电气有效与逻辑有效",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "logic-level-ranges.svg"
+    ]
+  },
+  {
+    "name": "Magnitude Comparator",
+    "characters": 2239,
+    "headings": [
+      "# Magnitude Comparator · 数值比较器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 从一位到多位",
+      "## Worked Examples · 例题",
+      "## Application · 最小值选择器",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Memory Arrays and Expansion",
+    "characters": 3059,
+    "headings": [
+      "# Memory Arrays and Expansion · 存储阵列与扩展",
+      "## Core Definition · 核心定义",
+      "## Derivation · 行列与译码",
+      "## Worked Example 1 · 容量与地址",
+      "## Width Expansion · 位宽扩展",
+      "## Depth Expansion · 深度扩展",
+      "## Interface and Timing · 接口与时序",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Metastability and Clock Domain Crossing",
+    "characters": 2818,
+    "headings": [
+      "# Metastability and Clock Domain Crossing · 亚稳态与时钟域跨越",
+      "## Core Definition · 核心定义",
+      "## Mechanism · 两级同步器",
+      "## Validity Boundaries · 适用边界",
+      "## Worked Examples · 例题",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Minterm and Maxterm",
+    "characters": 10293,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么 minterm 只能在一行为 1",
+      "### 2. 为什么 maxterm 只能在一行为 0（以及 $M_i=\\bar m_i$）",
+      "### 3. 2 变量的表（讲义 p.36–37 直接用到的两个表）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Row identities and polarity · 行编号与取补方向",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "minterm-maxterm-table.svg"
+    ]
+  },
+  {
+    "name": "Moore and Mealy Machines",
+    "characters": 2779,
+    "headings": [
+      "# Moore and Mealy Machines · Moore与Mealy状态机",
+      "## Core Definition · 核心定义",
+      "## Worked Example · 检测最近两位 01",
+      "## Output Timing · 输出时间对齐",
+      "## Tradeoffs · 取舍",
+      "## Additional Example · 同一状态不同输出",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Multiplexer and Demultiplexer",
+    "characters": 2629,
+    "headings": [
+      "# Multiplexer and Demultiplexer · 多路选择器与分配器",
+      "## Core Definition · 核心定义",
+      "## Derivation · Shannon expansion",
+      "## Worked Examples · 例题",
+      "## Demultiplexing · 分配",
+      "## Pitfalls and Practical Use · 误区与应用",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "NAND Gate",
+    "characters": 9107,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 从 AND 出发接一个反相器",
+      "### ② 逐行穷举 (perfect induction)",
+      "### ③ 用德摩根定理改写成\"反相输入的 OR\"",
+      "### ④ 工程直觉：为什么数字电路偏爱 NAND",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## NAND as a complete construction set · NAND 的功能完备性",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "nand-gate-timing.svg",
+      "ch3-multiple-input-gates.png"
+    ]
+  },
+  {
+    "name": "Noise Margin",
+    "characters": 11132,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 从讲义 p.17 的例子看\"退化\"与\"读错\"的距离",
+      "### 2. 为什么 $NM_H$ 与 $NM_L$ 要分开看",
+      "### 3. 两个容限之和与 $V_{DD}$ 的关系",
+      "### 4. 相对余量：把 $NM$ 换算成 $V_{DD}$ 的百分比",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Noise margins are interface budgets · 噪声容限是接口预算",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "noise-margin.svg"
+    ]
+  },
+  {
+    "name": "NOR Gate",
+    "characters": 9399,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 从 OR 出发接一个反相器",
+      "### ② 逐行穷举 (perfect induction)",
+      "### ③ 德摩根改写：NOR = \"反相输入的 AND\"",
+      "### ④ 与 NAND 的对偶 (duality)",
+      "### ⑤ 工程直觉：为什么 NOR 常被\"NAND + 反相器\"替代",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## NOR implementation and zero conditions · NOR 实现与零条件",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "nor-gate-timing.svg",
+      "ch3-two-input-gates.png"
+    ]
+  },
+  {
+    "name": "Number Base Conversion",
+    "characters": 11259,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① base-$R$ → decimal：按位权求和",
+      "### ② decimal → base-$R$：为什么\"第一个余数就是 LSB\"",
+      "### ②' 小数部分：反复乘以 $R$ 取整数位",
+      "### ③ base-$2^k$ ↔ binary：分组即转换",
+      "### ④ base-$R$ → base-$S$：以 decimal 为中枢",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Conversion, encoding, and approximation · 转换、编码与近似",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "base-conversion-grouping.svg"
+    ]
+  },
+  {
+    "name": "Number Systems",
+    "characters": 10952,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 从\"位置决定倍率\"推出通式",
+      "### 2. 同一串数字，不同基数就是不同的数",
+      "### 3. 位宽与范围：全章导航表",
+      "## Method and Steps · 求解步骤",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Representation choices · 表示法与英文理解",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "positional-weights.svg"
+    ]
+  },
+  {
+    "name": "Octal Number System",
+    "characters": 10796,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 八进制 → 十进制：按位权求和（讲义 p.15）",
+      "### 2. 十进制 → 八进制：反复除以 8，**首个余数是 LSD**（讲义 p.17）",
+      "### 3. 八进制 ↔ 二进制：1 位 = 3 bit（讲义 p.19–20）",
+      "### 4. 为什么是 3 位，而不是 4 位",
+      "## Method and Steps · 求解步骤",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Grouping around the radix point · 八进制分组与英文理解",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "linux-file-permissions.svg"
+    ]
+  },
+  {
+    "name": "One-Shots and Pulse Applications",
+    "characters": 3030,
+    "headings": [
+      "# One-Shots and Pulse Applications · 单稳态与脉冲应用",
+      "## Core Definition · 核心定义",
+      "## Derivation · RC timing boundary",
+      "## Worked Examples · 例题",
+      "## Edge Detection · 边沿检测",
+      "## Delayed key capture · 延迟捕获按键",
+      "## Exam English and Connections · 答题与关联"
+    ],
+    "figures": []
+  },
+  {
+    "name": "OR Gate",
+    "characters": 8067,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### ① 从\"任一为 1\"导出 4 行真值表",
+      "### ② $n$ 输入推广：$Y=A+B+C+\\cdots$，行数 $2^n$，只有全 0 行是 0",
+      "### ③ 对偶性：AND 的\"零元\"与 OR 的\"壹元\"",
+      "### ④ 时序图怎么读",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Inclusive OR in specifications · 题目中的包含或",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "ch3-two-input-gates.png",
+      "or-gate-timing.svg"
+    ]
+  },
+  {
+    "name": "Parity Bit",
+    "characters": 12448,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么 XOR 就是校验位的算法",
+      "### 2. 接收端判据：整组异或为 0",
+      "### 3. 能力边界：为什么偶数个错误一定漏",
+      "### 4. 提高能力的方向",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Parity generation, checking, and limits · 生成、校验与边界",
+      "## Gate-Level Parity Circuits · 门级校验电路，Ch5 p.11–14",
+      "### Two and Three Data Bits · 两位与三位数据",
+      "### Four-Input Generator and Five-Input Checker · 四位发生器与五位检查器",
+      "## Sources · 来源",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "parity-bit-format.svg",
+      "parity-generator-checker.svg"
+    ]
+  },
+  {
+    "name": "POS Minimization with Karnaugh Map",
+    "characters": 7226,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Read zero groups as maxterms · 零圈怎样读最大项",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "kmap-pos-minimization.svg",
+      "ch4-kmap-pos-to-sop.png",
+      "ch4-kmap-pos-example.png"
+    ]
+  },
+  {
+    "name": "Product-of-Sums Form",
+    "characters": 9773,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 从真值表到标准 POS（逐行选择）",
+      "### 2. 把非标准 POS 补成标准 POS（讲义 p.41，用 Rule 12）",
+      "### 3. POS 与 SOP 的等价性（讲义 p.39 的午餐例子）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Canonical POS from OFF rows · 从零行建立标准或与式",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "pos-from-truth-table.svg"
+    ]
+  },
+  {
+    "name": "Proof by Perfect Induction",
+    "characters": 9342,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. Method 1 的流程",
+      "### 2. Method 2 的流程",
+      "### 3. 什么时候用哪一种",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Exhaustive proof and counterexamples · 穷举证明与反例",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "perfect-induction-rule10.svg"
+    ]
+  },
+  {
+    "name": "Propagation Delay and Logic Hazards",
+    "characters": 3075,
+    "headings": [
+      "# Propagation Delay and Logic Hazards · 传播延迟与逻辑冒险",
+      "## Core Definition · 核心定义",
+      "## Worked Example 1 · 长短路径",
+      "## Derivation · Static-1 hazard",
+      "## Worked Example 2 · 冒险宽度",
+      "## Sampling and Applications · 采样与应用",
+      "## Method and Exam English · 方法与英文",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Read-Only Memory and Programmable Logic Arrays",
+    "characters": 3208,
+    "headings": [
+      "# Read-Only Memory and Programmable Logic Arrays · ROM与可编程逻辑阵列",
+      "## Core Definition · 核心定义",
+      "## Derivation · ROM 编程表",
+      "## Worked Example · PLA 共享乘积",
+      "## ROM versus PLA versus LUT · 对比",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Register Enable and Reset",
+    "characters": 2714,
+    "headings": [
+      "# Register Enable and Reset · 寄存器使能与复位",
+      "## Core Definition · 核心定义",
+      "## Reset and Set · 复位与置位",
+      "## Worked Examples · 例题",
+      "## Timing Boundary · 时序边界",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Ring and Johnson Counters",
+    "characters": 2867,
+    "headings": [
+      "# Ring and Johnson Counters · 环形与约翰逊计数器",
+      "## Core Definition and Model · 定义与模型",
+      "## Ring Derivation · 环形序列",
+      "## Johnson Derivation · 扭环序列",
+      "## Worked Examples · 例题",
+      "## Method and Review · 方法与复习",
+      "## One-cold scan application · 独冷扫描应用",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Ripple Carry and Carry Look-Ahead Adders",
+    "characters": 2617,
+    "headings": [
+      "# Ripple Carry and Carry Look-Ahead Adders · 串行进位与超前进位加法器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 展开进位链",
+      "## Worked Examples · 例题",
+      "## Method and Exam English · 求解与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Sequence Detector",
+    "characters": 2515,
+    "headings": [
+      "# Sequence Detector · 序列检测器",
+      "## Specification · 明确规范",
+      "## Derivation · 最长后缀原则",
+      "## Encoded Equations · 编码方程",
+      "## Worked Example · 追踪 1110110",
+      "## Overlap Example · 101 的重叠",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Sequential Logic",
+    "characters": 2764,
+    "headings": [
+      "# Sequential Logic · 时序逻辑",
+      "## Core Definition · 核心定义",
+      "## Mechanism and Composition · 机制与构成",
+      "## Worked Examples · 例题",
+      "## Assumptions and Limits · 条件与边界",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Set-Reset Latch",
+    "characters": 2618,
+    "headings": [
+      "# Set-Reset Latch · 置位复位锁存器",
+      "## Core Definition · 核心定义",
+      "## Derivation · 为什么能保持",
+      "## NAND Variant · NAND 型",
+      "## Worked Example · 事件序列",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Setup and Hold Timing",
+    "characters": 3148,
+    "headings": [
+      "# Setup and Hold Timing · 建立与保持时间",
+      "## Definitions and Assumptions · 定义与假设",
+      "## Setup Derivation · 建立约束推导",
+      "## Hold Derivation · 保持约束推导",
+      "## Worked Example · 同时检查两条约束",
+      "## Skew Extension · 偏斜扩展",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "setup-hold-window.svg",
+      "register-short-long-paths.svg"
+    ]
+  },
+  {
+    "name": "Seven-Segment Display and Code Conversion",
+    "characters": 9620,
+    "headings": [
+      "# Seven-Segment Display and Code Conversion · 七段显示与码制转换",
+      "## Core Definition · 核心定义",
+      "## Truth Table and Polarity · 真值表与极性",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 从字形表到逻辑与控制",
+      "### Segment logic · 段逻辑",
+      "### Blanking and zero suppression · 消隐与零抑制",
+      "### Dynamic multiplexing · 动态扫描",
+      "## Code Conversion · BCD 与纯二进制转换",
+      "### Two 4-bit adders · 两个四位加法器的构造",
+      "## Worked Examples · 三个实际例题",
+      "## Pitfalls and Debugging · 易错点与排查",
+      "## English Exam Q&A · 英文答题训练",
+      "## Method and Review · 复习检查"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Shift Registers",
+    "characters": 3535,
+    "headings": [
+      "# Shift Registers · 移位寄存器",
+      "## Core Definition · 核心定义",
+      "## Derivation · Universal register",
+      "## Worked Example 1 · 左右混合",
+      "## Worked Example 2 · 串入和时延",
+      "## Applications and Review · 应用与复习",
+      "## Serial interfaces and matrix scanning · 串行接口与矩阵扫描",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "serial-shift-trace.svg"
+    ]
+  },
+  {
+    "name": "Sign-Magnitude Representation",
+    "characters": 9766,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么范围是对称的，而且\"少一个数\"",
+      "### 2. 为什么加法不成立：符号位被当成权重位",
+      "### 3. 两个零带来的额外代价",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Comparing signed representations · 有符号表示的英文理解",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "sign-magnitude-zero.svg"
+    ]
+  },
+  {
+    "name": "Signed Binary Multiplication and Division",
+    "characters": 11526,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 乘法：移位相加的逐步过程 (shift-and-add, step by step)",
+      "### 2. 为什么补码可以这样算（原理与修正项）",
+      "### 3. 除法：反复相减的逐步过程 (repeated subtraction / restoring)",
+      "### 4. 问题与修复 (Problems and How They Are Fixed)",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Width and remainder semantics · 位宽与余数约定",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "signed-multiplication-partial-products.svg",
+      "signed-division-restoring.svg"
+    ]
+  },
+  {
+    "name": "SRAM DRAM and ROM",
+    "characters": 3306,
+    "headings": [
+      "# SRAM DRAM and ROM · SRAM、DRAM与ROM",
+      "## Core Definition · 核心定义",
+      "## SRAM Mechanism · SRAM 机制",
+      "## DRAM Mechanism · DRAM 机制",
+      "## ROM and Reprogramming · ROM 与重写",
+      "## Worked Examples and Review · 例题与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "State Encoding and Unused States",
+    "characters": 2675,
+    "headings": [
+      "# State Encoding and Unused States · 状态编码与未用状态",
+      "## Core Definition and Derivation · 定义与推导",
+      "## Worked Example · 三态循环",
+      "## Don't-Care Policy · 无关项策略",
+      "## Method and Review · 方法与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Structural Shift Register Project",
+    "characters": 4197,
+    "headings": [
+      "# Structural Shift Register Project · 结构化双向移位寄存器项目",
+      "## Specification and Boundary · 规范与边界",
+      "## Reusable DFF · 基础触发器",
+      "## Structural Top Level · 结构化顶层",
+      "## Worked Example · 从零串入后反向",
+      "## Verification Plan · 验证路径",
+      "## Pitfalls and Exam English · 误区与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Sum-of-Products Form",
+    "characters": 9363,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 从真值表到标准 SOP（逐行选择）",
+      "### 2. 把非标准 SOP 补成标准 SOP（讲义 p.40）",
+      "### 3. 判断标准 SOP 的三步自查",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Canonical SOP and hardware mapping · 标准与或式怎样落地",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "sop-from-truth-table.svg"
+    ]
+  },
+  {
+    "name": "Synchronous Counter Design",
+    "characters": 2843,
+    "headings": [
+      "# Synchronous Counter Design · 同步计数器设计",
+      "## Design Method · 设计方法",
+      "## Worked Example 1 · Modulo-3 with recovery",
+      "## Worked Example 2 · 指定非顺序计数",
+      "## JK Design · JK 设计细节",
+      "## Verification and Review · 验证与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Testbench and Functional Verification",
+    "characters": 4766,
+    "headings": [
+      "# Testbench and Functional Verification · 测试平台与功能验证",
+      "## Core Definition · 核心定义",
+      "## Complete Minimal Example · 完整小型例子",
+      "## Trace and Coverage · 波形与覆盖",
+      "## Test Dimensions · 测试维度",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Traffic Light Controller",
+    "characters": 2932,
+    "headings": [
+      "# Traffic Light Controller · 交通灯控制器",
+      "## Specification · 规范与模型边界",
+      "## Transition Table · 转换表",
+      "## Derivation · 编码与输出",
+      "## Worked Example · 状态追踪",
+      "## Timer Extension · 定时器扩展",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Tri-State Buffers and Bus Drivers",
+    "characters": 2600,
+    "headings": [
+      "# Tri-State Buffers and Bus Drivers · 三态缓冲器与总线驱动",
+      "## Core Definition and Validity · 定义与条件",
+      "## Mechanism · 机制",
+      "## Worked Examples · 例题",
+      "## Pitfalls and Review · 易错点与复习",
+      "## Connections · 相关笔记"
+    ],
+    "figures": []
+  },
+  {
+    "name": "Truth Table and Boolean Expression",
+    "characters": 10354,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 标准 SOP → 真值表（讲义 p.43）",
+      "### 2. 标准 POS → 真值表（讲义 p.44）",
+      "### 3. 真值表 → 最小 SOP / 最小 POS（讲义 p.45–46 的 $X$ 例）",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## A table as a verification contract · 真值表是验证契约",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "truth-table-conversion.svg"
+    ]
+  },
+  {
+    "name": "Two's Complement Representation",
+    "characters": 13819,
+    "headings": [
+      "## Core Definition · 核心定义",
+      "## Assumptions and Validity · 适用前提",
+      "## Derivation · 推导过程",
+      "### 1. 为什么\"MSB 负权\"能自洽",
+      "### 2. 反符号 (reverse the sign)：取反加 1",
+      "### 3. 加法为什么成立，以及进位怎么读",
+      "### 4. 溢出判据：同号相加而结果变号",
+      "### 5. 减法：加相反数",
+      "### 6. 符号扩展 (sign extension)",
+      "## Method and Steps · 求解步骤与方法",
+      "## Worked Example · 例题",
+      "## Pitfalls · 常见误区",
+      "## Signed subtraction and independent checks · 有符号减法与独立验证",
+      "## Connections · 相关笔记"
+    ],
+    "figures": [
+      "twos-complement-wheel.svg",
+      "nbit-range.svg",
+      "overflow-detection.svg"
+    ]
+  },
+  {
+    "name": "Universal Gates and Bubble Pushing",
+    "characters": 5594,
+    "headings": [
+      "# Universal Gates and Bubble Pushing · 通用门与气泡推移",
+      "## Core Definition · 核心定义",
+      "## Derivation · 基本构造",
+      "### Complete Construction Table · 完整基本门构造，课件 p.24–25",
+      "## Bubble Pushing · 气泡推移",
+      "## Worked Examples · 例题",
+      "## Worked Example 4 · 三级门链，课件 p.30–31",
+      "## Method and Exam English · 方法与答题",
+      "## Connections · 相关笔记",
+      "## Sources · 来源"
+    ],
+    "figures": [
+      "demorgan-gate-equivalence.svg",
+      "bubble-pushing-cascade.svg"
+    ]
+  },
+  {
+    "name": "VHDL Language and Modeling",
+    "characters": 4927,
+    "headings": [
+      "# VHDL Language and Modeling · VHDL语言与建模",
+      "## Core Definition · 核心定义",
+      "## Types and Operators · 类型与运算",
+      "## Concurrent and Sequential Semantics · 并发与顺序语义",
+      "## Combinational versus Clocked Process · 组合与时钟过程",
+      "## Reset Examples · 复位例题",
+      "## Worked Examples · 例题",
+      "## Coding Review and Boundaries · 编写检查与边界",
+      "## Exam English and Connections · 答题与关联"
+    ],
+    "figures": []
+  }
+]

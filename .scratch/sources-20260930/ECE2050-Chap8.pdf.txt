@@ -1,0 +1,210 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and SystemsChapter 8 : Shift RegistersInstructor: Tinghuan CHEN, Ph.D.
+
+========== PAGE 2 ==========
+2
+Last WeekqState ElementsqBistable CircuitqD LatchqD Flip FlopqJ-K Flip FlopqVariations on a FlopqRegistersqEnabled Flip-FlopsqResettable Flip-FlopsqSettable Flip-Flops
+
+========== PAGE 3 ==========
+3
+
+========== PAGE 4 ==========
+•Data storage
+4
+Two Basic Functions of Shift Registers
+
+
+========== PAGE 5 ==========
+•Data Movement
+5
+Two Basic Functions of Shift Registers2
+1
+1
+123
+1234
+1234
+1234
+234
+34
+4
+1234
+1234
+234
+34
+4
+1234
+2
+1
+1
+123
+1234
+1234
+1234
+
+
+========== PAGE 6 ==========
+•Data Movement
+6
+Two Basic Functions of Shift Registers
+
+
+========== PAGE 7 ==========
+7
+Serial in/Serial Out Shift Registers
+
+
+========== PAGE 8 ==========
+qThe first data bit (1) is entered into the register on the first clock pulse and then shifted from left to right as the remaining bits are entered and shifted. qThe register contains Q4Q3Q2Q1Q0 = 11010 after five clock pulses.8
+Example
+
+
+========== PAGE 9 ==========
+9
+Serial in/Parallel Out Shift Registers
+
+
+========== PAGE 10 ==========
+q74HC164:Fixed-function IC shift register with serial in/parallel out
+10
+Example
+A and B 
+
+========== PAGE 11 ==========
+11
+Parallel In/Serial Out Shift Registers
+
+
+========== PAGE 12 ==========
+•When SHIFT/LOAD is LOW, G1 ~ G4 are enabled à each data bit is applied to the D input of its respective flip-flop;
+12
+Parallel In/Serial Out Shift Registers
+
+
+========== PAGE 13 ==========
+•When SHIFT/LOAD is HIGH, G1 ~ G4 are disabled while G5 ~ G7 are enabled à data bits are shifted right from one stage to the next.
+13
+Parallel In/Serial Out Shift Registers
+
+
+========== PAGE 14 ==========
+•On clock pulse 1, the parallel data (D0D1D2D3 = 1010) are loaded into the register, making Q3 a 0. •On clock pulse 2 the 1 from Q2 is shifted onto Q3; •On clock pulse 3 the 0 is shifted onto Q3; •On clock pulse 4 the last data bit (1) is shifted onto Q3; •On clock pulse 5, all data bits have been shifted out, and only 1’s remain in the register (assuming the D0 input remains as 1). 
+14
+Example
+
+
+========== PAGE 15 ==========
+•The parallel in/parallel out register employs parallel entry and parallel output. •Immediately following the simultaneous entry of all data bits, the bits appear on the parallel outputs.15
+Parallel In/Parallel Out Shift Register
+
+
+========== PAGE 16 ==========
+•4-Bit Parallel-Access Shift Register
+16
+Example
+InputsOutputs𝑆𝐻/𝐿𝐷𝐽'𝐾𝐷!𝐷"𝐷#𝐷$𝑄!𝑄"𝑄#𝑄$
+0XX𝑑!𝑑"𝑑#𝑑$𝑑!𝑑"𝑑#𝑑$111XXXX1𝑞!𝑞"𝑞#110XXXX𝑞!𝑞!𝑞"𝑞#101XXXX𝑞!𝑞!𝑞"𝑞#100XXXX0𝑞!𝑞"𝑞#
+
+========== PAGE 17 ==========
+17
+
+========== PAGE 18 ==========
+•RIGHT/LEFT controls data bits inside the register to be shifted left or right 
+18
+Bidirectional Shift Registers
+
+
+========== PAGE 19 ==========
+•RIGHT/LEFT HIGH：G1 ~ G4 are enabled, and the state of the Q output of each flip-flop is passed through to the D input of the following flip-flop. 
+19
+Bidirectional Shift Registers
+
+
+========== PAGE 20 ==========
+•RIGHT/LEFT LOW：G5 ~ G8 are enabled, and the Q output of each flip-flop is passed through to the D input of the preceding flip-flop. 
+20
+Bidirectional Shift Registers
+
+
+========== PAGE 21 ==========
+•4-Bit Bidirectional Universal Shift Register
+21
+Example
+S0S1 Func.HIGHHIGHParallel LoadingHIGHLOWShift rightLOWHIGHShift leftLOWLOWInhibit
+
+
+========== PAGE 22 ==========
+22
+
+========== PAGE 23 ==========
+qA serial in/serial out shift register can provide a time delay from input to output qThe delay is a function of both the number of stages (n) in the register and the clock frequency.
+23
+Time Delay
+
+
+========== PAGE 24 ==========
+24
+One-Shot LogicsqWhen a pulse is applied, the output of gate G1 goes LOW. This HIGH-to-LOW transition is coupled through the capacitor to the input of inverter G2. This G2 HIGH output is connected back into G1, keeping its output LOW. qThe capacitor immediately begins to charge through R toward the high voltage level. The rate at which it charges is determined by the RC time constant. When the capacitor charges to a certain level, which appears as a HIGH to G2, the output goes back LOW.
+A single narrow trigger pulse produces a single output pulse whose time duration is controlled by the RC time constant.
+
+========== PAGE 25 ==========
+25
+S/P Data Converter
+1 24
+3
+4
+Delay
+qSerial data transmission can reduce the number of wires in the transmission line. qUSB (universal serial bus) is used to connect keyboards printers, scanners, and more to the computer.
+
+========== PAGE 26 ==========
+•Universal Asynchronous Receiver Transmitter:•Interfacing device for data conversions
+26
+UART
+Micro-Processor
+External Device
+
+
+========== PAGE 27 ==========
+qInitially, 11111110 is loaded into the ring counter when Power ON;qThen, the ring counter “scans” the rows for a key closure as the clock signal shifts the 0 around the counter at a 5 kHz rate. qIf a key closure occurs, one COLUMN line is connected to one ROW line. When the ROW line is taken LOW by the ring counter, that particular COLUMN line is also pulled LOW. qThe 3-bit ROW code plus the 3-bit COLUMN code uniquely identifies the key that is closed.qWhen a key is closed, the two one-shots produce a delayed clock pulse to parallel-load the 6-bit code into the key code register. (To avoid contact bounce)qThe first one-shot output inhibits the ring counter to prevent it from scanning when the data are being loaded into the key code register. 27
+Keyboard Encoder
+1
+2
+3
+4
+
+========== PAGE 28 ==========
+28
+Keyboard Encoder
+1
+2
+3
+4
+
+========== PAGE 29 ==========
+29
+
+========== PAGE 30 ==========
+qQ’ of the last flip-flop is connected back to the D input of the first flip-flopqIf the counter starts at 0, this feedback arrangement produces a characteristic sequence of statesqIn general, a Johnson counter will produce a modulus of 2n, where n is the number of stages in the counter, e.g. for n=4 stages, 8 states.
+30
+Johnson Counters
+
+
+========== PAGE 31 ==========
+•Q is fed back from the last stage•Initially, a 1 is preset into the first flip-flop, and the rest of the flip-flops are cleared.31
+Ring Counters
+
+
+========== PAGE 32 ==========
+32
+Example 
+1
+10
+0000000
+1
+
+========== PAGE 33 ==========
+pShift RegisterspData storagepData movementpSerial/Parallel In - Serial/Parallel OutpBidirectional Shift RegisterspShift Register Applications pTime DelaypSerial-to-Parallel Data ConverterpUART (Universal Asynchronous Receiver TransmitterpKeyboard EncoderpJohnson Counter &Ring Counter33
+Chapter Review
+
+========== PAGE 34 ==========
+34
+True/False QuizqShift registers consist of an arrangement of flip-flops.qA shift register cannot be used to store data.qA serial shift register accepts one bit at a time on a single line.qAll shift registers are defined by specified sequences.qA shift register counter is a shift register with the serial output connected back to the serial input.qA shift register with four stages can store a maximum count of fifteen.qThe Johnson counter is a special type of shift register.qThe modulus of an 8-bit Johnson counter is eight.qA ring counter uses one flip-flop for each state in its sequence.qA shift register cannot be used as a time delay device.

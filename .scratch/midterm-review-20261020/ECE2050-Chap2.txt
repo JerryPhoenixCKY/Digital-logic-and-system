@@ -1,0 +1,535 @@
+
+=== PDF PAGE 1 ===
+ECE 2050 Digital Logic and SystemsChapter 2 : Number SystemsInstructor: Tinghuan CHEN, Ph.D.
+
+=== PDF PAGE 2 ===
+2
+2
+
+=== PDF PAGE 3 ===
+3
+•A system of writing to express numbers•Daily life: 10, 12, 60, …•Computer systems: 2, 8,16, …
+3
+Number Systems
+
+
+=== PDF PAGE 4 ===
+4
+4
+Decimal Numbers
+!"#$
+%&
+'('!')'%&
+"
+'*'"')'%&
++
+'*'#')'%&
+%
+'*'$')'%&
+&
+,-./
+012345674
+%&84'92:3;6
+%&&84'92:3;6
+%&&&84'92:3;6
+01<//
+1367</74
+4/./6
+0/64
+,23<
+26/4
+%84'92:3;6
+Base-10 Numbers 
+
+=== PDF PAGE 5 ===
+5
+•Base: R (R ≥ 2)•Digit: [0, R-1]•Weight: Rx 
+(N)R =  an-1 an-2… a1 a0 a-1… a-m        = an-1 × Rn-1 + an-2 × Rn-2 + … + a1 × R1 + a0 × R0 + a-1 × R-1 + … + a-m × R-m         = ∑!"#$%#&ai × Ri•Decimal numbers: base-10•Binary numbers: base-2•Octal numbers: base-8•Hexadecimal numbers: base-16
+5
+Base-R Number System
+
+=== PDF PAGE 6 ===
+6
+6
+Decimal Number System 
+568.23 = (5 × 102)  + (6 × 101) + (8 × 100) + (2 × 10-1) + (3 × 10-2)            = (5 × 100) + (6 × 10) + (8 × 1) + (2 × 0.1) + (3 × 0.01)            =     500     +      60    +     8      +     0.2     +      0.03
+Base: 10Digit: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9Weight: …102 101 100 .10-1 10-2 10-3…Fractional numbersDecimal point
+Decimal numbers in digital systems mean any base 10 numbers, not just those with a decimal point.
+
+=== PDF PAGE 7 ===
+7
+7
+Binary Number SystemBase: 2Digit: 0, 1Weight: …22 21 20.2-1 2-2 2-3…
+Binary-to-Decimal Conversion: 
+binary point
+(10.101)2 = (1 × 21)  + (0 × 20) + (1 × 2-1) + (0 × 2-2) + (1 × 2-3)                = (1 × 2) + (0 × 1) + (1 × 0.5) + (0 × 0.25) + (1 × 0.125)                =     2     +     0      +     0.5      +     0          +    0.125                = (2.625)10
+
+=== PDF PAGE 8 ===
+8
+8
+Powers of Two•20 = 1•21 = 2•22 = 4•23 = 8•24 = 16•25 = 32•26 = 64•27 = 128
+Handy to memorize
+
+=== PDF PAGE 9 ===
+9
+9
+Counting in BinaryBinary Decimal  0   0  1   1 10   2 11   3100   4101   5110   6111   7
+
+
+=== PDF PAGE 10 ===
+10
+10
+Number Conversion•Binary to decimal conversion:–Convert 100112 to decimal–1×16 + 0×8 + 0×4 + 1×2 + 1×1 = 1910
+•Decimal to binary conversion:–Convert 5310 to binary
+
+
+=== PDF PAGE 11 ===
+11
+•Two methods:oMethod 1: Find the largest power of 2 that fits, subtract and repeatoMethod 2: Repeatedly divide by 2, remainder goes in next most significant bit
+11
+Decimal to Binary Conversion 
+
+=== PDF PAGE 12 ===
+12
+•5310 •Method 1: Find the largest power of 2 that fits, subtract and repeat•5310   32×1•53-32 = 21  16×1•21-16 = 5  4×1•5-4 = 1   1×1                         = 1101012
+•Method 2: Repeatedly divide by 2, remainder goes in next most significant bit•5310 = 53/2 = 26 R1•  26/2 = 13 R0•  13/2 = 6   R1•  6/2   = 3   R0•  3/2   = 1   R1•  1/2   = 0   R1  = 1101012
+12
+Decimal to Binary Conversion
+
+=== PDF PAGE 13 ===
+13
+•N-digit decimal number •How many values? 10N•Range?  [0, 10N - 1]•Example: 3-digit decimal number: •103 = 1000 possible values•Range: [0, 999]•N-bit binary number•How many values? 2N•Range: [0, 2N - 1]•Example: 3-digit binary number:•23 = 8 possible values•Range: [0, 7] = [0002 to 1112] 13
+Binary Values and Range
+
+=== PDF PAGE 14 ===
+14
+14
+
+=== PDF PAGE 15 ===
+15
+Octal Number SystemBase: 8Digit: 0, 1, 2, 3, 4, 5, 6, 7Weight: …82 81 80.8-1 8-2 8-3…
+Octal-to-Decimal Conversion: (2374)8 = (2 × 83)  + (3 × 82) + (7 × 81) + (4 × 80)              = (2 × 512) + (3 × 64) + (7 × 8) + (4 × 1)              = 1024     +     192   +    56    +     4             = (1276)10
+
+=== PDF PAGE 16 ===
+16
+Hexadecimal Number SystemBase: 16Digit: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, FWeight: …162 161 160.16-1 16-2 16-3…
+Hex-to-Decimal Conversion: (E5)16 = (E × 161)  + (5 × 160)            = (14 × 16) + (5 × 1)           =     224     +  5           = (229)10
+
+=== PDF PAGE 17 ===
+17
+Decimal-to-Octal ConversionRepeated division by 8 with the 1st remainder being the least significant digit (LSD)
+3598448850
+reminder7
+54LSD
+MSD
+(359)10 =  (547)8
+
+=== PDF PAGE 18 ===
+18
+Decimal-to-Hexadecimal Conversion Repeated division by 16 with the 1st remainder being the least significant digit (LSD)
+6501640161620
+reminder10 (A)
+28LSD
+MSD(650)10 =  (28A)16
+
+=== PDF PAGE 19 ===
+19
+•Octal/Hex → Binary•Replace each octal (hexadecimal) digit with 3 (4) bits 
+19
+Conversion btw. Binary, Octal, & Hex. Numbers 
+pHexadecimal-to-Binary
+CF8E16=11001111100011102
+pOctal-to-Binary
+75268=1111010101102
+
+=== PDF PAGE 20 ===
+20
+•Binary → Octal/Hex•Convert each 3-bit (4-bit) group to the equivalent octal (hexadecimal) digit•Start from right-most, move from right to left, leading 0s
+20
+Conversion btw. Binary, Octal, & Hex. Numbers 
+pBinary-to-HexadecimalpBinary-to-Octal
+1001100110102 = 46328 
+ 11001010010101112 = CA5716 
+
+=== PDF PAGE 21 ===
+21
+Why do computers use Binary? 
+Boolean Logic & Logic Gates: Crash Course Computer Science #3https://thecrashcourse.com/topic/computerscience/ 
+
+=== PDF PAGE 22 ===
+22
+•A more convenient/compact way to represent large binary numbers•Easy Conversion from/to Binary•Examples: •Octal: file permission in Linux •Hex:memoryaddress  
+
+=== PDF PAGE 23 ===
+23
+
+
+=== PDF PAGE 24 ===
+24
+Bits, Bytes, Nibbles …•Byte: 8 bits •Represents one of _____ values•[__, ___]•Nibble: 4 bits•Represents one of _____ values•[__, ___]One binary digit is __ bitOne hex digit is ___ bits or ___ nibbleTwo hex digits make ___ byteMost significant on leftLeast significant on right
+!""!"!!"
+#$%%&'
+%()'
+!"#ABCDE
+F*+,-
+,./0.1.2+0-
+34-*
+56,-
+,./0.1.2+0-
+34-*
+!""!"!!"
+#$%&'
+&()*(+(,%*'
+-('
+./&'
+&()*(+(,%*'
+-('
+
+=== PDF PAGE 25 ===
+25
+Large Powers of Two•210 = 1 kilo  ≈ 103  (1024)•220 = 1 mega ≈ 106  (1,048,576)•230 = 1 giga  ≈ 109 (1,073,741,824)•240 = 1 tera  ≈ 1012 •250 = 1 peta  ≈ 1015•260 = 1 exa  ≈ 1018 
+
+=== PDF PAGE 26 ===
+26
+Estimating Powers of Two •What is the value of 224?  24 × 220 ≈ 16 million•How large of a value can a 32-bit integer variable represent? 22 × 230 ≈ 4 billion
+
+=== PDF PAGE 27 ===
+27
+
+
+=== PDF PAGE 28 ===
+28
+Addition
+!"!#
+$%&'(
+')*+
+,-../012%%
+!"!!
+""!!#
+!!!"
+$!! %&''()*
+•Decimal
+•Binary
+Addition rules
+
+=== PDF PAGE 29 ===
+29
+Binary Addition Examples
+!""!
+"!"!#
+!!!"
+!
+10110110+10001
+111
+•Add the following 4-bit binary numbers
+•Add the following 4-bit binary numbers
+
+=== PDF PAGE 30 ===
+30
+Overflow•Digital systems operate on a fixed number of bits•Overflow: when result is too big to fit in the available number of bits•See previous example of 11 + 6
+
+=== PDF PAGE 31 ===
+31
+Subtraction
+Subtraction rules
+
+
+=== PDF PAGE 32 ===
+32
+Multiplication
+Multiplication Rules
+
+=== PDF PAGE 33 ===
+33
+Division
+•Decimal•Binary1255251025250
+1001111111111100
+
+=== PDF PAGE 34 ===
+34
+
+
+=== PDF PAGE 35 ===
+35
+Signed Binary Number•Sign/Magnitude Numbers•Two’s Complement Numbers
+
+=== PDF PAGE 36 ===
+36
+Sign/Magnitude Numbers•1 sign bit, N-1 magnitude bits•Sign bit is the most significant (left-most) bit–Positive number: sign bit = 0–Negative number: sign bit = 1
+•Example, 4-bit sign/mag representations of ± 6:     +6 = 0110          - 6 = 1110•Range of an N-bit sign/magnitude number:  [-(2N-1-1), 2N-1-1]
+
+
+=== PDF PAGE 37 ===
+37
+Sign/Magnitude NumbersProblems:•Addition doesn’t work, for example -6 + 6:              1110                              + 0110            10100 (wrong!)•Two representations of 0 (± 0):              1000                                 0000
+
+=== PDF PAGE 38 ===
+38
+Two’s Complement Numbers•Don’t have same problems as sign/magnitude numbers:–Addition works–Single representation for 0
+
+=== PDF PAGE 39 ===
+39
+Two’s Complement Numbers•MSB has weight of -2N-1
+•Most positive 4-bit number: 0111•Most negative 4-bit number: 1000•The most significant bit still indicates the sign (1 = negative, 0 = positive)•Range of an N-bit two’s complement number:                        [-(2N-1), 2N-1-1]
++ Decimal2’s Complement-111111111-211111110-311111101-411111100……-12810000000
+
+=== PDF PAGE 40 ===
+40
+Reverse the Sign•Reverse the sign of a two’s complement number•Method:1.Invert the bits2.Add 1•Example: Reverse the sign of 310 = 001121.11002.+    1      1101 = -310Historically, this reversing the sign method has been called: “Taking the Two’s complement”.But this terminology can be confusing, so we instead we call it “reversing the sign”. 
+
+=== PDF PAGE 41 ===
+41
+Two’s Complement Examples•Reverse the sign of 610 = 011021.10012.+    1      10102 = -610
+•What is the decimal value of the two’s complement number 10012?1.01102.+    1      01112 = 710, so 10012 = -710
+
+=== PDF PAGE 42 ===
+42
+q3-step procedures:Convert the decimal numbers into the binary form with negative numbers expressed in the 2’s complement form Perform binary additionSign: If both numbers positive (negative) à the result positive (negative). If the sign is incorrect,overflow has occurred!
+Two’s Complement Addition123
+Both numbers positiveBoth numbers negative
+510 = 000001012910 = 0000100122’s complement1
+2
+1
+23 3000011102=1410
+
+=== PDF PAGE 43 ===
+43
+Two’s Complement Addition
+8-bit numbers [-128, +127] incorrect
+q3-step procedures:Convert the decimal numbers into the binary form with negative numbers expressed in the 2’s complement form Perform binary additionSign: If both numbers positive (negative) à the result positive (negative). If the sign is incorrect,overflow has occurred!
+123
+10000011+ 110001101 01001001incorrect
+
+=== PDF PAGE 44 ===
+44
+Two’s Complement Addition: one negative number
+000010002 = 8102’s complement-8No carry indicates the result is negative
+2410 = 0001100021610 = 000100002-2410 = 11101000212
+3
+000010012 = 910
+12
+3 Carry indicates the result is positive
+610=0000011021510=000011112-610=111110102Carry
+
+=== PDF PAGE 45 ===
+45
+Subtraction•Subtract a 2’s complement number by reversing the sign and adding.•Reverse sign by taking 2’s complement•Ex: 3 – 5 = 3 + (-5)0011       3
+1011       -5+
+1110       -2
+•Ex: 8 – 3 = 8 + (-3)0011       3
+1011       -5+
+1110       -2
+1000+  1101101018-35Discard the carry
+
+=== PDF PAGE 46 ===
+46
+MultiplicationqDirect addition :uVery lengthy if the multiplier is a large numberuboth numbers must be in true (uncomplemented) form.qPartial product uSamesignàPositive;uDifferent signs à Negative
+EXAMPLE 2–22
+A Decimal Example
+83-59
+489710110011011111-48972’s complement
+59
+0
+
+=== PDF PAGE 47 ===
+47
+DivisionqDivision operation in computers is accomplished using subtractionqQuotient and RemainderuWhen to stop the subtraction: the remainder is a zero or a negative numberuQuotient: # of times of subtraction performedqSign of the quotient uSamesignàPositive;uDifferent signs à Negative
+EXAMPLE 2–23Divide 01100100 by 0001100100011001111001112’s complementStep 1:Step 2:
+Step 3:
+Step 4:
+Step 5:
+10025
+Add 1 to quotient
+Add 1 to quotient
+Add 1 to quotientAdd 1 to quotientQuotient=410=0100What about dividing 100 by -25?
+
+
+=== PDF PAGE 48 ===
+48
+Number System Comparison
+!"
+#$$$ #$$#
+!% !C !' !( !) !* !# $ # * ) ( ' C % " + #$ ## #* #) #( #'
+#$#$ #$## ##$$ ##$# ###$ #### $$$$ $$$# $$#$ $$## $#$$ $#$# $##$ $### ,-./M12.345S3STU
+#$$$
+#$$##$#$#$####$$##$####$####
+$$$$
+$$$# $$#$ $$## $#$$ $#$# $##$ $###
+#$$$ #$$# #$#$ #$## ##$$ ##$# ###$ ####$$$$ $$$# $$#$ $$## $#$$ $#$# $##$ $###
+9:;T<=>;T:U?@S
+ATM:;TS@
+Number SystemRangeUnsigned[0, 2N-1]Sign/Magnitude[-(2N-1-1), 2N-1-1]Two’s Complement[-2N-1, 2N-1-1]For example, 4-bit representation:
+
+=== PDF PAGE 49 ===
+49
+49
+
+=== PDF PAGE 50 ===
+50
+•Numbers we can represent using binary representations–Positive numbers•Unsigned binary–Negative numbers•Two’s complement•Sign/magnitude numbers•What about fractions?
+50
+Number Systems
+
+=== PDF PAGE 51 ===
+51
+•Two common notations:•Fixed-point: binary point fixed•Floating-point: binary point floats to the right of the most significant 1
+51
+Numbers with Fractions
+
+=== PDF PAGE 52 ===
+52
+•6.75 using 4 integer bits and 4 fraction bits:
+•Binary point is implied•The number of integer and fraction bits must be agreed upon beforehand 52
+Fixed-Point Numbers
+!""!""!!
+!""! #""!!
+$
+$%
+&%$
+"%
+&%$
+'"%
+&%$
+'$%
+(%)#*+
+
+=== PDF PAGE 53 ===
+53
+•Ua.b: unsigned number with •a integer bits•b fractional bits.•Example: 6.75 is•U4.4: 01101100•U3.5: 11011000•U6.2: 00011011•8, 16, and 32-bit fixed point numbers are common•U8.8 often represents sensor data, audio, pixels•U16.16 used for higher precision signal processing 53
+Unsigned Fixed Point Formats
+
+=== PDF PAGE 54 ===
+54
+•Qa.b: signed 2’s complement number with•a integer bits (including the sign bit)•b fractional bits•To negate a Q fixed point number:•Invert the bits•Add one to the LSB•Example: write -6.75 in Q4.4•6.75 =          01101100•Invert:         10010011 •Add 1 LSB:  10010100•Q1.15 (aka Q15) is common for signal processing (1, -1]
+54
+Signed Fixed Point Formats
+
+=== PDF PAGE 55 ===
+55
+•Fixed point overflow is usually bad•Produces undesired artifacts:•Video: dark pixel in middle of bright pixels•Audio: clicking sounds•Saturating arithmetic•Instead of overflowing, use largest value•In U4.4: 11000000 + 01111000 = 11111111•  12               + 7.5             = 15.9375
+55
+Saturating Arithmetic
+
+=== PDF PAGE 56 ===
+56
+56
+
+=== PDF PAGE 57 ===
+57
+•Binary point floats to the right of the most significant 1•Similar to decimal scientific notation•For example, write 27310 in scientific notation:•    273 = 2.73 × 102•In general, a number is written in scientific notation as:    ± M × BE–M = mantissa–B  = base–E  = exponent–In the example, M = 2.73, B = 10, and E = 2
+57
+Floating-Point Numbers
+
+=== PDF PAGE 58 ===
+58
+•Example: represent the value 22810 using a 32-bit floating point representation
+58
+Floating-Point Numbers
+!"#$ %&'E$)$* +,$*"--,
+!"#$% &"#$%' ()"#$%'
+
+=== PDF PAGE 59 ===
+59
+•First bit of the mantissa is always 1:  22810 = 111001002 = 1.11001 × 27 •So, no need to store it: implicit leading 1•Store just fraction bits in 23-bit field•Biased exponent: bias = 127 (011111112)  –Biased exponent = bias + exponent–Exponent of 7 is stored as:                   127 + 7 = 134 = 0x100001102
+59
+IEEE 754 floating-point standard
+! "!!!!""!
+!"#$ B"&'EF
+*+,-$E$.
+/0&1."-$
+"#$%& '#$%&( )*#$%&(
+####""!#!"!!#!!!!#!!!!#!!!!#!!!!
+in hexadecimal: 0x43640000
+
+=== PDF PAGE 60 ===
+60
+•The range of the biased exponent:   [-127, +128]•Extremely large or Small numbers can be represented in this way• 
+60
+Why Biased Exponent? 
+
+=== PDF PAGE 61 ===
+61
+•Write -58.2510 in floating point (IEEE 754)1.Convert magnitude of decimal to binary: • 58.2510 = 111010.0122.Write in binary scientific notation:• 1.1101001 × 253.Fill in fields:• Sign bit: 1 (negative)• 8 exponent bits: (127 + 5) = 132 = 100001002• 23 fraction bits: 110 1001 0000 0000 0000 0000
+•         •       in hexadecimal: 0xC2690000 61
+Floating-Point Example
+! !""#""!"#" ####!!"#!""!#""""#""""#""""#""""
+!"#$ %&'E$F$* +,-.*"E$
+!#$%& '#$%&( )*#$%&(
+
+=== PDF PAGE 62 ===
+62
+62
+Floating-Point Special CasesNumberSignExponentFraction0X0000000000000000000000000000000∞01111111100000000000000000000000-∞11111111100000000000000000000000NaNX11111111Non-zero
+
+=== PDF PAGE 63 ===
+63
+
+
+=== PDF PAGE 64 ===
+64
+Positional/Weighted Number System Positional/Weighted number system The value of a symbol is determined by its position       Examples: decimal / binary / octal / hexadecimal number systems … Non-positional/Non-weighted number system The value of a symbol is NOT determined by its position        Examples: gray code, cyclic code … 
+
+=== PDF PAGE 65 ===
+65
+Binary Coded Decimal (BCD)qExpress each of the decimal digits with a binary code.qThe 8421 code
+qBCD-to-Decimal ConversionuStarting from the right-most bit and divide the code into groups of four bits 
+EXAMPLE
+17010 246910
+
+=== PDF PAGE 66 ===
+66
+BCD Addition 1.Add the two BCD numbers, using the rules for binary addition2.If a 4-bit sum ≤	9 à Valid BCD number3.Otherwise, add 6 (0110) to the 4-bit sum 
+EXAMPLE
+Why adding6?
+
+
+=== PDF PAGE 67 ===
+67
+The Gray Code (I)
+qOnly a single bit change from one code word to the next in sequence
+
+=== PDF PAGE 68 ===
+68
+Gray Code: How to Transfer (II)
+EXAMPLE
+Start from the MSB
+Start from the MSB
+0011
+1001
+With gray code0001
+1110Encoding transmit symbols with the Gray CodeuTransmitter sends one of the four symbols;uTransmitted symbols are distorted by noise;uThe receiver tries to decode the distorted symbols;uThe probability of making a symbol detection error is inversely proportional to the symbol distanceWhy Gray Code hasanadvantage?
+011->100, intermediate states: 010,001,101,110,111
+Without gray code
+
+=== PDF PAGE 69 ===
+69
+Alphanumeric CodesqASCII : American Standard Code for Information Interchange
+
+
+=== PDF PAGE 70 ===
+70
+Error Codes: Parity Bit for Error DetectionqA parity bit is attached to a group of bits to make the total number of 1’s in a group always even or always odd.
+An odd parity system receives the following code groups: 10110, 11010, 110011, 110101110100, and 1100010101010. Determine which groups, if any, are in error.
+Since odd parity is required, any group with an even number of 1s is incorrect. The following groups are in error: 110011 and 1100010101010.
+EXAMPLE
+# of 1’s1011031101031100114110101110100711000101010106
+
+=== PDF PAGE 71 ===
+71
+Error Codes: Cyclic Redundancy CheckpCyclic Redundancy Check (CRC) : an error detection method that can detect multiple errors in data blockspAt the sending end, a checksum is appended to a block of data. pAt the receiving end, the check sum is generated and compared to the sent checksum. If the check sums are zeros, no error is detected.
+D: 11010011G: 1010DataGenerator code
+D’ = 110100110000Step 1: Append 0000 to the dataStep 2:
+Remainder (Checksum) : 0100Step 3:The transmitted CRC is 110100110100
+One-bit error at the receiving end
+Non-zero remainder Error detected!
+Modulo-2 operation(XOR)
+
+=== PDF PAGE 72 ===
+72
+72
+Chapter ReviewqBase-R Number System qDecimal Number System qBinary Number SystemqNumber ConversionqOctal & Hexadecimal Numbers qConversion btw. Binary, Octal, & Hex. NumbersqBinary ArithmeticqSigned Numbers and Two’s Complement NumbersqFixed-Point Numbers & Floating-Point Numbers qBinary Coded Decimal and Gray CodeqError Codes
+
+=== PDF PAGE 73 ===
+73
+73
+True/False QuizqThe octal number system is a weighted system with eight digits.qThe binary number system is a weighted system with two digits.qMSB stands for most significant bit.qIn hexadecimal, 9 + 1 = 10.qThe 2’s complement of the binary number 1111 is 0000.qThe right-most bit in a signed binary number is the sign bit.qThe hexadecimal number system has 16 characters, six of which are alphabetic characters.qBCD stands for binary coded decimal.qAn error in a given code can be detected by verifying the parity bit.qCRC stands for cyclic redundancy check.

@@ -1,0 +1,1366 @@
+{
+  "Digital Abstraction and System Design": {
+    "target": "Digital Foundations and Waveforms",
+    "heading": "1 · Digital Abstraction and System Design · 从电压到信息"
+  },
+  "数字抽象与系统设计": {
+    "target": "Digital Foundations and Waveforms",
+    "heading": "1 · Digital Abstraction and System Design · 从电压到信息"
+  },
+  "Digital discipline": {
+    "target": "Digital Foundations and Waveforms",
+    "heading": "1 · Digital Abstraction and System Design · 从电压到信息"
+  },
+  "Digital Waveforms": {
+    "target": "Digital Foundations and Waveforms",
+    "heading": "2 · Digital Waveforms · 再把时间加入模型"
+  },
+  "数字波形": {
+    "target": "Digital Foundations and Waveforms",
+    "heading": "2 · Digital Waveforms · 再把时间加入模型"
+  },
+  "Pulse waveform": {
+    "target": "Digital Foundations and Waveforms",
+    "heading": "2 · Digital Waveforms · 再把时间加入模型"
+  },
+  "Number Systems": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "1 · Number Systems · 位权是共同模型"
+  },
+  "数制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "1 · Number Systems · 位权是共同模型"
+  },
+  "数制系统": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "1 · Number Systems · 位权是共同模型"
+  },
+  "记数制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "1 · Number Systems · 位权是共同模型"
+  },
+  "Number System": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "1 · Number Systems · 位权是共同模型"
+  },
+  "Decimal Number System": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "十进制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "十进制数制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Decimal": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Base-10": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Binary Number System": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "二进制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "二进制数制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Binary": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Base-2": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Octal Number System": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "八进制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "八进制数制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Octal": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Base-8": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Hexadecimal Number System": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "十六进制": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Hexadecimal": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Hex": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Base-16": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "2 · Decimal, Binary, Octal and Hexadecimal · 四种进制的统一解释"
+  },
+  "Number Base Conversion": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "3 · Number Base Conversion · 整数、小数与分组"
+  },
+  "数制转换": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "3 · Number Base Conversion · 整数、小数与分组"
+  },
+  "进制转换": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "3 · Number Base Conversion · 整数、小数与分组"
+  },
+  "Base Conversion": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "3 · Number Base Conversion · 整数、小数与分组"
+  },
+  "Radix Conversion": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "3 · Number Base Conversion · 整数、小数与分组"
+  },
+  "Bits and Bytes": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "4 · Bits and Bytes · 位宽与容量"
+  },
+  "位与字节": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "4 · Bits and Bytes · 位宽与容量"
+  },
+  "比特与字节": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "4 · Bits and Bytes · 位宽与容量"
+  },
+  "位/字节/半字节": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "4 · Bits and Bytes · 位宽与容量"
+  },
+  "Bit and Byte": {
+    "target": "Number Systems and Base Conversion",
+    "heading": "4 · Bits and Bytes · 位宽与容量"
+  },
+  "Binary Arithmetic": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "1 · Binary Arithmetic · 先看无符号运算"
+  },
+  "二进制算术运算": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "1 · Binary Arithmetic · 先看无符号运算"
+  },
+  "二进制四则运算": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "1 · Binary Arithmetic · 先看无符号运算"
+  },
+  "Binary Addition and Subtraction": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "1 · Binary Arithmetic · 先看无符号运算"
+  },
+  "Sign-Magnitude Representation": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "2 · Sign-Magnitude Representation · 符号不能直接参与加法"
+  },
+  "原码": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "2 · Sign-Magnitude Representation · 符号不能直接参与加法"
+  },
+  "符号数值表示法": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "2 · Sign-Magnitude Representation · 符号不能直接参与加法"
+  },
+  "符号-幅值表示": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "2 · Sign-Magnitude Representation · 符号不能直接参与加法"
+  },
+  "Sign and Magnitude": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "2 · Sign-Magnitude Representation · 符号不能直接参与加法"
+  },
+  "Two's Complement Representation": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "3 · Two's Complement Representation · 负权建立统一加法"
+  },
+  "补码": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "3 · Two's Complement Representation · 负权建立统一加法"
+  },
+  "二进制补码": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "3 · Two's Complement Representation · 负权建立统一加法"
+  },
+  "二的补码": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "3 · Two's Complement Representation · 负权建立统一加法"
+  },
+  "2's Complement": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "3 · Two's Complement Representation · 负权建立统一加法"
+  },
+  "Signed Binary Multiplication and Division": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "4 · Signed Binary Multiplication and Division · 位宽决定算法是否正确"
+  },
+  "有符号二进制乘除法": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "4 · Signed Binary Multiplication and Division · 位宽决定算法是否正确"
+  },
+  "补码乘除法": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "4 · Signed Binary Multiplication and Division · 位宽决定算法是否正确"
+  },
+  "Two's Complement Multiplication and Division": {
+    "target": "Binary Arithmetic and Signed Representation",
+    "heading": "4 · Signed Binary Multiplication and Division · 位宽决定算法是否正确"
+  },
+  "Fixed-Point Numbers": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "1 · Fixed-Point Numbers · 把整数乘以固定尺度"
+  },
+  "定点数": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "1 · Fixed-Point Numbers · 把整数乘以固定尺度"
+  },
+  "定点表示法": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "1 · Fixed-Point Numbers · 把整数乘以固定尺度"
+  },
+  "Fixed-Point Representation": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "1 · Fixed-Point Numbers · 把整数乘以固定尺度"
+  },
+  "Q 格式": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "1 · Fixed-Point Numbers · 把整数乘以固定尺度"
+  },
+  "Floating-Point Numbers": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "3 · Floating-Point Numbers · 用指数扩展范围"
+  },
+  "浮点数": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "3 · Floating-Point Numbers · 用指数扩展范围"
+  },
+  "浮点表示法": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "3 · Floating-Point Numbers · 用指数扩展范围"
+  },
+  "IEEE 754": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "3 · Floating-Point Numbers · 用指数扩展范围"
+  },
+  "Floating-Point Representation": {
+    "target": "Fixed-Point and Floating-Point Numbers",
+    "heading": "3 · Floating-Point Numbers · 用指数扩展范围"
+  },
+  "Binary Coded Decimal": {
+    "target": "Data Coding and Character Representation",
+    "heading": "2 · Binary Coded Decimal · 十进制数字逐位编码"
+  },
+  "BCD 码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "2 · Binary Coded Decimal · 十进制数字逐位编码"
+  },
+  "二-十进制编码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "2 · Binary Coded Decimal · 十进制数字逐位编码"
+  },
+  "8421 码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "2 · Binary Coded Decimal · 十进制数字逐位编码"
+  },
+  "BCD": {
+    "target": "Data Coding and Character Representation",
+    "heading": "2 · Binary Coded Decimal · 十进制数字逐位编码"
+  },
+  "Gray Code": {
+    "target": "Data Coding and Character Representation",
+    "heading": "3 · Gray Code · 相邻变化约束"
+  },
+  "格雷码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "3 · Gray Code · 相邻变化约束"
+  },
+  "格雷编码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "3 · Gray Code · 相邻变化约束"
+  },
+  "循环码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "3 · Gray Code · 相邻变化约束"
+  },
+  "Reflected Binary Code": {
+    "target": "Data Coding and Character Representation",
+    "heading": "3 · Gray Code · 相邻变化约束"
+  },
+  "American Standard Code for Information Interchange": {
+    "target": "Data Coding and Character Representation",
+    "heading": "4 · American Standard Code for Information Interchange · 字符编码"
+  },
+  "ASCII 码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "4 · American Standard Code for Information Interchange · 字符编码"
+  },
+  "美国信息交换标准代码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "4 · American Standard Code for Information Interchange · 字符编码"
+  },
+  "字符编码": {
+    "target": "Data Coding and Character Representation",
+    "heading": "4 · American Standard Code for Information Interchange · 字符编码"
+  },
+  "ASCII": {
+    "target": "Data Coding and Character Representation",
+    "heading": "4 · American Standard Code for Information Interchange · 字符编码"
+  },
+  "Parity Bit": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "1 · Parity Bit · 用一个约束建立检错"
+  },
+  "奇偶校验位": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "1 · Parity Bit · 用一个约束建立检错"
+  },
+  "奇偶校验": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "1 · Parity Bit · 用一个约束建立检错"
+  },
+  "校验位": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "1 · Parity Bit · 用一个约束建立检错"
+  },
+  "Parity Check": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "1 · Parity Bit · 用一个约束建立检错"
+  },
+  "Cyclic Redundancy Check": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "3 · Cyclic Redundancy Check · 改用多项式余数"
+  },
+  "循环冗余校验": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "3 · Cyclic Redundancy Check · 改用多项式余数"
+  },
+  "CRC 校验": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "3 · Cyclic Redundancy Check · 改用多项式余数"
+  },
+  "生成多项式": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "3 · Cyclic Redundancy Check · 改用多项式余数"
+  },
+  "CRC": {
+    "target": "Parity and Cyclic Redundancy Checks",
+    "heading": "3 · Cyclic Redundancy Check · 改用多项式余数"
+  },
+  "Logic Gates": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "1 · Logic Gates · 统一的布尔模型"
+  },
+  "逻辑门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "1 · Logic Gates · 统一的布尔模型"
+  },
+  "门电路": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "1 · Logic Gates · 统一的布尔模型"
+  },
+  "Logic Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "1 · Logic Gates · 统一的布尔模型"
+  },
+  "Inverter": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "反相器": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "非门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "反相器与缓冲器": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "NOT Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "Buffer": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "AND Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "与门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "AND 门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "AND Operation": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "OR Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "或门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "OR 门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "OR Operation": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "2 · Inverter, AND Gate and OR Gate · 三种基本运算"
+  },
+  "NAND Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "与非门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "NAND 门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "NAND Operation": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "NOR Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "或非门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "NOR 门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "NOR Operation": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "3 · NAND Gate and NOR Gate · 输出取补与气泡"
+  },
+  "Exclusive-OR Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "异或门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "XOR 门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "异或": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "XOR Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "Exclusive-NOR Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "同或门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "XNOR 门": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "同或": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "XNOR Gate": {
+    "target": "Logic Gates and Boolean Functions",
+    "heading": "4 · Exclusive-OR Gate and Exclusive-NOR Gate · 比较与奇偶性"
+  },
+  "Logic Levels": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "1 · Logic Levels · 保证值与接受范围"
+  },
+  "逻辑电平": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "1 · Logic Levels · 保证值与接受范围"
+  },
+  "逻辑电平与电压范围": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "1 · Logic Levels · 保证值与接受范围"
+  },
+  "Logic Level": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "1 · Logic Levels · 保证值与接受范围"
+  },
+  "DC Transfer Characteristic": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力"
+  },
+  "直流传输特性": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力"
+  },
+  "电压传输特性": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力"
+  },
+  "VTC": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "2 · DC Transfer Characteristic · 由传输曲线理解恢复能力"
+  },
+  "Noise Margin": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "3 · Noise Margin · 接口的预算"
+  },
+  "噪声容限": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "3 · Noise Margin · 接口的预算"
+  },
+  "噪声裕度": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "3 · Noise Margin · 接口的预算"
+  },
+  "Noise Margins": {
+    "target": "Logic Levels and Noise Margins",
+    "heading": "3 · Noise Margin · 接口的预算"
+  },
+  "Combinational Circuit": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "1 · Combinational Circuit · 先确认可以使用的模型"
+  },
+  "组合电路": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "1 · Combinational Circuit · 先确认可以使用的模型"
+  },
+  "组合逻辑电路": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "1 · Combinational Circuit · 先确认可以使用的模型"
+  },
+  "Combinational Logic": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "1 · Combinational Circuit · 先确认可以使用的模型"
+  },
+  "Boolean Equation": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "2 · Boolean Equation · 从需求写函数"
+  },
+  "布尔方程": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "2 · Boolean Equation · 从需求写函数"
+  },
+  "布尔表达式": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "2 · Boolean Equation · 从需求写函数"
+  },
+  "Boolean Expression": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "2 · Boolean Equation · 从需求写函数"
+  },
+  "Boolean Axioms": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "布尔公理": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "布尔代数公理": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "Axioms of Boolean Algebra": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "Laws and Rules of Boolean Algebra": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "布尔代数定律与规则": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "布尔代数规则": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "Laws of Boolean Algebra": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "Rules of Boolean Algebra": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "3 · Boolean Axioms and Laws and Rules of Boolean Algebra · 运算规则"
+  },
+  "DeMorgan's Theorems": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式"
+  },
+  "德摩根定理": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式"
+  },
+  "德摩根定律": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式"
+  },
+  "De Morgan's Law": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "4 · DeMorgan's Theorems · 取补必须覆盖整个子式"
+  },
+  "Proof by Perfect Induction": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "5 · Proof by Perfect Induction · 穷举与代数验证"
+  },
+  "完全归纳法": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "5 · Proof by Perfect Induction · 穷举与代数验证"
+  },
+  "穷举证明": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "5 · Proof by Perfect Induction · 穷举与代数验证"
+  },
+  "Perfect Induction": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "5 · Proof by Perfect Induction · 穷举与代数验证"
+  },
+  "Proof by Exhaustion": {
+    "target": "Boolean Algebra and Circuit Models",
+    "heading": "5 · Proof by Perfect Induction · 穷举与代数验证"
+  },
+  "Minterm and Maxterm": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "1 · Minterm and Maxterm · 一行对应一个项"
+  },
+  "最小项与最大项": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "1 · Minterm and Maxterm · 一行对应一个项"
+  },
+  "最小项": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "1 · Minterm and Maxterm · 一行对应一个项"
+  },
+  "最大项": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "1 · Minterm and Maxterm · 一行对应一个项"
+  },
+  "Minterm": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "1 · Minterm and Maxterm · 一行对应一个项"
+  },
+  "Maxterm": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "1 · Minterm and Maxterm · 一行对应一个项"
+  },
+  "Truth Table and Boolean Expression": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集"
+  },
+  "真值表与布尔表达式": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集"
+  },
+  "真值表转表达式": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集"
+  },
+  "Truth Table to Expression": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "2 · Truth Table and Boolean Expression · 用真值表定义全集"
+  },
+  "Sum-of-Products Form": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "与或式": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "积之和形式": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "Sum-of-Products": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "SOP Form": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "SOP": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "Product-of-Sums Form": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "或与式": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "和之积形式": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "Product-of-Sums": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "POS Form": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "POS": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "3 · Sum-of-Products Form and Product-of-Sums Form · 标准形式"
+  },
+  "Boolean Expression Simplification": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "4 · Boolean Expression Simplification · 保持函数再比较代价"
+  },
+  "布尔代数化简": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "4 · Boolean Expression Simplification · 保持函数再比较代价"
+  },
+  "逻辑表达式化简": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "4 · Boolean Expression Simplification · 保持函数再比较代价"
+  },
+  "Logic Simplification": {
+    "target": "Boolean Forms and Algebraic Simplification",
+    "heading": "4 · Boolean Expression Simplification · 保持函数再比较代价"
+  },
+  "Karnaugh Map": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "1 · Karnaugh Map · 为什么相邻格能够合并"
+  },
+  "卡诺图": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "1 · Karnaugh Map · 为什么相邻格能够合并"
+  },
+  "K 图": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "1 · Karnaugh Map · 为什么相邻格能够合并"
+  },
+  "K-Map": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "1 · Karnaugh Map · 为什么相邻格能够合并"
+  },
+  "Karnaugh Map with Don't Cares": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务"
+  },
+  "含无关项的卡诺图": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务"
+  },
+  "无关项": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务"
+  },
+  "卡诺图无关项": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务"
+  },
+  "Don't Care Conditions": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "4 · Karnaugh Map with Don't Cares · 无关项是许可而非义务"
+  },
+  "POS Minimization with Karnaugh Map": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项"
+  },
+  "卡诺图 POS 最小化": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项"
+  },
+  "卡诺图求最小或与式": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项"
+  },
+  "用卡诺图求 POS": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项"
+  },
+  "K-Map POS Minimization": {
+    "target": "Karnaugh Map Minimization",
+    "heading": "3 · POS Minimization with Karnaugh Map · 圈 0 读和项"
+  },
+  "AND-OR and AND-OR-Invert Logic": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构"
+  },
+  "与或逻辑与与或非逻辑": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构"
+  },
+  "AND-OR Logic": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构"
+  },
+  "AND-OR-Invert Logic": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构"
+  },
+  "AOI Logic": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "2 · AND-OR and AND-OR-Invert Logic · 形式落到结构"
+  },
+  "Combinational Logic Analysis": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "5 · Combinational Logic Analysis · 从连接恢复函数"
+  },
+  "组合逻辑分析": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "5 · Combinational Logic Analysis · 从连接恢复函数"
+  },
+  "Logic Circuit Analysis": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "5 · Combinational Logic Analysis · 从连接恢复函数"
+  },
+  "Combinational Logic Design": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "1 · Combinational Logic Design · 需求先于门"
+  },
+  "组合逻辑设计": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "1 · Combinational Logic Design · 需求先于门"
+  },
+  "Combinational analysis and implementation": {
+    "target": "Combinational Logic Analysis and Design",
+    "heading": "1 · Combinational Logic Design · 需求先于门"
+  },
+  "Universal Gates and Bubble Pushing": {
+    "target": "Universal Gates and Bubble Pushing",
+    "heading": "1 · 功能完备：先构成 NOT、AND、OR"
+  },
+  "通用门与气泡推移": {
+    "target": "Universal Gates and Bubble Pushing",
+    "heading": "1 · 功能完备：先构成 NOT、AND、OR"
+  },
+  "Universal logic gates": {
+    "target": "Universal Gates and Bubble Pushing",
+    "heading": "1 · 功能完备：先构成 NOT、AND、OR"
+  },
+  "Digital Logic Troubleshooting": {
+    "target": "Digital Logic Troubleshooting",
+    "heading": "1 · 故障模型：先解释实际电压"
+  },
+  "数字逻辑故障诊断": {
+    "target": "Digital Logic Troubleshooting",
+    "heading": "1 · 故障模型：先解释实际电压"
+  },
+  "Stuck-at fault testing": {
+    "target": "Digital Logic Troubleshooting",
+    "heading": "1 · 故障模型：先解释实际电压"
+  },
+  "Half Adder and Full Adder": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "1 · Half Adder and Full Adder · 位权守恒"
+  },
+  "半加器与全加器": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "1 · Half Adder and Full Adder · 位权守恒"
+  },
+  "HA and FA": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "1 · Half Adder and Full Adder · 位权守恒"
+  },
+  "Ripple Carry and Carry Look-Ahead Adders": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径"
+  },
+  "串行进位与超前进位加法器": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径"
+  },
+  "RCA and CLA": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "2 · Ripple Carry and Carry Look-Ahead Adders · 进位决定路径"
+  },
+  "Binary Subtractors and Adder-Subtractors": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路"
+  },
+  "二进制减法器与加减器": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路"
+  },
+  "Full subtractor": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "3 · Binary Subtractors and Adder-Subtractors · 共用数据通路"
+  },
+  "Combinational Multiplier": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "4 · Combinational Multiplier · 从部分积到列加法"
+  },
+  "组合乘法器": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "4 · Combinational Multiplier · 从部分积到列加法"
+  },
+  "Array multiplier": {
+    "target": "Binary Arithmetic Circuits",
+    "heading": "4 · Combinational Multiplier · 从部分积到列加法"
+  },
+  "Magnitude Comparator": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "1 · Magnitude Comparator · 最高不同位决定大小"
+  },
+  "数值比较器": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "1 · Magnitude Comparator · 最高不同位决定大小"
+  },
+  "Digital comparator": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "1 · Magnitude Comparator · 最高不同位决定大小"
+  },
+  "Encoder and Priority Encoder": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "3 · Encoder and Priority Encoder · 线路变代码"
+  },
+  "编码器与优先编码器": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "3 · Encoder and Priority Encoder · 线路变代码"
+  },
+  "Priority encoding": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "3 · Encoder and Priority Encoder · 线路变代码"
+  },
+  "Priority Circuit": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "3 · Encoder and Priority Encoder · 线路变代码"
+  },
+  "优先电路": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "3 · Encoder and Priority Encoder · 线路变代码"
+  },
+  "Decoder": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "2 · Decoder · 代码变线路"
+  },
+  "译码器": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "2 · Decoder · 代码变线路"
+  },
+  "Binary decoder": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "2 · Decoder · 代码变线路"
+  },
+  "Multiplexer and Demultiplexer": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "4 · Multiplexer and Demultiplexer · 选择与分配"
+  },
+  "多路选择器与分配器": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "4 · Multiplexer and Demultiplexer · 选择与分配"
+  },
+  "MUX and DEMUX": {
+    "target": "Comparison Decoding and Selection",
+    "heading": "4 · Multiplexer and Demultiplexer · 选择与分配"
+  },
+  "Seven-Segment Display and Code Conversion": {
+    "target": "Seven-Segment Display and Code Conversion",
+    "heading": "1 · 字形先于电平"
+  },
+  "七段显示与码制转换": {
+    "target": "Seven-Segment Display and Code Conversion",
+    "heading": "1 · 字形先于电平"
+  },
+  "BCD display decoding": {
+    "target": "Seven-Segment Display and Code Conversion",
+    "heading": "1 · 字形先于电平"
+  },
+  "Tri-State Buffers and Bus Drivers": {
+    "target": "Tri-State Buffers and Bus Drivers",
+    "heading": "1 · 三态与使能"
+  },
+  "三态缓冲器与总线驱动": {
+    "target": "Tri-State Buffers and Bus Drivers",
+    "heading": "1 · 三态与使能"
+  },
+  "Three-state logic": {
+    "target": "Tri-State Buffers and Bus Drivers",
+    "heading": "1 · 三态与使能"
+  },
+  "Propagation Delay and Logic Hazards": {
+    "target": "Propagation Delay and Logic Hazards",
+    "heading": "1 · 最长路径与最短路径"
+  },
+  "传播延迟与逻辑冒险": {
+    "target": "Propagation Delay and Logic Hazards",
+    "heading": "1 · 最长路径与最短路径"
+  },
+  "Logic timing and glitches": {
+    "target": "Propagation Delay and Logic Hazards",
+    "heading": "1 · 最长路径与最短路径"
+  },
+  "Sequential Logic": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "1 · Sequential Logic · 用状态连接过去与现在"
+  },
+  "时序逻辑": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "1 · Sequential Logic · 用状态连接过去与现在"
+  },
+  "Synchronous sequential circuits": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "1 · Sequential Logic · 用状态连接过去与现在"
+  },
+  "Set-Reset Latch": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "2 · Set-Reset Latch · 反馈产生记忆"
+  },
+  "置位复位锁存器": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "2 · Set-Reset Latch · 反馈产生记忆"
+  },
+  "SR latch": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "2 · Set-Reset Latch · 反馈产生记忆"
+  },
+  "D Latch and D Flip-Flop": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "3 · D Latch and D Flip-Flop · 电平与边沿"
+  },
+  "D锁存器与D触发器": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "3 · D Latch and D Flip-Flop · 电平与边沿"
+  },
+  "D storage elements": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "3 · D Latch and D Flip-Flop · 电平与边沿"
+  },
+  "JK and T Flip-Flops": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "4 · JK and T Flip-Flops · 条件更新"
+  },
+  "JK与T触发器": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "4 · JK and T Flip-Flops · 条件更新"
+  },
+  "JK excitation table": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "4 · JK and T Flip-Flops · 条件更新"
+  },
+  "Register Enable and Reset": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "5 · Register Enable and Reset · 控制优先级"
+  },
+  "寄存器使能与复位": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "5 · Register Enable and Reset · 控制优先级"
+  },
+  "Enabled and resettable registers": {
+    "target": "Sequential Logic and Flip-Flops",
+    "heading": "5 · Register Enable and Reset · 控制优先级"
+  },
+  "Shift Registers": {
+    "target": "Shift Registers and Ring Counters",
+    "heading": "1 · Shift Registers · 位序与输入模式"
+  },
+  "移位寄存器": {
+    "target": "Shift Registers and Ring Counters",
+    "heading": "1 · Shift Registers · 位序与输入模式"
+  },
+  "SISO SIPO PISO PIPO": {
+    "target": "Shift Registers and Ring Counters",
+    "heading": "1 · Shift Registers · 位序与输入模式"
+  },
+  "Ring and Johnson Counters": {
+    "target": "Shift Registers and Ring Counters",
+    "heading": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈"
+  },
+  "环形与约翰逊计数器": {
+    "target": "Shift Registers and Ring Counters",
+    "heading": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈"
+  },
+  "Shift register counters": {
+    "target": "Shift Registers and Ring Counters",
+    "heading": "3 · Ring and Johnson Counters · 同样的移位，不同的反馈"
+  },
+  "One-Shots and Pulse Applications": {
+    "target": "One-Shots and Pulse Applications",
+    "heading": "1 · 稳态数量决定类别"
+  },
+  "单稳态与脉冲应用": {
+    "target": "One-Shots and Pulse Applications",
+    "heading": "1 · 稳态数量决定类别"
+  },
+  "Monostable and astable circuits": {
+    "target": "One-Shots and Pulse Applications",
+    "heading": "1 · 稳态数量决定类别"
+  },
+  "Keyboard Scanning and Encoding": {
+    "target": "Keyboard Scanning and Encoding",
+    "heading": "1 · 扫描先建立坐标"
+  },
+  "键盘扫描与编码": {
+    "target": "Keyboard Scanning and Encoding",
+    "heading": "1 · 扫描先建立坐标"
+  },
+  "Matrix keypad interface": {
+    "target": "Keyboard Scanning and Encoding",
+    "heading": "1 · 扫描先建立坐标"
+  },
+  "Finite State Machine": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "1 · Finite State Machine · 状态保存了什么历史"
+  },
+  "有限状态机": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "1 · Finite State Machine · 状态保存了什么历史"
+  },
+  "FSM": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "1 · Finite State Machine · 状态保存了什么历史"
+  },
+  "Moore and Mealy Machines": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "2 · Moore and Mealy Machines · 输出依赖与时间对齐"
+  },
+  "Moore与Mealy状态机": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "2 · Moore and Mealy Machines · 输出依赖与时间对齐"
+  },
+  "FSM output models": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "2 · Moore and Mealy Machines · 输出依赖与时间对齐"
+  },
+  "State Encoding and Unused States": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "3 · State Encoding and Unused States · 编码与恢复"
+  },
+  "状态编码与未用状态": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "3 · State Encoding and Unused States · 编码与恢复"
+  },
+  "Binary and one-hot encoding": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "3 · State Encoding and Unused States · 编码与恢复"
+  },
+  "Sequence Detector": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "4 · Sequence Detector · 最长可复用后缀"
+  },
+  "序列检测器": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "4 · Sequence Detector · 最长可复用后缀"
+  },
+  "Overlapping sequence detection": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "4 · Sequence Detector · 最长可复用后缀"
+  },
+  "Traffic Light Controller": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "5 · Traffic Light Controller · 安全条件进入状态模型"
+  },
+  "交通灯控制器": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "5 · Traffic Light Controller · 安全条件进入状态模型"
+  },
+  "Traffic control FSM": {
+    "target": "Finite State Machine Design and Applications",
+    "heading": "5 · Traffic Light Controller · 安全条件进入状态模型"
+  },
+  "Setup and Hold Timing": {
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "heading": "1 · Setup and Hold Timing · 建立统一时间基准"
+  },
+  "建立与保持时间": {
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "heading": "1 · Setup and Hold Timing · 建立统一时间基准"
+  },
+  "Register timing constraints": {
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "heading": "1 · Setup and Hold Timing · 建立统一时间基准"
+  },
+  "Metastability and Clock Domain Crossing": {
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "heading": "3 · Metastability and Clock Domain Crossing · 异步输入的边界"
+  },
+  "亚稳态与时钟域跨越": {
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "heading": "3 · Metastability and Clock Domain Crossing · 异步输入的边界"
+  },
+  "CDC and synchronizers": {
+    "target": "Sequential Timing and Clock Domain Crossing",
+    "heading": "3 · Metastability and Clock Domain Crossing · 异步输入的边界"
+  },
+  "Counters": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "1 · Counters · 模数与时钟结构"
+  },
+  "计数器": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "1 · Counters · 模数与时钟结构"
+  },
+  "Binary and decade counters": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "1 · Counters · 模数与时钟结构"
+  },
+  "Synchronous Counter Design": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "2 · Synchronous Counter Design · 从转换表求激励"
+  },
+  "同步计数器设计": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "2 · Synchronous Counter Design · 从转换表求激励"
+  },
+  "Counter excitation synthesis": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "2 · Synchronous Counter Design · 从转换表求激励"
+  },
+  "Cascaded Counters and Digital Clocks": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转"
+  },
+  "级联计数器与数字时钟": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转"
+  },
+  "Terminal count and frequency division": {
+    "target": "Counter Design and Digital Clocks",
+    "heading": "3 · Cascaded Counters and Digital Clocks · 进位是被接受的翻转"
+  },
+  "Memory Arrays and Expansion": {
+    "target": "Memory Organization and Technologies",
+    "heading": "1 · Memory Arrays and Expansion · 寻址与容量"
+  },
+  "存储阵列与扩展": {
+    "target": "Memory Organization and Technologies",
+    "heading": "1 · Memory Arrays and Expansion · 寻址与容量"
+  },
+  "Memory depth and width": {
+    "target": "Memory Organization and Technologies",
+    "heading": "1 · Memory Arrays and Expansion · 寻址与容量"
+  },
+  "SRAM DRAM and ROM": {
+    "target": "Memory Organization and Technologies",
+    "heading": "3 · SRAM DRAM and ROM · 保存机制决定操作"
+  },
+  "SRAM、DRAM与ROM": {
+    "target": "Memory Organization and Technologies",
+    "heading": "3 · SRAM DRAM and ROM · 保存机制决定操作"
+  },
+  "Memory technologies": {
+    "target": "Memory Organization and Technologies",
+    "heading": "3 · SRAM DRAM and ROM · 保存机制决定操作"
+  },
+  "Read-Only Memory and Programmable Logic Arrays": {
+    "target": "Programmable Logic and FPGA",
+    "heading": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积"
+  },
+  "ROM与可编程逻辑阵列": {
+    "target": "Programmable Logic and FPGA",
+    "heading": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积"
+  },
+  "ROM LUT PLA PAL": {
+    "target": "Programmable Logic and FPGA",
+    "heading": "1 · Read-Only Memory and Programmable Logic Arrays · 真值表与共享乘积"
+  },
+  "Field-Programmable Gate Array": {
+    "target": "Programmable Logic and FPGA",
+    "heading": "3 · Field-Programmable Gate Array · 从函数到物理实现"
+  },
+  "现场可编程门阵列": {
+    "target": "Programmable Logic and FPGA",
+    "heading": "3 · Field-Programmable Gate Array · 从函数到物理实现"
+  },
+  "FPGA": {
+    "target": "Programmable Logic and FPGA",
+    "heading": "3 · Field-Programmable Gate Array · 从函数到物理实现"
+  },
+  "VHDL Language and Modeling": {
+    "target": "VHDL Modeling and Verification",
+    "heading": "1 · VHDL Language and Modeling · 接口与实现"
+  },
+  "VHDL语言与建模": {
+    "target": "VHDL Modeling and Verification",
+    "heading": "1 · VHDL Language and Modeling · 接口与实现"
+  },
+  "VHSIC Hardware Description Language": {
+    "target": "VHDL Modeling and Verification",
+    "heading": "1 · VHDL Language and Modeling · 接口与实现"
+  },
+  "Testbench and Functional Verification": {
+    "target": "VHDL Modeling and Verification",
+    "heading": "4 · Testbench and Functional Verification · 规范作为独立参照"
+  },
+  "测试平台与功能验证": {
+    "target": "VHDL Modeling and Verification",
+    "heading": "4 · Testbench and Functional Verification · 规范作为独立参照"
+  },
+  "Self-checking HDL testbench": {
+    "target": "VHDL Modeling and Verification",
+    "heading": "4 · Testbench and Functional Verification · 规范作为独立参照"
+  },
+  "Structural Shift Register Project": {
+    "target": "Structural Shift Register Project",
+    "heading": "1 · 规范先写成位方程"
+  },
+  "结构化双向移位寄存器项目": {
+    "target": "Structural Shift Register Project",
+    "heading": "1 · 规范先写成位方程"
+  },
+  "Structural VHDL shift register": {
+    "target": "Structural Shift Register Project",
+    "heading": "1 · 规范先写成位方程"
+  },
+  "Exam Review and Problem Solving": {
+    "target": "Exam Review and Problem Solving",
+    "heading": "1 · 用先修链组织复习"
+  },
+  "考试复习与解题方法": {
+    "target": "Exam Review and Problem Solving",
+    "heading": "1 · 用先修链组织复习"
+  },
+  "Digital logic exam review": {
+    "target": "Exam Review and Problem Solving",
+    "heading": "1 · 用先修链组织复习"
+  }
+}

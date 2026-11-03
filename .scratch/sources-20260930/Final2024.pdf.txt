@@ -1,0 +1,521 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and Systems
+Final Exam
+(Time allowed: 120 minutes)
+May 16, 2023
+NOTE: Answer ALL 9 questions. Show all intermediate steps, except Question 1.
+1. (10 points) Are the following statements necessarily true (Y) or not (N)?
+(1) An edge-triggered D flip-flop changes states whenever the D input changes.
+(2) A ring counter can use one flip-flop to represent two states in its sequence.
+(3) For the Mealy machine, the outputs come directly from the combinational logic and not the memory.
+(4) A synchronous counter is also known as an asynchronous counter.
+(5) NAND gates can be used to produce the AND functions.
+(6) Static RAM (SRAM) must be periodically refreshed to retain data.
+(7) Registers are at the top of a memory hierarchy.
+(8) A 2-input NAND gate and a 2-input negative-XOR gate have the same function.
+(9) In the design of asynchronous counters with J-K flip-flops, all flip-flops should be connected to the same
+clock.
+(10) In a computer, the overall processing speed is usually limited by the processor, not the memory.
+Solution:
+(1) N
+(2) N
+(3) Y
+(4) N
+(5) Y
+(6) N
+(7) Y
+(8) N
+(9) N
+(10) N
+CONTINUED
+
+========== PAGE 2 ==========
+– 2 – ECE 2050 Digital Logic and Systems
+2. (10 points)
+(1) (3 points)Convert the fractional binary number 10 .00101010012 to octal and hexadecimal
+(2) (3 points)Perform binary subtraction on the following signed numbers:
+00110011 − 00100000
+Show your result using the signed binary number.
+(3) (4 points) Multiply 1011 by 1010 in binary form. Note that both numbers are in the 2’s compliment
+form. Show your result using the signed binary number.
+Solution:
+(1)
+10.10101010012 = 2.12448 = 2.2A416
+(2) The 2’s compliment of 00100000 is 11100000. Thus, we have
+00110011
++11100000
+= 100010011
+The answer is 00010011.
+(3) The 2’s compliment of 1011 and 1010 are 0101 and 0110, respectively.
+0101
+×0110
+0101
+0101
+= 011110
+Therefore, the product is 011110.
+CONTINUED
+
+========== PAGE 3 ==========
+– 3 – ECE 2050 Digital Logic and Systems
+3. (10 points)
+(1) (2 points) Develop a truth table for ¯ABC + ¯A ¯BC + AB ¯C
+(2) (4 points) Convert ABC + CD into the standard Product Of Sums (POS) form.
+(3) (4 points) Convert ( A + B)(BC + D) into the standard Sum Of Products (SOP) form.
+Solution:
+(1)
+A B C X
+0 0 0 0
+0 0 1 1
+0 1 0 0
+0 1 1 1
+1 0 0 0
+1 0 1 0
+1 1 0 1
+1 1 1 0
+(2)
+ABC + CD
+=(A + B + C + D)(A + B + C + ¯D)(A + B + ¯C + D)(A + ¯B + C + D)(A + ¯B + C + ¯D)
+(A + ¯B + ¯C + D)( ¯A + ¯B + C + D)( ¯A + ¯B + C + ¯D)( ¯A + B + C + D)( ¯A + B + C + ¯D)( ¯A + B + ¯C + D)
+(3)
+(A + B)(BC + D)
+= ¯AB ¯CD + ¯ABCD + ¯ABC ¯D
++AB ¯CD + ABCD + ABC ¯D + A ¯B ¯CD + A ¯BCD
+CONTINUED
+
+========== PAGE 4 ==========
+– 4 – ECE 2050 Digital Logic and Systems
+4. (10 points) The following figure shows a 4-bit bidirectional shift register. A HIGH on the RIGHT/ LEFT
+control input allows data bits inside the register to be shifted to the right, and a LOW enables data bits
+inside the register to be shifted to the left.
+Determine the state of the shift register above after each clock pulse for the given RIGHT/LEFT control
+input waveform shown below. Assume that Q0 = 1, Q1 = 1, Q2 = 0, and Q3 = 1 and that the serial
+data-input line is LOW.
+Solution:
+CONTINUED
+
+========== PAGE 5 ==========
+– 5 – ECE 2050 Digital Logic and Systems
+CLK Q0 Q1 Q2 Q3
+0 1 1 0 1
+1 0 1 1 0
+2 0 0 1 1
+3 0 1 1 0
+4 1 1 0 0
+5 1 0 0 0
+6 0 1 0 0
+7 0 0 1 0
+8 0 1 0 0
+CONTINUED
+
+========== PAGE 6 ==========
+– 6 – ECE 2050 Digital Logic and Systems
+5. (10 points) The following asynchronous counter of modulus 4 can be used as a frequency divider. More
+specifically, given a basic clock frequency of fs Hz, the frequency of the Q0 output waveform is 1
+2 fs Hz while
+that of the Q1 output waveform 1
+4 fs Hz.
+Now use two D flop flops and any necessary basic logic gates to design a synchronous counter of modulus 3
+that generates an output waveform of 1
+3 fs Hz.
+(1) (3 points) Derive the next-state table;
+(2) (4 points) Derive the expression for the input to each D flip flop;
+(3) (3 points) Draw the circuit of the resulting counter of modulus 3.
+Solution:
+(1) The next-state table is given as follows:
+(2) D1 = Q0 and D0 = Q1Q0
+(3) The resulting circuit is depicted in the following figure.
+CONTINUED
+
+========== PAGE 7 ==========
+– 7 – ECE 2050 Digital Logic and Systems
+6. (12 points) A Parity Generator/Checker and its function table are shown below.
+<latexit sha1_base64="rBZ0N3qg+36yelibLvrfIin+dwQ=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxIoblxXtBdqhZNJMG5rJDElGKEMfwY0LRVzqO/gebsS3Mb0stPWHwMf/n0POOX7MmdKO821llpZXVtey6/bG5tb2Tm53r66iRBJaIxGPZNPHinImaE0zzWkzlhSHPqcNf3A1zhv3VCoWiTs9jKkX4p5gASNYG+u2cFno5PJO0ZkILYI7g/zFh30ev33Z1U7us92NSBJSoQnHSrVcJ9ZeiqVmhNOR3U4UjTEZ4B5tGRQ4pMpLJ6OO0JFxuiiIpHlCo4n7uyPFoVLD0DeVIdZ9NZ+Nzf+yVqKDMy9lIk40FWT6UZBwpCM03ht1maRE86EBTCQzsyLSxxITba5jmyO48ysvQr1UdE+K5Rs3XynBVFk4gEM4BhdOoQLXUIUaEOjBAzzBs8WtR+vFep2WZqxZzz78kfX+A5KkkEg=</latexit>
+A
+<latexit sha1_base64="rBZ0N3qg+36yelibLvrfIin+dwQ=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxIoblxXtBdqhZNJMG5rJDElGKEMfwY0LRVzqO/gebsS3Mb0stPWHwMf/n0POOX7MmdKO821llpZXVtey6/bG5tb2Tm53r66iRBJaIxGPZNPHinImaE0zzWkzlhSHPqcNf3A1zhv3VCoWiTs9jKkX4p5gASNYG+u2cFno5PJO0ZkILYI7g/zFh30ev33Z1U7us92NSBJSoQnHSrVcJ9ZeiqVmhNOR3U4UjTEZ4B5tGRQ4pMpLJ6OO0JFxuiiIpHlCo4n7uyPFoVLD0DeVIdZ9NZ+Nzf+yVqKDMy9lIk40FWT6UZBwpCM03ht1maRE86EBTCQzsyLSxxITba5jmyO48ysvQr1UdE+K5Rs3XynBVFk4gEM4BhdOoQLXUIUaEOjBAzzBs8WtR+vFep2WZqxZzz78kfX+A5KkkEg=</latexit>
+A
+<latexit sha1_base64="IBw+Z+MWEm8cMsshlZEGne7mADU=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxKIblxXtBdqhZNJMG5rJDElGKEMfwY0LRVzqO/gebsS3Mb0stPWHwMf/n0POOX7MmdKO821llpZXVtey6/bG5tb2Tm53r66iRBJaIxGPZNPHinImaE0zzWkzlhSHPqcNf3A1zhv3VCoWiTs9jKkX4p5gASNYG+u2cFno5PJO0ZkILYI7g/zFh30ev33Z1U7us92NSBJSoQnHSrVcJ9ZeiqVmhNOR3U4UjTEZ4B5tGRQ4pMpLJ6OO0JFxuiiIpHlCo4n7uyPFoVLD0DeVIdZ9NZ+Nzf+yVqKDMy9lIk40FWT6UZBwpCM03ht1maRE86EBTCQzsyLSxxITba5jmyO48ysvQr1UdE+K5Rs3XynBVFk4gEM4BhdOoQLXUIUaEOjBAzzBs8WtR+vFep2WZqxZzz78kfX+A5QpkEk=</latexit>
+B
+<latexit sha1_base64="IBw+Z+MWEm8cMsshlZEGne7mADU=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxKIblxXtBdqhZNJMG5rJDElGKEMfwY0LRVzqO/gebsS3Mb0stPWHwMf/n0POOX7MmdKO821llpZXVtey6/bG5tb2Tm53r66iRBJaIxGPZNPHinImaE0zzWkzlhSHPqcNf3A1zhv3VCoWiTs9jKkX4p5gASNYG+u2cFno5PJO0ZkILYI7g/zFh30ev33Z1U7us92NSBJSoQnHSrVcJ9ZeiqVmhNOR3U4UjTEZ4B5tGRQ4pMpLJ6OO0JFxuiiIpHlCo4n7uyPFoVLD0DeVIdZ9NZ+Nzf+yVqKDMy9lIk40FWT6UZBwpCM03ht1maRE86EBTCQzsyLSxxITba5jmyO48ysvQr1UdE+K5Rs3XynBVFk4gEM4BhdOoQLXUIUaEOjBAzzBs8WtR+vFep2WZqxZzz78kfX+A5QpkEk=</latexit>
+B
+<latexit sha1_base64="79jWFqx2yQ8BVnkV9FmTDeeXq78=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxEI3LivaC7RDyaSZNjSTGZKMUIY+ghsXirjUd/A93IhvY3pZaOsPgY//P4ecc/yYM6Ud59vKrKyurW9kN+2t7Z3dvdz+QUNFiSS0TiIeyZaPFeVM0LpmmtNWLCkOfU6b/rA6yZv3VCoWiTs9iqkX4r5gASNYG+u2UC10c3mn6EyFlsGdQ/7qw76M377sWjf32elFJAmp0IRjpdquE2svxVIzwunY7iSKxpgMcZ+2DQocUuWl01HH6MQ4PRRE0jyh0dT93ZHiUKlR6JvKEOuBWswm5n9ZO9HBhZcyESeaCjL7KEg40hGa7I16TFKi+cgAJpKZWREZYImJNtexzRHcxZWXoVEqumfF8o2br5RgpiwcwTGcggvnUIFrqEEdCPThAZ7g2eLWo/Vivc5KM9a85xD+yHr/AZWukEo=</latexit>
+C
+<latexit sha1_base64="79jWFqx2yQ8BVnkV9FmTDeeXq78=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxEI3LivaC7RDyaSZNjSTGZKMUIY+ghsXirjUd/A93IhvY3pZaOsPgY//P4ecc/yYM6Ud59vKrKyurW9kN+2t7Z3dvdz+QUNFiSS0TiIeyZaPFeVM0LpmmtNWLCkOfU6b/rA6yZv3VCoWiTs9iqkX4r5gASNYG+u2UC10c3mn6EyFlsGdQ/7qw76M377sWjf32elFJAmp0IRjpdquE2svxVIzwunY7iSKxpgMcZ+2DQocUuWl01HH6MQ4PRRE0jyh0dT93ZHiUKlR6JvKEOuBWswm5n9ZO9HBhZcyESeaCjL7KEg40hGa7I16TFKi+cgAJpKZWREZYImJNtexzRHcxZWXoVEqumfF8o2br5RgpiwcwTGcggvnUIFrqEEdCPThAZ7g2eLWo/Vivc5KM9a85xD+yHr/AZWukEo=</latexit>
+C
+<latexit sha1_base64="P0ELfeFfDGZ7SGtOAa89DaK57lI=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxIIuXFa0F2iHkkkzbWgmMyQZoQx9BDcuFHGp7+B7uBHfxvSy0NYfAh//fw455/gxZ0o7zreVWVpeWV3Lrtsbm1vbO7ndvbqKEklojUQ8kk0fK8qZoDXNNKfNWFIc+pw2/MHlOG/cU6lYJO70MKZeiHuCBYxgbazbwlWhk8s7RWcitAjuDPIXH/Z5/PZlVzu5z3Y3IklIhSYcK9VynVh7KZaaEU5HdjtRNMZkgHu0ZVDgkCovnYw6QkfG6aIgkuYJjSbu744Uh0oNQ99Uhlj31Xw2Nv/LWokOzryUiTjRVJDpR0HCkY7QeG/UZZISzYcGMJHMzIpIH0tMtLmObY7gzq+8CPVS0T0plm/cfKUEU2XhAA7hGFw4hQpcQxVqQKAHD/AEzxa3Hq0X63VamrFmPfvwR9b7D5czkEs=</latexit>
+D
+<latexit sha1_base64="P0ELfeFfDGZ7SGtOAa89DaK57lI=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxIIuXFa0F2iHkkkzbWgmMyQZoQx9BDcuFHGp7+B7uBHfxvSy0NYfAh//fw455/gxZ0o7zreVWVpeWV3Lrtsbm1vbO7ndvbqKEklojUQ8kk0fK8qZoDXNNKfNWFIc+pw2/MHlOG/cU6lYJO70MKZeiHuCBYxgbazbwlWhk8s7RWcitAjuDPIXH/Z5/PZlVzu5z3Y3IklIhSYcK9VynVh7KZaaEU5HdjtRNMZkgHu0ZVDgkCovnYw6QkfG6aIgkuYJjSbu744Uh0oNQ99Uhlj31Xw2Nv/LWokOzryUiTjRVJDpR0HCkY7QeG/UZZISzYcGMJHMzIpIH0tMtLmObY7gzq+8CPVS0T0plm/cfKUEU2XhAA7hGFw4hQpcQxVqQKAHD/AEzxa3Hq0X63VamrFmPfvwR9b7D5czkEs=</latexit>
+D
+<latexit sha1_base64="oeEEaKzY66UOjYaPC0O7UdkcgfQ=">AAAB7XicbZDJSgNBEIZrXGPcYjx6GUwEDxJmgqjHQC4eI5gFMkPo6fQkbXoZunvEGPIOXjwo4k18H2++jZ3loIk/NHz8fxVdVVHCqDae9+2srK6tb2xmtrLbO7t7+7mDfEPLVGFSx5JJ1YqQJowKUjfUMNJKFEE8YqQZDaqTvHlPlKZS3JphQkKOeoLGFCNjrUYx0CkvdnIFr+RN5S6DP4dCJR9Uzz4eH2qd3FfQlTjlRBjMkNZt30tMOELKUMzIOBukmiQID1CPtC0KxIkOR9Npx+6JdbpuLJV9wrhT93fHCHGthzyylRyZvl7MJuZ/WTs18VU4oiJJDRF49lGcMtdId7K626WKYMOGFhBW1M7q4j5SCBt7oKw9gr+48jI0yiX/onR+4xcqZZgpA0dwDKfgwyVU4BpqUAcMd/AEL/DqSOfZeXPeZ6UrzrznEP7I+fwBicCRWQ==</latexit>
+X
+<latexit sha1_base64="oeEEaKzY66UOjYaPC0O7UdkcgfQ=">AAAB7XicbZDJSgNBEIZrXGPcYjx6GUwEDxJmgqjHQC4eI5gFMkPo6fQkbXoZunvEGPIOXjwo4k18H2++jZ3loIk/NHz8fxVdVVHCqDae9+2srK6tb2xmtrLbO7t7+7mDfEPLVGFSx5JJ1YqQJowKUjfUMNJKFEE8YqQZDaqTvHlPlKZS3JphQkKOeoLGFCNjrUYx0CkvdnIFr+RN5S6DP4dCJR9Uzz4eH2qd3FfQlTjlRBjMkNZt30tMOELKUMzIOBukmiQID1CPtC0KxIkOR9Npx+6JdbpuLJV9wrhT93fHCHGthzyylRyZvl7MJuZ/WTs18VU4oiJJDRF49lGcMtdId7K626WKYMOGFhBW1M7q4j5SCBt7oKw9gr+48jI0yiX/onR+4xcqZZgpA0dwDKfgwyVU4BpqUAcMd/AEL/DqSOfZeXPeZ6UrzrznEP7I+fwBicCRWQ==</latexit>
+X
+ Odd
+<latexit sha1_base64="oeEEaKzY66UOjYaPC0O7UdkcgfQ=">AAAB7XicbZDJSgNBEIZrXGPcYjx6GUwEDxJmgqjHQC4eI5gFMkPo6fQkbXoZunvEGPIOXjwo4k18H2++jZ3loIk/NHz8fxVdVVHCqDae9+2srK6tb2xmtrLbO7t7+7mDfEPLVGFSx5JJ1YqQJowKUjfUMNJKFEE8YqQZDaqTvHlPlKZS3JphQkKOeoLGFCNjrUYx0CkvdnIFr+RN5S6DP4dCJR9Uzz4eH2qd3FfQlTjlRBjMkNZt30tMOELKUMzIOBukmiQID1CPtC0KxIkOR9Npx+6JdbpuLJV9wrhT93fHCHGthzyylRyZvl7MJuZ/WTs18VU4oiJJDRF49lGcMtdId7K626WKYMOGFhBW1M7q4j5SCBt7oKw9gr+48jI0yiX/onR+4xcqZZgpA0dwDKfgwyVU4BpqUAcMd/AEL/DqSOfZeXPeZ6UrzrznEP7I+fwBicCRWQ==</latexit>
+X
+<latexit sha1_base64="oeEEaKzY66UOjYaPC0O7UdkcgfQ=">AAAB7XicbZDJSgNBEIZrXGPcYjx6GUwEDxJmgqjHQC4eI5gFMkPo6fQkbXoZunvEGPIOXjwo4k18H2++jZ3loIk/NHz8fxVdVVHCqDae9+2srK6tb2xmtrLbO7t7+7mDfEPLVGFSx5JJ1YqQJowKUjfUMNJKFEE8YqQZDaqTvHlPlKZS3JphQkKOeoLGFCNjrUYx0CkvdnIFr+RN5S6DP4dCJR9Uzz4eH2qd3FfQlTjlRBjMkNZt30tMOELKUMzIOBukmiQID1CPtC0KxIkOR9Npx+6JdbpuLJV9wrhT93fHCHGthzyylRyZvl7MJuZ/WTs18VU4oiJJDRF49lGcMtdId7K626WKYMOGFhBW1M7q4j5SCBt7oKw9gr+48jI0yiX/onR+4xcqZZgpA0dwDKfgwyVU4BpqUAcMd/AEL/DqSOfZeXPeZ6UrzrznEP7I+fwBicCRWQ==</latexit>
+X
+ Even
+Number of Inputs A-
+E that Are High
+0, 2, 4
+1, 3, 5
+<latexit sha1_base64="27yqQ6HpQkoy27apL415sJz9LD4=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxIIILivaC7RDyaSZNjSTGZKMUIY+ghsXirjUd/A93IhvY3pZaOsPgY//P4ecc/yYM6Ud59vKLC2vrK5l1+2Nza3tndzuXl1FiSS0RiIeyaaPFeVM0JpmmtNmLCkOfU4b/uBynDfuqVQsEnd6GFMvxD3BAkawNtZt4arQyeWdojMRWgR3BvmLD/s8fvuyq53cZ7sbkSSkQhOOlWq5Tqy9FEvNCKcju50oGmMywD3aMihwSJWXTkYdoSPjdFEQSfOERhP3d0eKQ6WGoW8qQ6z7aj4bm/9lrUQHZ17KRJxoKsj0oyDhSEdovDfqMkmJ5kMDmEhmZkWkjyUm2lzHNkdw51dehHqp6J4UyzduvlKCqbJwAIdwDC6cQgWuoQo1INCDB3iCZ4tbj9aL9TotzViznn34I+v9B5i4kEw=</latexit>
+E
+<latexit sha1_base64="27yqQ6HpQkoy27apL415sJz9LD4=">AAAB6nicbZDLSgMxFIbP1Fsdb1WXboKt4KrMlKJuxIIILivaC7RDyaSZNjSTGZKMUIY+ghsXirjUd/A93IhvY3pZaOsPgY//P4ecc/yYM6Ud59vKLC2vrK5l1+2Nza3tndzuXl1FiSS0RiIeyaaPFeVM0JpmmtNmLCkOfU4b/uBynDfuqVQsEnd6GFMvxD3BAkawNtZt4arQyeWdojMRWgR3BvmLD/s8fvuyq53cZ7sbkSSkQhOOlWq5Tqy9FEvNCKcju50oGmMywD3aMihwSJWXTkYdoSPjdFEQSfOERhP3d0eKQ6WGoW8qQ6z7aj4bm/9lrUQHZ17KRJxoKsj0oyDhSEdovDfqMkmJ5kMDmEhmZkWkjyUm2lzHNkdw51dehHqp6J4UyzduvlKCqbJwAIdwDC6cQgWuoQo1INCDB3iCZ4tbj9aL9TotzViznn34I+v9B5i4kEw=</latexit>
+E
+(1) (3 points) Use basic logic gates to design a 1-bit full adder as shown below where A and B are the
+input bits while Cin is the input carry. Finally, P is the sum and Cout is the output carry.
+(2) (4 points) Use 4 1-bit full adders to implement a 4-bit adder as shown below. A and B are the 4-bit
+input number where P is the 4-bit output. C0 is the input carry and C4 the is output carry.
+(3) (5 points) Finally, use two 1-bit full-adders and one 4-bit adder together with other basic logic gates to
+implement the Parity Generator/Checker.
+Solution:
+CONTINUED
+
+========== PAGE 8 ==========
+– 8 – ECE 2050 Digital Logic and Systems
+A
+B
+C
+D
+E
+∑ ∑
+ Odd 
+∑ ∑
+ Even 
+CONTINUED
+
+========== PAGE 9 ==========
+– 9 – ECE 2050 Digital Logic and Systems
+7. (15 points) A synchronous circuit with J-K Flip-Flops is shown below.
+KK
+J J
+¯Q¯Q
+Q QF1 
+KK
+J J
+¯Q¯Q
+Q QF2 
+KK
+J J
+¯Q¯Q
+Q QF3 
+CLK 
+Red Green Y ellow 
+Q3Q3 Q2Q2 Q1Q1
+1 1
+The truth table for a positive edge-triggered J-K flip-flop is given as follows.
+398 Latches, Flip-Flops, and Timers
+TABLE 7–3
+Truth table for a positive edge-triggered J-K flip-flop.
+Inputs Outputs
+J K CLK Q Q Comments
+0 0 c  Q0  Q0 No change
+0 1 c 0 1      RESET
+1 0 c 1 0      SET
+1 1 c  Q0  Q0      Toggle
+c = clock transition LOW to HIGH
+Q0 = output level prior to clock transition
+Solution
+Since this is a negative edge-triggered ﬂip-ﬂop, as indicated by the “bubble” at the clock input, the Q output will change 
+only on the negative-going edge of the clock pulse.
+ 1. At the ﬁrst clock pulse, both J and K are HIGH; and because this is a toggle condition, Q goes HIGH.
+ 2. At clock pulse 2, a no-change condition exists on the inputs, keeping Q at a HIGH level.
+ 3. When clock pulse 3 occurs, J is LOW and K is HIGH, resulting in a RESET condition; Q goes LOW.
+ 4. At clock pulse 4, J is HIGH and K is LOW, resulting in a SET condition; Q goes HIGH.
+ 5. A SET condition still exists on J and K when clock pulse 5 occurs, so Q will remain HIGH.
+The resulting Q waveform is indicated in Figure 7–18(b).
+Related Problem
+Determine the Q output of the J-K ﬂip-ﬂop if the J and K inputs in Figure 7–18(a) are inverted.
+EXAMPLE 7–5
+The waveforms in Figure 7–18(a) are applied to the J, K, and clock inputs as indicated. Determine the Q output, assuming 
+that the ﬂip-ﬂop is initially RESET.
+(a)
+J
+K
+(b)
+1 2 3 4 51
+0CLK
+Q
+1
+0
+1
+0
+1
+0
+Toggle No
+change
+Reset Set Set
+J
+Q
+Q
+C
+K
+CLK
+fg07_02400
+FIGURE 7–18 
+Edge-Triggered Operation
+D Flip-Flop
+A simplified implementation of an edge-triggered D flip-flop is illustrated in Figure 7–19(a) 
+and is used to demonstrate the concept of edge-triggering. Notice that the basic D flip-flop 
+differs from the gated D latch only in that it has a pulse transition detector.
+M07_FLOY5983_11_GE_C07.indd Page 398  12/11/14  8:02 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+• The red light is on when Q3 = 1, otherwise the red light is off;
+• The green light is on when Q2 = 1, otherwise the green light is off;
+• The yellow light is on when Q1 = 1, otherwise the yellow light is off.
+(1) (4 points) Write down logic expressions for each Flip-Flop Input;
+(2) (4 points) Write down the Next-State Table and draw the state diagram;
+(3) (4 points) Write down the lighting sequence;
+(4) (3 points) Assume the clock (CLK) frequency is 5Hz, write down each light on cumulative time during
+each state period.
+Solution:
+(1) J1 = Q2, K1 = Q3, J2 = Q3 + Q1, K2 = 1, J3 = ¯Q2, K3 = 1.
+(2)
+(3)
+(4) Sequence: all off → red on→ green on→ yellow on→ all on→ all off;
+(5) red: 0.4s; green: 0.4s; yellow: 0.4s (period: 0.2s, all rights are on twice in each state period, there are
+5 states.).
+CONTINUED
+
+========== PAGE 10 ==========
+– 10 – ECE 2050 Digital Logic and Systems
+Present State Next State
+Q3 Q2 Q1 Q3 Q2 Q1
+0 0 0 1 0 0
+0 0 1 1 1 1
+0 1 0 0 0 1
+0 1 1 0 0 1
+1 0 0 0 1 0
+1 0 1 0 1 0
+1 1 0 0 0 1
+1 1 1 0 0 0
+000 
+100 
+010 
+001 
+111 
+8. (19 points) A simplified keyboard encoding circuit is given below.
+Q0 Q1 Q2 Q3 Q4 Q5
+D0 D1 D2 D3 D4 D5
+Q5 Q6 Q7Q4Q1 Q2 Q3
+D4 D5 D6 D7D1 D2 D3
+Q
+COLUMN encoder 
+1 2 3 4 5 6 7 8 
+1 2 4
+ROW encoder 
+1 2 3 4 5 6 7 8 
+1 2 4 
+Key code register 
+Q C
+Clock inhibit 
++V
+One-shots To ROM 
+Switch closure 
+Q
+D0
+Q0
+J
+K
+C
+J
+K
+C
+SRG 4 SRG 4 CLK 
+(5 kHz) 
+Power on LOAD 
+SH / LD +VCC 
+Ring counter 
+C C
+push 
+0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7
+(1) (6 points) We only have a 100 MHz clock in hand. Design a circuit with several modulus-16 (binary)
+counters below to generate a 5 kHz clock (CLK). You can use other logic gates and set any value for
+each input;
+CONTINUED
+
+========== PAGE 11 ==========
+– 11 – ECE 2050 Digital Logic and Systems
+ Synchronous Counters 513
+decade counter and the modulus-16 binary counter in Figure 9–17(a) are the Q0Q3 AND 
+gate, the Q0Q3 AND gate, and the OR gate; this arrangement detects the occurrence of the 
+1001 state and causes the counter to recycle properly on the next clock pulse.  
+IMPLEMENTATION: 4-BIT SYNCHRONOUS BINARY COUNTER
+Fixed-Function Device  The 74HC163 is an example of an integrated circuit 4-bit syn-
+chronous binary counter. A logic symbol is shown in Figure 9–20 with pin numbers in 
+parentheses. This counter has several features in addition to the basic functions previously 
+discussed for the general synchronous binary counter.
+CLR
+Q0
+CTR DIV 16
+Q1Q2Q3
+D3D2D1D0
+(1)
+LOAD(9)
+ENP(7)ENT(10)
+CCLK(2)
+(3)(4)(5)(6)
+(14)(13)(12)(11)
+TC = 15(15)RCO
+Data outputs
+Data inputs
+fg08_01900
+FIGURE 9–20 The 74HC163 4-bit synchronous binary counter. (The qualifying label CTR 
+DIV 16 indicates a counter with sixteen states.)
+First, the counter can be synchronously preset to any 4-bit binary number by applying 
+the proper levels to the parallel data inputs. When a LOW is applied to the LOAD input, 
+the counter will assume the state of the data inputs on the next clock pulse. Thus, the coun-
+ter sequence can be started with any 4-bit binary number.
+Also, there is an active-LOW clear input (CLR), which synchronously resets all four 
+flip-flops in the counter. There are two enable inputs, ENP and ENT. These inputs must 
+both be HIGH for the counter to sequence through its binary states. When at least one 
+input is LOW, the counter is disabled. The ripple clock output (RCO) goes HIGH when 
+the counter reaches the last state in its sequence of fifteen, called the terminal count 
+(TC=15). This output, in conjunction with the enable inputs, allows these counters to be 
+cascaded for higher count sequences.
+Figure 9–21 shows a timing diagram of this counter being preset to twelve (1100) and 
+then counting up to its terminal count, fifteen (1111). Input D0 is the least significant input 
+bit, and Q0 is the least significant output bit.
+Let’s examine this timing diagram in detail. This will aid you in interpreting timing 
+diagrams in this chapter or on manufacturers’ data sheets. To begin, the LOW level pulse 
+on the CLR input causes all the outputs (Q0, Q1, Q2, and Q3) to go LOW.
+Next, the LOW level pulse on the LOAD input synchronously enters the data on the 
+data inputs (D0, D1, D2, and D3) into the counter. These data appear on the Q outputs at the 
+time of the first positive-going clock edge after LOAD goes LOW. This is the preset opera-
+tion. In this particular example, Q0 is LOW, Q1 is LOW, Q2 is HIGH, and Q3 is HIGH. 
+This, of course, is a binary 12 (Q0 is the LSB).
+The counter now advances through states 13, 14, and 15 on the next three positive-
+going clock edges. It then recycles to 0, 1, 2 on the following clock pulses. Notice that 
+M09_FLOY5983_11_GE_C09.indd Page 513  17/11/14  6:07 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+(2) (4 points) If we push the button labeled as “push” in the figure, what are the outputs of the ROW
+encoder and COLUMN encoder;
+(3) (4 points) Assume the circuit below is used to implement the one-shot circuit. If we want to increase
+the pulse width, how to change the capacitor value C and resistor value R (increase or decrease)?
+414 Latches, Flip-Flops, and Timers
+The capacitor immediately begins to charge through R toward the high voltage level. 
+The rate at which it charges is determined by the RC time constant. When the capacitor 
+charges to a certain level, which appears as a HIGH to G2, the output goes back LOW.
+To summarize, the output of inverter G2 goes HIGH in response to the trigger input. It 
+remains HIGH for a time set by the RC time constant. At the end of this time, it goes LOW. 
+A single narrow trigger pulse produces a single output pulse whose time duration is con-
+trolled by the RC time constant. This operation is illustrated in Figure 7–43.
+SECTION 7–4 CHECKUP
+ 1. What is a group of flip-flops used for data storage called?
+ 2. How must a D flip-flop be connected to function as a divide-by-2 device?
+ 3. How many flip-flops are required to produce a divide-by-64 device?
+7–5 One-Shots
+The one-shot, also known as a monostable multivibrator, is a device with only one stable 
+state. A one-shot is normally in its stable state and will change to its unstable state only 
+when triggered. Once it is triggered, the one-shot remains in its unstable state for a prede-
+termined length of time and then automatically returns to its stable state. The time that the 
+device stays in its unstable state determines the pulse width of its output.
+After completing this section, you should be able to
+N Describe the basic operation of a one-shot
+N Explain how a nonretriggerable one-shot works
+N Explain how a retriggerable one-shot works
+N Set up the 74121 and the 74LS122 one-shots to obtain a specified output pulse 
+width
+N Recognize a Schmitt trigger symbol and explain basically what it means
+N Describe the basic elements of a 555 timer
+N Set up a 555 timer as a one-shot
+Figure 7–43 shows a basic one-shot (monostable multivibrator) that is composed of a 
+logic gate and an inverter. When a pulse is applied to the trigger input, the output of gate 
+G1 goes LOW. This HIGH-to-LOW transition is coupled through the capacitor to the input 
+of inverter G2. The apparent LOW on G2 makes its output go HIGH. This HIGH is con-
+nected back into G1, keeping its output LOW. Up to this point the trigger pulse has caused 
+the output of the one-shot, Q, to go HIGH.
+Q
+t1
+Trigger G1
+t1 t2
++V
+R t1 t2
+G2 Q
+t1 t2
+t1 t2
+Apparent LOW
+C
+fg07_04400
+FIGURE 7–43 A simple one-shot circuit.
+A one-shot produces a single pulse 
+each time it is triggered.
+M07_FLOY5983_11_GE_C07.indd Page 414  12/11/14  8:03 PM user /204/PH01677_PIV/9781292075983_FLOYD/FLOYD_DIGITAL_FUNDAMENTALS11_PIE_97812920759 ...
+(4) (5 points) Use six JK Flip-Flops to implement the key code register.
+Solution:
+(1) We will need a modulus-(100000/5=20000) counter. 65536 - 45536 = 20000. 45536 10 =
+10110001111000002. A 5 kHz clock can be generated by:
+1   0    1    1 0   0    0    1 1   1    1    0 0   0    0    0 
+CONTINUED
+
+========== PAGE 12 ==========
+– 12 – ECE 2050 Digital Logic and Systems
+(2) ROW encoder: 001; COLUMN encoder: 000;
+(3) Increase the capacitor or/and resistor values;
+(4) The key code register is shown below.
+KK
+J J
+¯Q¯Q
+Q Q
+F0 
+KK
+J J
+¯Q¯Q
+Q Q
+F1 
+KK
+J J
+¯Q¯Q
+Q Q
+F2 
+KK
+J J
+¯Q¯Q
+Q Q
+F3 
+KK
+J J
+¯Q¯Q
+Q Q
+F4 
+KK
+J J
+¯Q¯Q
+Q Q
+F5 
+D0 D1 D3 D2 D4 D5 
+Q5 Q4 Q3 Q2 Q1 Q0 
+CONTINUED
+
+========== PAGE 13 ==========
+– 13 – ECE 2050 Digital Logic and Systems
+9. (4 points) Fill in the VHDL code below to implement a D flip-flop (DFF) with synchronous reset. (If you
+are not familiar with VHDL, you can use Verilog HDL to implement this DFF.)
+38 Spring 2023 EIE2050 Digital Logic and Systems 
+D Flip-flop with Sync. Reset in VHDL1library IEEE;2use IEEE.STD_LOGIC_1164.ALL; 3entity DFF_SYNC is 4port(D,CLK,RESET: in std_logic; 5Q: out std_logic); 6end DFF_SYNC;7architecture DFF_SYNC_ARCH of DFF_SYNC is begin 8begin9process(CLK)10begin11if CLK = ‘1’ and CLK’eventthen11if (RESET = '1') then12Q <= '0'; --Reset Q anytime 13else14Q <= D; --Q follows input D 15end if;16end if;17end process;18end DFF_SYNC_ARCH;
+ßPositive-edge-triggered 
+l i b r a r yIEEE ;
+use IEEE . STD LOGIC 1164 .ALL;
+entity DFF i s
+port (D,CLK,RESET: in s t d l o g i c ;
+Q: out s t d l o g i c ) ;
+end DFF;
+architecture DFFARCH of DFF i s
+begin
+p r o c e s s ( )
+begin
+i f and CLK’ event then
+i f ( ) then
+e l s e
+Q <= D;
+end i f ;
+end i f ;
+end p r o c e s s ;
+end DFFARCH;
+Solution:
+38 Spring 2023 EIE2050 Digital Logic and Systems 
+D Flip-flop with Sync. Reset in VHDL1library IEEE;2use IEEE.STD_LOGIC_1164.ALL; 3entity DFF_SYNC is 4port(D,CLK,RESET: in std_logic; 5Q: out std_logic); 6end DFF_SYNC;7architecture DFF_SYNC_ARCH of DFF_SYNC is begin 8begin9process(CLK)10begin11if CLK = ‘1’ and CLK’eventthen11if (RESET = '1') then12Q <= '0'; --Reset Q anytime 13else14Q <= D; --Q follows input D 15end if;16end if;17end process;18end DFF_SYNC_ARCH;
+ßPositive-edge-triggered 
+CONTINUED
+
+========== PAGE 14 ==========
+– 14 – ECE 2050 Digital Logic and Systems

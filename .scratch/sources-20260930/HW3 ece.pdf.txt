@@ -1,0 +1,86 @@
+========== PAGE 1 ==========
+ECE2050 Homework 3
+Due: Oct 9, 2025
+Q1Apply De Morgan’s theorem to simplify
+1. (P+Q+R);
+2. ((X·Y) +Z);
+3. ((M+N)· (P+Q)).
+1
+
+========== PAGE 2 ==========
+Q2Given the Boolean function:
+F= (A+ B)· (C+D)
+1. Use De Morgan’s theorem to simplify the given function step-by-step.
+2. Express the simplified function in Standard Sum of Products (SOP) form.
+3. Convert the SOP expression into the equivalent Standard Product of Sums (POS)
+form.
+4. Verify the equivalence of both forms using a truth table.
+2
+
+========== PAGE 3 ==========
+Q3A digital circuit has five inputs and three outputs. The inputsB 4:0 represent a number from
+0 to 31 in binary.
+•OutputPshould be TRUE if the number is prime.
+•OutputSshould be TRUE if the number is a perfect square.
+•OutputMshould be TRUE if the number is divisible by both 3 and 5.
+1. Identify all numbers from 0 to 31 that satisfy each of the three conditions.
+2. For each output (P,S,M), write the minterm-based Boolean expression in Standard
+SOP form.
+3. Use Boolean algebra and De Morgan’s theorem to simplify each expression as much
+as possible.
+4. Verify correctness by constructing truth tables forP,S, andM.
+(Tips: Recall that prime numbers are greater than 1 and divisible only by 1 and themselves.
+Perfect squares within this range include0,1,4,9,16,25. A number divisible by both 3
+and 5 must be a multiple of 15.)
+3
+
+========== PAGE 4 ==========
+Q4You are given two Boolean expressions involving five variablesA, B, C, D, E:
+F1 =A ¯B ¯CDE+ ¯AB ¯C ¯DE+AC ¯D ¯E+B ¯CD ¯E+ ¯ABCDE+ ¯A ¯B ¯CD ¯E
+F2 = (A+ ¯B+C)·( ¯A+ ¯C+D)·(B+C+ ¯D+E)
+1. Construct complete truth tables forF 1 andF 2 showing all2 5 input combinations for
+A, B, C, D, E.
+2. ConvertF 1 into POS form and ConvertF 2 into SOP form.
+3. Using Boolean algebra and De Morgan’s theorem, simplify both expressions to their
+minimal form.
+4. Verify that your simplified forms produce the same truth table outputs as the origi-
+nals.
+4
+
+========== PAGE 5 ==========
+Q5Develop a truth table for each of the POS expressions
+1.F 1 = (A+ ¯B+C+ ¯D)( ¯A+B)(A+C+ ¯E)( ¯C+D+E)(B+ ¯D+ ¯E);
+2.F 2 = ( ¯W+X+ ¯Y)(W+ ¯X)(X+Y+Z)( ¯W+ ¯Y+Z)(W+Y+ ¯Z+X).
+5
+
+========== PAGE 6 ==========
+Q6Convert each of the following POS expressions to minimum SOP expressions using a
+Karnaugh map.
+1.F 1 = (A+ ¯B+C+ ¯D+E) ( ¯A+B+ ¯C+D) (A+B+ ¯E) ( ¯A+ ¯C+E);
+2.F 2 = ( ¯W+X+ ¯Y+Z) (W+ ¯X+Y) ( ¯W+ ¯Y+ ¯Z) (X+Y+Z) ( ¯X+ ¯Z).
+6
+
+========== PAGE 7 ==========
+Q7Prove the following Boolean identity using perfect induction and Boolean algebra laws:
+(A·B) + (C·D) = ( ¯A+ ¯B)·( ¯C+ ¯D)
+Extend the identity tonpairs of variables, e.g.
+(A1 ·A 2) + (A3 ·A 4) +· · ·+ (A n−1 ·A n)
+and propose the general minimal form.
+7
+
+========== PAGE 8 ==========
+Q8Develop a logic circuit with BCD inputs that will only produce a 1 output when exactly 2
+input variables are 1s.
+1. Please develop the truth table for the above circuit.
+2. Please use K-map to derive the minimized SOP expression for the circuit.
+8
+
+========== PAGE 9 ==========
+Q9A circuit that compares two 2-bit numbers,A={A 1, A0}andB={B 1, B0}, and produces
+the outputC={C 1, C0}as follows:
+•Cequals to the lowest input (for example ifA= 11andB= 10, thenC= 10);
+•Cis a don’t care ifA=B.
+1. Write down the truth table;
+2. Use Karnaugh Map to simplify the Boolean expression of the outputsC 1 andC 0,
+show your work step by step.
+9

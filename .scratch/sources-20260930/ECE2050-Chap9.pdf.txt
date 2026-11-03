@@ -1,0 +1,604 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and SystemsChapter 9 : Finite State MachineInstructor: Tinghuan CHEN, Ph.D.
+
+========== PAGE 2 ==========
+2
+Last WeekpShift RegisterspData storagepData movementpSerial/Parallel In - Serial/Parallel OutpBidirectional Shift RegisterspShift Register Applications pTime DelaypSerial-to-Parallel Data ConverterpUART (Universal Asynchronous Receiver TransmitterpKeyboard EncoderpJohnson Counter &Ring Counter
+
+========== PAGE 3 ==========
+3
+
+========== PAGE 4 ==========
+•Sequential circuits: all circuits that aren’t combinational•A problematic circuit:
+•No inputs and 1-3 outputs•Astable circuit, oscillates•Period depends on inverter delay•It has a cyclic path: output fed back to input4
+Sequential Logic
+! " #
+!
+"
+#
+$%&'()*+,- . / 0 1 2 3 4 5
+
+========== PAGE 5 ==========
+•Breaks cyclic paths by inserting registers•Registers contain state of the system•State changes at clock edge: system synchronized  to the clock•Rules of synchronous sequential circuit composition:–Every circuit element is either a register or a combinational circuit–At least one circuit element is a register–All registers receive the same clock–Every cyclic path contains at least one register•Finite State Machine (FSMs) are common synchronous sequential circuits5
+Synchronous Sequential Logic Design
+
+========== PAGE 6 ==========
+6
+
+========== PAGE 7 ==========
+•Consists of:–State register•Stores current state •Loads next state at clock edge–Combinational logic•Computes the next state•Computes the outputs
+7
+Finite State Machine (FSM)
+!"#$
+%$C$"
+'())"*$
+%$C$"
+!" !
+#$%
+!"
+!"#$%&$'$"
+()*+,
+!"#$
+&$'$"
+!"
+!"#$"#
+%&'()
+!"#$"#*
+
+========== PAGE 8 ==========
+•Next state determined by current state and inputs•Two types of finite state machines differ in output logic:–Moore FSM: outputs depend only on current state–Mealy FSM: outputs depend on current state and inputs
+8
+Finite State Machine (FSM)
+!"#
+$ %C C'(F*
++*,*(
+-KLMN
+K2*32*
+-KLMN
+$KK4(5S7$
+!"#
+$ %C C'(F*
++*,*(
+-KLMN
+K2*32*
+-KLMN
+M'32*+
+M'32*+
+K2*32*+
+K2*32*+
++*,*(
++*,*(
+'(F*
++*,*(
+'(F*
++*,*(
+$(,-85S7$
+
+========== PAGE 9 ==========
+1.Identify inputs and outputs2.Sketch state transition diagram3.Write state transition table and output table-Moore FSM: write separate tables-Mealy FSM: write combined state transition and output table4.Select state encodings5.Rewrite state transition table and output table with state encodings6.Write Boolean equations for next state and output logic7.Sketch the circuit schematic9
+FSM Design Procedure
+
+========== PAGE 10 ==========
+10
+
+========== PAGE 11 ==========
+•Traffic light controller–Traffic sensors: TA, TB (TRUE when there’s traffic)–Lights: LA, LB
+11
+FSM Example 
+!"
+#"
+!"
+#A
+!A
+!A
+#"
+#A
+"B&D(F*B "H(,
+A-&H&D.ALHD,
+0.-F1
+2*(LD1
+0*3*34
+5&LL
+#&61
+
+========== PAGE 12 ==========
+•Inputs: CLK, Reset, TA, TB•Outputs: LA, LB
+12
+FSM Block Box
+!
+"
+!
+#
+A
+"
+A
+#
+BAC
+'()(*
+!"#$$%C
+'%()*
++,-*",..L"
+
+========== PAGE 13 ==========
+•Moore FSM: outputs labeled in each state•States: Circles•Transitions: Arcs
+13
+FSM State Transition Diagram
+!"
+!"
+!"#$%%&
+!#
+!"$%'
+!#
+!"
+!"(%))*+
+!#
+!"$%'
+!$
+!"
+!"$%'
+!#
+!"(%))*+
+!%
+!"
+!"$%'
+!#
+!"#$%%&
+A"
+A"
+A#
+A#
+B&'&(
+!"
+!"
+!"#$%%&
+!#
+!"$%'
+AB&B'
+
+========== PAGE 14 ==========
+14
+FSM State Transition Table Current StateInputsNext StateSTA TB S'S00XS1S01XS0S1XXS2S2X0S3S2X1S2S3XXS0
+S : Current StateS’: Next State
+!"
+!"
+!"#$%%&
+!#
+!"$%'
+!#
+!"
+!"(%))*+
+!#
+!"$%'
+!$
+!"!"$%'
+!#!"(%))*+
+!%
+!"!"$%'
+!#!"#$%%&
+A"
+A"
+A#
+A#
+B&'&(
+
+========== PAGE 15 ==========
+S'1 = S1S0 + S1S0TB + S1S0TB = S1S0 + S1S0 = S1 Å S0 S'0 = S1S0TA + S1S0TB
+15
+FSM Encoded State Transition TableCurrent StateInputsNext StateS1 S0 TATBS'1S'0000X01001X0001XX1010X01110X11011XX00
+S0S1S2S2S3
+S0 S1S2S3S2S0
+S0 StateEncodingS000S101S210S311
+
+========== PAGE 16 ==========
+16
+FSM Output Table Current StateOutputsS1S0LA1LA0LB1LB0000010010110101000111001
+OutputEncodinggreen00yellow01red10
+LA1 = S1S0 + S1S0 = S1LA0 = S1S0LB1 = S1S0 + S1S0 = S1LB0 = S1S0
+S0S1S2S3
+greenyellowredred
+redredgreenyellow!"
+!"!"#$%%&
+!#!"$%'
+!#
+!"!"(%))*+
+!#!"$%'
+!$
+!"!"$%'
+!#!"(%))*+
+!%
+!"!"$%'
+!#!"#$%%&
+A"
+A"
+A#
+A#
+B&'&(
+
+========== PAGE 17 ==========
+17
+FSM Schematic
+!!
+!"
+!#!
+!#"
+"#A
+BC'C(
+#)*
+#+*
+#+,
+#),
+-)
+-+
+!! !"
+$
+State Register
+Next StateCurrent State
+Next State LogicOutput LogicLA1 = S1LA0 = S1S0LB1 = S1LB0 = S1S0
+S'1 = S1 Å S0 S'0 = S1S0TA + S1S0TB
+
+========== PAGE 18 ==========
+18
+FSM Timing Diagram
+!?#
+ABCB'
+()
+(G
++,-KL
++-KL
+?)-KL
+?G-KL
+!012B3- !012B34 !012B3R !012B3S !012B3T !012B38 !012B39 !012B3: !012B3; !012B3-L
++-3YL-= +43Y-L= +R3Y--= +L3YLL=
+'3YCB1=
+>>
+>>
++L3YLL=
++L3YLL= +-3YL-= +43Y-L= +R3Y--= +-3YL-=
+>>
+>>
+L T -L -T 4L 4T RL RT SL ST
+?@BBA3YLL=
+ABB3Y-L=
++L3YLL=
+CB22DE3YL-= ABB3Y-L= ?@BBA3YLL=
+?@BBA3YLL= ABB3Y-L=CB22DE3YL-=
+!"
+!"!"#$%%&
+!#!"$%'
+!#
+!"!"(%))*+
+!#!"$%'
+!$
+!"!"$%'
+!#!"(%))*+
+!%
+!"!"$%'
+!#!"#$%%&
+A"
+A"
+A#
+A#
+B&'&(
+
+========== PAGE 19 ==========
+•Binary encoding: –i.e., for four states, 00, 01, 10, 11•One-hot encoding–One state bit per state–Only one state bit HIGH at once–i.e., for 4 states, 0001, 0010, 0100, 1000–Requires more flip-flops–Often next state and output logic is simpler
+19
+State Encodings
+
+========== PAGE 20 ==========
+20
+1-Hot State Encoding Example
+S’3 = S3S2S1S0TBNO!
+Current StateInputsNext StateS3S2S1S0TATBS’3S’2S’1S’000010X001000011X00010010XX01000100X010000100X101001000XX0001
+State1-Hot EncodingS00001S10010S20100S31000
+S’3 = S2TBS’2 = S1 + S2TBS’1 = S0TAS’0 = S0TA + S3
+!"
+!"!"#$%%&
+!#!"$%'
+!#
+!"!"(%))*+
+!#!"$%'
+!$
+!"!"$%'
+!#!"(%))*+
+!%
+!"!"$%'
+!#!"#$%%&
+A"
+A"
+A#
+A#
+B&'&(
+S0S1S2S2S3
+S0 S1S2S3S2S0
+S0
+
+========== PAGE 21 ==========
+21
+
+========== PAGE 22 ==========
+Functions of Combinational Logic
+•Alyssa P. Hacker has a snail that crawls down a paper tape with 1’s and 0’s on it. The snail smiles whenever the last two digits it has crawled over are 01.  Design Moore and Mealy FSMs of the snail’s brain.
+22
+Moore vs. Mealy FSMs
+
+
+========== PAGE 23 ==========
+23
+State Transition Diagrams!""#$%&'!
+!"#"$
+!"
+"
+!#
+"
+!$
+#
+"
+" #
+# "
+#
+!"#"$
+!" !#
+#$#
+"$"
+#$" "$"
+!"#$%&'(!
+S0: currently crawled over 1 but no smileS1: currently crawled over 0 and no smileS2: currently crawled over 1 and smileS0: currently crawled over 1S1: currently crawled over 0
+Whether encode output into state
+
+========== PAGE 24 ==========
+24
+Moore FSM State Transition Table
+S1’ = S0AS0’ = A
+StateEncodingS000S101S210S1’ = S1S0AS0’ = A!""#$%&'!
+!"#"$
+!"
+"
+!#
+"
+!$
+#
+"
+" #
+# "
+#
+Current StateInputsNext StateS1S0AS'1S'0000010010001001011101000110100
+
+========== PAGE 25 ==========
+25
+Moore FSM Output TableStateEncodingS000S101S210
+!""#$%&'!
+!"#"$
+!"
+"
+!#
+"
+!$
+#
+"
+" #
+# "
+#
+Y = S1 S0
+Current StateOutputS1S0Y000010101Y = S1
+
+========== PAGE 26 ==========
+26
+Mealy State Transition & Output TableStateEncodingS00S11S0’ =  AY = S0 A!"#"$
+!" !#
+#$#
+"$"
+#$" "$"
+!"#$%&'(!
+Current StateInputNext StateOutputS0AS'0Y0010010010101101
+
+========== PAGE 27 ==========
+•Next State Equations•S1’ = S0A•S0’ = A
+•Output Equation•Y = S1
+27
+Moore FSM Schematic
+!
+"#A
+!"#"$
+%
+%
+C'
+(
+C
+(
+C'
+)
+C
+)
+
+========== PAGE 28 ==========
+•Next State Equation•S0’ = A•Output Equation•Y   = S0A
+28
+Mealy FSM Schematic
+!"
+# A
+%C'
+!"#"$
+(
+%
+!
+#
+
+========== PAGE 29 ==========
+29
+Moore and Mealy Timing Diagram
+!"#$%&!#'()*"
+!++,"&!#'()*"
+!"#
+!?#?$
+A
+%
+C
+%
+C
+%C'(?)* %C'(?)+ %C'(?), %C'(?)- %C'(?). %C'(?)/ %C'(?)0 %C'(?)1 %C'(?)2 %C'(?)*3
+43 4+RR 4+ 4+43 4*
+* 3 * * 3 * * *3
+4*
+43 43RR 43 4* 434*
+4* 43
+4*
+%C'(?)** !""#$%&'!
+!"#"$
+!"
+"
+!#
+"
+!$
+#
+"
+" #
+# "
+#
+!"#"$
+!" !#
+#$#
+"$"
+#$" "$"
+!"#$%&'(!
+Mealy FSM: asserts Y immediately when input pattern 01 is detectedMoore FSM: asserts Y one cycle after input pattern 01 is detected
+
+========== PAGE 30 ==========
+30
+
+========== PAGE 31 ==========
+•Flip-flop samples D at clock edge•D must be stable when sampled•Similar to a photograph, D must be stable around clock edge
+31
+Timing
+
+========== PAGE 32 ==========
+•Setup time: tsetup = time before clock edge data must be stable (i.e. not changing)•Hold time: thold = time after clock edge data must be stable•Aperture time: ta = time around clock edge data must be stable (ta = tsetup +  thold)
+32
+Input Timing Constraints
+!"#
+!
+$%CD(
+)
+!
+*+,-
+!
+"
+! !
+
+========== PAGE 33 ==========
+•Propagation delay: tpcq = time after clock edge that Q is guaranteed to be stable (i.e., to stop changing): maximum delay•Contamination delay: tccq = time after clock edge that Q might be unstable (i.e., start changing): minimum delay
+33
+Output Timing Constraints
+! !
+!"#
+$%%C
+$'%C
+(
+
+========== PAGE 34 ==========
+•Synchronous sequential circuit inputs must be stable during aperture (setup and hold) time around clock edge•Specifically, inputs must be stable–at least tsetup before the clock edge–at least until thold after the clock edge
+34
+Dynamic Discipline
+
+========== PAGE 35 ==========
+•The delay between registers has a minimum and maximum delay, dependent on the delays of the circuit elements
+35
+Dynamic Discipline
+!"
+!"#!"#
+$% $C
+D% (C
+!"#
+D%
+(C
+)*
+
+========== PAGE 36 ==========
+•Depends on the maximum delay from register R1 through combinational logic to R2•The input to register R2 must be stable at least tsetup before clock edge
+36
+Setup Time Constraint
+!"#
+$%
+CD
+()
+*+),
+*+-
+*KL*0+
+!"
+!"#!"#
+$% CD
+1% 1D
+Tc ≥ tpcq + tpd + tsetuptpd ≤ Tc – (tpcq + tsetup)(tpcq + tsetup): sequencing overhead
+Also called: Cycle Time Constraint
+
+========== PAGE 37 ==========
+•Depends on the minimum delay from register R1 through the combinational logic to R2•The input to register R2 must be stable for at least thold after the clock edge
+37
+Hold Time Constraint
+thold < tccq + tcdtcd > thold - tccq !"#
+$%
+CD
+())*
+()+
+(,-K+
+!"
+!"#!"#
+$% CD
+L% LD
+
+========== PAGE 38 ==========
+•Calculate both constraints:•Setup time constraint (aka cycle time constraint)•Hold time constraint•If the hold time constraint isn’t met, the circuit won’t work reliably at any frequency
+38
+Timing Analysis
+
+========== PAGE 39 ==========
+39
+Timing Analysis Example!"# !"#
+A
+B
+!
+C
+D(
+)(
+D
+)
+Timing Characteristics tccq    = 30 ps tpcq    = 50 ps tsetup  = 60 ps thold    = 70 ps
+ tpd      = 35 ps tcd      = 25 pstpd = 3 x 35 ps = 105 pstcd = 25 psSetup time constraint: Tc ≥ (50 + 105 + 60) ps = 215 ps fc = 1/Tc = 4.65 GHz
+Hold time constraint: tccq + tcd > thold ? (30 + 25) ps > 70 ps ?  No!
+Flip-FlopsLogic delays: per gate
+Tc ≥ tpcq + tpd + tsetup
+Won’t run reliably at any frequency
+
+========== PAGE 40 ==========
+40
+Timing Analysis Example !"# !"#
+A
+B
+!
+C
+D(
+)(
+D
+)
+!"# !"#
+A
+B
+!
+C
+D(
+)(
+D
+)
+Timing Characteristics tccq    = 30 ps tpcq    = 50 ps tsetup  = 60 ps thold    = 70 ps
+ tpd      = 35 ps tcd      = 25 pstpd = 3 x 35 ps = 105 pstcd = 2 x 25 ps = 50 psSetup time constraint: Tc ≥ (50 + 105 + 60) ps = 215 ps fc = 1/Tc = 4.65 GHz
+Hold time constraint: tccq + tcd > thold ? (30 + 50) ps > 70 ps ?  Yes!
+Flip-FlopsLogic delays: per gate
+Add buffers on short pathsHow to fix?
+
+========== PAGE 41 ==========
+41
+Chapter Reviewq(Synchronous) Sequential Logic CountersqFinite State MachineqMoore FSMqMealy FSMqTimingqSetup timeqHold timeqAperture timeqPropagation delayqContamination delayqDynamic Discipline
+
+========== PAGE 42 ==========
+42
+True/False QuizqA state machine is a sequential circuit having a limited number of states occurring in a prescribed order.qFSM consists of a state register and combinational logic.qFor a synchronous sequential circuit, all registers receive the same clock.q2-bit is required to encode 4 states by using one-hot encoding.qFor the Moore FSM, outputs depend only on current state.qThe setup time is the minimum amount of time that the input signal must be stable before the active clock edge to ensure that the data is correctly captured by the register.qThe hold time is the minimum amount of time that the input signal must remain stable after the active clock edge to ensure that the data is reliably captured by the flip-flop or register.

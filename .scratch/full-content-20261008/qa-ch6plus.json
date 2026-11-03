@@ -1,0 +1,126 @@
+{
+  "targets": 16,
+  "retained_existing_code_blocks": 13,
+  "retained_existing_embeds": 3,
+  "issues": [],
+  "sizes": {
+    "Binary Arithmetic Circuits": {
+      "before_characters": 7970,
+      "after_characters": 12556,
+      "before_lines": 186,
+      "after_lines": 269
+    },
+    "Comparison Decoding and Selection": {
+      "before_characters": 9980,
+      "after_characters": 14752,
+      "before_lines": 234,
+      "after_lines": 305
+    },
+    "Counter Design and Digital Clocks": {
+      "before_characters": 7906,
+      "after_characters": 11285,
+      "before_lines": 185,
+      "after_lines": 230
+    },
+    "Finite State Machine Design and Applications": {
+      "before_characters": 9320,
+      "after_characters": 16803,
+      "before_lines": 269,
+      "after_lines": 378
+    },
+    "Keyboard Scanning and Encoding": {
+      "before_characters": 4904,
+      "after_characters": 6961,
+      "before_lines": 114,
+      "after_lines": 139
+    },
+    "Memory Organization and Technologies": {
+      "before_characters": 4957,
+      "after_characters": 8080,
+      "before_lines": 110,
+      "after_lines": 153
+    },
+    "One-Shots and Pulse Applications": {
+      "before_characters": 2753,
+      "after_characters": 4168,
+      "before_lines": 77,
+      "after_lines": 97
+    },
+    "Programmable Logic and FPGA": {
+      "before_characters": 5386,
+      "after_characters": 7893,
+      "before_lines": 130,
+      "after_lines": 161
+    },
+    "Propagation Delay and Logic Hazards": {
+      "before_characters": 3013,
+      "after_characters": 4373,
+      "before_lines": 75,
+      "after_lines": 95
+    },
+    "Sequential Logic and Flip-Flops": {
+      "before_characters": 8137,
+      "after_characters": 16076,
+      "before_lines": 199,
+      "after_lines": 342
+    },
+    "Sequential Timing and Clock Domain Crossing": {
+      "before_characters": 5289,
+      "after_characters": 7975,
+      "before_lines": 142,
+      "after_lines": 182
+    },
+    "Seven-Segment Display and Code Conversion": {
+      "before_characters": 8435,
+      "after_characters": 11308,
+      "before_lines": 165,
+      "after_lines": 199
+    },
+    "Shift Registers and Ring Counters": {
+      "before_characters": 5381,
+      "after_characters": 7879,
+      "before_lines": 134,
+      "after_lines": 172
+    },
+    "Structural Shift Register Project": {
+      "before_characters": 5399,
+      "after_characters": 6232,
+      "before_lines": 146,
+      "after_lines": 153
+    },
+    "Tri-State Buffers and Bus Drivers": {
+      "before_characters": 2138,
+      "after_characters": 3618,
+      "before_lines": 57,
+      "after_lines": 84
+    },
+    "VHDL Modeling and Verification": {
+      "before_characters": 8924,
+      "after_characters": 12321,
+      "before_lines": 233,
+      "after_lines": 278
+    }
+  },
+  "original_content_lines_checked": 1168,
+  "semantic_relationship_rows": 33,
+  "original_content_issues": [],
+  "promoted_section_deduplication": {
+    "sections_checked": 38,
+    "result": "passed",
+    "issues": []
+  },
+  "mathematical_checks": {
+    "cases": 300,
+    "result": "passed",
+    "scope": [
+      "full-adder and borrow conservation",
+      "JK characteristic function",
+      "priority mask and code",
+      "nonsequential counter equations",
+      "100 valid two-digit BCD converter inputs",
+      "128 structural bidir4 transitions",
+      "sequence FSM legal/illegal transitions",
+      "traffic FSM sensor combinations"
+    ]
+  }
+}

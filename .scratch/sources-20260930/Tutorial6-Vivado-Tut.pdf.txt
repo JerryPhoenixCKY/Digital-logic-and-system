@@ -1,0 +1,235 @@
+========== PAGE 1 ==========
+1
+ECE 2050 Digital Logic and Systems
+Vivado tutorial
+
+========== PAGE 2 ==========
+2Spring 2023 EIE2050 Digital Logic and Systems 
+Vivado
+• Programming using IDE for VHDL / Verilog
+• Running simulation to test your design
+• Download the compiled code to FPGA board
+
+
+========== PAGE 3 ==========
+3Spring 2023 EIE2050 Digital Logic and Systems 
+What is simulation?
+
+
+========== PAGE 4 ==========
+4Spring 2023 EIE2050 Digital Logic and Systems 
+Step 1: Start the software
+• Double click the Vivado icon in the desktop
+• Or start from the Start Menu
+
+========== PAGE 5 ==========
+5Spring 2023 EIE2050 Digital Logic and Systems 
+Step 2: Create a new project
+Or Click File -> New Project…
+
+========== PAGE 6 ==========
+6Spring 2023 EIE2050 Digital Logic and Systems 
+Step 3 : Click Next
+
+========== PAGE 7 ==========
+7Spring 2023 EIE2050 Digital Logic and Systems 
+Step 4: Enter the project name
+             Select the project location for storage
+
+========== PAGE 8 ==========
+8Spring 2023 EIE2050 Digital Logic and Systems 
+Step 5: Select RTL Project -> Next
+
+========== PAGE 9 ==========
+9Spring 2023 EIE2050 Digital Logic and Systems 
+Step 6: 
+1. Select Target language and simulator language as “VHDL”
+2. Click “Create File”
+    Make sure the File type is VHDL
+    Give name to the source file 
+    Click OK
+3. Click Next
+1
+2
+↑3
+
+========== PAGE 10 ==========
+10Spring 2023 EIE2050 Digital Logic and Systems 
+Step 7: Click Next
+
+========== PAGE 11 ==========
+11Spring 2023 EIE2050 Digital Logic and Systems 
+Step 8: Click Add Files, select the downloaded XDC file
+             Press Next or Press Next if no XDC file
+
+
+========== PAGE 12 ==========
+12Spring 2023 EIE2050 Digital Logic and Systems 
+Step 9: Click Boards -> Select Zedboard -> Click Next
+
+========== PAGE 13 ==========
+13Spring 2023 EIE2050 Digital Logic and Systems 
+Step 10: Click Finish
+
+========== PAGE 14 ==========
+14Spring 2023 EIE2050 Digital Logic and Systems 
+Step 10: If you see this box, just click OK
+
+========== PAGE 15 ==========
+15Spring 2023 EIE2050 Digital Logic and Systems 
+Now we can start writing our 
+code
+This is the programming interface :
+Select 
+different 
+tools
+Shows the IDE status / warning / error message
+
+========== PAGE 16 ==========
+16Spring 2023 EIE2050 Digital Logic and Systems 
+In the source directory, you will see the source file created in Step 6.
+Double click to open it.
+(It is normal to see the file name appears twice in syntax error files and non-module file if 
+the source code is empty or has syntax error)
+
+========== PAGE 17 ==========
+17Spring 2023 EIE2050 Digital Logic and Systems 
+Copy the code downloaded file eLearning
+
+========== PAGE 18 ==========
+18Spring 2023 EIE2050 Digital Logic and Systems 
+After saving the code, the source directory should look like this
+
+========== PAGE 19 ==========
+19Spring 2023 EIE2050 Digital Logic and Systems 
+How to write a testbench?
+• After finishing your source code
+• Under the source window,  right click on the 
+simulation sources
+-> Add sources
+
+
+========== PAGE 20 ==========
+20Spring 2023 EIE2050 Digital Logic and Systems 
+Select “Add or Create Simulation Sources” -> Next
+
+========== PAGE 21 ==========
+21Spring 2023 EIE2050 Digital Logic and Systems 
+Click “Create File” -> Get the testbench a name
+(Usually same name with your source code, adding _test as postfix)
+-> “OK”->”Finish”
+1.
+2
+3
+4
+
+========== PAGE 22 ==========
+22Spring 2023 EIE2050 Digital Logic and Systems 
+If you see this window, just click OK
+
+========== PAGE 23 ==========
+23Spring 2023 EIE2050 Digital Logic and Systems 
+Generating testbench file
+• In Vivado, the testbench file will not generate 
+automatically
+      (But the older software can do that… )
+• Go to http://vhdl.lapinoo.net/
+• Paste your main board source code on it, the website will 
+generate the testbench file for you
+• Copy the generated content, replace all content in the 
+Vivado testbench file
+
+========== PAGE 24 ==========
+24Spring 2023 EIE2050 Digital Logic and Systems 
+Unfortunately, the generated 
+content have to modify before 
+we execute…
+Remove 
+those line
+“end tb;” change to “end;”
+Change the name, to match the name of testbench
+<-Add your test case here
+For example :
+A <= '0';
+EN0 <= '0';
+wait for 100 ns;
+A <= '1';
+EN1 <= '0';
+wait for 100 ns;
+Which means you force a constant 0 to A / EN0 for 100ns
+After that, you force a constant 1 to A / 0 to EN0 for 100ns
+
+========== PAGE 25 ==========
+25Spring 2023 EIE2050 Digital Logic and Systems 
+Now you can run simulation
+• Flow Navigator->Run Simulation->Run Behavioral 
+Simulation
+Click this
+
+========== PAGE 26 ==========
+26Spring 2023 EIE2050 Digital Logic and Systems 
+Now you can see the result
+• To adjust the width, modify tbPeriod in the testbench
+
+
+========== PAGE 27 ==========
+27Spring 2023 EIE2050 Digital Logic and Systems 
+XDC file
+• FPGA is different from the embedded system
+• The input/output pins are configurable
+• We have to tell vivado which ports we would like to use 
+as input/outputs by modify the XDC file
+Program the inter connections
+
+========== PAGE 28 ==========
+28Spring 2023 EIE2050 Digital Logic and Systems 
+Create XDC file
+• Click “File->Add Sources->Add or create constrain->Create File->OK”
+Press OK
+Enter file 
+name
+
+========== PAGE 29 ==========
+29Spring 2023 EIE2050 Digital Logic and Systems 
+Create XDC file
+• Double Click “your_new_created.xdc” file. Enter the 
+constrains. 
+
+
+========== PAGE 30 ==========
+30Spring 2023 EIE2050 Digital Logic and Systems 
+
+
+========== PAGE 31 ==========
+31Spring 2023 EIE2050 Digital Logic and Systems 
+Electrical specification
+• The zedboard has eight user leds, LD0 – LD7. A logic high 
+from the zynq-7000 AP soc I/O causes the LED to turn on. 
+LED’s are sourced from 3.3V banks through 390Ω 
+resistors. [p20, (Zynq evaluation and development) 
+hardware user’s guide]
+• set_property IOSTANDARD LVCMOS33 [get_ports F]
+
+========== PAGE 32 ==========
+32Spring 2023 EIE2050 Digital Logic and Systems 
+Synthesis, implementation and generate 
+bitstream
+Click “Generate Bitstream”
+
+========== PAGE 33 ==========
+33Spring 2023 EIE2050 Digital Logic and Systems 
+Synthesis, implementation and generate 
+bitstream
+• If there is no error then you will see the successful 
+message on the log as shown on the picture.
+
+
+========== PAGE 34 ==========
+34Spring 2023 EIE2050 Digital Logic and Systems 
+Reference
+• Zedboard docs
+• http://zedboard.org/sites/default/files/documentations/ZedBo
+ard_HW_UG_v2_2.pdf
+• Vivado design suite user guide – using constraints
+• https://www.xilinx.com/support/documentation/sw_manuals/
+xilinx2012_2/ug903-vivado-using-constraints.pdf

@@ -1,0 +1,233 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and SystemsChapter 10 : CountersInstructor: TinghuanCHEN, Ph.D.
+
+========== PAGE 2 ==========
+2
+Last Weekq(Synchronous) Sequential Logic CountersqFinite State MachineqMoore FSMqMealy FSMqTimingqSetup timeqHold timeqAperture timeqPropagation delayqContamination delayqDynamic Discipline
+
+========== PAGE 3 ==========
+•Increments on each clock edge•Used to cycle through numbers. For example, –000, 001, 010, 011, 100, 101, 110, 111, 000, 001…•Example uses:–Digital clock displays–Program counter: keeps track of current instruction executing
+3
+Counters
+!
+!"#
+"#$#%
+&
+'
+&
+(
+!"#
+$%C%'
+&
+&
+(
+&
+)
+!"#$%& '#(&)#)*+I+-%*
+
+========== PAGE 4 ==========
+4
+
+========== PAGE 5 ==========
+•An asynchronous counter is one in which the flip-flops (FF) within the counter do not have a common clock;
+•The 2-bit asynchronous counter counts # of clock pulses up to 3, and on the 4thpulse, it recycles to its original state (Q0= Q1= 0). 
+5
+Asynchronous Counters
+
+
+========== PAGE 6 ==========
+6
+A 3-Bit Asynchronous Binary Counter
+qCommonly referred to as ripplecounters;qThe cumulative delay of asynchronous counters is a major drawback.
+
+
+========== PAGE 7 ==========
+•If each D flip-flop has a propagation delay for tsecond, then•The total delay time: tp(tot)= t *# of D flip-flops•The maximum clock frequency: fmax=1/ tp(tot) 7
+Propagation Delay
+
+
+========== PAGE 8 ==========
+qModulus: # of unique states through which the counter will sequence.qMaximum modulus: 2nfor a counter of n flip-flops. qCounters can have less than 2nstates, called a truncated sequence.qExample: A decadecounter with four flip-flops counts a truncated sequence from 0000 through 1001
+8
+Asynchronous Decade Counters
+1010
+↔0000Glitch: the counter is in the 1010 state for a short time before it is reset to 0000
+
+========== PAGE 9 ==========
+•J and K inputs are both HIGH àFlip-flops toggle between S/R states
+9
+Example 9–2 with J-K Flip-Flops
+1100
+↔0000
+
+
+========== PAGE 10 ==========
+10
+
+========== PAGE 11 ==========
+•Synchronous: All flip-flops are controlled by the same clock•Both J and K inputs are connected to HIGH•Example: A synchronouscounter with two flip-flops counts a sequence from 00 through 11 in four clock pulses
+11
+Synchronous Counters
+
+
+========== PAGE 12 ==========
+12
+A 3-Bit Synchronous Binary Counter
+NC: No Change
+
+========== PAGE 13 ==========
+13
+A 4-Bit Synchronous DecadeCounter
+The derivation of the expressions above will be discussed in detail later. 
+
+========== PAGE 14 ==========
+•When LOAD is LOW, the counter will load D3D2D1D0on the next clock pulse àthe counter sequence can be started with any 4-bit binary number.•The ripple clock output (RCO) goes HIGH when the counter reaches the last state in its sequence of fifteen, called the terminal count (TC = 15). 14
+4-Bit Synchronous Binary Counter
+74HC163 4-bit synchronous binary counter.
+•2 enable inputs, ENPand ENT, must both be HIGH for the CTR to sequence through its binary states
+
+========== PAGE 15 ==========
+15
+
+========== PAGE 16 ==========
+•Also known as the bidirectional counterthat can progress in either direction•In general, an UP/Down counter can be reversed at any point in its sequence16
+Up/Down Synchronous Counters
+Again, the derivation of the expressions above will be discussed in detail later. 
+
+========== PAGE 17 ==========
+•Also known as the bidirectional counterthat can progress in either direction•In general, an UP/Down counter can be reversed at any point in its sequence17
+Up/Down Synchronous Counters
+Again, the derivation of the expressions above will be discussed in detail later. 
+
+
+========== PAGE 18 ==========
+•Also known as the bidirectional counterthat can progress in either direction•In general, an UP/Down counter can be reversed at any point in its sequence18
+Up/Down Synchronous Counters
+Again, the derivation of the expressions above will be discussed in detail later. 
+
+
+========== PAGE 19 ==========
+•The direction of the count is determined by the level of the up/down input (D/U). When this input is HIGH, the counter counts down; when it is LOW, the counter counts up. 
+19
+Example
+74HC190 : a U/D synchronous decade counter
+
+========== PAGE 20 ==========
+20
+
+========== PAGE 21 ==========
+•Step 1: State Diagram•Step 2: Next-State Table•Step 3: Flip-Flop Transition Table•Step 4: Karnaugh Maps•Step 5: Logic Expressions for Flip-Flop Inputs•Step 6: Counter Implementation
+21
+Design of Synchronous Counters (I)
+
+========== PAGE 22 ==========
+•Step 1: State Diagram
+•Step 2: Next-State Table•Step 3: Flip-Flop Transition Table22
+Example
+
+
+========== PAGE 23 ==========
+•Step 4: Karnaugh Maps
+23
+Example: Cont’d
+1xx0x10x1xx10x0x
+
+========== PAGE 24 ==========
+•Step 5: Logic Expressions for Flip-Flop Inputs
+24
+Example: Cont’d 
+0
+
+
+========== PAGE 25 ==========
+•Step 6: Counter Implementation
+25
+Example: Cont’d
+
+
+========== PAGE 26 ==========
+26
+More Example
+Step 1
+Step 4
+Step 5
+Step 6
+Step 2 Step 3
+
+========== PAGE 27 ==========
+27
+Example: Synchronous 3-bit U/D Counters
+•The counter should count up when UP/DOWN is 1 and count down when 0.
+Step 1
+Step 2
+Step 5
+Step 4
+Step 3
+
+========== PAGE 28 ==========
+28
+
+========== PAGE 29 ==========
+•The overall modulus of the two cascaded counters is 4 * 8 = 32; that is, they act as a divide-by-32 counter.
+29
+Cascaded Counters: Asynchronous
+
+
+========== PAGE 30 ==========
+•The overall modulus of these two cascaded counters is 10 * 10 = 100.
+•A divide-by-100 counter using two 74HC190 up/down decade counters connected for the up sequence. 30
+Cascaded Counters: Synchronous
+
+
+========== PAGE 31 ==========
+•Full-modulus cascading: the resulting overall modulus is the product of the individual moduli of all the cascaded counters.•If the required modulus is less than that achieved by full modulus cascading, a truncated sequence must be implemented with cascaded counters.•Example: to achieve a modulus-40,000 counter with four cascaded 74HC161s whose full modulus is 216=65,536, we preset the cascaded counter to 25,536 (63C0 in hexadecimal) each time it recycles. 
+31
+Cascaded Counters with Truncated Sequences
+65,536 -25536 = 40,000
+
+========== PAGE 32 ==========
+•The decoding of a counter involves using decoders or logic gates to determine when the counter is in a certain binary state in its sequence.•For example, when Q2= 1, Q1= 1, and Q0= 0, a HIGH appears on the output of the following decoding gate, indicating that the counter is at state 6. 32
+Counter Decoding
+
+
+========== PAGE 33 ==========
+•The glitch problem can also occur to synchronous counters because the propagation delays from the clock to the Q outputs of each flip-flop in a counter can vary slightly.
+33
+Decoding Glitches (I) 
+Asynchronous BCD decade counter
+
+
+========== PAGE 34 ==========
+•For an active-HIGH clock, use the LOW level of the clock to enable the decoder.
+34
+Decoding Glitches (II) 
+
+
+========== PAGE 35 ==========
+35
+
+========== PAGE 36 ==========
+•Input : a 60 Hz pulse waveform generated from a 60 Hz sinusoidal ac voltage;•Counters for Seconds and Minutes : count from 0 to 59 and then recycle to 0;•The hour counter : a decade counter and a flip-flop to illuminate a 1 on the tens-of-hours display.
+36
+Example: A Digital Clock
+
+
+========== PAGE 37 ==========
+•In state 12, the G2 output is LOW (i.e. Q and Q1 are HIGH) , which activates the LOAD input of the decade counter.•On the next clock pulse, the decade counter is preset to 0001.
+37
+The Second/Minute/Hour Counter
+•The terminal count, 59, is decoded to enable the next counter in the chain.The right-most bit is the LSB
+
+========== PAGE 38 ==========
+•The 1stbyte of parallel data is applied to the multiplexer inputs. •After 8 clock pulses the data byte has been converted to a serial format and sent out on the transmission line.
+38
+Example: P/S Data Conversion (Multiplexing)
+
+
+========== PAGE 39 ==========
+Functions of Combinational Logic39
+Chapter ReviewqCountersqAsynchronousqSynchronousqUp/Down CountersqDesign of Synchronous Counters qCascaded CountersqCounter Decoding
+
+========== PAGE 40 ==========
+40
+True/False QuizqSynchronous counters cannot be realized using J-K flip-flops.qAn asynchronous counter is also known as a ripple counter.qA decade counter has twelve states.qA counter with four stages has a maximum modulus of sixteen.qTo achieve a maximum modulus of 32, sixteen stages are required.qIf the present state is 1000, the next state of a 4-bit up/down counter in the DOWN mode is 0111.qTwo cascaded decade counters divide the clock frequency by 10.qA counter with a truncated sequence has less than its maximum number of states.qTo achieve a modulus of 100, ten decade counters are required.

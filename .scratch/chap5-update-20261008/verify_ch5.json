@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "check": "p4 SOP and factored form: ON={0,4,5}",
+      "cases": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "p6 AOI versus DeMorgan POS",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p5 high-active tank alarm",
+      "cases": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "p7 low-active tank alarm / AOI",
+      "cases": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "p8-p9 XOR and XNOR SOP/POS",
+      "cases": 4,
+      "status": "PASS"
+    },
+    {
+      "check": "Binary XNOR cascade over three inputs is XOR",
+      "cases": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "p16 truth table: ON={3,4}",
+      "cases": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "p16 five-input AB+CDE implementation",
+      "cases": 32,
+      "status": "PASS"
+    },
+    {
+      "check": "p17 exactly three of four inputs",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p17 minimum SOP has four isolated minterms",
+      "cases": 81,
+      "status": "PASS"
+    },
+    {
+      "check": "p18 original node model versus 4-input OR",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p19 original four products versus minimum SOP",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p19 exactly two essential prime implicants",
+      "cases": 81,
+      "status": "PASS"
+    },
+    {
+      "check": "p20-p22 winner mask, code, and valid for all overlapping requests",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p22 input X compresses exactly sixteen specified rows",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p24-p25 eight NAND/NOR constructions",
+      "cases": 4,
+      "status": "PASS"
+    },
+    {
+      "check": "p29 NAND-NAND SOP and NOR-NOR POS",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p30-p31 original NOR-NAND-NAND and bubble form",
+      "cases": 16,
+      "status": "PASS"
+    },
+    {
+      "check": "p12 three-input even-parity SOP and XOR",
+      "cases": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "p13-p14 every 4-bit data word with every 5-bit error mask",
+      "cases": 512,
+      "status": "PASS"
+    },
+    {
+      "check": "Published exactly-three and priority truth tables",
+      "cases": 32,
+      "status": "PASS"
+    }
+  ],
+  "all_passed": true
+}

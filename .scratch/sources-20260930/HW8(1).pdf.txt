@@ -1,0 +1,156 @@
+========== PAGE 1 ==========
+ece2PUP homework 8
+Due: april 28, 2P2U
+Q1for the ripple counter shown below, please ﬁll in the logic level for Q1andQ0for seven
+clock pulses, assuming the initial state is PP.
+Q
+0 1
+1 0
+1 1
+0 0
+0 1
+1 0
+1 1
+
+========== PAGE 2 ==========
+Q2for the ripple counter below, assume that each ﬂipMﬂop has a propagation delay from the
+triggering edge of the clock to a change in theQoutput of8n s. determine the worstMcase
+Hlongest) delay time from a clock pulse to the arrival of the counter in a given state.
+specify the state or states for which this worstMcase delay occurs.
+2
+
+
+========== PAGE 3 ==========
+Q3please write down the boolean expressions to getJandKinputs to each ﬂipMﬂop. please
+ﬁll in the state sequence table for QP clock cycles. explain how these conditions in each
+case cause the counter to go to the next proper state.
+S
+0 0 0 1
+0 0 1 0
+0 0 1 1
+0 1 0 0
+0 1 0 1
+0 1 1 0
+0 1 1 1
+1 0 0 0
+1 0 0 1
+0 0 0 0
+iiiīòon
+左K2Qoo FunctionDecadecounterthroughaBCDsequence
+了3K3QoQiQzt0003
+
+========== PAGE 4 ==========
+Q4the waveforms below are applied to the count enable, clear, and clock inputs as indicated.
+show the counter output waveforms in proper relation to these inputs. the clear input is
+asynchronous.
+T
+
+
+========== PAGE 5 ==========
+Q5what type is the state machine in fig. Q? using binary state encoding, complete a state
+transition table and output table for the fsm. write boolean equations for the next state
+and output and sketch a schematic of the fsm.
+figure Q: state transition diagram for qU
+U
+MealyFSM
+stateEniòding Currentstate Input Nextstate output
+so 00 s s A B sisó Y
+s 01 0 0 0 X 0 0 0
+52 10 0 0 1 0 1 0
+0 1 X 0 0 0 0
+0 1 X 1 1 0 0
+1 0 1 1 1 0 1
+1 0 0 x 0 0 0
+1 0 1 0 0 0 0
+SiSiSoBtsSoAB CLK
+加
+DsósīsōA B 51
+YessoAB
+A so
+só
+Y
+
+========== PAGE 6 ==========
+Q6design a counter to produce the following binary sequence. use JMk ﬂipMﬂops.
+0,5,1,2,7,6,3,4,0...
+6
+000X 011X
+060101001010111110011100 11x0 10x1
+Currentstate Nextstate FupFlopInputs
+dzQdo QIQioó JzKzJiKiJoK
+000 101
+iiǒiiò1 0 1 0 0 1
+0 01 0 10 0X 1X X1
+0 1 0 1 1 1 1X X0 1X
+iio oiiiiioii
+0 1 1 10 0 1 X X1 X1
+1 0 0 00 0 X 1 0X 0X
+左 K2 Ji Ki To Ko
+Q_Q901Q_Q901 ace
+001ace001
+管 这只 品
+台
+niòòòiò i 6
+丁2clotQ
+K2QotQi
+JiK1QĪQo Qo
+D Q1Jane Q2
+TokQitQ
+Tk Tk Tk⼆
+CLK
+
+========== PAGE 7 ==========
+Q7design a binary counter with the sequence shown in the below state diagram.
+10
+1
+2
+4
+6
+8
+W
+CurrentState Nextstate
+as020 a aíǒiòiieóaiǎnòio0 0 0 1 0 01 0 1 01 0
+0 0 10 01 0 0 0 00 1
+0 1 00 0 11 0 0 01 0
+0 1 1 0 1 00 0 0 10 0
+1 0 00 1 01 0 0 1 1 0
+1 0 1 0 0 00 1 1 0 0 0
+Yl
+B
+aooooilio
+D
+aooooilio
+Daooooi1110 01900011110
+00
+品 品 0 ǎ a
+0 0
+Do oo o Yoo
+ㄚ0Booooo soPooooii.coPooooii.coa000011110
+00
+a ǎ ǎ0 0
+0 0
+
+========== PAGE 8 ==========
+D3Y03QitQ2Q1TQotQ301
+D2⼆
+YIQ2QitQiQiQiTQ3QitQ2QD
+D⼆Qi
+DoYQ3QTQIQIQ
+⼝DF D
+Y
+A
+Do T.cl
+Xq
+P
+Q D Q D Q2
+p
+03
+0 o
+CLK
+
+========== PAGE 9 ==========
+Q8develop a table for use in testing the counter below that will show the frequency at the ﬁnal
+RCOoutput for all possible open failures Hassume the logical level for the open port is
+high) of the parallel data inputs(D0,D1,D2, andD3) taken one at a time. use10MHz
+as the test frequency for the clock.
+8

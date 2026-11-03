@@ -1,0 +1,377 @@
+========== PAGE 1 ==========
+ECE 2050 Digital Logic and Systems
+Midterm Test
+(Time allowed: 90 minutes)
+March 23, 2025
+NOTE: Answer ALL 8 questions. Show all intermediate steps, except Question 1 and Question 2.
+1. (10 points) Are the following statements necessarily true (Y) or not (N)?
+(1) A full-adder can be realized only by using 2-input AND gates;
+(2) 11010101 is an 8-bit number in 2’s complement form for a decimal number -42;
+(3) For 2’s complement signed numbers, the range of values for 5-bit numbers is from −15 to +16;
+(4) The sum (BCD form) of two BCD numbers 1001 and 0101 is 1110;
+(5) The odd parity bit for the BCD number 00010100 is 1;
+(6) When ‘1’ and ‘0’ are input into a 2-input XNOR gate, the output is 1;
+(7) Subtract 172 16 from BCD 16, the result is A5B16;
+(8) The Gray code for the binary 101100 is 111011;
+(9) A NOR gate can be substituted by an XOR gate;
+(10) A ternary numeral system (also called base 3 or trinary) has three as its base. Analogous to a bit, a
+ternary digit is a trit (trinary digit). Ternary most often refers to a system in which the three digits
+are all non-negative numbers; specifically 0, 1, and 2. The decimal for the ternary number 101 is 5.
+Solution:
+(1) N; 2 NAND gates, 2 XOR gates and 1 OR gate;
+(2) N; 11010110;
+(3) N; −16 to +15;
+(4) N; 00010100;
+(5) Y; 0;
+(6) N; 0;
+(7) Y; A5B16;
+(8) N; 111010;
+(9) N; negative-AND gate;
+(10) N; 10.
+CONTINUED
+
+========== PAGE 2 ==========
+– 2 – ECE 2050 Digital Logic and Systems
+2. (10 points)
+(1) (3 points) Convert the binary number 1110001 into octal representation;
+(2) (3 points) Perform the subtraction of the signed numbers: 00001100 − 11110110;
+(3) (4 points) Divide the signed number 00011001 by the signed number 00000101.
+Solution:
+(1) 1110001 2 = 7116 = 1618;
+(2) In this case, 13 − (−10) = 13 + 10 = 23
+00001100
++00001010
+00010110
+(3) In this case, 00000101 → 11111011 (2’s complement)
+00011001
++11111011
+100010100
++11111011
+100001111
++11111011
+100001010
++11111011
+100000101
++11111011
+100000000
+Quotient is 5 = 0101. remainder is 0. Note that 1 indicates the result is positive. It is discarded.
+CONTINUED
+
+========== PAGE 3 ==========
+– 3 – ECE 2050 Digital Logic and Systems
+3. (15 points)
+(1) (7 points) In a biased N-bit binary number system with bias B, positive and negative numbers are
+represented as their value plus the bias B. For example, for 5-bit numbers with a bias of 15, the number
+0 is represented as 01111, 1 as 10000, and so forth. Consider a biased 8-bit binary number system with
+a bias of 63 10. What decimal value does the binary number 10000010 2 represent?
+(2) (8 points) Apply CRC to the data bits 1101 using the generator code 101 to produce the transmitted
+CRC code. (Tips: The Number of zeros to append equals the length of the generator code minus one.)
+Solution:
+(1) 10000010 2 = 1 × 27 + 1 × 21 = 128 + 2 = 130
+130-63=67
+(2) The remainder is 10, so the transmitted CRC is 110110
+Figure 1: Q3-2 solution.
+CONTINUED
+
+========== PAGE 4 ==========
+– 4 – ECE 2050 Digital Logic and Systems
+4. (15 points)
+(1) (5 points) Develop a truth table for ABC + A ¯B ¯C + ¯AB ¯C.
+(2) (5 points) Convert ABC + A ¯BC + ¯AB ¯C into the standard Product Of Sums (POS) form.
+(3) (5 points) Convert AB + CD + AD into the standard Sum Of Products (SOP) form.
+Solution:
+Figure 2: Q4-1 Truth Table.
+(1)
+(2)
+ABC + A ¯BC + ¯AB ¯C
+=A(BC + ¯BC) + ¯AB ¯C
+=AC + ¯AB ¯C
+=(AC + ¯A)(AC + B ¯C)
+=( ¯A + A)( ¯A + C)(AC + B)(AC + ¯C)
+=( ¯A + C)(A + B)(B + C)(A + ¯C)(C + ¯C)
+=( ¯A + C + B ¯B)(A + B + C ¯C)(B + C + A ¯A)(A + ¯C + B ¯B)
+=( ¯A + C + B)( ¯A + C + ¯B)(A + B + C)(A + B + ¯C)(B + C + A)(B + C + ¯A)(A + ¯C + B)(A + ¯C + ¯B)
+=( ¯A + B + C)( ¯A + ¯B + C)(A + B + C)(A + B + ¯C)(A + ¯B + ¯C)
+(3)
+AB + CD + AD
+=AB(C + ¯C) + (A + ¯A)CD) + AD(B + ¯B))
+=ABC + AB ¯C + ACD + ¯ACD + ABD + A ¯BD
+=ABC(D + ¯D) + AB ¯C(D + ¯D) + ACD(B + ¯B) + ¯ACD(B + ¯B) + ABD(C + ¯C) + A ¯BD(C + ¯C)
+=ABCD + ABC ¯D + AB ¯CD + AB ¯C ¯D + ABCD + A ¯BCD
++ ¯ABCD + ¯A ¯BCD + ABCD + AB ¯CD + A ¯BCD + A ¯B ¯CD
+=ABCD + ABC ¯D + AB ¯CD + AB ¯C ¯D + A ¯BCD + ¯ABCD + ¯A ¯BCD + A ¯B ¯CD
+CONTINUED
+
+========== PAGE 5 ==========
+– 5 – ECE 2050 Digital Logic and Systems
+5. (12 points)
+The gate labeled “K gate” has the truth table as shown in Table 1.
+A B C X
+0 0 0 1
+0 0 1 0
+0 1 0 1
+0 1 1 0
+1 0 0 1
+1 0 1 0
+1 1 0 1
+1 1 1 1
+Table 1: The truth table of K gate
+AND
+OR
+AND
+A
+B
+C
+X
+K gate
+P
+Q
+A
+B
+C
+Y
+Figure 3: Q5 circuit.
+(1) (5 points) Write down the logic expression in the standard sum of product form ;
+(2) (7 points) Given the circuit as shown in Figure 3, analyze this circuit and come-up with the logic
+circuit for the same function that uses ONL YNAND gates (The complementary inputs are not directly
+available - e.g., ¯A is not directly available.)
+Solution:
+(1) X = ¯A ¯B ¯C + ¯AB ¯C + A ¯B ¯C + AB ¯C + ABC
+(2)
+X = ¯A ¯B ¯C + ¯AB ¯C + A ¯B ¯C + AB ¯C + ABC
+=( ¯A ¯B ¯C + ¯AB ¯C + A ¯B ¯C + AB ¯C) + (AB ¯C + ABC)
+=( ¯A ¯C + A ¯C) + AB
+= ¯C + AB
+Y = P QA + X = AP Q + AB + ¯C
+CONTINUED
+
+========== PAGE 6 ==========
+– 6 – ECE 2050 Digital Logic and Systems
+Figure 4: Q5-2 solution.
+6. (15 points) Design a circuit with four inputs, namely A, B, C, and D, and one output Y . The output is 1
+when the consecutive sequence ‘110’ is present, e.g., 0110.
+(1) (3 points) Develop the truth table for Y with four inputs A, B, C and D;
+(2) (5 points) Use a Karnaugh map to find the minimum product of sums (POS) form of Y ;
+(3) (7 points) Implement the logic function specified in the truth table of (1) by using a 4-bit Decoder and
+basic logic gates.
+Figure 5: 4-bit Decoder.
+Solution:
+(1) Fig.6(a).
+(2) Fig. 6(b).
+Y = B( ¯C + ¯D)(A + C)
+(3) Fig. 6(c).
+CONTINUED
+
+========== PAGE 7 ==========
+– 7 – ECE 2050 Digital Logic and Systems
+Figure 6: Q6 solution.
+CONTINUED
+
+========== PAGE 8 ==========
+– 8 – ECE 2050 Digital Logic and Systems
+7. (13 points) A ripple carry adder is one in which the carry output of each full adder is connected to the carry
+input of the next higher-order stage (a stage is one full adder). The sum and the output carry of any stage
+cannot be produced until the input carry occurs; this causes a time delay in the addition process, as shown
+in Figure 7. The carry propagation delay for each full adder is the time from the application of the input
+carry until the output carry occurs, assuming that the A and B inputs are already present.
+Full-adder 1 (FA1) cannot produce a potential output carry until an input carry is applied. Full-adder 2
+(FA2) cannot produce a potential output carry until FA1 produces an output carry. Full-adder 3 (FA3)
+cannot produce a potential output carry until an output carry is produced by FA1 followed by an output
+carry from FA2, and so on. As shown in Figure 7, the input carry to the least significant stage has to ripple
+through all the adders before a final sum is produced. The cumulative delay through all the adder stages is
+a “worst-case” addition time. The total delay can vary, depending on the carry bit produced by each full
+adder. If two numbers are added such that no carries (0) occur between stages, the addition time is simply
+the propagation time through a single full adder from the application of the data bits on the inputs to the
+occurrence of a sum output; however, worst-case addition time must always be assumed.
+Consider multiplication with unsigned 4-bit numbers can be performed as shown in Figure 11.
+(1) (10 points) Implement this combinational multiplier by using full adders and AND gates ONL Y.
+(2) (3 points) The critical path is the longest path in the circuit. Propagation delay (latency) is one of
+the important factors to describe a digital circuit. It is defined as the time needed for an input change
+to produce an output change. The critical path is the path in the entire design with the maximum
+propagation delay. As an example, a critical path is denoted in Figure 7. Analyze whether there is a
+possible critical path in your designed combinational multiplier. If yes, please mark the critical path
+and approximate its propagation delay (Assume the propagation delay of each adder is t, and the
+propagation delay of AND gate is 0 .1t); If no, please give reasons.
+1
+1
+1
+1
+1
+1
+MSB 
+010111
+A
+Σ
+BA
+Σ
+B C in Cin 
+Cout Cout 
+A
+Σ
+B C in 
+Cout 
+01
+1
+A
+Σ
+B C in 
+Cout 
+LSB 
+1
+1
+8 ns 8 ns 8 ns 8 ns 
+FA1 FA2 FA3 FA4 
+32 ns 
+Figure 7: A 4-bit parallel ripple carry adder with a critical path.
+Combinational Multiplier (unsigned)
+X3   X2   X1   X0
+*  Y3   Y2   Y1   Y0
+--------------------
+X3Y0 X2Y0 X1Y0 X0Y0
++                X3Y1 X2Y1 X1Y1 X0Y1
++           X3Y2 X2Y2 X1Y2 X0Y2
++      X3Y3 X2Y3 X1Y3 X0Y3
+--------------------- --------------------
+Z7   Z6   Z5   Z4   Z3   Z2   Z1   Z0
+HA
+x3
+FA
+x2
+FA
+x1
+FA
+x2
+FA
+x1
+HA
+x0
+FA
+x1
+HA
+x0
+HA
+x0
+FA
+x3
+FA
+x2
+FA
+x3
+x3 x2 x1 x0
+z0
+z1
+z2
+z3z4z5z6z7
+y3
+y2
+y1
+y0
+Propagation delay ~2N
+multiplicand
+multiplier
+Partial products, one for each bit in 
+multiplier (each bit needs just one 
+AND gate)
+6.111 Fall 2017 28Lecture 8
+Combinational Multiplier (unsigned)
+X3   X2   X1   X0
+*  Y3   Y2   Y1   Y0
+--------------------
+X3Y0 X2Y0 X1Y0 X0Y0
++                X3Y1 X2Y1 X1Y1 X0Y1
++           X3Y2 X2Y2 X1Y2 X0Y2
++      X3Y3 X2Y3 X1Y3 X0Y3
+--------------------- --------------------
+Z7   Z6   Z5   Z4   Z3   Z2   Z1   Z0
+HA
+x3
+FA
+x2
+FA
+x1
+FA
+x2
+FA
+x1
+HA
+x0
+FA
+x1
+HA
+x0
+HA
+x0
+FA
+x3
+FA
+x2
+FA
+x3
+x3 x2 x1 x0
+z0
+z1
+z2
+z3z4z5z6z7
+y3
+y2
+y1
+y0
+Propagation delay ~2N
+multiplicand
+multiplier
+Partial products, one for each bit in 
+multiplier (each bit needs just one 
+AND gate)
+6.111 Fall 2017 28Lecture 8
+Partial products, one for 
+each bit in multiplier
+multiplicand
+multiplier
+Figure 8: Multiplication with unsigned 4-bit numbers.
+Solution:
+CONTINUED
+
+========== PAGE 9 ==========
+– 9 – ECE 2050 Digital Logic and Systems
+(1) The combinational multiplier is shown in Figure 9.
+Figure 9: Q7 multiplier.
+(2) The propagation delay is 8 .1t.
+CONTINUED
+
+========== PAGE 10 ==========
+– 10 – ECE 2050 Digital Logic and Systems
+8. (10 points) The IEEE 754 standard specifies a 32-bit binary as having: 1 bit Sign; 8 bits Exponent width;
+24 bits (23 explicitly stored) Mantissa precision. The sign bit determines the sign of the number, which is
+the sign of the mantissa as well. The exponent is an 8-bit unsigned integer from 0 to 255, in biased form:
+an exponent value of 127 represents the actual zero. Exponents range from -126 to +127 because exponents
+of -127 (all 0s) and +128 (all 1s) are reserved for special numbers. The true mantissa includes 23 fraction
+bits to the right of the binary point and an implicit leading bit (to the left of the binary point) with value
+1, unless the exponent is stored with all zeros. Thus only 23 fraction bits of the mantissa appear in the
+memory format, but the total precision is 24 bits. The bits are laid out as shown in Figure 10: The real
+value assumed by a given 32-bit binary data with a given sign, biased exponent (the 8-bit unsigned integer),
+and a 23-bit mantissa is
+(−1)b31 × 2(b30b29···b23)2−127 × (1.b22b21 · · · b0)2.
+(1) (4 points) Convert the decimal number 8 .7510 to IEEE 754 standard 32-bit binary. Show your work;
+(2) (4 points) A IEEE 754 customization specifies a 16-bit binary as having: 1 bit Sign; 4 bits Exponent
+width; 12 bits (11 explicitly stored) Mantissa precision. The sign bit determines the sign of the number.
+The exponent is a 4-bit unsigned integer from 0 to 15, in the biased form: an exponent value of 7
+represents the actual zero. Exponents range from -6 to +7 because exponents of -7 (all 0s) and +8
+(all 1s) are reserved for special numbers. The true mantissa includes 11 fraction bits to the right of
+the binary point and an implicit leading bit (to the left of the binary point) with value 1, unless the
+exponent is stored with all zeros. Thus only 11 fraction bits of the mantissa appear in the memory
+format, but the total precision is 12 bits. Sketch the IEEE 754 customization 16-bit binary layout;
+(3) (2 points) Convert the decimal number 8 .7510 to the IEEE 754 customization 16-bit binary. Show your
+work.
+Sign
+Exponent
+(8 bits)
+Mantissa (fraction)
+(23 bits)
+3130 2322 0(bit index)
+Figure 10: IEEE 754 standard 32-bit binary.
+Solution:
+(1) 8 .7510 = 1000.112 = 1.00011 × 2011; 011 + 1111111 = 10000010; 0 10000010 00011000000000000000000;
+(2) IEEE 754 standard 16-bit binary layout is shown below;
+Figure 11: IEEE 754 standard 16-bit binary.
+(3) 8 .7510 = 1000.112 = 1.00011 × 2011; 011 + 111 = 1010;
+0 1010 00011000000.

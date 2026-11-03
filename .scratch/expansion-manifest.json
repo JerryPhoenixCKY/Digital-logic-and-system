@@ -1,0 +1,303 @@
+[
+  {
+    "title": "Digital Abstraction and System Design",
+    "zh": "数字抽象与系统设计",
+    "alt": "Digital discipline",
+    "tag": "foundations",
+    "chapter": "Ch1"
+  },
+  {
+    "title": "Digital Waveforms",
+    "zh": "数字波形",
+    "alt": "Pulse waveform",
+    "tag": "foundations",
+    "chapter": "Ch1"
+  },
+  {
+    "title": "Combinational Logic Design",
+    "zh": "组合逻辑设计",
+    "alt": "Combinational analysis and implementation",
+    "tag": "combinational-design",
+    "chapter": "Ch5"
+  },
+  {
+    "title": "Universal Gates and Bubble Pushing",
+    "zh": "通用门与气泡推移",
+    "alt": "Universal logic gates",
+    "tag": "combinational-design",
+    "chapter": "Ch5"
+  },
+  {
+    "title": "Tri-State Buffers and Bus Drivers",
+    "zh": "三态缓冲器与总线驱动",
+    "alt": "Three-state logic",
+    "tag": "combinational-design",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Half Adder and Full Adder",
+    "zh": "半加器与全加器",
+    "alt": "HA and FA",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Ripple Carry and Carry Look-Ahead Adders",
+    "zh": "串行进位与超前进位加法器",
+    "alt": "RCA and CLA",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Binary Subtractors and Adder-Subtractors",
+    "zh": "二进制减法器与加减器",
+    "alt": "Full subtractor",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Combinational Multiplier",
+    "zh": "组合乘法器",
+    "alt": "Array multiplier",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Magnitude Comparator",
+    "zh": "数值比较器",
+    "alt": "Digital comparator",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Encoder and Priority Encoder",
+    "zh": "编码器与优先编码器",
+    "alt": "Priority encoding",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Decoder",
+    "zh": "译码器",
+    "alt": "Binary decoder",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Multiplexer and Demultiplexer",
+    "zh": "多路选择器与分配器",
+    "alt": "MUX and DEMUX",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Propagation Delay and Logic Hazards",
+    "zh": "传播延迟与逻辑冒险",
+    "alt": "Logic timing and glitches",
+    "tag": "timing",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Sequential Logic",
+    "zh": "时序逻辑",
+    "alt": "Synchronous sequential circuits",
+    "tag": "sequential-logic",
+    "chapter": "Ch7"
+  },
+  {
+    "title": "Set-Reset Latch",
+    "zh": "置位复位锁存器",
+    "alt": "SR latch",
+    "tag": "sequential-logic",
+    "chapter": "Ch7"
+  },
+  {
+    "title": "D Latch and D Flip-Flop",
+    "zh": "D锁存器与D触发器",
+    "alt": "D storage elements",
+    "tag": "sequential-logic",
+    "chapter": "Ch7"
+  },
+  {
+    "title": "JK and T Flip-Flops",
+    "zh": "JK与T触发器",
+    "alt": "JK excitation table",
+    "tag": "sequential-logic",
+    "chapter": "Ch7"
+  },
+  {
+    "title": "Register Enable and Reset",
+    "zh": "寄存器使能与复位",
+    "alt": "Enabled and resettable registers",
+    "tag": "sequential-logic",
+    "chapter": "Ch7"
+  },
+  {
+    "title": "Setup and Hold Timing",
+    "zh": "建立与保持时间",
+    "alt": "Register timing constraints",
+    "tag": "timing",
+    "chapter": "Ch9"
+  },
+  {
+    "title": "Metastability and Clock Domain Crossing",
+    "zh": "亚稳态与时钟域跨越",
+    "alt": "CDC and synchronizers",
+    "tag": "timing",
+    "chapter": "Ch9"
+  },
+  {
+    "title": "Shift Registers",
+    "zh": "移位寄存器",
+    "alt": "SISO SIPO PISO PIPO",
+    "tag": "registers",
+    "chapter": "Ch8"
+  },
+  {
+    "title": "Ring and Johnson Counters",
+    "zh": "环形与约翰逊计数器",
+    "alt": "Shift register counters",
+    "tag": "registers",
+    "chapter": "Ch8"
+  },
+  {
+    "title": "One-Shots and Pulse Applications",
+    "zh": "单稳态与脉冲应用",
+    "alt": "Monostable and astable circuits",
+    "tag": "registers",
+    "chapter": "Ch8"
+  },
+  {
+    "title": "Finite State Machine",
+    "zh": "有限状态机",
+    "alt": "FSM",
+    "tag": "finite-state-machines",
+    "chapter": "Ch9"
+  },
+  {
+    "title": "Moore and Mealy Machines",
+    "zh": "Moore与Mealy状态机",
+    "alt": "FSM output models",
+    "tag": "finite-state-machines",
+    "chapter": "Ch9"
+  },
+  {
+    "title": "State Encoding and Unused States",
+    "zh": "状态编码与未用状态",
+    "alt": "Binary and one-hot encoding",
+    "tag": "finite-state-machines",
+    "chapter": "Ch9"
+  },
+  {
+    "title": "Sequence Detector",
+    "zh": "序列检测器",
+    "alt": "Overlapping sequence detection",
+    "tag": "finite-state-machines",
+    "chapter": "Ch9"
+  },
+  {
+    "title": "Traffic Light Controller",
+    "zh": "交通灯控制器",
+    "alt": "Traffic control FSM",
+    "tag": "finite-state-machines",
+    "chapter": "Ch9"
+  },
+  {
+    "title": "Counters",
+    "zh": "计数器",
+    "alt": "Binary and decade counters",
+    "tag": "counters",
+    "chapter": "Ch10"
+  },
+  {
+    "title": "Synchronous Counter Design",
+    "zh": "同步计数器设计",
+    "alt": "Counter excitation synthesis",
+    "tag": "counters",
+    "chapter": "Ch10"
+  },
+  {
+    "title": "Cascaded Counters and Digital Clocks",
+    "zh": "级联计数器与数字时钟",
+    "alt": "Terminal count and frequency division",
+    "tag": "counters",
+    "chapter": "Ch10"
+  },
+  {
+    "title": "Memory Arrays and Expansion",
+    "zh": "存储阵列与扩展",
+    "alt": "Memory depth and width",
+    "tag": "memory",
+    "chapter": "Ch11"
+  },
+  {
+    "title": "SRAM DRAM and ROM",
+    "zh": "SRAM、DRAM与ROM",
+    "alt": "Memory technologies",
+    "tag": "memory",
+    "chapter": "Ch11"
+  },
+  {
+    "title": "Read-Only Memory and Programmable Logic Arrays",
+    "zh": "ROM与可编程逻辑阵列",
+    "alt": "ROM LUT PLA PAL",
+    "tag": "memory",
+    "chapter": "Ch11"
+  },
+  {
+    "title": "Field-Programmable Gate Array",
+    "zh": "现场可编程门阵列",
+    "alt": "FPGA",
+    "tag": "programmable-logic",
+    "chapter": "Ch11"
+  },
+  {
+    "title": "VHDL Language and Modeling",
+    "zh": "VHDL语言与建模",
+    "alt": "VHSIC Hardware Description Language",
+    "tag": "hardware-description",
+    "chapter": "HDL"
+  },
+  {
+    "title": "Structural Shift Register Project",
+    "zh": "结构化双向移位寄存器项目",
+    "alt": "Structural VHDL shift register",
+    "tag": "hardware-description",
+    "chapter": "HDL"
+  },
+  {
+    "title": "Testbench and Functional Verification",
+    "zh": "测试平台与功能验证",
+    "alt": "Self-checking HDL testbench",
+    "tag": "hardware-description",
+    "chapter": "HDL"
+  },
+  {
+    "title": "Seven-Segment Display and Code Conversion",
+    "zh": "七段显示与码制转换",
+    "alt": "BCD display decoding",
+    "tag": "combinational-blocks",
+    "chapter": "Ch6"
+  },
+  {
+    "title": "Digital Logic Troubleshooting",
+    "zh": "数字逻辑故障诊断",
+    "alt": "Stuck-at fault testing",
+    "tag": "combinational-design",
+    "chapter": "Ch5"
+  },
+  {
+    "title": "Exam Review and Problem Solving",
+    "zh": "考试复习与解题方法",
+    "alt": "Digital logic exam review",
+    "tag": "review",
+    "chapter": "Review"
+  },
+  {
+    "title": "Keyboard Scanning and Encoding",
+    "zh": "键盘扫描与编码",
+    "alt": "Matrix keypad interface",
+    "tag": "registers",
+    "chapter": "Ch8"
+  }
+]

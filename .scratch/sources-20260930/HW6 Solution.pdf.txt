@@ -1,0 +1,71 @@
+========== PAGE 1 ==========
+ECE2050 Homework 6
+Due: March 29, 2025
+Q1 Given the input waveforms shown below, sketch the output,Q, of an SR latch.
+S
+R
+!
+"
+#
+#
+$%
+$&
+1
+
+========== PAGE 2 ==========
+Q2 Determine the output of a D Latch for the inputs below.
+CLK
+D !
+" #
+#
+#
+#
+$
+%CD
+$
+"
+!
+2
+
+========== PAGE 3 ==========
+Q3 Construct the following flip-flops:
+• Construct a JK flip-flop, using a D flip-flop and some combinational logic.
+• Construct a D flip-flop, using a JK flip-flop and some combinational logic.
+3
+
+========== PAGE 4 ==========
+Q4 Design a circuit to generate a very short-duration negative spike on the negative-going
+transition of the clock pulse. (You are not allowed to use more than two inverters.)
+CLK
+4
+
+========== PAGE 5 ==========
+Q5 Design a synchronous resettable D flip-flop, using basic logic gates. (You are not allowed
+to use off-the-shelf D flip-flop.)
+5
+
+========== PAGE 6 ==========
+Q6 Determine the output Q of a synchronous resettable D flip-flop for the inputs below. (The
+input Reset is active-low.)
+CLK
+D
+Reset
+!"#$%&'
+! "
+()')*
+#
+CLK
+6
+
+========== PAGE 7 ==========
+Q7 Determine the output Q of an asynchronous resettable D flip-flop for the inputs below. (The
+input Reset is active-high.)
+CLK
+D
+Reset
+!"#$%&'
+! "
+()')*
+#
+CLK
+7

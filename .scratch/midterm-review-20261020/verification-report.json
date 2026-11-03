@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "total_checks": 68111,
+  "groups": {
+    "numeric examples": 12,
+    "binary32 examples": 4,
+    "8-bit overflow equations": 65536,
+    "BCD correction": 200,
+    "Gray and parity": 514,
+    "CRC independent divisions": 4,
+    "CRC printed steps": 4,
+    "Boolean identities": 8,
+    "Consensus": 8,
+    "HA/FA weights": 8,
+    "canonical and MUX": 16,
+    "K-map XNOR": 16,
+    "BCD prime functions": 26,
+    "specification truth tables": 16,
+    "universal gates": 16,
+    "priority encoder": 16,
+    "minimum cover": 4,
+    "4-bit CLA both conventions": 1024,
+    "comparator equations": 512,
+    "2-bit multiplier": 16,
+    "decoder polarity": 8,
+    "display segment a": 10,
+    "voltage and delay examples": 1,
+    "ASCII examples": 1,
+    "document integrity": 9,
+    "internal links": 48,
+    "source links": 47,
+    "source page links": 26,
+    "question sequence": 1
+  },
+  "source_pdf_page_counts": {
+    "ECE2050-Chap6.pdf": 56,
+    "ECE2050-Chap2.pdf": 73,
+    "Midterm2025withSolution.pdf": 10,
+    "ECE2050 Course Outline_AY26-27 T1.pdf": 7,
+    "Midterm2023withSolutions.pdf": 14,
+    "Midterm2024withSolutions.pdf": 12
+  },
+  "crc_examples": [
+    [
+      "1101",
+      "101",
+      "10",
+      "110110"
+    ],
+    [
+      "10110110",
+      "1101",
+      "010",
+      "10110110010"
+    ],
+    [
+      "11010011",
+      "1010",
+      "010",
+      "11010011010"
+    ],
+    [
+      "10110010",
+      "1010",
+      "110",
+      "10110010110"
+    ]
+  ]
+}

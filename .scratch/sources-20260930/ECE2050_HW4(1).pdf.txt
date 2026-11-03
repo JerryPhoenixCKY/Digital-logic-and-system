@@ -1,0 +1,77 @@
+========== PAGE 1 ==========
+ECE2050 Homework 4
+Due: March 13, 2025
+Q1 Redesign the following circuits using only NAND gates to achieve the same functionality.
+1
+
+========== PAGE 2 ==========
+2
+
+========== PAGE 3 ==========
+3
+
+========== PAGE 4 ==========
+Q2 Use NAND gates, NOR gates, or combinations of both to implement the following logic
+expressions as stated:
+1. X = ¯AB + CD + (A + B)(ACD + ¯B ¯E)
+2. X = ABCD + D ¯EF + AF
+4
+
+========== PAGE 5 ==========
+5
+
+========== PAGE 6 ==========
+Q3 Implement a logic circuit for the below truth table
+A B C D Y
+0 0 0 0 1
+0 0 0 1 0
+0 0 1 0 1
+0 0 1 1 1
+0 1 0 0 0
+0 1 0 1 X
+0 1 1 0 1
+0 1 1 1 1
+1 0 0 0 1
+1 0 0 1 0
+1 0 1 0 1
+1 0 1 1 X
+1 1 0 0 0
+1 1 0 1 X
+1 1 1 0 0
+1 1 1 1 0
+6
+
+========== PAGE 7 ==========
+7
+
+========== PAGE 8 ==========
+Q4 Simplify the below circuit as much as possible, and verify that the simplified circuit is
+equivalent to the original by showing that the truth tables are identical.
+8
+
+========== PAGE 9 ==========
+Q5 Design a modified priority encoder that receives an 8-bit input, A7:0, and produces one
+3-bit output, Y2:0. Y indicates the most significant bit of the input that is TRUE.Y should
+be 0 if none of the inputs are TRUE. Give a simplified Boolean equation for each output
+and design a circuit using only NOR gates.
+9
+
+========== PAGE 10 ==========
+Q6 Using De Morgan equivalent gates and bubble pushing methods, redraw the below circuit
+so that you can find the Boolean equation by inspection. Write the Boolean equation.
+10
+
+========== PAGE 11 ==========
+11
+
+========== PAGE 12 ==========
+Q7 A communication system uses the even-parity code as shown in Figure 1 in the sender
+and the even-parity code checker as shown in Figure 2 in the receiver to detect data
+transmission. Please analyze what happens when there is an error, or there is no error.
+(You should give two examples (no error and error) to answer the question.)
+Figure 1: The even-parity code generator
+Figure 2: The even-parity code checker
+12
+
+========== PAGE 13 ==========
+13

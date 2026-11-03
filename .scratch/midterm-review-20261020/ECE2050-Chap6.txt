@@ -1,0 +1,468 @@
+
+=== PDF PAGE 1 ===
+ECE 2050 Digital Logic and SystemsChapter 6 : Combinational Building BlocksInstructor: Tinghuan CHEN, Ph.D.
+
+=== PDF PAGE 2 ===
+2
+AnnouncementlOur midterm exam is scheduled for Sunday, Nov 1, from 18:30 to 20:00. lIt will be held in Liwen Hall. The exam will cover Chapters 1-6. lClosed-book: No books or notes (including cheat sheets) are permitted, but you may bring a calculator.
+
+=== PDF PAGE 3 ===
+3
+Last WeekqBasic Combinational Logic Circuits uAND-OR LogicuAND-OR-Invert LogicuExclusive-OR LogicuExclusive-NOR LogicqThe Universal Property of NAND GatesuCombinations of NAND gates can function as NOT, AND, OR, and NORuCombinations of NOR gates can function as NOT, AND, OR, and NAND. qDual Symbols :uNAND Logic Diagrams Using Dual Symbols : NAND and Negative-OR; uNOR Logic Diagrams Using Dual Symbols : NOR and Negative-AND𝐴𝐵=̅𝐴+&𝐵𝐴+𝐵=̅𝐴&𝐵
+
+=== PDF PAGE 4 ===
+4
+
+=== PDF PAGE 5 ===
+•Input: two binary digits•Output: two binary digits ─ a sum bit & a carry bit
+5
+Half Adders
+Logic symbol
+Logic diagram
+
+
+=== PDF PAGE 6 ===
+•Input: two binary digits & an input carry•Output: two binary digits ─ a sum bit & a carry bit.
+6
+Full Adders
+Logic diagram
+Logic symbol
+Two half-adders
+
+=== PDF PAGE 7 ===
+7
+Full-Adder Implemented with Half-adders.
+
+
+=== PDF PAGE 8 ===
+8
+Examples
+10 01 10
+
+=== PDF PAGE 9 ===
+•Two or more full-adders are connected to form parallel binary adders.•Example: 
+9
+Parallel Binary Adders
+A4A3A2A1 = 1100 and B4B3B2B1 = 1100 
+Logic symbolBlock diagram
+
+=== PDF PAGE 10 ===
+10
+Parallel Adders : 74HC283 / 74LS283
+•74HC283/74LS283: 4-bit parallel adders•Cascading two 4-bit parallel adders to handle the addition of two 8-bit numbers•The carry input of the low-order adder is connected to ground •The carry output of the low-order adder is connected to the carry input of the high-order adder
+Low-order adderHigh-order adder
+
+=== PDF PAGE 11 ===
+•A voting system that simultaneously counts # of “yes” and # of “no” votes.•Assuming 6-position setup for simplicity•Each input is LOW when the switch is in the neutral •When a switch is moved to the “yes” or “no” position, a HIGH level (VCC) is applied to the associated full adder input.
+11
+Applications
+
+
+=== PDF PAGE 12 ===
+•The carry output of each full-adder is connected to the carry input of the next higher-order stage (a stage is one full-adder);•The sum and the output carry of any stage cannot be produced until the input carry occurs, which causes a time delay in the addition process.
+12
+The Ripple Carry Adder
+Worst-case carry propagation
+The input carry to the least significant stage has to ripple through all the adders before a final sum is produced.
+
+=== PDF PAGE 13 ===
+•To speed up the addition process by eliminating the ripple carry delay•Carry generation:   𝐶'=𝐴𝐵•Carry propagation:
+13
+The Look-Ahead Carry Adder
+Given the input carry is 1, 𝐶(=𝐴+𝐵•Thus, the output carry is given by 𝐶)*+=𝐶'+𝐶(𝐶,-
+
+=== PDF PAGE 14 ===
+•Adding A4A3A2A1  and B4B3B2B1 
+14
+A 4-Bit Look-Ahead Carry Adder (I)
+Immediately available
+
+=== PDF PAGE 15 ===
+•Express Cout in terms of Cp , Cg and Cin1
+15
+A 4-Bit Look-Ahead Carry Adder (II)
+Full-adder 1:
+
+=== PDF PAGE 16 ===
+•Logic diagram for a 4-stage look-ahead carry adder
+16
+A 4-Bit Look-Ahead Carry Adder (III)
+
+
+=== PDF PAGE 17 ===
+•Cascading two look-ahead carry adders by connecting the output carry of one adder to the input carry of the next adder.
+17
+Combine Look-Ahead and Ripple Carry Adders
+
+=== PDF PAGE 18 ===
+18
+
+=== PDF PAGE 19 ===
+•Exclusive-NOR gate can be used as a basic comparator
+19
+Comparator: Equality
+
+
+=== PDF PAGE 20 ===
+•Equality comparison of two 2-bit numbers
+20
+Comparator: Equality
+
+
+=== PDF PAGE 21 ===
+•Inequality comparison with three outputs indicating•Number A is greater than number B (A>B) •Number A is less than number B (A< B)•Number A is equal to number B (A = B).•General procedures•To check for an inequality in a bit position, starting with the highest-order bits (MSBs). •When such an inequality is found, the relationship of the two numbers is established, and any other inequalities in lower-order bit positions must be ignored•Using a 4-bit comparator as an example•If A3 = 1 and B3 = 0, number A is greater than number B.•If A3 = 0 and B3 = 1, number A is less than number B.•If A3 = B3, then examine the next lower bit position.21
+Comparator: Inequality 
+
+
+=== PDF PAGE 22 ===
+•The 74HC85/74LS85 pin diagram and logic symbol 
+22
+Comparators: 74HC85/74LS85
+Ref: https://assets.nexperia.com/documents/data-sheet/74HC_HCT85.pdf  
+
+=== PDF PAGE 23 ===
+•Several comparators can be cascaded for number of more bits
+23
+Cascading of Comparators
+Note the lowest-order comparator must have •A HIGH on the A = B input and•LOWs on the A>B and A<B inputs.
+
+=== PDF PAGE 24 ===
+24
+
+=== PDF PAGE 25 ===
+•Input: Accepts an active level on one of its multiple input lines•Output:multiple output lines •Example: a 10-line-to-4-line encoder
+25
+Encoder
+
+
+=== PDF PAGE 26 ===
+•Produce a BCD output corresponding to the highest-order decimal digit input that is active and will ignore any other lower-order active inputs
+26
+Decimal-to-BCD Priority Encoder
+
+=== PDF PAGE 27 ===
+•If LOW levels appear on pins, 1, 4, and 13 of the 74HC147 à Pin 4 is the highest-order decimal digit input having a LOW level and represents decimal 7. Therefore, the output levels indicate the BCD code for decimal 7
+27
+Example
+Keyboard encoder arrangement using a priority encoder•A key is NOT depressedà HIGH•A key is depressed à LOW
+
+
+=== PDF PAGE 28 ===
+•Use “Don’t Care” to indicate priority by design
+28
+Priority Encoder
+
+
+=== PDF PAGE 29 ===
+•N inputs, 2N outputs•One-hot outputs: only one output Active at once
+29
+Decoders2:4
+Decoder
+A1
+A0
+Y3
+Y2
+Y1
+Y000
+01
+10
+11
+0 0
+0 1
+1 0
+1 1
+0
+0
+0
+1
+Y3 Y2 Y1 Y0A0A1
+0
+0
+1
+0
+0
+1
+0
+0
+1
+0
+0
+0
+
+=== PDF PAGE 30 ===
+30
+Decoder Implementation
+!"
+!#
+!A
+!%
+&%&A
+
+=== PDF PAGE 31 ===
+•OR the minterms:
+31
+Logic Using Decoders
+!"#
+$%&D(%)
+!
+"
+**
+*+
++*
+++
+# A !"B&B!"
+#
+!"
+!"
+!"
+!"
+,-./%)M
+A ! ! "
+
+=== PDF PAGE 32 ===
+32
+Example: 4-bit Decoder
+16 NAND Gates
+
+
+=== PDF PAGE 33 ===
+•EN: CS1	and CS2 both LOW à Output HIGH•EN is connected to an input of each NAND •EN: HIGH to enable the decoder; otherwise all decoder outputs will be HIGH
+33
+Decoders: 74HC154
+
+
+=== PDF PAGE 34 ===
+•Implement a 5-bit decoder using two 4-bit decoders (74HC154)
+34
+Example
+𝐴4	=0 when >15
+Active-LOW output•EN is connected to an input of each NAND •EN: HIGH to enable the decoder; otherwise all decoder outputs will be HIGH
+
+=== PDF PAGE 35 ===
+•4-line-to-10-line decoder: only the ten decimal digits 0 through 9. 
+35
+Decoders: BCD-to-Decimal Decoder
+Active-LOW output
+
+
+=== PDF PAGE 36 ===
+•Inequality comparison with three outputs indicating•LT : Lamp test•RBI : Ripple blanking input•BI /RBO : either Blanking input or Ripple blanking output•Lamp test: 𝐿𝑇 : LOW, and 𝐵I / 𝑅𝐵𝑂 : HIGH, all segments are turned on
+36
+Decoders: The BCD-to-7-Segment Decoder
+
+
+=== PDF PAGE 37 ===
+•BCD inputs = 0000 and 𝑅𝐵I is LOW, à decoder outputs HIGH, display blanked & 𝑅𝐵𝑂 LOW•Zero suppression: 0030.0800 will be displayed as 30.08
+37
+Decoders: The BCD-to-7-Segment Decoder
+Leading Zero Suppression (0030)
+Trailing Zero Suppression (0.5700)
+
+=== PDF PAGE 38 ===
+38
+
+=== PDF PAGE 39 ===
+•Selects between one of N inputs to connect to output•Select input is log2N bits – control input•Example:
+Y00011011010100000001101111110011
+01
+SD0YD1
+D1D0S Y01D1D0S
+39
+2:1 Mux
+Multiplexer (Mux): Data Selector
+
+=== PDF PAGE 40 ===
+•Logic gates•Sum-of-products form
+40
+2:1 Multiplexer Implementations
+D1
+Y
+D0
+S
+S0001
+0
+1
+Y
+1110D0 D1
+0
+0
+0
+1
+1
+1
+1
+0
+Y = D0S + D1S
+•Tristates•Two tristates•Turn on exactly one to select the appropriate input
+Y
+D0
+S
+D1
+
+=== PDF PAGE 41 ===
+41
+Example:4:1 Mux
+
+
+=== PDF PAGE 42 ===
+42
+4:1 Multiplexer Implementations
+2-Level LogicTristates4:1 Mux Symbol
+
+=== PDF PAGE 43 ===
+•Using MUX as a lookup table
+43
+Logic using Multiplexers
+A B Y
+0 0 0
+0 1 1
+1 0 0
+1 1 0
+Y = AB
+00
+Y
+01
+10
+11
+AB
+S1S0
+
+=== PDF PAGE 44 ===
+•Using MUX as a logic function generator
+44
+Logic using Multiplexers
+001011101110001011101110
+
+=== PDF PAGE 45 ===
+•Aka. a data distributor that reverses the multiplexing function
+45
+Demultiplexer: data distributor
+Single data input line00011011
+00011011
+
+=== PDF PAGE 46 ===
+46
+
+=== PDF PAGE 47 ===
+•Delay: time between input change and output changing•How to build fast circuits?
+47
+Timing
+!
+"
+!"#$
+%$&'(
+! "
+
+=== PDF PAGE 48 ===
+•Propagation delay: tpd = max delay from input to output•Contamination delay: tcd = min delay from input to output
+48
+Propagation & Contamination Delay
+!
+"
+!"#$
+! "
+#A%
+#&%
+
+=== PDF PAGE 49 ===
+•Delay is caused by–Capacitance and resistance in a circuit–Speed of light limitation•Reasons why tpd and tcd may be different:–Different rising and falling delays–Multiple inputs and outputs, some of which are faster than others–Circuits slow down when hot and speed up when cold 
+49
+Propagation & Contamination Delay
+
+=== PDF PAGE 50 ===
+50
+Critical (Long) & Short Paths
+!
+"
+#
+A
+B
+!"#$#%C'()C$*
++*,"$()C$*
+-.
+-/
+ Critical (Long) Path:  tpd = 2tpd_AND + tpd_OR      (max delay)                   Short Path:  tcd = tcd_AND                       (min delay)
+
+=== PDF PAGE 51 ===
+•When a single input change causes an output to change multiple times
+51
+Glitches
+
+=== PDF PAGE 52 ===
+•What happens when A = 0, C = 1, B falls?
+52
+Glitch Example
+!
+"
+#
+A
+!! !"
+"
+A
+"" "!
+!"
+"
+"
+!
+"
+!
+"
+!
+!
+#
+!
+ABCB!"B'B"#
+!"#" !
+!"#" !""""#
+A"#" "
+$"#" !"""" #""""!
+#$%C'()*'$
++C,',-*.()*'$
+B
+C
+/,01
+!""""#
+#""""!
+2.,'-$
+$!
+$%
+P4
+P"
+
+=== PDF PAGE 53 ===
+53
+Fixing the Glitch
+!" !"#""""$
+#" !"#
+A" !"$
+B" !"#
+!! !"
+"
+!
+"" "!
+"#
+"
+"
+!
+"
+!
+"
+!
+!
+A
+!
+!BCB"#B'B#AB'B "A"A
+
+=== PDF PAGE 54 ===
+•Because of synchronous design conventions (see Chapter 3), glitches don’t cause problems.•It’s important to recognize a glitch: in simulations or on oscilloscope.•We can’t get rid of all glitches – simultaneous transitions on multiple inputs can also cause glitches.
+54
+Why Understand Glitches?
+
+=== PDF PAGE 55 ===
+55
+Chapter ReviewqHalf and Full AddersqParallel Binary AddersqRipple Carry and Look-Ahead Carry AddersqComparatorsqDecoders (n input lines à max. 2n output lines)qEncoders (e.g. Decimal-to-BCD Priority Encoder)qMultiplexers (To route several inputs onto a single output line) qDemultiplexersqTiming
+How to design a multiplier by FA/HA?
+
+=== PDF PAGE 56 ===
+56
+True/False QuizqA half-adder adds two binary bits.qA half-adder has a carry output only.qA full adder adds two bits and produces two outputs.qA full-adder can be realized only by using 2-input XOR gates.qWhen the input bits are both 1 and the input carry bit is 1, the sum output of a full adder is 1.qThe output of a comparator is 0 when the two binary inputs given are equal.qA decoder detects the presence of a specified combination of input bits.qThe 4-line-to-10-line decoder and the 1-of-10 decoder are two different types.qAn encoder essentially performs a reverse decoder function.qA multiplexer is a logic circuit that allows digital information from a single source to be routed onto several lines.
